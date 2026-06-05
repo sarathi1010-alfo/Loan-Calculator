@@ -3,9 +3,11 @@
 import React, { useState, useEffect } from "react";
 import { calculateEMI } from "@/lib/calculations/emi";
 import { LoanInputForm } from "@/components/calculator/LoanInputForm";
-import { BreakdownPieChart } from "@/components/calculator/BreakdownPieChart";
 import { AmortizationTable } from "@/components/calculator/AmortizationTable";
 import { formatCurrency } from "@/lib/formatters";
+import dynamic from "next/dynamic";
+
+const BreakdownPieChart = dynamic(() => import("@/components/calculator/BreakdownPieChart"), { ssr: false });
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";

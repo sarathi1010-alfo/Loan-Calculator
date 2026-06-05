@@ -9,7 +9,7 @@ interface BreakdownPieChartProps {
   result: LoanResult;
 }
 
-export function BreakdownPieChart({ result }: BreakdownPieChartProps) {
+export default function BreakdownPieChart({ result }: BreakdownPieChartProps) {
   const data = [
     { name: "Principal", value: result.principal, color: "var(--chart-1)" },
     { name: "Total Interest", value: result.totalInterest, color: "var(--chart-2)" },

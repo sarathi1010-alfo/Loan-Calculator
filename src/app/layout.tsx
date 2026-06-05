@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     template: "%s | LoanCalculatorHub"
   },
   description: "Instantly calculate EMIs, compare loans, and plan smarter repayments with our free, accurate, and fast loan calculators.",
+  other: {
+    "google-adsense-account": "ca-pub-6393936268623951"
+  }
 };
 
 export default function RootLayout({

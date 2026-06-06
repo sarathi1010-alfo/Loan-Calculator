@@ -37,18 +37,7 @@ export default async function ProgrammaticLoanPage(
     notFound();
   }
 
-  const faqs = [
-    {
-      question: `How is the EMI calculated for a ${pageData.h1}?`,
-      answer: "The EMI is calculated using the standard formula: P * r * (1+r)^n / ((1+r)^n - 1), where P is the principal amount, r is the monthly interest rate, and n is the tenure in months."
-    },
-    {
-      question: "Can I prepay my loan to save on interest?",
-      answer: "Yes, prepaying your loan can significantly reduce your total interest burden. Check with your lender regarding any prepayment penalties."
-    }
-  ];
-
-  const faqSchema = generateFaqSchema(faqs);
+  const faqSchema = generateFaqSchema(pageData.faqs);
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", item: "/" },
     { name: "Loans", item: "/loan" },
@@ -70,22 +59,22 @@ export default async function ProgrammaticLoanPage(
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
           {pageData.h1}
         </h1>
-        <p className="text-xl text-muted-foreground">
-          {pageData.description}
+        <p className="text-xl text-muted-foreground mb-4">
+          {pageData.intro}
         </p>
       </div>
 
       <SeoCalculator
-        initialPrincipal={pageData.defaultPrincipal}
-        initialInterest={pageData.defaultInterest}
-        initialTenure={pageData.defaultTenure}
+        initialPrincipal={pageData.amount}
+        initialInterest={pageData.interestRate}
+        initialTenure={pageData.tenure}
       />
 
       <div className="mt-24 space-y-12">
         <section>
           <h2 className="text-2xl font-bold tracking-tight mb-4">Frequently Asked Questions</h2>
           <div className="space-y-6">
-            {faqs.map((faq, index) => (
+            {pageData.faqs.map((faq, index) => (
               <div key={index}>
                 <h3 className="font-semibold text-lg text-foreground mb-2">{faq.question}</h3>
                 <p className="text-muted-foreground">{faq.answer}</p>
@@ -93,6 +82,19 @@ export default async function ProgrammaticLoanPage(
             ))}
           </div>
         </section>
+
+        {pageData.relatedSlugs.length > 0 && (
+          <section className="pt-8 border-t">
+            <h2 className="text-2xl font-bold tracking-tight mb-4">Related Calculators</h2>
+            <div className="flex flex-col gap-2">
+              {pageData.relatedSlugs.map(slug => (
+                <a key={slug} href={`/loan/${slug}`} className="text-primary hover:underline">
+                  {slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </div>
   );

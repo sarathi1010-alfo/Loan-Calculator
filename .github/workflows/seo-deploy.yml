@@ -1,0 +1,46 @@
+name: SEO Deploy Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        run: npm run lint
+
+      - name: Type Check (TypeScript)
+        run: npx tsc --noEmit
+
+      - name: Generate SEO Entities
+        # Simulates the generation of our JSON payload
+        run: npx ts-node scripts/generate-seo-entities.ts
+
+      - name: Build Next.js
+        # Fails if there are missing parameters or hydration errors in the SSG/ISR paths
+        run: npm run build
+
+      - name: Submit Sitemap to GSC (Production Only)
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: npx ts-node scripts/submit-sitemap.ts
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}

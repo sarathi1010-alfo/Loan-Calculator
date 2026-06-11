@@ -14,7 +14,8 @@ export const metadata: Metadata = {
   },
   description: "Instantly calculate EMIs, compare loans, and plan smarter repayments with our free, accurate, and fast loan calculators.",
   other: {
-    "google-adsense-account": "ca-pub-6393936268623951"
+    "google-adsense-account": "ca-pub-6393936268623951",
+    "monetag": "86950f5308b2a836fd804730ef0e5e7d"
   }
 };
 

@@ -2,16 +2,66 @@ import UniversalCalculator from "@/components/calculator/UniversalCalculator";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Universal EMI Calculator",
-  description: "Instantly calculate EMIs, compare loans, and plan smarter repayments.",
+  title: "Free EMI Calculator Pro - Personal, Home & Car Loan EMI Calculator",
+  description: "Free EMI calculator for personal, home, and car loans. Calculate your monthly payments instantly and compare different loan options. 100% free, no registration required.",
 };
 
 export default function Home() {
+  const webAppSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "EMI Calculator Pro",
+    "url": "https://emicalculatorpro.alfo.online/",
+    "description": "Free online EMI calculator for personal, home, and car loans.",
+    "applicationCategory": "FinancialApplication",
+    "operatingSystem": "All",
+    "browserRequirements": "Requires JavaScript"
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is an EMI?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "EMI (Equated Monthly Installment) is the fixed amount you pay to a lender each month to repay your loan, including both principal and interest."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is EMI calculated?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "EMI is calculated using the formula: P × r × (1+r)^n / ((1+r)^n - 1), where P is the principal, r is the monthly interest rate, and n is the number of monthly installments."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What factors affect my EMI?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Your EMI is affected by three main factors: loan amount, interest rate, and loan tenure. Higher loan amounts or interest rates increase EMI, while longer tenure reduces it."
+        }
+      }
+    ]
+  };
+
   return (
     <div className="container mx-auto px-4 py-8 md:px-8 lg:py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <div className="max-w-3xl mb-8">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
-          Instantly calculate EMIs, compare loans, and plan smarter repayments.
+          Free EMI Calculator - Compare Personal, Home & Car Loans
         </h1>
         <p className="text-xl text-muted-foreground">
           Use our lightning-fast, highly accurate tools to visualize your repayment strategies and make confident financial decisions.

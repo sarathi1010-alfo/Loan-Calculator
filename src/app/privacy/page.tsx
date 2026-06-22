@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy Policy for LoanCalculatorHub",
+  description: "Read our privacy policy to understand how we collect, use, and protect your personal information when using our EMI calculator tools.",
 };
 
 export default function PrivacyPage() {
@@ -31,7 +31,7 @@ export default function PrivacyPage() {
           We use Google AdSense to display advertisements on our site. Google, as a third-party vendor, uses cookies to serve ads based on a user's prior visits to our website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our sites and/or other sites on the Internet.
         </p>
         <p>
-          Users may opt-out of personalized advertising by visiting Google's <a href="https://myadcenter.google.com/" className="text-primary hover:underline">Ads Settings</a>.
+          Users may opt-out of personalized advertising by visiting Google's <a href="https://myaccount.google.com/ad-settings" target="_blank" rel="nofollow" className="text-primary hover:underline">Ads Settings</a>.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4 text-foreground">4. Changes to This Privacy Policy</h2>

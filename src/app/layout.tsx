@@ -13,6 +13,26 @@ export const metadata: Metadata = {
     template: "%s | LoanCalculatorHub"
   },
   description: "Instantly calculate EMIs, compare loans, and plan smarter repayments with our free, accurate, and fast loan calculators.",
+  openGraph: {
+    title: "Free EMI Calculator Pro - Personal, Home & Car Loan Calculator",
+    description: "Calculate your loan EMI instantly with our free calculator. Compare personal, home, and car loan options.",
+    url: "https://emicalculatorpro.alfo.online/",
+    type: "website",
+    images: [
+      {
+        url: "https://emicalculatorpro.alfo.online/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Free EMI Calculator Pro",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Free EMI Calculator Pro",
+    description: "Calculate loan EMIs instantly - Personal, Home, and Car loans.",
+    images: ["https://emicalculatorpro.alfo.online/twitter-image.jpg"],
+  },
   other: {
     "google-adsense-account": "ca-pub-6393936268623951"
   }

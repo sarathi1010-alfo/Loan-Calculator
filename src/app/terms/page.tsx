@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms and Conditions",
-  description: "Terms and Conditions for LoanCalculatorHub",
+  description: "Review the terms and conditions for using our EMI calculators and services. Learn about user responsibilities and legal policies.",
 };
 
 export default function TermsPage() {

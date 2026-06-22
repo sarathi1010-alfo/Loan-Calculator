@@ -3,12 +3,64 @@ import { SeoCalculator } from "@/components/calculator/SeoCalculator";
 
 export const metadata: Metadata = {
   title: "Home Loan EMI Calculator",
-  description: "Calculate your home loan EMI instantly. View detailed amortization schedules, interest breakdowns, and plan your housing finance better.",
+  description: "Calculate your home loan EMI instantly with our free calculator. View detailed amortization schedule and interest breakdown. Compare housing loan options easily.",
 };
 
 export default function HomeLoanCalculatorPage() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is an EMI?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "EMI (Equated Monthly Installment) is the fixed amount you pay to a lender each month to repay your loan, including both principal and interest."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is EMI calculated?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "EMI is calculated using the formula: P × r × (1+r)^n / ((1+r)^n - 1), where P is the principal, r is the monthly interest rate, and n is the number of monthly installments."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What factors affect my EMI?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Your EMI is affected by three main factors: loan amount, interest rate, and loan tenure. Higher loan amounts or interest rates increase EMI, while longer tenure reduces it."
+        }
+      }
+    ]
+  };
+
   return (
     <div className="container mx-auto px-4 py-8 md:px-8 lg:py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <nav aria-label="Breadcrumb" className="mb-4">
+        <ol itemScope itemType="https://schema.org/BreadcrumbList" className="flex items-center space-x-2 text-sm text-muted-foreground">
+          <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+            <a href="/" itemProp="item" className="hover:text-foreground">
+              <span itemProp="name">Home</span>
+            </a>
+            <meta itemProp="position" content="1" />
+          </li>
+          <li>/</li>
+          <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+            <a href="/home-loan-calculator" itemProp="item" className="hover:text-foreground" aria-current="page">
+              <span itemProp="name">Home Loan Calculator</span>
+            </a>
+            <meta itemProp="position" content="2" />
+          </li>
+        </ol>
+      </nav>
       <div className="max-w-3xl mb-8">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
           Home Loan EMI Calculator

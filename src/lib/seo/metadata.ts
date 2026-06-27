@@ -52,6 +52,42 @@ export function generateFaqSchema(faqs: { question: string; answer: string }[]) 
   };
 }
 
+interface ArticleSchemaProps {
+  title: string;
+  description: string;
+  datePublished: string;
+  dateModified: string;
+  authorName: string;
+  url: string;
+}
+
+export function generateArticleSchema(props: ArticleSchemaProps) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: props.title,
+    description: props.description,
+    datePublished: props.datePublished,
+    dateModified: props.dateModified,
+    author: {
+      "@type": "Person",
+      name: props.authorName,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteConfig.url}/logo.png`,
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": props.url,
+    },
+  };
+}
+
 export function generateBreadcrumbSchema(items: { name: string; item: string }[]) {
   return {
     "@context": "https://schema.org",

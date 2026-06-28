@@ -11,8 +11,17 @@ import { ComparisonScenario } from "@/types";
 import dynamic from "next/dynamic";
 import html2canvas from "html2canvas";
 
-const BreakdownPieChart = dynamic(() => import("@/components/calculator/BreakdownPieChart"), { ssr: false });
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+const BreakdownPieChart = dynamic(
+  () => import("@/components/calculator/BreakdownPieChart"),
+  { ssr: false },
+);
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
@@ -23,9 +32,20 @@ export default function UniversalCalculator() {
   const [interest, setInterest] = useState(8.5);
   const [tenure, setTenure] = useState(240); // 20 years in months
   const [prepaymentAmount, setPrepaymentAmount] = useState(0);
-  const [prepaymentType, setPrepaymentType] = useState<"one-time" | "monthly">("one-time");
+  const [prepaymentType, setPrepaymentType] = useState<"one-time" | "monthly">(
+    "one-time",
+  );
   const [prepaymentMonth, setPrepaymentMonth] = useState(1);
-  const [result, setResult] = useState(() => calculateEMI(principal, interest, tenure, prepaymentAmount, prepaymentType, prepaymentMonth));
+  const [result, setResult] = useState(() =>
+    calculateEMI(
+      principal,
+      interest,
+      tenure,
+      prepaymentAmount,
+      prepaymentType,
+      prepaymentMonth,
+    ),
+  );
   const [scenarios, setScenarios] = useState<ComparisonScenario[]>([]);
 
   useEffect(() => {
@@ -71,7 +91,10 @@ export default function UniversalCalculator() {
     const element = document.getElementById("summary-card");
     if (!element) return;
     try {
-      const canvas = await html2canvas(element, { scale: 2, backgroundColor: "#ffffff" });
+      const canvas = await html2canvas(element, {
+        scale: 2,
+        backgroundColor: "#ffffff",
+      });
       const imgData = canvas.toDataURL("image/png");
       const link = document.createElement("a");
       link.href = imgData;
@@ -95,16 +118,35 @@ Total Payment: ${formatCurrency(result.totalPayment)}
 -------------------------
 Calculated via emicalculatorpro.alfo.online`;
 
-    navigator.clipboard.writeText(text).then(() => {
-      alert("Summary copied to clipboard!");
-    }).catch(err => {
-      console.error("Failed to copy text: ", err);
-    });
+    navigator.clipboard
+      .writeText(text)
+      .then(() => {
+        alert("Summary copied to clipboard!");
+      })
+      .catch((err) => {
+        console.error("Failed to copy text: ", err);
+      });
   };
 
   useEffect(() => {
-    setResult(calculateEMI(principal, interest, tenure, prepaymentAmount, prepaymentType, prepaymentMonth));
-  }, [principal, interest, tenure, prepaymentAmount, prepaymentType, prepaymentMonth]);
+    setResult(
+      calculateEMI(
+        principal,
+        interest,
+        tenure,
+        prepaymentAmount,
+        prepaymentType,
+        prepaymentMonth,
+      ),
+    );
+  }, [
+    principal,
+    interest,
+    tenure,
+    prepaymentAmount,
+    prepaymentType,
+    prepaymentMonth,
+  ]);
 
   const handleValuesChange = (
     p: number,
@@ -112,7 +154,7 @@ Calculated via emicalculatorpro.alfo.online`;
     t: number,
     pAmt: number = 0,
     pType: "one-time" | "monthly" = "one-time",
-    pMonth: number = 1
+    pMonth: number = 1,
   ) => {
     setPrincipal(p);
     setInterest(i);
@@ -128,7 +170,9 @@ Calculated via emicalculatorpro.alfo.online`;
         <Card>
           <CardHeader>
             <CardTitle>Calculate EMI</CardTitle>
-            <CardDescription>Adjust the sliders to estimate your monthly payment.</CardDescription>
+            <CardDescription>
+              Adjust the sliders to estimate your monthly payment.
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <LoanInputForm
@@ -146,19 +190,25 @@ Calculated via emicalculatorpro.alfo.online`;
           <Card>
             <CardHeader className="pb-2">
               <CardDescription>Monthly EMI</CardDescription>
-              <CardTitle className="text-2xl text-primary">{formatCurrency(result.emi)}</CardTitle>
+              <CardTitle className="text-2xl text-primary">
+                {formatCurrency(result.emi)}
+              </CardTitle>
             </CardHeader>
           </Card>
           <Card>
             <CardHeader className="pb-2">
               <CardDescription>Total Interest</CardDescription>
-              <CardTitle className="text-xl">{formatCurrency(result.totalInterest)}</CardTitle>
+              <CardTitle className="text-xl">
+                {formatCurrency(result.totalInterest)}
+              </CardTitle>
             </CardHeader>
           </Card>
           <Card>
             <CardHeader className="pb-2">
               <CardDescription>Total Payment</CardDescription>
-              <CardTitle className="text-xl">{formatCurrency(result.totalPayment)}</CardTitle>
+              <CardTitle className="text-xl">
+                {formatCurrency(result.totalPayment)}
+              </CardTitle>
             </CardHeader>
           </Card>
         </div>
@@ -166,15 +216,24 @@ Calculated via emicalculatorpro.alfo.online`;
         {prepaymentAmount > 0 && result.originalTotalInterest && (
           <div className="grid gap-4 md:grid-cols-2 bg-green-500/10 p-4 rounded-xl border border-green-500/20">
             <div>
-              <p className="text-sm text-green-700 dark:text-green-400 font-medium">Interest Saved</p>
+              <p className="text-sm text-green-700 dark:text-green-400 font-medium">
+                Interest Saved
+              </p>
               <p className="text-2xl font-bold text-green-700 dark:text-green-400">
-                {formatCurrency(result.originalTotalInterest - result.totalInterest)}
+                {formatCurrency(
+                  result.originalTotalInterest - result.totalInterest,
+                )}
               </p>
             </div>
             <div>
-              <p className="text-sm text-green-700 dark:text-green-400 font-medium">Time Saved</p>
+              <p className="text-sm text-green-700 dark:text-green-400 font-medium">
+                Time Saved
+              </p>
               <p className="text-2xl font-bold text-green-700 dark:text-green-400">
-                {result.actualTenureMonths !== undefined ? tenure - result.actualTenureMonths : 0} Months
+                {result.actualTenureMonths !== undefined
+                  ? tenure - result.actualTenureMonths
+                  : 0}{" "}
+                Months
               </p>
             </div>
           </div>
@@ -196,10 +255,18 @@ Calculated via emicalculatorpro.alfo.online`;
               <Button variant="outline" size="sm" onClick={handleCopySummary}>
                 Copy Text
               </Button>
-              <Button variant="outline" size="sm" onClick={() => exportToCSV(result)}>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => exportToCSV(result)}
+              >
                 <Download className="mr-2 h-4 w-4" /> CSV
               </Button>
-              <Button variant="outline" size="sm" onClick={() => exportToPDF(result)}>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => exportToPDF(result)}
+              >
                 <Download className="mr-2 h-4 w-4" /> PDF
               </Button>
             </div>
@@ -223,12 +290,20 @@ Calculated via emicalculatorpro.alfo.online`;
         </Tabs>
 
         {scenarios.length > 0 && (
-          <ScenarioComparisonTable scenarios={scenarios} onRemove={removeScenario} />
+          <ScenarioComparisonTable
+            scenarios={scenarios}
+            onRemove={removeScenario}
+          />
         )}
 
         {/* Hidden Summary Card for PNG export */}
         <div style={{ position: "absolute", left: "-9999px", top: "-9999px" }}>
-          <SummaryCard principal={principal} interest={interest} tenure={tenure} result={result} />
+          <SummaryCard
+            principal={principal}
+            interest={interest}
+            tenure={tenure}
+            result={result}
+          />
         </div>
       </div>
     </div>

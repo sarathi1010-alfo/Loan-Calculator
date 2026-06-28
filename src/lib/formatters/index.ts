@@ -4,7 +4,11 @@
  */
 export function formatCurrency(
   value: number,
-  options: { currency?: string; locale?: string; maximumFractionDigits?: number } = {}
+  options: {
+    currency?: string;
+    locale?: string;
+    maximumFractionDigits?: number;
+  } = {},
 ): string {
   const {
     currency = "INR",
@@ -48,7 +52,10 @@ export function formatTenure(months: number): string {
   const remainingMonths = months % 12;
 
   const yearStr = years > 0 ? `${years} Year${years > 1 ? "s" : ""}` : "";
-  const monthStr = remainingMonths > 0 ? `${remainingMonths} Month${remainingMonths > 1 ? "s" : ""}` : "";
+  const monthStr =
+    remainingMonths > 0
+      ? `${remainingMonths} Month${remainingMonths > 1 ? "s" : ""}`
+      : "";
 
   if (yearStr && monthStr) {
     return `${yearStr} ${monthStr}`;

@@ -29,23 +29,26 @@ export function AmortizationTable({ schedule }: AmortizationTableProps) {
   };
 
   // Group by year
-  const yearlySchedule = schedule.reduce((acc, curr) => {
-    const year = Math.ceil(curr.month / 12);
-    if (!acc[year]) {
-      acc[year] = {
-        year,
-        emi: 0,
-        principalComponent: 0,
-        interestComponent: 0,
-        balance: curr.balance,
-      };
-    }
-    acc[year].emi += curr.emi;
-    acc[year].principalComponent += curr.principalComponent;
-    acc[year].interestComponent += curr.interestComponent;
-    acc[year].balance = curr.balance; // Balance at the end of the year
-    return acc;
-  }, {} as Record<number, YearlySummary>);
+  const yearlySchedule = schedule.reduce(
+    (acc, curr) => {
+      const year = Math.ceil(curr.month / 12);
+      if (!acc[year]) {
+        acc[year] = {
+          year,
+          emi: 0,
+          principalComponent: 0,
+          interestComponent: 0,
+          balance: curr.balance,
+        };
+      }
+      acc[year].emi += curr.emi;
+      acc[year].principalComponent += curr.principalComponent;
+      acc[year].interestComponent += curr.interestComponent;
+      acc[year].balance = curr.balance; // Balance at the end of the year
+      return acc;
+    },
+    {} as Record<number, YearlySummary>,
+  );
 
   const yearlyData: YearlySummary[] = Object.values(yearlySchedule);
 
@@ -68,10 +71,18 @@ export function AmortizationTable({ schedule }: AmortizationTableProps) {
             {displayData.map((row: YearlySummary) => (
               <TableRow key={row.year}>
                 <TableCell className="font-medium">{row.year}</TableCell>
-                <TableCell className="text-right">{formatCurrency(row.principalComponent)}</TableCell>
-                <TableCell className="text-right">{formatCurrency(row.interestComponent)}</TableCell>
-                <TableCell className="text-right">{formatCurrency(row.emi)}</TableCell>
-                <TableCell className="text-right">{formatCurrency(row.balance)}</TableCell>
+                <TableCell className="text-right">
+                  {formatCurrency(row.principalComponent)}
+                </TableCell>
+                <TableCell className="text-right">
+                  {formatCurrency(row.interestComponent)}
+                </TableCell>
+                <TableCell className="text-right">
+                  {formatCurrency(row.emi)}
+                </TableCell>
+                <TableCell className="text-right">
+                  {formatCurrency(row.balance)}
+                </TableCell>
               </TableRow>
             ))}
           </TableBody>

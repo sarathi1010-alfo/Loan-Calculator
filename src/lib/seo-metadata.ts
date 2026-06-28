@@ -1,7 +1,7 @@
-import { Metadata } from 'next';
-import { GeneratedEntity } from '../../scripts/generate-seo-entities';
+import { Metadata } from "next";
+import { GeneratedEntity } from "../../scripts/generate-seo-entities";
 
-const SITE_URL = 'https://loancalculatorhub.com';
+const SITE_URL = "https://loancalculatorhub.com";
 
 /**
  * Automates the generation of Next.js Metadata objects for programmatic tool pages.
@@ -35,13 +35,13 @@ export function generateToolMetadata(entity: GeneratedEntity): Metadata {
       title: safeTitle,
       description: safeDesc,
       url: canonicalUrl,
-      type: 'website',
-      siteName: 'LoanCalculatorHub',
+      type: "website",
+      siteName: "LoanCalculatorHub",
       // Dynamic OG image generation route (can be implemented later)
       // images: [{ url: `${SITE_URL}/api/og?title=${encodeURIComponent(safeTitle)}` }]
     },
     twitter: {
-      card: 'summary_large_image',
+      card: "summary_large_image",
       title: safeTitle,
       description: safeDesc,
     },

@@ -4,7 +4,8 @@ import { BLOG_POSTS } from "@/lib/blog-data";
 
 export const metadata: Metadata = {
   title: "EMI & Financial Planning Blog | EMI Calculator Pro",
-  description: "Read our comprehensive guides on EMIs, loan strategies, interest rates, and financial planning to make smarter borrowing decisions.",
+  description:
+    "Read our comprehensive guides on EMIs, loan strategies, interest rates, and financial planning to make smarter borrowing decisions.",
 };
 
 export default function BlogHubPage() {
@@ -15,19 +16,30 @@ export default function BlogHubPage() {
           Financial Planning Guides
         </h1>
         <p className="text-xl text-muted-foreground">
-          Expert insights and comprehensive guides to help you understand loans, optimize your EMIs, and manage your debt effectively.
+          Expert insights and comprehensive guides to help you understand loans,
+          optimize your EMIs, and manage your debt effectively.
         </p>
       </div>
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {BLOG_POSTS.map((post) => (
-          <Link href={`/blog/${post.slug}`} key={post.slug} className="group block">
+          <Link
+            href={`/blog/${post.slug}`}
+            key={post.slug}
+            className="group block"
+          >
             <div className="bg-card rounded-lg border p-6 h-full transition-shadow hover:shadow-md">
               <div className="text-sm text-muted-foreground mb-3 flex items-center justify-between">
                 <span className="font-medium text-primary bg-primary/10 px-2 py-1 rounded">
                   {post.category}
                 </span>
-                <span>{new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+                <span>
+                  {new Date(post.date).toLocaleDateString("en-US", {
+                    month: "short",
+                    day: "numeric",
+                    year: "numeric",
+                  })}
+                </span>
               </div>
               <h2 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors line-clamp-2">
                 {post.title}

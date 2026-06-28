@@ -21,5 +21,5 @@ export interface GeneratedEntity {
 export const SEO_PAGES: GeneratedEntity[] = generatedData as GeneratedEntity[];
 
 export function getSeoPageBySlug(slug: string): GeneratedEntity | undefined {
-  return SEO_PAGES.find(page => page.slug === slug);
+  return SEO_PAGES.find((page) => page.slug === slug);
 }

@@ -9,18 +9,33 @@ interface SummaryCardProps {
   result: LoanResult;
 }
 
-export function SummaryCard({ principal, interest, tenure, result }: SummaryCardProps) {
+export function SummaryCard({
+  principal,
+  interest,
+  tenure,
+  result,
+}: SummaryCardProps) {
   return (
-    <div id="summary-card" className="bg-card text-card-foreground border p-6 rounded-xl w-[400px] shadow-sm font-sans" style={{ background: "white", color: "#000" }}>
+    <div
+      id="summary-card"
+      className="bg-card text-card-foreground border p-6 rounded-xl w-[400px] shadow-sm font-sans"
+      style={{ background: "white", color: "#000" }}
+    >
       <div className="flex items-center justify-between mb-6 border-b pb-4 border-gray-200">
-        <h2 className="text-2xl font-bold tracking-tight text-gray-900">EMI Summary</h2>
-        <div className="text-sm text-gray-500 font-medium">EMI Calculator Pro</div>
+        <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+          EMI Summary
+        </h2>
+        <div className="text-sm text-gray-500 font-medium">
+          EMI Calculator Pro
+        </div>
       </div>
 
       <div className="space-y-4 mb-6">
         <div className="flex justify-between items-center">
           <span className="text-gray-500">Loan Amount</span>
-          <span className="font-semibold text-lg">{formatCurrency(principal)}</span>
+          <span className="font-semibold text-lg">
+            {formatCurrency(principal)}
+          </span>
         </div>
         <div className="flex justify-between items-center">
           <span className="text-gray-500">Interest Rate</span>
@@ -35,15 +50,21 @@ export function SummaryCard({ principal, interest, tenure, result }: SummaryCard
       <div className="p-4 bg-gray-50 rounded-lg space-y-3 mb-6">
         <div className="flex justify-between items-center">
           <span className="text-gray-600 font-medium">Monthly EMI</span>
-          <span className="font-bold text-xl text-blue-600">{formatCurrency(result.emi)}</span>
+          <span className="font-bold text-xl text-blue-600">
+            {formatCurrency(result.emi)}
+          </span>
         </div>
         <div className="flex justify-between items-center">
           <span className="text-gray-600 font-medium">Total Interest</span>
-          <span className="font-semibold">{formatCurrency(result.totalInterest)}</span>
+          <span className="font-semibold">
+            {formatCurrency(result.totalInterest)}
+          </span>
         </div>
         <div className="flex justify-between items-center">
           <span className="text-gray-600 font-medium">Total Payment</span>
-          <span className="font-semibold">{formatCurrency(result.totalPayment)}</span>
+          <span className="font-semibold">
+            {formatCurrency(result.totalPayment)}
+          </span>
         </div>
       </div>
 

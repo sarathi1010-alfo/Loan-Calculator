@@ -14,10 +14,30 @@ export function Navbar() {
             </span>
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium ml-6">
-            <Link href="/" className="transition-colors hover:text-foreground/80 text-foreground/60">Home</Link>
-            <Link href="/home-loan-calculator" className="transition-colors hover:text-foreground/80 text-foreground/60">Home Loan</Link>
-            <Link href="/car-loan-calculator" className="transition-colors hover:text-foreground/80 text-foreground/60">Car Loan</Link>
-            <Link href="/personal-loan-calculator" className="transition-colors hover:text-foreground/80 text-foreground/60">Personal Loan</Link>
+            <Link
+              href="/"
+              className="transition-colors hover:text-foreground/80 text-foreground/60"
+            >
+              Home
+            </Link>
+            <Link
+              href="/home-loan-calculator"
+              className="transition-colors hover:text-foreground/80 text-foreground/60"
+            >
+              Home Loan
+            </Link>
+            <Link
+              href="/car-loan-calculator"
+              className="transition-colors hover:text-foreground/80 text-foreground/60"
+            >
+              Car Loan
+            </Link>
+            <Link
+              href="/personal-loan-calculator"
+              className="transition-colors hover:text-foreground/80 text-foreground/60"
+            >
+              Personal Loan
+            </Link>
           </nav>
         </div>
         <div className="flex items-center gap-2">

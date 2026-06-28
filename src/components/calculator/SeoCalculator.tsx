@@ -7,8 +7,17 @@ import { AmortizationTable } from "@/components/calculator/AmortizationTable";
 import { formatCurrency } from "@/lib/formatters";
 import dynamic from "next/dynamic";
 
-const BreakdownPieChart = dynamic(() => import("@/components/calculator/BreakdownPieChart"), { ssr: false });
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+const BreakdownPieChart = dynamic(
+  () => import("@/components/calculator/BreakdownPieChart"),
+  { ssr: false },
+);
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
@@ -23,12 +32,14 @@ interface SeoCalculatorProps {
 export function SeoCalculator({
   initialPrincipal,
   initialInterest,
-  initialTenure
+  initialTenure,
 }: SeoCalculatorProps) {
   const [principal, setPrincipal] = useState(initialPrincipal);
   const [interest, setInterest] = useState(initialInterest);
   const [tenure, setTenure] = useState(initialTenure);
-  const [result, setResult] = useState(() => calculateEMI(principal, interest, tenure));
+  const [result, setResult] = useState(() =>
+    calculateEMI(principal, interest, tenure),
+  );
 
   useEffect(() => {
     setResult(calculateEMI(principal, interest, tenure));
@@ -46,7 +57,9 @@ export function SeoCalculator({
         <Card>
           <CardHeader>
             <CardTitle>Calculate EMI</CardTitle>
-            <CardDescription>Adjust the sliders to estimate your monthly payment.</CardDescription>
+            <CardDescription>
+              Adjust the sliders to estimate your monthly payment.
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <LoanInputForm
@@ -64,19 +77,25 @@ export function SeoCalculator({
           <Card>
             <CardHeader className="pb-2">
               <CardDescription>Monthly EMI</CardDescription>
-              <CardTitle className="text-2xl text-primary">{formatCurrency(result.emi)}</CardTitle>
+              <CardTitle className="text-2xl text-primary">
+                {formatCurrency(result.emi)}
+              </CardTitle>
             </CardHeader>
           </Card>
           <Card>
             <CardHeader className="pb-2">
               <CardDescription>Total Interest</CardDescription>
-              <CardTitle className="text-xl">{formatCurrency(result.totalInterest)}</CardTitle>
+              <CardTitle className="text-xl">
+                {formatCurrency(result.totalInterest)}
+              </CardTitle>
             </CardHeader>
           </Card>
           <Card>
             <CardHeader className="pb-2">
               <CardDescription>Total Payment</CardDescription>
-              <CardTitle className="text-xl">{formatCurrency(result.totalPayment)}</CardTitle>
+              <CardTitle className="text-xl">
+                {formatCurrency(result.totalPayment)}
+              </CardTitle>
             </CardHeader>
           </Card>
         </div>
@@ -88,10 +107,18 @@ export function SeoCalculator({
               <TabsTrigger value="schedule">Amortization</TabsTrigger>
             </TabsList>
             <div className="flex gap-2">
-              <Button variant="outline" size="sm" onClick={() => exportToCSV(result)}>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => exportToCSV(result)}
+              >
                 <Download className="mr-2 h-4 w-4" /> CSV
               </Button>
-              <Button variant="outline" size="sm" onClick={() => exportToPDF(result)}>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => exportToPDF(result)}
+              >
                 <Download className="mr-2 h-4 w-4" /> PDF
               </Button>
             </div>

@@ -1,7 +1,11 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SEO_PAGES, getSeoPageBySlug } from "@/lib/seo/pages";
-import { generateSeoMetadata, generateFaqSchema, generateBreadcrumbSchema } from "@/lib/seo/metadata";
+import {
+  generateSeoMetadata,
+  generateFaqSchema,
+  generateBreadcrumbSchema,
+} from "@/lib/seo/metadata";
 import { SeoCalculator } from "@/components/calculator/SeoCalculator";
 
 export async function generateStaticParams() {
@@ -10,9 +14,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata(
-  props: { params: Promise<{ slug: string }> }
-): Promise<Metadata> {
+export async function generateMetadata(props: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
   const params = await props.params;
   const pageData = getSeoPageBySlug(params.slug);
 
@@ -27,9 +31,9 @@ export async function generateMetadata(
   });
 }
 
-export default async function ProgrammaticLoanPage(
-  props: { params: Promise<{ slug: string }> }
-) {
+export default async function ProgrammaticLoanPage(props: {
+  params: Promise<{ slug: string }>;
+}) {
   const params = await props.params;
   const pageData = getSeoPageBySlug(params.slug);
 
@@ -59,9 +63,7 @@ export default async function ProgrammaticLoanPage(
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
           {pageData.h1}
         </h1>
-        <p className="text-xl text-muted-foreground mb-4">
-          {pageData.intro}
-        </p>
+        <p className="text-xl text-muted-foreground mb-4">{pageData.intro}</p>
       </div>
 
       <SeoCalculator
@@ -72,11 +74,15 @@ export default async function ProgrammaticLoanPage(
 
       <div className="mt-24 space-y-12">
         <section>
-          <h2 className="text-2xl font-bold tracking-tight mb-4">Frequently Asked Questions</h2>
+          <h2 className="text-2xl font-bold tracking-tight mb-4">
+            Frequently Asked Questions
+          </h2>
           <div className="space-y-6">
             {pageData.faqs.map((faq, index) => (
               <div key={index}>
-                <h3 className="font-semibold text-lg text-foreground mb-2">{faq.question}</h3>
+                <h3 className="font-semibold text-lg text-foreground mb-2">
+                  {faq.question}
+                </h3>
                 <p className="text-muted-foreground">{faq.answer}</p>
               </div>
             ))}
@@ -85,11 +91,20 @@ export default async function ProgrammaticLoanPage(
 
         {pageData.relatedSlugs.length > 0 && (
           <section className="pt-8 border-t">
-            <h2 className="text-2xl font-bold tracking-tight mb-4">Related Calculators</h2>
+            <h2 className="text-2xl font-bold tracking-tight mb-4">
+              Related Calculators
+            </h2>
             <div className="flex flex-col gap-2">
-              {pageData.relatedSlugs.map(slug => (
-                <a key={slug} href={`/loan/${slug}`} className="text-primary hover:underline">
-                  {slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+              {pageData.relatedSlugs.map((slug) => (
+                <a
+                  key={slug}
+                  href={`/loan/${slug}`}
+                  className="text-primary hover:underline"
+                >
+                  {slug
+                    .split("-")
+                    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+                    .join(" ")}
                 </a>
               ))}
             </div>

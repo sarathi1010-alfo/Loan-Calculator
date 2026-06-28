@@ -3,7 +3,14 @@
 import React from "react";
 import { formatCurrency } from "@/lib/formatters";
 import { LoanResult } from "@/types";
-import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from "recharts";
+import {
+  PieChart,
+  Pie,
+  Cell,
+  ResponsiveContainer,
+  Tooltip,
+  Legend,
+} from "recharts";
 
 interface BreakdownPieChartProps {
   result: LoanResult;
@@ -12,7 +19,11 @@ interface BreakdownPieChartProps {
 export default function BreakdownPieChart({ result }: BreakdownPieChartProps) {
   const data = [
     { name: "Principal", value: result.principal, color: "var(--chart-1)" },
-    { name: "Total Interest", value: result.totalInterest, color: "var(--chart-2)" },
+    {
+      name: "Total Interest",
+      value: result.totalInterest,
+      color: "var(--chart-2)",
+    },
   ];
 
   return (
@@ -35,14 +46,18 @@ export default function BreakdownPieChart({ result }: BreakdownPieChartProps) {
           <Tooltip
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             formatter={(value: any) => {
-              if (typeof value === 'number') {
+              if (typeof value === "number") {
                 return formatCurrency(value);
               }
               return String(value);
             }}
-            contentStyle={{ borderRadius: '8px', border: '1px solid hsl(var(--border))', backgroundColor: 'hsl(var(--background))' }}
+            contentStyle={{
+              borderRadius: "8px",
+              border: "1px solid hsl(var(--border))",
+              backgroundColor: "hsl(var(--background))",
+            }}
           />
-          <Legend verticalAlign="bottom" height={36}/>
+          <Legend verticalAlign="bottom" height={36} />
         </PieChart>
       </ResponsiveContainer>
     </div>

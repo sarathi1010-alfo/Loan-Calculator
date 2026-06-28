@@ -1,10 +1,13 @@
 # Implementation Plan: Modern Financial Planning Workspace
 
 ## 1. Product Vision & Architecture Principle
+
 The goal is to transition from a single-purpose EMI calculator page to a comprehensive **financial simulation platform**. It should feel banking-grade, trustworthy, calm, and performant (like Stripe, Zerodha, or CRED).
+
 - **Architecture Principle:** Treat the system as a stateful financial scenario simulator, not a disconnected set of input forms.
 
 ## 2. UI/UX Design System (Fintech-Grade)
+
 - **Aesthetic:** Minimalist, data-clear, ultra-clean. High contrast for data, muted backgrounds. Avoid generic calculator aesthetics.
 - **Typography:** Geist (Next.js default) with strict hierarchy. Large legible numbers.
 - **Color Palette:**
@@ -18,6 +21,7 @@ The goal is to transition from a single-purpose EMI calculator page to a compreh
   - Interactive Recharts wrappers (responsive container with explicit heights).
 
 ## 3. Core Logic & Computation Engine Structure (Pseudo-code)
+
 The computation engine will reside in `src/lib/calculations/`. It must be pure, deterministic, and separate from UI components.
 
 ```typescript
@@ -41,7 +45,11 @@ export function simulateLoan(args: LoanSimulationArgs): DetailedLoanResult {
 }
 
 // src/lib/calculations/affordability.ts
-export function calculateAffordability(income: number, expenses: number, existingEMI: number): AffordabilityScore {
+export function calculateAffordability(
+  income: number,
+  expenses: number,
+  existingEMI: number,
+): AffordabilityScore {
   const disposableIncome = income - expenses - existingEMI;
   const maxSafeEMI = disposableIncome * 0.5; // Rule of thumb: max 50% of disposable
   // Return safe ranges, risk level, debt health score
@@ -49,13 +57,14 @@ export function calculateAffordability(income: number, expenses: number, existin
 ```
 
 ## 4. State Management Strategy & Data Models
+
 Use React Context / custom hooks (or a lightweight store) to manage the multi-loan workspace state without excessive prop-drilling.
 
 ```typescript
 // Data Models
 interface LoanEntity {
   id: string;
-  type: 'home' | 'car' | 'personal' | 'custom';
+  type: "home" | "car" | "personal" | "custom";
   name: string;
   parameters: LoanSimulationArgs;
   resultCache: DetailedLoanResult;
@@ -69,11 +78,13 @@ interface WorkspaceState {
 ```
 
 ## 5. PWA & Offline Architecture
+
 - **Next.js PWA:** Use a plugin like `next-pwa` to generate a Service Worker and `manifest.json`.
 - **Offline Calculation:** Since all financial engines are pure local TS functions (no API dependencies), the core calculator will inherently work offline once assets are cached.
 - **Persistence:** Use `localStorage` (via a sync hook) to save the user's workspace state (loans, scenarios) locally, ensuring progress is never lost between sessions.
 
 ## 6. SEO Page Template Design (Programmatic SEO)
+
 Leveraging the existing pSEO architecture (`scripts/generate-seo-entities.ts` -> `data/generated/seo-pages.json`).
 
 - **Dynamic Route:** `src/app/[slug]/page.tsx`
@@ -87,6 +98,7 @@ Leveraging the existing pSEO architecture (`scripts/generate-seo-entities.ts` ->
 ## 7. Phased Roadmap (Highest ROI First)
 
 ### Phase 1: Foundation & High-ROI Features
+
 - **Goal:** Establish the architecture, premium UI, and core calculation superiority.
 - **Deliverables:**
   1. Premium dashboard UI shell & Reusable design tokens.
@@ -97,6 +109,7 @@ Leveraging the existing pSEO architecture (`scripts/generate-seo-entities.ts` ->
   6. Export integration (PDFUtility / CSV).
 
 ### Phase 2: Intelligence & Planning Layer
+
 - **Goal:** Move from "calculator" to "advisor".
 - **Deliverables:**
   1. Affordability scoring and goal planning ("What can I afford?").
@@ -105,6 +118,7 @@ Leveraging the existing pSEO architecture (`scripts/generate-seo-entities.ts` ->
   4. Financial education layer.
 
 ### Phase 3: Ecosystem & Monetization Readiness
+
 - **Goal:** Lock in the moat and prepare for revenue.
 - **Deliverables:**
   1. Full PWA offline implementation.

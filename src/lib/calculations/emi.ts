@@ -17,7 +17,7 @@ export function calculateEMI(
   tenureInMonths: number,
   prepaymentAmount: number = 0,
   prepaymentType: "one-time" | "monthly" = "one-time",
-  prepaymentMonth: number = 1
+  prepaymentMonth: number = 1,
 ): LoanResult {
   if (principal <= 0 || tenureInMonths <= 0) {
     return {

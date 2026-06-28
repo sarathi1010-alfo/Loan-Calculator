@@ -1,16 +1,16 @@
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 
 // --- 1. Ontology Definition ---
 
-type LoanType = 'home' | 'car' | 'personal';
-type Bank = 'hdfc' | 'sbi' | 'icici' | 'axis' | 'bajaj' | 'generic';
+type LoanType = "home" | "car" | "personal";
+type Bank = "hdfc" | "sbi" | "icici" | "axis" | "bajaj" | "generic";
 
 interface EntityInput {
-  amount: number;      // e.g. 500000
-  amountText: string;  // e.g. "5 Lakh"
-  tenure: number;      // in months, e.g. 120
-  tenureText: string;  // e.g. "10 Years"
+  amount: number; // e.g. 500000
+  amountText: string; // e.g. "5 Lakh"
+  tenure: number; // in months, e.g. 120
+  tenureText: string; // e.g. "10 Years"
   loanType: LoanType;
   bank: Bank;
   interestRate: number; // e.g. 8.5
@@ -52,21 +52,38 @@ const TENURES = [
 ];
 
 const BANKS = [
-  { id: 'generic', name: '', rateHome: 8.5, rateCar: 9.0, ratePersonal: 11.5 },
-  { id: 'hdfc', name: 'HDFC', rateHome: 8.4, rateCar: 8.75, ratePersonal: 10.5 },
-  { id: 'sbi', name: 'SBI', rateHome: 8.5, rateCar: 8.65, ratePersonal: 11.0 },
-  { id: 'icici', name: 'ICICI', rateHome: 8.75, rateCar: 9.0, ratePersonal: 10.75 },
+  { id: "generic", name: "", rateHome: 8.5, rateCar: 9.0, ratePersonal: 11.5 },
+  {
+    id: "hdfc",
+    name: "HDFC",
+    rateHome: 8.4,
+    rateCar: 8.75,
+    ratePersonal: 10.5,
+  },
+  { id: "sbi", name: "SBI", rateHome: 8.5, rateCar: 8.65, ratePersonal: 11.0 },
+  {
+    id: "icici",
+    name: "ICICI",
+    rateHome: 8.75,
+    rateCar: 9.0,
+    ratePersonal: 10.75,
+  },
 ];
 
 const LOAN_TYPES = [
-  { id: 'home', name: 'Home Loan', intent: 'housing finance' },
-  { id: 'car', name: 'Car Loan', intent: 'auto finance' },
-  { id: 'personal', name: 'Personal Loan', intent: 'personal finance' },
+  { id: "home", name: "Home Loan", intent: "housing finance" },
+  { id: "car", name: "Car Loan", intent: "auto finance" },
+  { id: "personal", name: "Personal Loan", intent: "personal finance" },
 ];
 
 // --- 3. Slug Compiler ---
 
-function generateSlug(amountText: string, bankName: string, loanTypeName: string, tenureText: string): string {
+function generateSlug(
+  amountText: string,
+  bankName: string,
+  loanTypeName: string,
+  tenureText: string,
+): string {
   const parts = [];
   if (amountText) parts.push(amountText);
   if (bankName) parts.push(bankName);
@@ -74,15 +91,19 @@ function generateSlug(amountText: string, bankName: string, loanTypeName: string
   parts.push("emi");
   if (tenureText) parts.push(`for ${tenureText}`);
 
-  return parts.join("-").toLowerCase().replace(/\s+/g, '-');
+  return parts.join("-").toLowerCase().replace(/\s+/g, "-");
 }
 
 // --- 4. Semantic Block Generator ---
 
 function generateSemanticBlocks(entity: EntityInput): SemanticBlocks {
   const amountStr = `₹${entity.amountText}`;
-  const bankStr = entity.bank === 'generic' ? '' : `${BANKS.find(b => b.id === entity.bank)?.name} `;
-  const loanTypeStr = LOAN_TYPES.find(l => l.id === entity.loanType)?.name || '';
+  const bankStr =
+    entity.bank === "generic"
+      ? ""
+      : `${BANKS.find((b) => b.id === entity.bank)?.name} `;
+  const loanTypeStr =
+    LOAN_TYPES.find((l) => l.id === entity.loanType)?.name || "";
 
   // Title Variations
   const title = `${amountStr} ${bankStr}${loanTypeStr} EMI Calculator | ${entity.tenureText}`;
@@ -98,12 +119,12 @@ function generateSemanticBlocks(entity: EntityInput): SemanticBlocks {
   const faqs = [
     {
       question: `What is the monthly EMI for a ${amountStr} ${bankStr}${loanTypeStr} for ${entity.tenureText}?`,
-      answer: `The monthly EMI depends on the exact interest rate. At a standard ${entity.interestRate}% rate, you can see the precise monthly installment calculated in the tool above.`
+      answer: `The monthly EMI depends on the exact interest rate. At a standard ${entity.interestRate}% rate, you can see the precise monthly installment calculated in the tool above.`,
     },
     {
       question: `How much total interest will I pay on a ${amountStr} loan over ${entity.tenureText}?`,
-      answer: `Total interest is calculated on a reducing balance basis. For a ${entity.tenureText} tenure at ${entity.interestRate}%, the interest forms a significant portion of the total repayment. Check the pie chart breakdown for exact figures.`
-    }
+      answer: `Total interest is calculated on a reducing balance basis. For a ${entity.tenureText} tenure at ${entity.interestRate}%, the interest forms a significant portion of the total repayment. Check the pie chart breakdown for exact figures.`,
+    },
   ];
 
   return { title, description, h1, intro, faqs, relatedSlugs: [] };
@@ -121,22 +142,22 @@ async function generateEntities() {
     for (const type of LOAN_TYPES) {
       for (const bank of BANKS) {
         for (const tenure of TENURES) {
-
           // Logic constraint: Skip 30 year car/personal loans
-          if ((type.id === 'car' || type.id === 'personal') && tenure.val > 84) continue;
+          if ((type.id === "car" || type.id === "personal") && tenure.val > 84)
+            continue;
 
           // Logic constraint: Skip 1 year home loans (unrealistic)
-          if (type.id === 'home' && tenure.val < 60) continue;
+          if (type.id === "home" && tenure.val < 60) continue;
 
           let rate = bank.rateHome;
-          if (type.id === 'car') rate = bank.rateCar;
-          if (type.id === 'personal') rate = bank.ratePersonal;
+          if (type.id === "car") rate = bank.rateCar;
+          if (type.id === "personal") rate = bank.ratePersonal;
 
           const slug = generateSlug(
             amount.text,
             bank.name,
             type.name,
-            tenure.text
+            tenure.text,
           );
 
           if (slugsSet.has(slug)) continue;
@@ -149,7 +170,7 @@ async function generateEntities() {
             tenureText: tenure.text,
             loanType: type.id as LoanType,
             bank: bank.id as Bank,
-            interestRate: rate
+            interestRate: rate,
           };
 
           const semanticBlocks = generateSemanticBlocks(input);
@@ -157,7 +178,7 @@ async function generateEntities() {
           entities.push({
             slug,
             ...input,
-            ...semanticBlocks
+            ...semanticBlocks,
           });
         }
       }
@@ -166,19 +187,36 @@ async function generateEntities() {
 
   // --- 6. Internal Link Graphing ---
   // Assign 3 semantically relevant internal links to each page
-  console.log(`Generated ${entities.length} base entities. Building internal link graph...`);
+  console.log(
+    `Generated ${entities.length} base entities. Building internal link graph...`,
+  );
 
   for (let i = 0; i < entities.length; i++) {
     const current = entities[i];
 
     // Find same amount, different tenure
-    const sameAmount = entities.find(e => e.amount === current.amount && e.loanType === current.loanType && e.slug !== current.slug);
+    const sameAmount = entities.find(
+      (e) =>
+        e.amount === current.amount &&
+        e.loanType === current.loanType &&
+        e.slug !== current.slug,
+    );
 
     // Find same tenure, different amount
-    const sameTenure = entities.find(e => e.tenure === current.tenure && e.loanType === current.loanType && e.slug !== current.slug);
+    const sameTenure = entities.find(
+      (e) =>
+        e.tenure === current.tenure &&
+        e.loanType === current.loanType &&
+        e.slug !== current.slug,
+    );
 
     // Find same bank, different type
-    const sameBank = entities.find(e => e.bank === current.bank && e.slug !== current.slug && current.bank !== 'generic');
+    const sameBank = entities.find(
+      (e) =>
+        e.bank === current.bank &&
+        e.slug !== current.slug &&
+        current.bank !== "generic",
+    );
 
     if (sameAmount) current.relatedSlugs.push(sameAmount.slug);
     if (sameTenure) current.relatedSlugs.push(sameTenure.slug);
@@ -189,10 +227,17 @@ async function generateEntities() {
   }
 
   // Write to filesystem
-  const outputPath = path.join(process.cwd(), 'data', 'generated', 'seo-pages.json');
+  const outputPath = path.join(
+    process.cwd(),
+    "data",
+    "generated",
+    "seo-pages.json",
+  );
   fs.writeFileSync(outputPath, JSON.stringify(entities, null, 2));
 
-  console.log(`✅ Successfully generated ${entities.length} highly-optimized programmatic entities.`);
+  console.log(
+    `✅ Successfully generated ${entities.length} highly-optimized programmatic entities.`,
+  );
   console.log(`Output saved to: ${outputPath}`);
 }
 

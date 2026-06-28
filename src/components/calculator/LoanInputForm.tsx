@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 import { formatCurrency, formatTenure } from "@/lib/formatters";
@@ -15,13 +15,19 @@ interface LoanInputFormProps {
     tenure: number,
     prepaymentAmount?: number,
     prepaymentType?: "one-time" | "monthly",
-    prepaymentMonth?: number
+    prepaymentMonth?: number,
   ) => void;
 }
 
 import { Switch } from "@/components/ui/switch";
 import { Input } from "@/components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 export function LoanInputForm({
   initialPrincipal = 500000,
@@ -35,7 +41,9 @@ export function LoanInputForm({
 
   const [enablePrepayment, setEnablePrepayment] = useState(false);
   const [prepaymentAmount, setPrepaymentAmount] = useState(0);
-  const [prepaymentType, setPrepaymentType] = useState<"one-time" | "monthly">("one-time");
+  const [prepaymentType, setPrepaymentType] = useState<"one-time" | "monthly">(
+    "one-time",
+  );
   const [prepaymentMonth, setPrepaymentMonth] = useState(1);
 
   const emitChanges = (
@@ -45,7 +53,7 @@ export function LoanInputForm({
     enabled: boolean,
     amount: number,
     type: "one-time" | "monthly",
-    month: number
+    month: number,
   ) => {
     if (enabled && amount > 0) {
       onValuesChange(p, i, t, amount, type, month);
@@ -56,42 +64,102 @@ export function LoanInputForm({
 
   const handlePrincipalChange = (val: number) => {
     setPrincipal(val);
-    emitChanges(val, interest, tenure, enablePrepayment, prepaymentAmount, prepaymentType, prepaymentMonth);
+    emitChanges(
+      val,
+      interest,
+      tenure,
+      enablePrepayment,
+      prepaymentAmount,
+      prepaymentType,
+      prepaymentMonth,
+    );
   };
 
   const handleInterestChange = (val: number) => {
     setInterest(val);
-    emitChanges(principal, val, tenure, enablePrepayment, prepaymentAmount, prepaymentType, prepaymentMonth);
+    emitChanges(
+      principal,
+      val,
+      tenure,
+      enablePrepayment,
+      prepaymentAmount,
+      prepaymentType,
+      prepaymentMonth,
+    );
   };
 
   const handleTenureChange = (val: number) => {
     setTenure(val);
-    emitChanges(principal, interest, val, enablePrepayment, prepaymentAmount, prepaymentType, prepaymentMonth);
+    emitChanges(
+      principal,
+      interest,
+      val,
+      enablePrepayment,
+      prepaymentAmount,
+      prepaymentType,
+      prepaymentMonth,
+    );
   };
 
   const handleEnablePrepaymentChange = (val: boolean) => {
     setEnablePrepayment(val);
-    emitChanges(principal, interest, tenure, val, prepaymentAmount, prepaymentType, prepaymentMonth);
+    emitChanges(
+      principal,
+      interest,
+      tenure,
+      val,
+      prepaymentAmount,
+      prepaymentType,
+      prepaymentMonth,
+    );
   };
 
-  const handlePrepaymentAmountChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handlePrepaymentAmountChange = (
+    e: React.ChangeEvent<HTMLInputElement>,
+  ) => {
     const value = e.target.value;
     const val = value === "" ? 0 : Number(value);
     setPrepaymentAmount(val);
-    emitChanges(principal, interest, tenure, enablePrepayment, val, prepaymentType, prepaymentMonth);
+    emitChanges(
+      principal,
+      interest,
+      tenure,
+      enablePrepayment,
+      val,
+      prepaymentType,
+      prepaymentMonth,
+    );
   };
 
   const handlePrepaymentTypeChange = (val: "one-time" | "monthly") => {
     setPrepaymentType(val);
-    emitChanges(principal, interest, tenure, enablePrepayment, prepaymentAmount, val, prepaymentMonth);
+    emitChanges(
+      principal,
+      interest,
+      tenure,
+      enablePrepayment,
+      prepaymentAmount,
+      val,
+      prepaymentMonth,
+    );
   };
 
-  const handlePrepaymentMonthChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handlePrepaymentMonthChange = (
+    e: React.ChangeEvent<HTMLInputElement>,
+  ) => {
     const value = e.target.value;
     // Allow empty input for backspacing, fallback to 1 only if it's completely cleared/NaN upon evaluation.
     const val = value === "" ? (0 as any) : Number(value);
     setPrepaymentMonth(val);
-    emitChanges(principal, interest, tenure, enablePrepayment, prepaymentAmount, prepaymentType, val || 1);
+    emitChanges(
+      principal,
+      interest,
+      tenure,
+      enablePrepayment,
+      prepaymentAmount,
+      prepaymentType,
+      val || 1,
+    );
   };
 
   return (
@@ -99,7 +167,9 @@ export function LoanInputForm({
       <div className="space-y-3">
         <div className="flex items-center justify-between">
           <Label htmlFor="principal">Loan Amount</Label>
-          <span className="font-semibold text-lg text-primary">{formatCurrency(principal)}</span>
+          <span className="font-semibold text-lg text-primary">
+            {formatCurrency(principal)}
+          </span>
         </div>
         <Slider
           id="principal"
@@ -108,7 +178,9 @@ export function LoanInputForm({
           step={10000}
           value={[principal]}
           onValueChange={(vals: number | readonly number[]) => {
-            const v = Array.isArray(vals) ? vals[0] : (vals as readonly number[])[0] ?? (vals as number);
+            const v = Array.isArray(vals)
+              ? vals[0]
+              : ((vals as readonly number[])[0] ?? (vals as number));
             handlePrincipalChange(v);
           }}
           className="py-4"
@@ -122,7 +194,9 @@ export function LoanInputForm({
       <div className="space-y-3">
         <div className="flex items-center justify-between">
           <Label htmlFor="interest">Interest Rate (p.a.)</Label>
-          <span className="font-semibold text-lg text-primary">{interest}%</span>
+          <span className="font-semibold text-lg text-primary">
+            {interest}%
+          </span>
         </div>
         <Slider
           id="interest"
@@ -131,7 +205,9 @@ export function LoanInputForm({
           step={0.1}
           value={[interest]}
           onValueChange={(vals: number | readonly number[]) => {
-            const v = Array.isArray(vals) ? vals[0] : (vals as readonly number[])[0] ?? (vals as number);
+            const v = Array.isArray(vals)
+              ? vals[0]
+              : ((vals as readonly number[])[0] ?? (vals as number));
             handleInterestChange(v);
           }}
           className="py-4"
@@ -145,7 +221,9 @@ export function LoanInputForm({
       <div className="space-y-3">
         <div className="flex items-center justify-between">
           <Label htmlFor="tenure">Loan Tenure</Label>
-          <span className="font-semibold text-lg text-primary">{formatTenure(tenure)}</span>
+          <span className="font-semibold text-lg text-primary">
+            {formatTenure(tenure)}
+          </span>
         </div>
         <Slider
           id="tenure"
@@ -154,7 +232,9 @@ export function LoanInputForm({
           step={1}
           value={[tenure]}
           onValueChange={(vals: number | readonly number[]) => {
-            const v = Array.isArray(vals) ? vals[0] : (vals as readonly number[])[0] ?? (vals as number);
+            const v = Array.isArray(vals)
+              ? vals[0]
+              : ((vals as readonly number[])[0] ?? (vals as number));
             handleTenureChange(v);
           }}
           className="py-4"
@@ -167,7 +247,9 @@ export function LoanInputForm({
 
       <div className="pt-4 border-t space-y-4">
         <div className="flex items-center justify-between">
-          <Label htmlFor="enable-prepayment" className="text-base font-medium">Extra Prepayment</Label>
+          <Label htmlFor="enable-prepayment" className="text-base font-medium">
+            Extra Prepayment
+          </Label>
           <Switch
             id="enable-prepayment"
             checked={enablePrepayment}
@@ -225,7 +307,6 @@ export function LoanInputForm({
           </div>
         )}
       </div>
-
     </div>
   );
 }

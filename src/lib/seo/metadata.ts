@@ -3,7 +3,8 @@ import { Metadata } from "next";
 export const siteConfig = {
   name: "LoanCalculatorHub",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://loancalculatorhub.com",
-  description: "Instantly calculate EMIs, compare loans, and plan smarter repayments.",
+  description:
+    "Instantly calculate EMIs, compare loans, and plan smarter repayments.",
 };
 
 interface MetadataProps {
@@ -12,7 +13,11 @@ interface MetadataProps {
   path: string;
 }
 
-export function generateSeoMetadata({ title, description, path }: MetadataProps): Metadata {
+export function generateSeoMetadata({
+  title,
+  description,
+  path,
+}: MetadataProps): Metadata {
   const url = `${siteConfig.url}${path}`;
 
   return {
@@ -37,7 +42,9 @@ export function generateSeoMetadata({ title, description, path }: MetadataProps)
   };
 }
 
-export function generateFaqSchema(faqs: { question: string; answer: string }[]) {
+export function generateFaqSchema(
+  faqs: { question: string; answer: string }[],
+) {
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -88,7 +95,9 @@ export function generateArticleSchema(props: ArticleSchemaProps) {
   };
 }
 
-export function generateBreadcrumbSchema(items: { name: string; item: string }[]) {
+export function generateBreadcrumbSchema(
+  items: { name: string; item: string }[],
+) {
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

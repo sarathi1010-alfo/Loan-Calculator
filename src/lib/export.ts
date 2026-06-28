@@ -4,7 +4,11 @@ import html2canvas from "html2canvas";
 import { LoanResult } from "@/types";
 import { formatCurrency } from "./formatters";
 
-export async function exportToPDF(result: LoanResult, chartElementId: string = "pie-chart-container", filename: string = "loan-report.pdf") {
+export async function exportToPDF(
+  result: LoanResult,
+  chartElementId: string = "pie-chart-container",
+  filename: string = "loan-report.pdf",
+) {
   const doc = new jsPDF("p", "pt", "a4");
   const margin = 40;
   let yPos = margin;
@@ -16,13 +20,25 @@ export async function exportToPDF(result: LoanResult, chartElementId: string = "
 
   // Summary
   doc.setFontSize(12);
-  doc.text(`Principal Amount: ${formatCurrency(result.principal)}`, margin, yPos);
+  doc.text(
+    `Principal Amount: ${formatCurrency(result.principal)}`,
+    margin,
+    yPos,
+  );
   yPos += 20;
   doc.text(`Monthly EMI: ${formatCurrency(result.emi)}`, margin, yPos);
   yPos += 20;
-  doc.text(`Total Interest: ${formatCurrency(result.totalInterest)}`, margin, yPos);
+  doc.text(
+    `Total Interest: ${formatCurrency(result.totalInterest)}`,
+    margin,
+    yPos,
+  );
   yPos += 20;
-  doc.text(`Total Payment: ${formatCurrency(result.totalPayment)}`, margin, yPos);
+  doc.text(
+    `Total Payment: ${formatCurrency(result.totalPayment)}`,
+    margin,
+    yPos,
+  );
   yPos += 40;
 
   // Capture Chart
@@ -48,7 +64,7 @@ export async function exportToPDF(result: LoanResult, chartElementId: string = "
   }
 
   // Amortization Table
-  const tableData = result.amortizationSchedule.map(row => [
+  const tableData = result.amortizationSchedule.map((row) => [
     row.month.toString(),
     formatCurrency(row.principalComponent),
     formatCurrency(row.interestComponent),
@@ -68,9 +84,18 @@ export async function exportToPDF(result: LoanResult, chartElementId: string = "
   doc.save(filename);
 }
 
-export function exportToCSV(result: LoanResult, filename: string = "amortization-schedule.csv") {
-  const headers = ["Month", "Principal Paid", "Interest Paid", "EMI", "Balance"];
-  const rows = result.amortizationSchedule.map(row => [
+export function exportToCSV(
+  result: LoanResult,
+  filename: string = "amortization-schedule.csv",
+) {
+  const headers = [
+    "Month",
+    "Principal Paid",
+    "Interest Paid",
+    "EMI",
+    "Balance",
+  ];
+  const rows = result.amortizationSchedule.map((row) => [
     row.month,
     row.principalComponent.toFixed(2),
     row.interestComponent.toFixed(2),
@@ -78,10 +103,9 @@ export function exportToCSV(result: LoanResult, filename: string = "amortization
     row.balance.toFixed(2),
   ]);
 
-  const csvContent = [
-    headers.join(","),
-    ...rows.map(e => e.join(","))
-  ].join("\n");
+  const csvContent = [headers.join(","), ...rows.map((e) => e.join(","))].join(
+    "\n",
+  );
 
   const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
   const url = URL.createObjectURL(blob);

@@ -10,12 +10,14 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: {
     default: "LoanCalculatorHub | Fast & Accurate EMI Calculator",
-    template: "%s | LoanCalculatorHub"
+    template: "%s | LoanCalculatorHub",
   },
-  description: "Instantly calculate EMIs, compare loans, and plan smarter repayments with our free, accurate, and fast loan calculators.",
+  description:
+    "Instantly calculate EMIs, compare loans, and plan smarter repayments with our free, accurate, and fast loan calculators.",
   openGraph: {
     title: "Free EMI Calculator Pro - Personal, Home & Car Loan Calculator",
-    description: "Calculate your loan EMI instantly with our free calculator. Compare personal, home, and car loan options.",
+    description:
+      "Calculate your loan EMI instantly with our free calculator. Compare personal, home, and car loan options.",
     url: "https://emicalculatorpro.alfo.online/",
     type: "website",
     images: [
@@ -30,12 +32,13 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Free EMI Calculator Pro",
-    description: "Calculate loan EMIs instantly - Personal, Home, and Car loans.",
+    description:
+      "Calculate loan EMIs instantly - Personal, Home, and Car loans.",
     images: ["https://emicalculatorpro.alfo.online/twitter-image.jpg"],
   },
   other: {
-    "google-adsense-account": "ca-pub-6393936268623951"
-  }
+    "google-adsense-account": "ca-pub-6393936268623951",
+  },
 };
 
 export default function RootLayout({
@@ -43,9 +46,33 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "EMI Calculator Pro",
+    url: "https://emicalculatorpro.alfo.online/",
+    logo: "https://emicalculatorpro.alfo.online/logo.png",
+    description:
+      "Free EMI Calculator for personal, home, and car loans with visual amortization breakdowns.",
+    sameAs: [
+      "https://twitter.com/emicalculatorpro",
+      "https://www.linkedin.com/company/emicalculatorpro",
+    ],
+  };
+
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} min-h-screen flex flex-col bg-background antialiased`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
+      </head>
+      <body
+        className={`${inter.className} min-h-screen flex flex-col bg-background antialiased`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -53,9 +80,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className="flex-1">
-            {children}
-          </main>
+          <main className="flex-1">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>

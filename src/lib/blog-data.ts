@@ -228,6 +228,95 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Almost all home and personal loans use this method. If you pay off ₹10,000 of the principal in the first month, the interest for the second month is calculated only on the remaining ₹90,000. Because the principal keeps dropping, your interest burden drops every single month.</p>
     `,
   },
+  {
+    slug: "how-to-choose-the-right-loan-tenure",
+    title: "How to Choose the Right Loan Tenure: A Complete Guide",
+    description:
+      "Learn how to balance your monthly EMI affordability against the total interest paid to find the perfect loan tenure.",
+    date: "2026-06-25",
+    category: "Tenure & Strategy Guides",
+    answerBlock:
+      "The best loan tenure balances affordability and interest costs. A shorter tenure means a higher monthly EMI but drastically lower total interest paid. A longer tenure reduces your monthly EMI burden but significantly increases the total interest you will pay to the bank.",
+    content: `
+      <h2>The Tenure Trade-off</h2>
+      <p>When you take a loan, the tenure (the number of years you have to pay it back) is just as crucial as the interest rate. Many borrowers simply opt for the longest possible tenure to keep their EMI low, but this is often a costly mistake.</p>
+
+      <h2>Short Tenure: The Wealth Builder</h2>
+      <p>Choosing a shorter tenure (e.g., 10 years instead of 20 years for a home loan) means your monthly Equated Monthly Installment (EMI) will be higher. However, you will pay off the principal much faster, meaning the bank charges you significantly less interest over the life of the loan.</p>
+
+      <h2>Long Tenure: The Cash Flow Protector</h2>
+      <p>A longer tenure spreads the repayment over more months, resulting in a smaller EMI. This leaves you with more disposable income each month for living expenses or investments. The massive downside is the total interest paid—on a 30-year home loan, you might pay more in interest than the actual principal borrowed.</p>
+
+      <h2>How to Decide</h2>
+      <p>Calculate the maximum EMI you can comfortably afford (it should not push your total debt obligations past 40-50% of your income). Then, use our EMI calculator to find the shortest tenure that matches that EMI.</p>
+    `,
+  },
+  {
+    slug: "common-emi-calculation-mistakes",
+    title: "Common EMI Calculation Mistakes and How to Avoid Them",
+    description:
+      "Avoid these costly errors when planning your loan repayments and calculating your EMI.",
+    date: "2026-06-24",
+    category: "EMI Fundamentals",
+    answerBlock:
+      "The most common EMI calculation mistake is ignoring processing fees and insurance costs. Borrowers also frequently calculate interest on a flat-rate basis rather than the reducing-balance method, leading to completely inaccurate cost estimations.",
+    content: `
+      <h2>Why Accuracy Matters</h2>
+      <p>When planning a major purchase like a home or a car, getting your EMI calculation wrong can throw your entire monthly budget into disarray.</p>
+
+      <h2>Mistake 1: Ignoring Additional Fees</h2>
+      <p>Your EMI only covers the principal and interest. It does not include processing fees, documentation charges, or mandatory property/life insurance premiums. Always ask the lender for the Annual Percentage Rate (APR), which includes these fees, rather than just the interest rate.</p>
+
+      <h2>Mistake 2: Misunderstanding the Interest Calculation Method</h2>
+      <p>Never calculate interest by simply multiplying the loan amount by the interest rate and tenure. Banks use a reducing balance method. Use an accurate EMI calculator to get the real numbers.</p>
+
+      <h2>Mistake 3: Forgetting About Prepayment Penalties</h2>
+      <p>If you plan to pay off the loan early, you must factor in prepayment penalties. Calculating your EMI savings from prepayments without accounting for a 2-5% penalty fee will yield incorrect results.</p>
+    `,
+  },
+  {
+    slug: "emi-affordability",
+    title: "EMI Affordability: How Much EMI Can You Actually Afford?",
+    description:
+      "Learn how to calculate your safe EMI limit using the Debt-to-Income ratio to ensure financial stability.",
+    date: "2026-06-23",
+    category: "Tenure & Strategy Guides",
+    answerBlock:
+      "Financial experts recommend the 40-50% rule: Your total monthly debt payments (including the new EMI) should never exceed 40% to 50% of your net (take-home) monthly income. Exceeding this limit leads to high financial stress.",
+    content: `
+      <h2>The Affordability Question</h2>
+      <p>Just because a bank is willing to approve you for a massive loan doesn't mean you can actually afford it. Banks calculate risk based on their models, not your lifestyle.</p>
+
+      <h2>Understanding Debt-to-Income (DTI)</h2>
+      <p>Your DTI is the percentage of your gross monthly income that goes toward paying debts. To calculate your safe EMI limit, first calculate your total current monthly debt obligations (credit cards, personal loans). Subtract this from 40% of your net income. The remaining amount is the maximum new EMI you should take on.</p>
+
+      <h2>The 'Stress Test'</h2>
+      <p>Before signing the loan agreement, live for three months as if you are paying the new EMI. Put the equivalent amount into a savings account. If you struggle to meet your daily expenses, the EMI is too high.</p>
+    `,
+  },
+  {
+    slug: "financial-literacy-understanding-loans",
+    title: "Financial Literacy: A Beginner's Guide to Understanding Loans",
+    description:
+      "Master the basic terminology and concepts behind borrowing money, interest rates, and loan repayments.",
+    date: "2026-06-22",
+    category: "Educational Resources",
+    answerBlock:
+      "A loan is an agreement where you borrow a principal amount and repay it with interest over a specific tenure. Understanding terms like EMI, Amortization, Fixed vs. Floating Rates, and Secured vs. Unsecured loans is critical before borrowing.",
+    content: `
+      <h2>The Basics of Borrowing</h2>
+      <p>Borrowing money is a tool. Like any tool, it can build your future or cause severe damage depending on how you use it. Financial literacy starts with understanding the basic mechanics of a loan.</p>
+
+      <h2>Key Terminology Explained</h2>
+      <ul>
+        <li><strong>Principal:</strong> The original amount of money you borrow.</li>
+        <li><strong>Interest Rate:</strong> The percentage charged by the lender for the privilege of borrowing the money.</li>
+        <li><strong>Tenure:</strong> The timeframe over which you agree to repay the loan.</li>
+        <li><strong>Secured Loan:</strong> A loan backed by an asset (like a house or car). If you don't pay, the bank takes the asset. These usually have lower interest rates.</li>
+        <li><strong>Unsecured Loan:</strong> A loan not backed by any asset (like a personal loan or credit card). These are riskier for the bank and thus have higher interest rates.</li>
+      </ul>
+    `,
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

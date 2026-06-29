@@ -51,6 +51,14 @@ const faqs = [
         q: "Is it better to have a higher EMI or lower EMI?",
         a: "It depends on your cash flow. A higher EMI clears debt faster and saves total interest, but requires more monthly disposable income. A lower EMI provides monthly budget breathing room but costs more in long-term interest. A healthy EMI is usually 30-40% of your monthly income.",
       },
+      {
+        q: "What is a flat interest rate?",
+        a: "A flat interest rate is calculated on the entire original principal amount for the full term of the loan, regardless of how much of the principal has already been paid off. This means you pay more interest compared to a reducing balance rate.",
+      },
+      {
+        q: "How can I lower my EMI without extending tenure?",
+        a: "You can lower your EMI without extending tenure by making partial prepayments towards your principal or by refinancing your loan at a lower interest rate through a balance transfer.",
+      },
     ],
   },
   {
@@ -75,6 +83,26 @@ const faqs = [
       {
         q: "What is a pre-EMI?",
         a: "For under-construction properties, lenders disburse the loan in stages. A pre-EMI is the monthly interest charged only on the disbursed amount, not the full loan. Full EMI starts after final disbursement or possession.",
+      },
+      {
+        q: "What is a home loan balance transfer?",
+        a: "A home loan balance transfer involves transferring your outstanding principal amount from your current lender to a new lender who offers a lower interest rate, reducing your overall interest burden.",
+      },
+      {
+        q: "Is property insurance mandatory with a home loan?",
+        a: "Most lenders strongly recommend or require property insurance to protect the property against damages from fire, natural disasters, etc., since the property serves as collateral for the loan.",
+      },
+      {
+        q: "Do I get a tax benefit on both principal and interest?",
+        a: "Yes, in many jurisdictions (such as India), you can claim tax deductions on the principal repayment (e.g., under Section 80C) and the interest payment (e.g., under Section 24(b)) for a housing loan.",
+      },
+      {
+        q: "What is an under-construction property home loan?",
+        a: "It is a loan taken for a property that is still being built. Lenders disburse the loan amount in tranches based on the construction progress rather than a lump sum.",
+      },
+      {
+        q: "What is Pre-EMI?",
+        a: "For under-construction properties, you may only pay the interest on the disbursed loan amount until the property is completed. This payment is known as Pre-EMI. Regular EMIs start upon possession or full disbursement.",
       },
     ],
   },
@@ -121,6 +149,26 @@ const faqs = [
         q: "Is it a good idea to consolidate debt with a personal loan?",
         a: "Debt consolidation can be a smart move if you use a personal loan with a lower interest rate to pay off high-interest debt (like credit card balances). It simplifies payments into a single EMI.",
       },
+      {
+        q: "How fast can a personal loan be approved?",
+        a: "Many banks and NBFCs now offer instant or same-day approval and disbursement for personal loans, especially for pre-approved customers with strong credit histories.",
+      },
+      {
+        q: "Is a guarantor required for a personal loan?",
+        a: "Typically, no. Personal loans are unsecured. However, if your credit score is low or income is unstable, a lender might request a co-applicant or guarantor.",
+      },
+      {
+        q: "Can self-employed individuals get personal loans?",
+        a: "Yes, self-employed individuals can get personal loans, but lenders typically require proof of business continuity and income stability, such as IT returns and bank statements for the past 2-3 years.",
+      },
+      {
+        q: "Does applying for personal loans in multiple banks hurt my credit score?",
+        a: "Yes, applying for multiple loans simultaneously results in multiple 'hard inquiries' on your credit report, which can temporarily reduce your credit score.",
+      },
+      {
+        q: "What is the maximum amount I can borrow for a personal loan?",
+        a: "The maximum amount depends on your net monthly income, existing debt obligations, and the lender's policies. Usually, it ranges up to 20-40 times your monthly net income.",
+      },
     ],
   },
   {
@@ -145,6 +193,26 @@ const faqs = [
       {
         q: "Can parents be co-applicants for an education loan?",
         a: "Yes, and it is usually mandatory. Parents or guardians act as co-applicants or guarantors, and their income and credit history are considered when approving the loan and deciding the interest rate.",
+      },
+      {
+        q: "Can I get an auto loan without a down payment?",
+        a: "Some lenders offer 'zero down payment' or '100% financing' on the ex-showroom price, usually for customers with excellent credit scores, but you will still need to pay registration and insurance out of pocket.",
+      },
+      {
+        q: "What is the typical processing fee for a car loan?",
+        a: "The processing fee for a car loan usually ranges from 1% to 2% of the loan amount, but lenders often waive or reduce this fee during festive seasons.",
+      },
+      {
+        q: "Does the car loan tenure affect my interest rate?",
+        a: "In some cases, yes. Lenders may charge slightly higher interest rates for longer loan tenures (e.g., 7 years) compared to shorter tenures (e.g., 3 years).",
+      },
+      {
+        q: "Are EV (Electric Vehicle) car loans cheaper?",
+        a: "Yes, many banks now offer specialized EV loans with lower interest rates (often 0.25% to 0.50% lower) and longer tenures to promote green energy.",
+      },
+      {
+        q: "Can a student apply for a car loan?",
+        a: "Students generally cannot get a car loan independently without a steady income source. They usually need a working parent to act as a co-applicant or guarantor.",
       },
     ],
   },
@@ -171,6 +239,26 @@ const faqs = [
         q: "Can I get a loan for a used two-wheeler?",
         a: "Yes, many banks and NBFCs offer loans for pre-owned two-wheelers, though the interest rates may be slightly higher than for new vehicles.",
       },
+      {
+        q: "What expenses does an education loan cover?",
+        a: "A typical education loan covers tuition fees, hostel or accommodation charges, books, laptops, and even travel expenses for studies abroad.",
+      },
+      {
+        q: "Is collateral required for an education loan?",
+        a: "For smaller amounts (e.g., up to ₹4 Lakhs in India), collateral is typically not required. For larger amounts, banks require tangible collateral like property or fixed deposits.",
+      },
+      {
+        q: "Can I get an education loan for an online degree?",
+        a: "Yes, many lenders now offer loans for online and distance learning degrees, provided the institution and program are recognized and accredited.",
+      },
+      {
+        q: "What is the interest rate margin for an education loan?",
+        a: "The margin is the percentage of the total education cost that the student/family must fund themselves. For example, a 15% margin means the bank funds 85% of the total cost.",
+      },
+      {
+        q: "Does the interest rate vary based on the university?",
+        a: "Yes, students admitted to premier institutions (like IITs, IIMs, Ivy League) often get significantly lower interest rates and faster processing compared to other universities.",
+      },
     ],
   },
   {
@@ -196,6 +284,26 @@ const faqs = [
         q: "Should I prepay my loan or invest the money?",
         a: "It depends on the numbers. If your loan interest rate (after tax benefits) is higher than the expected post-tax return on your investments, it is mathematically better to prepay the loan.",
       },
+      {
+        q: "What documents are required for a gold loan?",
+        a: "Gold loans require minimal documentation, typically just identity and address proof (KYC). No income proof or credit score is strictly necessary.",
+      },
+      {
+        q: "How fast are gold loans processed?",
+        a: "Gold loans are often disbursed within hours or even minutes of the gold appraisal at the branch.",
+      },
+      {
+        q: "What purity of gold is accepted?",
+        a: "Banks and NBFCs generally accept gold jewelry of 18-karat to 24-karat purity. Gold coins or bars may have different restrictions depending on the lender.",
+      },
+      {
+        q: "Can I take a two-wheeler loan for an electric scooter?",
+        a: "Yes, electric scooters are fully eligible for two-wheeler loans, and many lenders offer preferential rates for EVs.",
+      },
+      {
+        q: "Is my pledged gold safe?",
+        a: "Yes, lenders store pledged gold in high-security strong rooms or vaults, and it is fully insured against theft or loss.",
+      },
     ],
   },
   {
@@ -220,6 +328,26 @@ const faqs = [
       {
         q: "What is a Debt-to-Income (DTI) ratio?",
         a: "DTI ratio is the percentage of your gross monthly income that goes toward paying debts (including your new EMI). Lenders prefer a DTI ratio below 40-50% when approving new loans.",
+      },
+      {
+        q: "How long does a late payment stay on my credit report?",
+        a: "A late or missed EMI payment can stay on your credit report for up to 7 years, negatively impacting your score for much of that time.",
+      },
+      {
+        q: "Does a high credit score guarantee loan approval?",
+        a: "No. While a high credit score is crucial, lenders also evaluate your income, employment stability, DTI ratio, and the purpose of the loan before approving.",
+      },
+      {
+        q: "Can settling a loan for less than owed hurt my score?",
+        a: "Yes, settling a loan (paying less than the full amount due to close the account) severely damages your credit score, as it is marked as 'Settled' rather than 'Closed'.",
+      },
+      {
+        q: "How quickly does my credit score update after paying off a loan?",
+        a: "Credit bureaus generally update your score every 30 to 45 days based on information provided by lenders. It may take a month or two for a paid-off loan to reflect.",
+      },
+      {
+        q: "What is a good credit score to get a lower EMI?",
+        a: "A credit score of 750 or above is generally considered excellent and will help you negotiate the lowest possible interest rates and EMIs.",
       },
     ],
   },

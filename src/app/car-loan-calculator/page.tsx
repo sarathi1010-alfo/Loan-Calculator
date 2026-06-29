@@ -112,6 +112,13 @@ export default function CarLoanCalculatorPage() {
         </p>
       </div>
 
+      <section className="mb-8 bg-primary/5 p-6 rounded-xl border border-primary/20">
+        <h2 className="text-xl font-bold tracking-tight mb-2">What is a Car Loan EMI?</h2>
+        <p className="text-md text-foreground/80 font-medium">
+          A Car Loan EMI represents the monthly payment required to pay off your vehicle loan. Since cars are depreciating assets, experts recommend keeping loan tenures relatively short (3-5 years) to ensure you do not owe more than the vehicle is worth. Use this tool to instantly generate a precise amortization schedule and find the perfect balance between loan tenure and your monthly budget.
+        </p>
+      </section>
+
       {/* Default values for Car Loan: ₹8 Lakh, 9.0%, 5 Years */}
       <SeoCalculator
         initialPrincipal={800000}

@@ -127,6 +127,13 @@ export default function PersonalLoanCalculatorPage() {
         </p>
       </div>
 
+      <section className="mb-8 bg-primary/5 p-6 rounded-xl border border-primary/20">
+        <h2 className="text-xl font-bold tracking-tight mb-2">What is a Personal Loan EMI?</h2>
+        <p className="text-md text-foreground/80 font-medium">
+          A Personal Loan EMI is the Equated Monthly Installment you pay towards your unsecured personal loan. Because these loans don't require collateral, they typically carry higher interest rates and shorter tenures (1-5 years) compared to home loans. Use the calculator below to find the exact amount you will pay every month based on the reducing balance method.
+        </p>
+      </section>
+
       {/* Default values for Personal Loan: ₹5 Lakh, 11.5%, 3 Years */}
       <SeoCalculator
         initialPrincipal={500000}

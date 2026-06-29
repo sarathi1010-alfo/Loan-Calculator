@@ -75,7 +75,14 @@ export default function Home() {
 
       <UniversalCalculator />
 
-      <div className="mt-24 space-y-16">
+      <div className="mt-16 space-y-16">
+        <section className="bg-primary/5 p-8 rounded-xl border border-primary/20">
+          <h2 className="text-2xl font-bold tracking-tight mb-4">Fast & Accurate EMI Calculations</h2>
+          <p className="text-lg text-foreground/80 font-medium">
+            Our free EMI Calculator Pro is the best way to calculate your monthly loan installments. By inputting your principal, interest rate, and tenure, you receive a precise, reducing-balance amortized schedule showing exactly how much of your payment goes to interest versus principal, helping you make smarter borrowing decisions.
+          </p>
+        </section>
+
         {/* Quick Links Section */}
         <section className="bg-muted/30 p-8 rounded-xl border">
           <h2 className="text-2xl font-bold tracking-tight mb-6">

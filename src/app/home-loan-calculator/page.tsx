@@ -113,6 +113,13 @@ export default function HomeLoanCalculatorPage() {
         </p>
       </div>
 
+      <section className="mb-8 bg-primary/5 p-6 rounded-xl border border-primary/20">
+        <h2 className="text-xl font-bold tracking-tight mb-2">What is a Home Loan EMI?</h2>
+        <p className="text-md text-foreground/80 font-medium">
+          A Home Loan EMI is the fixed monthly payment made to your lender, consisting of both principal repayment and interest charges. It is calculated using the formula <code className="bg-muted px-1 py-0.5 rounded text-sm">P x R x (1+R)^N / [(1+R)^N-1]</code>. Entering your loan amount, interest rate, and tenure below will instantly generate your accurate monthly payment and a complete amortization schedule.
+        </p>
+      </section>
+
       {/* Default values for Home Loan: ₹50 Lakh, 8.5%, 20 Years */}
       <SeoCalculator
         initialPrincipal={5000000}

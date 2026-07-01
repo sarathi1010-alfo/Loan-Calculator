@@ -17,6 +17,12 @@ interface BreakdownPieChartProps {
 }
 
 export default function BreakdownPieChart({ result }: BreakdownPieChartProps) {
+  const [isMounted, setIsMounted] = React.useState(false);
+
+  React.useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   const data = [
     { name: "Principal", value: result.principal, color: "var(--chart-1)" },
     {
@@ -25,6 +31,10 @@ export default function BreakdownPieChart({ result }: BreakdownPieChartProps) {
       color: "var(--chart-2)",
     },
   ];
+
+  if (!isMounted) {
+    return <div className="h-64 w-full bg-muted/10 animate-pulse rounded-lg" />;
+  }
 
   return (
     <div className="h-64 w-full" id="pie-chart-container">

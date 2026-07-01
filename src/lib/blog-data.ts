@@ -14,7 +14,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "What is EMI? The Complete Guide to Equated Monthly Installments",
     description:
       "Understand what EMI is, how it works, and why it is crucial for personal finance and loan management.",
-    date: "2026-06-29",
+    date: "2026-07-02",
     category: "EMI Fundamentals",
     answerBlock:
       "EMI (Equated Monthly Installment) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. EMIs are used to pay off both interest and principal each month so that over a specified number of years, the loan is paid off in full.",
@@ -109,12 +109,12 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>While this sounds straightforward, it is vastly more expensive. A 10% Flat Rate is mathematically equivalent to an effective Annual Percentage Rate (APR) of nearly 18% on a reducing balance basis. Always insist on knowing if the loan is reducing balance or flat rate.</p>
 
       <h3>How to Master Your Debt Using EMICalculatorPro</h3>
-      <p>Now that you understand the mechanics, the next step is applying this knowledge to your real-life scenarios. This is where <a href="/">EMICalculatorPro</a> becomes your most valuable financial planning workspace.</p>
+      <p>Now that you understand the mechanics, the next step is applying this knowledge to your real-life scenarios. This is where our main <a href="/">EMI Calculator</a> becomes your most valuable financial planning workspace.</p>
 
       <p>Instead of manually crunching exponential formulas or building complex Excel spreadsheets, our platform handles the heavy lifting instantly.</p>
 
       <ol>
-        <li><strong>Navigate to Your Specific Tool:</strong> Start by selecting the appropriate tool for your needs, such as the <a href="/home-loan-calculator">Home Loan Calculator</a>, Car Loan Calculator, or Personal Loan Calculator. Each tool is pre-configured with industry-standard default parameters to give you a quick starting point.</li>
+        <li><strong>Navigate to Your Specific Tool:</strong> Start by selecting the appropriate tool for your needs. You can find these in our <a href="/#explore-calculators">Explore Specific Calculators</a> section, which includes specialized tools like the Home Loan Calculator, Car Loan Calculator, or Personal Loan Calculator. Each tool is pre-configured with industry-standard default parameters to give you a quick starting point.</li>
         <li><strong>Input Your Precise Parameters:</strong> Enter your exact Principal Amount, your negotiated Interest Rate, and your desired Loan Tenure. The application updates instantly, in real-time, without requiring page reloads.</li>
         <li><strong>Analyze the Output Dashboard:</strong> The tool will immediately apply the reducing-balance formula and present a clean dashboard showing your exact monthly EMI, the total principal, and the total interest payable over the life of the loan.</li>
         <li><strong>Visualize the Breakdown:</strong> Humans process visual data much faster than raw numbers. Our interactive pie chart visually demonstrates the ratio of Principal to Interest. If the "Interest" slice of the pie looks terrifyingly large, it is a clear signal that you need to reduce your tenure or increase your down payment.</li>
@@ -133,7 +133,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "How Loan Tenure Affects Your EMI and Total Interest",
     description:
       "Discover the hidden costs of long-term loans. See how choosing a shorter tenure increases your EMI but saves you money.",
-    date: "2026-06-23",
+    date: "2026-07-02",
     category: "Tenure & Strategy Guides",
     answerBlock:
       "A longer loan tenure lowers your monthly EMI payment but significantly increases the total amount of interest you will pay over the life of the loan. A shorter tenure increases the monthly EMI but saves you money on total interest.",
@@ -146,7 +146,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p><strong>Cons:</strong> Because you are holding onto the borrowed money for a longer period, the bank charges you interest for a longer time. The total interest paid over a 20-year loan is vastly higher than on a 10-year loan.</p>
 
       <h2>Finding the Sweet Spot</h2>
-      <p>Financial experts generally advise keeping the tenure as short as you can comfortably afford. A good rule of thumb is that your total EMIs (including the new loan) should not exceed 40% of your net monthly income.</p>
+      <p>Financial experts generally advise keeping the tenure as short as you can comfortably afford. A good rule of thumb is that your total EMIs (including the new loan) should not exceed 40% of your net monthly income. For a deeper understanding of the math, check our guide on <a href="/blog/how-to-calculate-emi">how to calculate EMI</a>.</p>
     `,
   },
   {
@@ -323,13 +323,13 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Common EMI Calculation Mistakes and How to Avoid Them",
     description:
       "Avoid these costly errors when planning your loan repayments and calculating your EMI.",
-    date: "2026-06-29",
+    date: "2026-07-02",
     category: "EMI Fundamentals",
     answerBlock:
       "The most common EMI calculation mistake is ignoring processing fees and insurance costs. Borrowers also frequently calculate interest on a flat-rate basis rather than the reducing-balance method, leading to completely inaccurate cost estimations.",
     content: `
       <h2>Why Accuracy Matters</h2>
-      <p>When planning a major purchase like a home or a car, getting your EMI calculation wrong can throw your entire monthly budget into disarray.</p>
+      <p>When planning a major purchase like a home or a car, getting your EMI calculation wrong can throw your entire monthly budget into disarray. Learning <a href="/blog/how-to-calculate-emi">how to calculate EMI</a> properly is the first step to financial security.</p>
 
       <h2>Mistake 1: Ignoring Additional Fees</h2>
       <p>Your EMI only covers the principal and interest. It does not include processing fees, documentation charges, or mandatory property/life insurance premiums. Always ask the lender for the Annual Percentage Rate (APR), which includes these fees, rather than just the interest rate.</p>

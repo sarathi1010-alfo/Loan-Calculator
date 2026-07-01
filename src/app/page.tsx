@@ -84,7 +84,7 @@ export default function Home() {
         </section>
 
         {/* Quick Links Section */}
-        <section className="bg-muted/30 p-8 rounded-xl border">
+        <section id="explore-calculators" className="bg-muted/30 p-8 rounded-xl border scroll-mt-20">
           <h2 className="text-2xl font-bold tracking-tight mb-6">
             Explore Specific Calculators
           </h2>

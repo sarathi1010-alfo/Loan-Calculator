@@ -25,7 +25,8 @@ export const TIER2_PAGES: Tier2Page[] = [
     tenure: 240,
     faqs: [
       { question: "What is a Home Loan EMI?", answer: "A Home Loan EMI is the Equated Monthly Installment you pay towards your mortgage, consisting of principal repayment and interest." },
-      { question: "How to reduce Home Loan EMI?", answer: "You can reduce your EMI by making a larger down payment, negotiating a lower interest rate, or extending the loan tenure (though this increases total interest)." }
+      { question: "How to reduce Home Loan EMI?", answer: "You can reduce your EMI by making a larger down payment, negotiating a lower interest rate, or extending the loan tenure (though this increases total interest)." },
+      { question: "How to use this home loan tool?", answer: "Enter your expected property loan amount, the interest rate offered by the bank, and your preferred tenure. The calculator will instantly show your monthly EMI and total interest cost." }
     ]
   },
   {
@@ -40,7 +41,8 @@ export const TIER2_PAGES: Tier2Page[] = [
     tenure: 60,
     faqs: [
       { question: "What is a Personal Loan EMI?", answer: "A Personal Loan EMI represents the monthly payment required to pay off your unsecured personal loan." },
-      { question: "Should I take a personal loan?", answer: "Only if you can comfortably afford the EMI and it helps consolidate higher-interest debt or fund a necessary expense." }
+      { question: "Should I take a personal loan?", answer: "Only if you can comfortably afford the EMI and it helps consolidate higher-interest debt or fund a necessary expense." },
+      { question: "How accurate is this personal loan calculator?", answer: "It uses the standard reducing-balance formula used by all major banks, ensuring your monthly installment calculation is highly accurate." }
     ]
   },
   {
@@ -55,7 +57,8 @@ export const TIER2_PAGES: Tier2Page[] = [
     tenure: 48,
     faqs: [
       { question: "What is the ideal tenure for a car loan?", answer: "Financial experts recommend keeping car loan tenures to 3-5 years to avoid owing more than the car's depreciated value." },
-      { question: "How does down payment affect car EMI?", answer: "A larger down payment reduces your principal amount, thereby significantly lowering your monthly EMI and total interest." }
+      { question: "How does down payment affect car EMI?", answer: "A larger down payment reduces your principal amount, thereby significantly lowering your monthly EMI and total interest." },
+      { question: "Can I use this for used car loans?", answer: "Yes, simply input the principal amount and the (usually higher) interest rate for a used car loan to find your EMI." }
     ]
   },
   {
@@ -70,7 +73,8 @@ export const TIER2_PAGES: Tier2Page[] = [
     tenure: 120,
     faqs: [
       { question: "When does Education Loan EMI start?", answer: "Typically, education loan EMI starts after a moratorium period (course duration + 6 months or 1 year)." },
-      { question: "Is interest charged during the moratorium?", answer: "Yes, simple interest is usually calculated and accrued during the moratorium period, which is added to the principal when EMI begins." }
+      { question: "Is interest charged during the moratorium?", answer: "Yes, simple interest is usually calculated and accrued during the moratorium period, which is added to the principal when EMI begins." },
+      { question: "How to plan for student loan repayment?", answer: "Use this calculator to see your future EMI burden, then plan your post-graduation budget to ensure you can meet the monthly installments comfortably." }
     ]
   },
 
@@ -87,7 +91,8 @@ export const TIER2_PAGES: Tier2Page[] = [
     tenure: 60,
     faqs: [
       { question: "What is the EMI for a 5 Lakh loan for 5 years?", answer: "At an assumed interest rate of 10%, the EMI for a 5 Lakh loan for 5 years is approximately ₹10,624." },
-      { question: "How much total interest will I pay on 5 Lakhs?", answer: "Total interest depends on the tenure and rate. With a 5-year tenure at 10%, the total interest paid is roughly ₹1,37,411." }
+      { question: "How much total interest will I pay on 5 Lakhs?", answer: "Total interest depends on the tenure and rate. With a 5-year tenure at 10%, the total interest paid is roughly ₹1,37,411." },
+      { question: "Is 5 Lakhs a good personal loan amount?", answer: "It depends on your income and purpose. Ensure your EMI stays below 40% of your net monthly income." }
     ]
   },
   {
@@ -102,7 +107,8 @@ export const TIER2_PAGES: Tier2Page[] = [
     tenure: 84,
     faqs: [
       { question: "What is the EMI for a 10 Lakh loan?", answer: "The EMI varies. For a 7-year (84 months) loan at 9.5%, the EMI is around ₹16,334." },
-      { question: "Is it better to prepay a 10 Lakh loan?", answer: "Yes, prepaying a large loan like ₹10 Lakh early in the tenure can save you a significant amount in total interest." }
+      { question: "Is it better to prepay a 10 Lakh loan?", answer: "Yes, prepaying a large loan like ₹10 Lakh early in the tenure can save you a significant amount in total interest." },
+      { question: "How to calculate 10 Lakh EMI for different years?", answer: "Simply change the tenure slider in our calculator to see how the EMI for 10 Lakhs changes from 1 year up to 30 years." }
     ]
   },
   {
@@ -117,7 +123,8 @@ export const TIER2_PAGES: Tier2Page[] = [
     tenure: 180,
     faqs: [
       { question: "What is the EMI for 20 Lakh home loan?", answer: "For a 15-year tenure at 8.75% interest, the monthly EMI for ₹20 Lakh is approximately ₹19,988." },
-      { question: "How much interest will I pay over 15 years on 20 Lakhs?", answer: "At 8.75% over 15 years, you will pay almost ₹15.97 Lakh in interest alone, making the total repayment nearly ₹35.97 Lakh." }
+      { question: "How much interest will I pay over 15 years on 20 Lakhs?", answer: "At 8.75% over 15 years, you will pay almost ₹15.97 Lakh in interest alone, making the total repayment nearly ₹35.97 Lakh." },
+      { question: "Can I get a 20 Lakh loan for 20 years?", answer: "Yes, most banks offer 20 Lakh home loans for 20 years. This would lower your monthly EMI but increase your total interest paid." }
     ]
   },
 
@@ -134,7 +141,8 @@ export const TIER2_PAGES: Tier2Page[] = [
     tenure: 60, // Default to 5 years for visualization, text will explain comparison
     faqs: [
       { question: "Should I choose a 1-year or 5-year loan?", answer: "Choose a 1-year loan if you want to minimize interest and can afford high EMIs. Choose 5 years if you need lower monthly payments and accept paying more total interest." },
-      { question: "How much interest do I save with a 1-year loan?", answer: "On a ₹1 Lakh loan at 12%, a 1-year loan costs ~₹6,619 in interest, while a 5-year loan costs ~₹33,467. You save over ₹26,000 by paying it off faster." }
+      { question: "How much interest do I save with a 1-year loan?", answer: "On a ₹1 Lakh loan at 12%, a 1-year loan costs ~₹6,619 in interest, while a 5-year loan costs ~₹33,467. You save over ₹26,000 by paying it off faster." },
+      { question: "Which tenure is better for personal loans?", answer: "Most personal loan borrowers choose 3-5 years, but if you have the surplus cash, a 1-year tenure is mathematically superior for interest savings." }
     ]
   }
 ];

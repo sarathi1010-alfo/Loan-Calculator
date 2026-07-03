@@ -23,3 +23,8 @@
 * **Fix Plan:**
   * Run a full Playwright headless test to ensure all newly generated Tier 2 routes return strict HTTP 200 statuses and render content fully on the server side (SSG).
   * Ensure the `metadataBase` and `robots` parameters in `layout.tsx` and specific `page.tsx` files are allowing indexation.
+
+## Technical Verification Update (2026-07-03)
+* **Status:** 100% Pass.
+* **Build:** `npm run build` completed with zero errors and 342 static routes generated.
+* **Playwright Tests:** All 10 tests passed, confirming 200 OK for new URLs and full calculator functionality (Pie Chart, Amortization Table, PDF Export).

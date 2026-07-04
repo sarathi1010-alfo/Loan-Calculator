@@ -3,13 +3,12 @@
 
 ## Identified Coverage Issues & Action Plan
 
-### 1. Discovered - Currently Not Indexed
+### 1. Discovered - Currently Not Indexed (Status: In Progress)
 * **Issue Description:** Google has found these URLs but hasn't crawled them yet, likely due to crawl budget constraints or rapid programmatic generation.
 * **Fix Plan:**
   * Implement the internal linking graph strictly as detailed in `seo-pages.json`.
-  * We have added 2 new internal links from older established blog posts (`what-is-emi-complete-guide` and `common-emi-calculation-mistakes`) pointing to the new Tier 1 authority article (`/blog/how-to-calculate-emi`) to boost crawl priority.
-  * Manually trigger IndexNow API for the affected URLs.
-  * Resubmit the dynamic XML sitemap in GSC.
+  * **Update (2026-07-04):** We have added 2 new internal links from older established blog posts (`what-is-emi-complete-guide` and `common-emi-calculation-mistakes`) pointing to the new Tier 1 authority article (`/blog/how-to-calculate-emi`) to boost crawl priority.
+  * **Update (2026-07-04):** Manually triggered IndexNow API for the affected URLs and resubmitted the dynamic XML sitemap in GSC to prioritize today's batch of 9 new/updated pages.
 
 ### 2. Crawled - Currently Not Indexed
 * **Issue Description:** Google crawled the pages but decided not to index them. This usually indicates thin content, duplicate content, or a lack of internal PageRank.

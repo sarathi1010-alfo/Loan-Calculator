@@ -14,7 +14,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "What is EMI? The Complete Guide to Equated Monthly Installments",
     description:
       "Understand what EMI is, how it works, and why it is crucial for personal finance and loan management.",
-    date: "2026-07-02",
+    date: "2026-07-04",
     category: "EMI Fundamentals",
     answerBlock:
       "EMI (Equated Monthly Installment) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. EMIs are used to pay off both interest and principal each month so that over a specified number of years, the loan is paid off in full.",
@@ -29,7 +29,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Interest Payment:</strong> The remaining portion pays the interest charged on the outstanding loan balance for that month.</li>
       </ul>
       <p>In the early years of a loan (especially long-term loans like home loans), the interest component makes up a large part of the EMI. As you continue to pay off the loan, the interest portion decreases, and the principal portion increases. This process is known as amortization.</p>
-      <p>For more details on the exact math, read our guide on <a href="/blog/how-to-calculate-emi">how to calculate EMI for a loan</a>.</p>
+      <p>For more details on the exact math, read our guide on <a href="/blog/how-to-calculate-emi">how to calculate EMI for a loan</a>. This article breaks down the universal reducing-balance formula and provides practical examples.</p>
     `,
   },
   {
@@ -39,7 +39,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "How to Calculate EMI: Formula, Examples & Step-by-Step Guide",
     description:
       "Learn the exact mathematical formula used by banks to calculate your EMI and how to compute it yourself.",
-    date: "2026-06-29",
+    date: "2026-07-04",
     category: "EMI Fundamentals",
     answerBlock:
       "To calculate EMI for a loan, enter your principal, interest rate, and tenure into a calculator. It applies the reducing-balance formula to instantly show your monthly EMI, total interest, and full amortization schedule.",
@@ -86,24 +86,24 @@ export const BLOG_POSTS: BlogPost[] = [
       <h3>Key Factors Affecting Your EMI</h3>
       <p>Your EMI is not a static number pulled out of thin air; it is highly sensitive to three primary levers. Understanding how these levers interact allows you to construct a loan that perfectly fits your monthly cash flow.</p>
 
-      <h4>1. The Principal Loan Amount (P)</h4>
+      <h3>1. The Principal Loan Amount (P)</h3>
       <p>The principal is directly proportional to your EMI. Simply put, the more money you borrow, the higher your monthly installment will be. This highlights the importance of the down payment. When purchasing a large asset like a home or a car, bringing a substantial down payment reduces the principal amount you need to finance. Even a 10% reduction in your principal loan amount results in a 10% reduction in your monthly EMI, lowering your financial stress significantly.</p>
 
-      <h4>2. The Rate of Interest (R)</h4>
+      <h3>2. The Rate of Interest (R)</h3>
       <p>The interest rate is the cost of borrowing. A higher interest rate inflates both your monthly EMI and the total overall cost of the loan. Interest rates are determined by macroeconomic factors (like the central bank's repo rate), the type of loan (secured loans like mortgages have lower rates than unsecured personal loans), and your personal credit score. Maintaining an excellent credit score is the single most effective way to secure a lower interest rate, potentially saving you lakhs of rupees over a multi-decade home loan.</p>
 
-      <h4>3. The Loan Tenure (N)</h4>
+      <h3>3. The Loan Tenure (N)</h3>
       <p>The tenure is the duration over which you choose to repay the loan, and it has an inverse relationship with your EMI. If you increase the tenure (say, from 15 years to 20 years on a home loan), your monthly EMI will decrease, making the loan feel more "affordable" on a month-to-month basis. However, this is a financial trap known as the Tenure Illusion.</p>
       <p>While a longer tenure shrinks the monthly payment, it drastically extends the time during which interest is accumulating. Consequently, the total amount of interest you pay to the bank skyrockets. Conversely, choosing a shorter tenure increases your monthly EMI but massacres the total interest cost, building your wealth much faster.</p>
 
       <h3>Reducing Balance vs. Flat Rate Calculation Methods</h3>
       <p>A critical piece of financial literacy is recognizing that not all interest is calculated the same way. The two dominant paradigms in consumer lending are the Reducing Balance Method and the Flat Rate Method.</p>
 
-      <h4>The Reducing Balance Method (Amortization)</h4>
+      <h3>The Reducing Balance Method (Amortization)</h3>
       <p>This is the standard method used for almost all home loans, modern personal loans, and credit card debt. Under this method, the interest you owe each month is calculated <em>only on the outstanding principal balance</em> at the beginning of that specific month.</p>
       <p>Because every EMI payment you make chips away at the principal, the principal balance shrinks slightly month over month. Therefore, the interest component of your EMI also shrinks month over month. In the early years of a 20-year mortgage, up to 80% of your EMI might go towards interest. But by year 15, the vast majority of your EMI is paying down the principal. This shifting ratio is visually represented in an Amortization Schedule.</p>
 
-      <h4>The Flat Rate Method (Simple Interest)</h4>
+      <h3>The Flat Rate Method (Simple Interest)</h3>
       <p>The Flat Rate method is notoriously deceptive and is often used by predatory lenders, two-wheeler financiers, and in microfinance. Under this method, the interest is calculated on the original, full principal amount for the entire duration of the loan, regardless of the fact that you are paying down the balance every month.</p>
       <p>If you borrow ₹1,00,000 at a 10% flat rate for 5 years, the interest is simply 10% of 1,00,000 (which is 10,000) multiplied by 5 years, totaling ₹50,000 in interest. Your EMI is (1,00,000 + 50,000) / 60 months = ₹2,500.</p>
       <p>While this sounds straightforward, it is vastly more expensive. A 10% Flat Rate is mathematically equivalent to an effective Annual Percentage Rate (APR) of nearly 18% on a reducing balance basis. Always insist on knowing if the loan is reducing balance or flat rate.</p>
@@ -323,7 +323,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Common EMI Calculation Mistakes and How to Avoid Them",
     description:
       "Avoid these costly errors when planning your loan repayments and calculating your EMI.",
-    date: "2026-07-02",
+    date: "2026-07-04",
     category: "EMI Fundamentals",
     answerBlock:
       "The most common EMI calculation mistake is ignoring processing fees and insurance costs. Borrowers also frequently calculate interest on a flat-rate basis rather than the reducing-balance method, leading to completely inaccurate cost estimations.",
@@ -339,6 +339,8 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Mistake 3: Forgetting About Prepayment Penalties</h2>
       <p>If you plan to pay off the loan early, you must factor in prepayment penalties. Calculating your EMI savings from prepayments without accounting for a 2-5% penalty fee will yield incorrect results.</p>
+
+      <p>For a detailed breakdown of the math, refer to our comprehensive guide on <a href="/blog/how-to-calculate-emi">how to calculate EMI for a loan</a>.</p>
     `,
   },
   {

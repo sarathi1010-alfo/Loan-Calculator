@@ -5,11 +5,12 @@
 
 ### 1. Discovered - Currently Not Indexed
 * **Issue Description:** Google has found these URLs but hasn't crawled them yet, likely due to crawl budget constraints or rapid programmatic generation.
-* **Fix Plan:**
+* **Fix Plan:** (Updated 2026-07-07)
   * Implement the internal linking graph strictly as detailed in `seo-pages.json`.
-  * We have added 2 new internal links from older established blog posts (`what-is-emi-complete-guide` and `common-emi-calculation-mistakes`) pointing to the new Tier 1 authority article (`/blog/how-to-calculate-emi`) to boost crawl priority.
-  * Manually trigger IndexNow API for the affected URLs.
-  * Resubmit the dynamic XML sitemap in GSC.
+  * Added 2 internal links from established blog posts (`/blog/what-is-emi-complete-guide` and `/blog/common-emi-calculation-mistakes`) pointing to the new Tier 1 authority article (`/blog/how-to-calculate-emi`) to boost crawl priority.
+  * Updated 'lastModified' dates for these articles to 2026-07-07.
+  * Manually triggered IndexNow API/Sitemap Ping via `scripts/submit-sitemap.ts`.
+  * Verified 200 OK status for all new URLs via Playwright headless tests.
 
 ### 2. Crawled - Currently Not Indexed
 * **Issue Description:** Google crawled the pages but decided not to index them. This usually indicates thin content, duplicate content, or a lack of internal PageRank.

@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const siteConfig = {
-  name: "LoanCalculatorHub",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://loancalculatorhub.com",
+  name: "EMICalculatorPro",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://emicalculatorpro.alfo.online",
   description:
     "Instantly calculate EMIs, compare loans, and plan smarter repayments.",
 };

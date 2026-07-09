@@ -5,7 +5,7 @@ import path from "path";
 // For the scope of this repository (frontend focus without backend secrets),
 // we are mocking the submission logic, which can later be attached to a CI/CD pipeline.
 
-const SITE_URL = "https://loancalculatorhub.com";
+const SITE_URL = "https://emicalculatorpro.alfo.online";
 
 async function submitSitemap() {
   console.log("--- Google Search Console API Submission System ---");

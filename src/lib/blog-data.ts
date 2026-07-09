@@ -153,7 +153,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "What is an Amortization Schedule? Complete Guide",
     description:
       "Learn how to read an amortization schedule to understand exactly where your EMI payments are going.",
-    date: "2026-06-22",
+    date: "2026-07-08",
     category: "Amortization & Visual Breakdowns",
     answerBlock:
       "An amortization schedule is a detailed table showing each periodic loan payment, broken down into the amount applied to the principal balance and the amount paid in interest, until the loan is fully paid off.",
@@ -170,7 +170,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Principal Paid:</strong> How much of your EMI went toward reducing your actual debt. (Calculated as Total EMI - Interest Paid).</li>
         <li><strong>Ending Balance:</strong> What you owe after the payment is made. (Calculated as Beginning Balance - Principal Paid).</li>
       </ul>
-      <p>In the early years of a home loan, you will notice that the "Interest Paid" column is much larger than the "Principal Paid" column. This flips toward the end of the loan.</p>
+      <p>In the early years of a home loan, you will notice that the "Interest Paid" column is much larger than the "Principal Paid" column. This flips toward the end of the loan. For more on the math behind these numbers, see our guide on <a href="/blog/how-to-calculate-emi">how to calculate EMI for a loan</a>.</p>
     `,
   },
   {
@@ -178,7 +178,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Fixed vs Floating Interest Rates: Which is Better for Your EMI?",
     description:
       "Compare fixed and floating interest rates to determine which loan option is best for your financial situation.",
-    date: "2026-06-21",
+    date: "2026-07-08",
     category: "EMI Fundamentals",
     answerBlock:
       "A fixed interest rate remains constant throughout the loan tenure, ensuring your EMI never changes. A floating rate changes based on market conditions, meaning your EMI or loan tenure may increase or decrease over time.",
@@ -190,7 +190,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>With a fixed rate, the bank guarantees that your interest percentage will not change for the duration of the loan (or a specified fixed period). This means your EMI is locked in, providing certainty for your monthly budget. However, fixed rates are usually slightly higher than floating rates at the time of borrowing.</p>
 
       <h2>Floating (Variable) Interest Rate</h2>
-      <p>Floating rates are tied to a benchmark rate (like the repo rate set by the central bank). If the benchmark rate goes up, your interest rate increases. The bank will either increase your monthly EMI or extend your loan tenure. If the rate goes down, you save money. These loans often don't have prepayment penalties.</p>
+      <p>Floating rates are tied to a benchmark rate (like the repo rate set by the central bank). If the benchmark rate goes up, your interest rate increases. The bank will either increase your monthly EMI or extend your loan tenure. If the rate goes down, you save money. These loans often don't have prepayment penalties. Understanding these rates is easier if you know <a href="/blog/how-to-calculate-emi">how to calculate EMI for a loan</a>.</p>
     `,
   },
   {
@@ -334,7 +334,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Your EMI only covers the principal and interest. It does not include processing fees, documentation charges, or mandatory property/life insurance premiums. Always ask the lender for the Annual Percentage Rate (APR), which includes these fees, rather than just the interest rate.</p>
 
       <h2>Mistake 2: Misunderstanding the Interest Calculation Method</h2>
-      <p>Never calculate interest by simply multiplying the loan amount by the interest rate and tenure. Banks use a reducing balance method. Use an accurate EMI calculator to get the real numbers, or learn <a href="/blog/how-to-calculate-emi">how to calculate EMI</a> manually.</p>
+      <p>Never calculate interest by simply multiplying the loan amount by the interest rate and tenure. Banks use a reducing balance method. Use an accurate EMI calculator to get the real numbers, or learn <a href="/blog/how-to-calculate-emi">how to calculate EMI for a loan</a> manually.</p>
 
       <h2>Mistake 3: Forgetting About Prepayment Penalties</h2>
       <p>If you plan to pay off the loan early, you must factor in prepayment penalties. Calculating your EMI savings from prepayments without accounting for a 2-5% penalty fee will yield incorrect results.</p>

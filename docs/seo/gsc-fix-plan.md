@@ -8,7 +8,7 @@
 * **Fix Plan:** (Updated 2026-07-08)
   * **Status: Resolved.**
   * Implemented the internal linking graph strictly as detailed in `seo-pages.json`.
-  * Verified/Updated internal links from established blog posts (`/blog/what-is-emi-complete-guide` and `/blog/common-emi-calculation-mistakes`) pointing to the new Tier 1 authority article (`/blog/how-to-calculate-emi`) to boost crawl priority.
+  * Verified/Updated internal links from established blog posts (`/blog/what-is-emi-complete-guide`, `/blog/common-emi-calculation-mistakes`, `/blog/what-is-amortization-schedule`, and `/blog/fixed-vs-floating-interest-rates`) pointing to the new Tier 1 authority article (`/blog/how-to-calculate-emi`) to boost crawl priority.
   * Refreshed 'lastModified' dates for these articles to 2026-07-08 in `src/lib/blog-data.ts`.
   * Triggered IndexNow API/Sitemap Ping simulation via `scripts/submit-sitemap.ts`.
   * Verified 200 OK status for all new URLs via technical verification suite.

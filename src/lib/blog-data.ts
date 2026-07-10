@@ -14,7 +14,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "What is EMI? The Complete Guide to Equated Monthly Installments",
     description:
       "Understand what EMI is, how it works, and why it is crucial for personal finance and loan management.",
-    date: "2026-07-08",
+    date: "2026-07-10",
     category: "EMI Fundamentals",
     answerBlock:
       "EMI (Equated Monthly Installment) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. EMIs are used to pay off both interest and principal each month so that over a specified number of years, the loan is paid off in full.",
@@ -37,7 +37,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "How to Calculate EMI: Formula, Examples & Step-by-Step Guide",
     description:
       "Learn the exact mathematical formula used by banks to calculate your EMI and how to compute it yourself.",
-    date: "2026-07-08",
+    date: "2026-07-10",
     category: "EMI Fundamentals",
     answerBlock:
       "To calculate EMI for a loan, enter your principal, interest rate, and tenure into a calculator. It applies the reducing-balance formula to instantly show your monthly EMI, total interest, and full amortization schedule.",
@@ -322,7 +322,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Common EMI Calculation Mistakes and How to Avoid Them",
     description:
       "Avoid these costly errors when planning your loan repayments and calculating your EMI.",
-    date: "2026-07-08",
+    date: "2026-07-10",
     category: "EMI Fundamentals",
     answerBlock:
       "The most common EMI calculation mistake is ignoring processing fees and insurance costs. Borrowers also frequently calculate interest on a flat-rate basis rather than the reducing-balance method, leading to completely inaccurate cost estimations.",

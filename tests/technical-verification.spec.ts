@@ -8,13 +8,23 @@ test.describe('Technical Verification', () => {
     await page.goto(baseUrl);
   });
 
-  test('New Tier 1 URL returns 200 OK', async ({ page }) => {
+  test('Tier 1 Article returns 200 OK and has valid Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/how-to-calculate-emi`);
     expect(response?.status()).toBe(200);
     await expect(page.locator('h1')).toContainText('How to Calculate EMI');
+
+    // Validate Article Schema
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+    expect(articleSchema['@type']).toBe('Article');
+    expect(articleSchema.headline).toBe('How to Calculate EMI: Formula, Examples & Step-by-Step Guide');
   });
 
-  test('Tier 2 programmatic URLs return 200 OK', async ({ page }) => {
+  test('Tier 2 programmatic URLs return 200 OK and have FAQ Schema', async ({ page }) => {
     const slugs = [
       '/loan-types/home-loan-emi-calculator',
       '/loan-types/personal-loan-emi-calculator',
@@ -29,6 +39,16 @@ test.describe('Technical Verification', () => {
     for (const slug of slugs) {
       const response = await page.goto(`${baseUrl}${slug}`);
       expect(response?.status()).toBe(200);
+
+      // Validate FAQ Schema
+      const faqSchema = await page.evaluate(() => {
+        const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+          .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+        return script ? JSON.parse(script.textContent || '{}') : null;
+      });
+      expect(faqSchema).not.toBeNull();
+      expect(faqSchema['@type']).toBe('FAQPage');
+      expect(faqSchema.mainEntity.length).toBeGreaterThan(0);
     }
   });
 
@@ -36,7 +56,6 @@ test.describe('Technical Verification', () => {
     await page.goto(baseUrl);
 
     // Result for defaults (₹5L, 8.5%, 20y) is ₹4,339
-    // Selecting the one in the summary card to avoid strict mode violation
     const emiResult = page.locator('div').filter({ hasText: /^₹4,339$/ }).first();
     await expect(emiResult).toBeVisible();
   });
@@ -62,10 +81,6 @@ test.describe('Technical Verification', () => {
     await page.goto(baseUrl);
     const exportButton = page.getByRole('button', { name: /PDF/i });
     await expect(exportButton).toBeVisible();
-
-    // We expect NO critical failures in export.
-    // The 'lab' color warning seems to be a non-fatal warning from html2canvas/jspdf
-    // in some environments, but let's see if the PDF actually triggers.
     await exportButton.click();
     await page.waitForTimeout(2000);
   });

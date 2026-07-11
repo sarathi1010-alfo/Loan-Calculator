@@ -1,4 +1,4 @@
-# Social Media Distribution Posts - EMI Calculator Pro
+# Social Media Distribution Posts - EMI Calculator Pro (Published 2026-07-11)
 
 ## Twitter/X Posts
 

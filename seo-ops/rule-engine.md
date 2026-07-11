@@ -10,8 +10,7 @@ Runtime target: 60–120 min. Where real authority pages get made.
 DOMAIN    = <same URL used in bootstrap>
 LOG_DIR   = /seo-ops
 ```
-- Load `{LOG_DIR}/site-profile.json` and `{LOG_DIR}/rule-engine.md`. Missing either →
-  STOP, run the bootstrap first.
+- Load `{LOG_DIR}/site-profile.json`, `{LOG_DIR}/rule-engine.md`, and `docs/seo/7.1-weekly-content-engine.md`. Missing any → STOP, run the bootstrap first.
 - Use `site-profile.json` fields directly: `pillars[]`, `tone`, `primary_entity`,
   `min_word_count_guide`, `min_word_count_article`. Don't ask for these — they're
   discovered, not typed.
@@ -35,6 +34,7 @@ LOG_DIR   = /seo-ops
   something original about.
 
 ### 2. Write — per page
+- Follow templates in `docs/seo/7.1-weekly-content-engine.md` based on page type.
 - H1 = entity/question. Every H2 = a real user question, answered in 40–60 words
   directly beneath it, then expanded with depth.
 - Include at least one original data point, first-hand benchmark, attributed expert

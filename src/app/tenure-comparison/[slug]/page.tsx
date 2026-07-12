@@ -72,6 +72,13 @@ export default async function TenureComparisonPage(props: {
         initialTenure={pageData.tenure}
       />
 
+      {pageData.content && (
+        <div
+          className="mt-16 prose prose-slate dark:prose-invert prose-lg max-w-none"
+          dangerouslySetInnerHTML={{ __html: pageData.content }}
+        />
+      )}
+
       <div className="mt-24 space-y-12">
         <section>
           <h2 className="text-2xl font-bold tracking-tight mb-4">

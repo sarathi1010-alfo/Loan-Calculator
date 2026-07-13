@@ -14,7 +14,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "What is EMI? The Complete Guide to Equated Monthly Installments",
     description:
       "Understand what EMI is, how it works, and why it is crucial for personal finance and loan management.",
-    date: "2026-07-12",
+    date: "2026-07-13",
     category: "EMI Fundamentals",
     answerBlock:
       "EMI (Equated Monthly Installment) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. EMIs are used to pay off both interest and principal each month so that over a specified number of years, the loan is paid off in full.",
@@ -37,14 +37,11 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "How to Calculate EMI: Formula, Examples & Step-by-Step Guide",
     description:
       "Learn the exact mathematical formula used by banks to calculate your EMI and how to compute it yourself.",
-    date: "2026-07-12",
+    date: "2026-07-13",
     category: "EMI Fundamentals",
     answerBlock:
       "To calculate EMI for a loan, enter your principal, interest rate, and tenure into a calculator. It applies the reducing-balance formula to instantly show your monthly EMI, total interest, and full amortization schedule.",
     content: `
-      <h2>How to calculate EMI for a loan?</h2>
-      <p><strong>To calculate EMI for a loan, enter your principal, interest rate, and tenure into a calculator. It applies the reducing-balance formula to instantly show your monthly EMI, total interest, and full amortization schedule.</strong></p>
-
       <p>Calculating the Equated Monthly Installment (EMI) for your loan is one of the most fundamental steps in responsible financial planning. Whether you are taking out a mortgage for your dream home, financing a new car, or securing a personal loan, understanding exactly how your monthly payment is calculated empowers you to make informed decisions. It transforms you from a passive borrower into an active manager of your financial future.</p>
 
       <p>When you borrow money from a bank or NBFC, you are essentially renting their money. The "rent" you pay is the interest. However, unlike renting a house where you only pay for usage, a loan requires you to pay back the interest alongside a portion of the actual principal every single month. This combined monthly payment is your EMI.</p>
@@ -138,7 +135,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "How Loan Tenure Affects Your EMI and Total Interest",
     description:
       "Discover the hidden costs of long-term loans. See how choosing a shorter tenure increases your EMI but saves you money.",
-    date: "2026-07-02",
+    date: "2026-07-13",
     category: "Tenure & Strategy Guides",
     answerBlock:
       "A longer loan tenure lowers your monthly EMI payment but significantly increases the total amount of interest you will pay over the life of the loan. A shorter tenure increases the monthly EMI but saves you money on total interest.",
@@ -159,7 +156,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "What is an Amortization Schedule? Complete Guide",
     description:
       "Learn how to read an amortization schedule to understand exactly where your EMI payments are going.",
-    date: "2026-07-10",
+    date: "2026-07-13",
     category: "Amortization & Visual Breakdowns",
     answerBlock:
       "An amortization schedule is a detailed table showing each periodic loan payment, broken down into the amount applied to the principal balance and the amount paid in interest, until the loan is fully paid off.",
@@ -184,7 +181,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Fixed vs Floating Interest Rates: Which is Better for Your EMI?",
     description:
       "Compare fixed and floating interest rates to determine which loan option is best for your financial situation.",
-    date: "2026-07-08",
+    date: "2026-07-13",
     category: "EMI Fundamentals",
     answerBlock:
       "A fixed interest rate remains constant throughout the loan tenure, ensuring your EMI never changes. A floating rate changes based on market conditions, meaning your EMI or loan tenure may increase or decrease over time.",
@@ -204,7 +201,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "EMI and Your Credit Score: What You Need to Know",
     description:
       "Learn how your EMI payments directly impact your credit score and how to build a strong credit history.",
-    date: "2026-06-20",
+    date: "2026-07-13",
     category: "EMI Fundamentals",
     answerBlock:
       "Consistently paying your EMI on time is the single most important factor in building a high credit score. Missing an EMI payment will drastically lower your score and make future borrowing more expensive.",
@@ -224,7 +221,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "How to Prepay Your Loan to Save Money on Interest",
     description:
       "Discover strategies for making partial prepayments on your loan to dramatically reduce your total interest and shorten your tenure.",
-    date: "2026-06-19",
+    date: "2026-07-13",
     category: "Tenure & Strategy Guides",
     answerBlock:
       "Making partial prepayments directly reduces your outstanding principal balance. Since interest is calculated on the remaining principal, even small extra payments early in the loan can save you thousands in interest and shave years off your tenure.",
@@ -245,7 +242,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "How to Manage Multiple EMIs: A Debt Consolidation Guide",
     description:
       "Learn how to simplify your finances and potentially lower your interest rates by consolidating multiple loans into one.",
-    date: "2026-06-18",
+    date: "2026-07-13",
     category: "Financial Planning & Budgeting",
     answerBlock:
       "Debt consolidation involves taking out a new, single loan (usually a personal loan) with a lower interest rate to pay off multiple existing high-interest debts, such as credit cards. This leaves you with just one, easier-to-manage monthly EMI.",
@@ -265,7 +262,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Financial Planning for Major Loans: Home, Car, and Education",
     description:
       "A comprehensive guide on how to prepare your finances before taking on a major long-term loan.",
-    date: "2026-06-17",
+    date: "2026-07-13",
     category: "Financial Planning & Budgeting",
     answerBlock:
       "Before taking a major loan, ensure your total monthly EMI obligations (including the new loan) do not exceed 40-50% of your net monthly income. Also, build a 6-month emergency fund to cover your EMIs in case of job loss.",
@@ -285,7 +282,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Amortization vs Simple Interest: Key Differences Explained",
     description:
       "Understand the mathematical difference between simple interest and the amortized reducing balance method used by most banks.",
-    date: "2026-06-16",
+    date: "2026-07-13",
     category: "Amortization & Visual Breakdowns",
     answerBlock:
       "Simple interest is calculated once on the original principal for the entire loan duration. Amortized (reducing balance) interest is calculated monthly only on the remaining principal balance, meaning the interest charged decreases as you pay off the loan.",
@@ -305,7 +302,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "How to Choose the Right Loan Tenure: A Complete Guide",
     description:
       "Learn how to balance your monthly EMI affordability against the total interest paid to find the perfect loan tenure.",
-    date: "2026-06-25",
+    date: "2026-07-13",
     category: "Tenure & Strategy Guides",
     answerBlock:
       "The best loan tenure balances affordability and interest costs. A shorter tenure means a higher monthly EMI but drastically lower total interest paid. A longer tenure reduces your monthly EMI burden but significantly increases the total interest you will pay to the bank.",
@@ -320,7 +317,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>A longer tenure spreads the repayment over more months, resulting in a smaller EMI. This leaves you with more disposable income each month for living expenses or investments. The massive downside is the total interest paid—on a 30-year home loan, you might pay more in interest than the actual principal borrowed.</p>
 
       <h2>How to Decide</h2>
-      <p>Calculate the maximum EMI you can comfortably afford (it should not push your total debt obligations past 40-50% of your income). Then, use our EMI calculator to find the shortest tenure that matches that EMI.</p>
+      <p>Calculate the maximum EMI you can comfortably afford (it should not push your total debt obligations past 40-50% of your income). Then, use our <a href="/">EMI calculator</a> to find the shortest tenure that matches that EMI. For a deep dive into the math, see our guide on <a href="/blog/how-to-calculate-emi">how to calculate EMI for a loan</a>.</p>
     `,
   },
   {
@@ -328,7 +325,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Common EMI Calculation Mistakes and How to Avoid Them",
     description:
       "Avoid these costly errors when planning your loan repayments and calculating your EMI.",
-    date: "2026-07-12",
+    date: "2026-07-13",
     category: "EMI Fundamentals",
     answerBlock:
       "The most common EMI calculation mistake is ignoring processing fees and insurance costs. Borrowers also frequently calculate interest on a flat-rate basis rather than the reducing-balance method, leading to completely inaccurate cost estimations.",
@@ -351,13 +348,13 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "EMI Affordability: How Much EMI Can You Actually Afford?",
     description:
       "Learn how to calculate your safe EMI limit using the Debt-to-Income ratio to ensure financial stability.",
-    date: "2026-06-23",
+    date: "2026-07-13",
     category: "Tenure & Strategy Guides",
     answerBlock:
       "Financial experts recommend the 40-50% rule: Your total monthly debt payments (including the new EMI) should never exceed 40% to 50% of your net (take-home) monthly income. Exceeding this limit leads to high financial stress.",
     content: `
       <h2>The Affordability Question</h2>
-      <p>Just because a bank is willing to approve you for a massive loan doesn't mean you can actually afford it. Banks calculate risk based on their models, not your lifestyle.</p>
+      <p>Just because a bank is willing to approve you for a massive loan doesn't mean you can actually afford it. Banks calculate risk based on their models, not your lifestyle. Before committing, it is vital to know <a href="/blog/how-to-calculate-emi">how to calculate EMI</a> accurately to see the true impact on your budget.</p>
 
       <h2>Understanding Debt-to-Income (DTI)</h2>
       <p>Your DTI is the percentage of your gross monthly income that goes toward paying debts. To calculate your safe EMI limit, first calculate your total current monthly debt obligations (credit cards, personal loans). Subtract this from 40% of your net income. The remaining amount is the maximum new EMI you should take on.</p>
@@ -371,13 +368,13 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Financial Literacy: A Beginner's Guide to Understanding Loans",
     description:
       "Master the basic terminology and concepts behind borrowing money, interest rates, and loan repayments.",
-    date: "2026-06-22",
+    date: "2026-07-13",
     category: "Educational Resources",
     answerBlock:
       "A loan is an agreement where you borrow a principal amount and repay it with interest over a specific tenure. Understanding terms like EMI, Amortization, Fixed vs. Floating Rates, and Secured vs. Unsecured loans is critical before borrowing.",
     content: `
       <h2>The Basics of Borrowing</h2>
-      <p>Borrowing money is a tool. Like any tool, it can build your future or cause severe damage depending on how you use it. Financial literacy starts with understanding the basic mechanics of a loan.</p>
+      <p>Borrowing money is a tool. Like any tool, it can build your future or cause severe damage depending on how you use it. Financial literacy starts with understanding the basic mechanics of a loan, including <a href="/blog/how-to-calculate-emi">how to calculate EMI</a> for any loan you consider.</p>
 
       <h2>Key Terminology Explained</h2>
       <ul>

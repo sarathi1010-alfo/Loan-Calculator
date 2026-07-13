@@ -5,21 +5,22 @@
 
 ### 1. Discovered - Currently Not Indexed
 * **Issue Description:** Google has found these URLs but hasn't crawled them yet, likely due to crawl budget constraints or rapid programmatic generation.
-* **Fix Plan:** (Updated 2026-07-12)
+* **Fix Plan:** (Updated 2026-07-13)
   * **Status: Resolved.**
   * Implemented the internal linking graph strictly as detailed in `seo-pages.json`.
-  * Verified/Updated internal links from established blog posts (`/blog/what-is-emi-complete-guide` and `/blog/common-emi-calculation-mistakes`) pointing to the new Tier 1 authority article (`/blog/how-to-calculate-emi`) to boost crawl priority.
-  * Refreshed 'lastModified' dates for these articles to 2026-07-12 in `src/lib/blog-data.ts`.
+  * Verified/Updated internal links from established blog posts (`/blog/what-is-emi-complete-guide`, `/blog/common-emi-calculation-mistakes`, `/blog/how-to-choose-the-right-loan-tenure`, `/blog/emi-affordability`, and `/blog/financial-literacy-understanding-loans`) pointing to the new Tier 1 authority article (`/blog/how-to-calculate-emi`) to boost crawl priority.
+  * Refreshed 'lastModified' dates for all blog and Tier 2 articles to 2026-07-13 in `src/lib/blog-data.ts` and `src/lib/tier2-data.ts`.
   * Triggered IndexNow API/Sitemap Ping simulation via `scripts/submit-sitemap.ts` and `scripts/ping-search-engines.ts`.
-  * Verified 200 OK status for all 9 new URLs via technical verification suite on 2026-07-12.
+  * Verified 200 OK status for all new and updated URLs via technical verification suite on 2026-07-13.
 
 ### 2. Crawled - Currently Not Indexed
 * **Issue Description:** Google crawled the pages but decided not to index them. This usually indicates thin content, duplicate content, or a lack of internal PageRank.
-* **Fix Plan:** (Updated 2026-07-08)
+* **Fix Plan:** (Updated 2026-07-13)
   * **Status: In Progress (Monitoring).**
   * The programmatic pages now include comprehensive FAQ schemas and robust unique intro texts.
   * All programmatic pages dynamically render the `SeoCalculator` and enforce strict H1 uniqueness.
-  * Tier 1 content has been refined to ~1,350 words to provide high-quality authority signals.
+  * Tier 1 content has been refined to ~1,500 words to provide high-quality authority signals.
+  * Internal linking has been bolstered to distribute PageRank more effectively to newer pages.
   * Will monitor this status over the next 2 weeks.
 
 ### 3. Soft 404s / Excluded by 'noindex' Tag

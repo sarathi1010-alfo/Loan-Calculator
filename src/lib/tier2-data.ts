@@ -25,7 +25,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 5000000,
     interestRate: 8.5,
     tenure: 240,
-    date: "2026-07-14",
+    date: "2026-07-15",
     content: `
       <h2>The Complete Guide to Home Loan EMIs in 2026</h2>
       <p>Buying a home is one of the most significant financial milestones in an individual's life. However, it usually involves a long-term commitment in the form of a home loan. Understanding your Home Loan EMI (Equated Monthly Installment) is the first step toward stress-free homeownership.</p>
@@ -61,7 +61,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 500000,
     interestRate: 11.5,
     tenure: 60,
-    date: "2026-07-14",
+    date: "2026-07-15",
     content: `
       <h2>Personal Loan EMI Planning in 2026</h2>
       <p>Personal loans are a versatile financial tool that can help you manage unexpected expenses, consolidate high-interest debt, or fund major life events. Unlike home or car loans, personal loans are typically unsecured, meaning they don't require collateral.</p>
@@ -90,7 +90,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 800000,
     interestRate: 9.0,
     tenure: 48,
-    date: "2026-07-14",
+    date: "2026-07-15",
     content: `
       <h2>Car Loan EMI Calculator: Plan Your Auto Finance</h2>
       <p>Driving your own car is a dream for many, and auto loans make it accessible. However, because cars are depreciating assets, planning your repayment strategy is vital to avoid "upside-down" loans where you owe more than the car is worth.</p>
@@ -116,7 +116,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 2000000,
     interestRate: 10.5,
     tenure: 120,
-    date: "2026-07-14",
+    date: "2026-07-15",
     content: `
       <h2>Education Loan EMI: Investing in Your Future</h2>
       <p>Education loans are an investment in human capital. They often come with unique features like moratorium periods, where you don't have to pay the EMI during your course duration plus a grace period.</p>
@@ -144,7 +144,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 500000,
     interestRate: 10.0,
     tenure: 60,
-    date: "2026-07-14",
+    date: "2026-07-15",
     content: `
       <h2>EMI Analysis for a ₹5 Lakh Loan</h2>
       <p>A ₹5 Lakh loan is a common requirement for various needs like small business expansion, high-end consumer durables, or emergency medical bills. Understanding the monthly commitment for this specific amount is crucial for cash flow management.</p>
@@ -167,7 +167,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 1000000,
     interestRate: 9.5,
     tenure: 84,
-    date: "2026-07-14",
+    date: "2026-07-15",
     content: `
       <h2>Optimizing Repayment for a ₹10 Lakh Loan</h2>
       <p>Borrowing ₹10 Lakh represents a significant financial step. Whether it's for a major home renovation or a wedding, the interest component on a million-rupee loan can be substantial if not managed correctly.</p>
@@ -190,7 +190,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 2000000,
     interestRate: 8.75,
     tenure: 180,
-    date: "2026-07-14",
+    date: "2026-07-15",
     content: `
       <h2>Financial Strategy for a ₹20 Lakh Loan</h2>
       <p>A ₹20 Lakh loan is often the entry point for property purchases or significant business investments. At this scale, even a 0.25% change in the interest rate can result in savings of nearly a lakh over a 15-year period.</p>
@@ -215,7 +215,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 100000,
     interestRate: 12.0,
     tenure: 60, // Default to 5 years for visualization, text will explain comparison
-    date: "2026-07-14",
+    date: "2026-07-15",
     content: `
       <h2>EMI Comparison: 1 Year vs 5 Year Tenure</h2>
       <p>One of the most common dilemmas borrowers face is choosing between a short tenure with high EMIs and a long tenure with low EMIs. Let's compare a ₹1 Lakh loan at 12% interest to see the real-world impact.</p>

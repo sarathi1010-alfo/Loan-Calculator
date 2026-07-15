@@ -143,31 +143,36 @@ export default async function BlogPostPage(props: {
         </p>
       </header>
 
-      {/* AEO Answer Block */}
-      <div className="bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg mb-10">
-        <h2 className="text-sm font-bold uppercase tracking-wider text-primary mb-2 flex items-center gap-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
-          </svg>
-          Quick Answer
-        </h2>
-        <p className="text-lg font-medium">{post.answerBlock}</p>
-      </div>
+      {(() => {
+        const answerBlockHtml = `
+          <div class="not-prose bg-muted/50 border-l-4 border-primary p-6 rounded-r-lg my-10">
+            <h2 class="text-sm font-bold uppercase tracking-wider text-primary mb-2 flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path></svg>
+              Quick Answer
+            </h2>
+            <p class="text-lg font-medium text-foreground">${post.answerBlock}</p>
+          </div>
+        `;
 
-      <div
-        className="prose prose-slate dark:prose-invert prose-lg max-w-none"
-        dangerouslySetInnerHTML={{ __html: post.content }}
-      />
+        // Programmatically insert the answer block after the first H2 tag
+        const h2Index = post.content.indexOf("</h2>");
+        let finalContent = post.content;
+
+        if (h2Index !== -1) {
+          const insertPosition = h2Index + 5; // After </h2>
+          finalContent =
+            post.content.slice(0, insertPosition) +
+            answerBlockHtml +
+            post.content.slice(insertPosition);
+        }
+
+        return (
+          <div
+            className="prose prose-slate dark:prose-invert prose-lg max-w-none"
+            dangerouslySetInnerHTML={{ __html: finalContent }}
+          />
+        );
+      })()}
 
       <div className="mt-16 bg-card border rounded-lg p-8 text-center">
         <h3 className="text-2xl font-bold mb-4">

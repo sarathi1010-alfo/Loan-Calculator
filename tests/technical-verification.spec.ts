@@ -24,6 +24,22 @@ test.describe('Technical Verification', () => {
     expect(articleSchema.headline).toBe('How to Calculate EMI: Formula, Examples & Step-by-Step Guide');
   });
 
+
+  test('New Tier 1 Article returns 200 OK and has valid Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/prepayment-strategies-guide`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toContainText('Prepayment Strategies');
+
+    // Validate Article Schema
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+    expect(articleSchema['@type']).toBe('Article');
+  });
+
   test('Tier 2 programmatic URLs return 200 OK and have FAQ Schema', async ({ page }) => {
     const slugs = [
       '/loan-types/home-loan-emi-calculator',
@@ -33,7 +49,15 @@ test.describe('Technical Verification', () => {
       '/scenarios/emi-calculator-5-lakh',
       '/scenarios/emi-calculator-10-lakh',
       '/scenarios/emi-calculator-20-lakh',
-      '/tenure-comparison/emi-1-year-vs-5-years'
+      '/tenure-comparison/emi-1-year-vs-5-years',
+      '/loan-types/business-loan-emi-calculator',
+      '/loan-types/gold-loan-emi-calculator',
+      '/loan-types/loan-against-property-emi-calculator',
+      '/scenarios/emi-calculator-50-lakh',
+      '/scenarios/emi-calculator-30-lakh',
+      '/scenarios/emi-calculator-1-crore',
+      '/tenure-comparison/emi-10-years-vs-20-years',
+      '/tenure-comparison/emi-15-years-vs-30-years'
     ];
 
     for (const slug of slugs) {

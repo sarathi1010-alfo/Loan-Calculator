@@ -23,29 +23,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }));
 
   // 2. Programmatic Loan Pages
-  const dataPath = path.join(
-    process.cwd(),
-    "data",
-    "generated",
-    "seo-pages.json",
-  );
-  let programmaticRoutes: MetadataRoute.Sitemap = [];
-
-  try {
-    if (fs.existsSync(dataPath)) {
-      const fileContents = fs.readFileSync(dataPath, "utf8");
-      const entities = JSON.parse(fileContents);
-
-      programmaticRoutes = entities.map((entity: any) => ({
-        url: `${SITE_URL}/loan/${entity.slug}`,
-        lastModified: new Date(),
-        changeFrequency: "monthly" as const,
-        priority: 0.6,
-      }));
-    }
-  } catch (error) {
-    console.error("Error generating programmatic sitemap entries:", error);
-  }
+  const { TIER2_PAGES } = await import("@/lib/tier2-data");
+  const programmaticRoutes: MetadataRoute.Sitemap = TIER2_PAGES.map((page) => ({
+    url: `${SITE_URL}/${page.type}/${page.slug}`,
+    lastModified: new Date(page.date),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
 
   // 3. Blog Posts
   const { BLOG_POSTS } = await import("@/lib/blog-data");

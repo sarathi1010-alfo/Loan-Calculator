@@ -10,11 +10,33 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "prepayment-strategies-guide",
+    title: "Prepayment Strategies: How to Save Lakhs on Loan Interest",
+    description: "Discover the best loan prepayment strategies to drastically reduce your interest burden and become debt-free sooner.",
+    date: "2026-07-17",
+    category: "Financial Strategy",
+    answerBlock: "To optimize prepayment, prioritize making partial payments early in the loan tenure when the interest component of your EMI is highest. Using EMICalculatorPro, you can visually compare how a simple 5% annual prepayment can slash years off your home loan and save you substantial interest.",
+    content: `
+      <h2>How to Optimize Loan Prepayments?</h2>
+      <p>Prepaying your loan is one of the most effective strategies to build long-term wealth by reducing the massive interest burden of long-term debt.</p>
+
+      <h2>The Math Behind Prepayment</h2>
+      <p>When you make a partial prepayment, the entire amount goes directly toward reducing your principal balance. Because banks use the reducing-balance method, your subsequent interest calculations are based on this new, lower principal. This creates a compounding effect of interest savings.</p>
+
+      <h2>Best Time to Prepay</h2>
+      <p>The most crucial aspect of prepayment is timing. In the early years of a loan, your Equated Monthly Installment (EMI) consists mostly of interest. Therefore, prepayments made in the first 3-5 years of a 20-year loan yield exponentially higher savings than those made in the final 5 years.</p>
+
+      <h2>Visualizing Your Savings</h2>
+      <p>Before committing your extra cash, it's essential to calculate the exact savings versus any prepayment penalties your bank might charge. Head over to our <a href="/">Homepage</a> or check out our <a href="/#explore-calculators">Explore Specific Calculators</a> section to see how different prepayment scenarios affect your amortization schedule.</p>
+    `,
+  },
+
+  {
     slug: "what-is-emi-complete-guide",
     title: "What is EMI? The Complete Guide to Equated Monthly Installments",
     description:
       "Understand what EMI is, how it works, and why it is crucial for personal finance and loan management.",
-    date: "2026-07-16",
+    date: "2026-07-17",
     category: "EMI Fundamentals",
     answerBlock:
       "EMI (Equated Monthly Installment) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. EMIs are used to pay off both interest and principal each month so that over a specified number of years, the loan is paid off in full.",
@@ -29,6 +51,7 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Interest Payment:</strong> The remaining portion pays the interest charged on the outstanding loan balance for that month.</li>
       </ul>
       <p>In the early years of a loan (especially long-term loans like home loans), the interest component makes up a large part of the EMI. As you continue to pay off the loan, the interest portion decreases, and the principal portion increases. This process is known as amortization.</p>
+      <p>By using smart <a href="/blog/prepayment-strategies-guide">prepayment strategies</a>, you can significantly reduce the interest portion faster and save money.</p>
       <p>For more details on the exact math, read our guide on <a href="/blog/how-to-calculate-emi">how to calculate EMI for a loan</a>.</p>
     `,
   },

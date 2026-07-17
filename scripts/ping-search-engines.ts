@@ -16,6 +16,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-10-lakh`,
     `${SITE_URL}/scenarios/emi-calculator-20-lakh`,
     `${SITE_URL}/tenure-comparison/emi-1-year-vs-5-years`,
+
+    // New Tier 1 (2026-07-17)
+    `${SITE_URL}/blog/prepayment-strategies-guide`,
+
+    // New Tier 2 (2026-07-17)
+    `${SITE_URL}/loan-types/business-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/gold-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/loan-against-property-emi-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-50-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-30-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-1-crore`,
+    `${SITE_URL}/tenure-comparison/emi-10-years-vs-20-years`,
+    `${SITE_URL}/tenure-comparison/emi-15-years-vs-30-years`,
   ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

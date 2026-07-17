@@ -230,7 +230,198 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Should I choose a 1-year or 5-year loan?", answer: "Choose a 1-year loan if you want to minimize interest and can afford high EMIs. Choose 5 years if you need lower monthly payments and accept paying more total interest." },
       { question: "How much interest do I save with a 1-year loan?", answer: "On a ₹1 Lakh loan at 12%, a 1-year loan costs ~₹6,619 in interest, while a 5-year loan costs ~₹33,467. You save over ₹26,000 by paying it off faster." }
     ]
-  }
+  },
+
+  {
+    slug: "business-loan-emi-calculator",
+    type: "loan-types",
+    title: "Business Loan EMI Calculator | Calculate Monthly Business Repayments",
+    h1: "Business Loan EMI Calculator",
+    description: "Calculate your Business Loan EMI. Plan your business expansion and manage cash flows efficiently.",
+    intro: "A business loan helps fuel growth, but managing the monthly EMI is crucial for cash flow. Use this calculator to see your repayment schedule.",
+    amount: 1500000,
+    interestRate: 13.5,
+    tenure: 36,
+    date: "2026-07-17",
+    content: `
+      <h2>Planning Your Business Loan EMI</h2>
+      <p>Taking a business loan is a strategic move to scale operations. However, the interest rates are often higher than secured personal loans. Knowing your exact monthly commitment helps you maintain a healthy cash flow.</p>
+
+      <h3>Impact on Cash Flow</h3>
+      <p>Your EMI should comfortably fit within your operational profit margins. If a 3-year tenure results in an EMI that's too high, consider extending it to 5 years, though this will increase your total interest paid.</p>
+    `,
+    faqs: [
+      { question: "What is the typical interest rate for a business loan?", answer: "Business loan interest rates usually range from 12% to 18% depending on the borrower's credit profile and the nature of the business." },
+      { question: "Can I prepay my business loan?", answer: "Yes, but many lenders charge a prepayment penalty (often 2% to 5%). Always check your loan agreement." }
+    ]
+  },
+  {
+    slug: "gold-loan-emi-calculator",
+    type: "loan-types",
+    title: "Gold Loan EMI Calculator | Estimate Your Gold Loan Interest",
+    h1: "Gold Loan EMI Calculator",
+    description: "Calculate the EMI and interest for your Gold Loan. Compare different tenures and interest rates instantly.",
+    intro: "Gold loans offer quick liquidity. Find out your monthly repayment or bullet payment interest amount with our calculator.",
+    amount: 300000,
+    interestRate: 9.0,
+    tenure: 12,
+    date: "2026-07-17",
+    content: `
+      <h2>Calculating Your Gold Loan EMI</h2>
+      <p>Gold loans are secured loans with relatively lower interest rates. They are perfect for short-term financial needs.</p>
+
+      <h3>Bullet Repayment vs EMI</h3>
+      <p>While many gold loans allow for a "bullet repayment" (paying principal and interest at the end of the term), choosing an EMI option can help reduce the interest burden systematically over time.</p>
+    `,
+    faqs: [
+      { question: "What is the maximum tenure for a gold loan?", answer: "Gold loans are usually short-term, with tenures ranging from 3 months to 3 years." },
+      { question: "How is gold loan EMI calculated?", answer: "Like other loans, it uses the standard reducing balance formula, but due to shorter tenures, the interest component drops rapidly." }
+    ]
+  },
+  {
+    slug: "loan-against-property-emi-calculator",
+    type: "loan-types",
+    title: "Loan Against Property (LAP) EMI Calculator",
+    h1: "Loan Against Property EMI Calculator",
+    description: "Calculate your LAP EMI. Use your property's equity to secure funds at lower interest rates.",
+    intro: "Leverage the value of your property to get a high-value loan at competitive rates. Calculate your LAP EMI here.",
+    amount: 5000000,
+    interestRate: 10.5,
+    tenure: 120,
+    date: "2026-07-17",
+    content: `
+      <h2>Understanding Loan Against Property (LAP)</h2>
+      <p>A Loan Against Property allows you to unlock the value of your real estate. Because it is a secured loan, you can access larger amounts for longer tenures at lower interest rates compared to personal loans.</p>
+
+      <h3>Long Term Commitments</h3>
+      <p>LAP tenures can stretch up to 15 years. While a longer tenure reduces your monthly EMI, it significantly increases the total interest paid. Use this calculator to find the right balance.</p>
+    `,
+    faqs: [
+      { question: "Is LAP better than a personal loan?", answer: "Yes, generally LAP offers lower interest rates and longer repayment periods since it is secured by your property." },
+      { question: "Can I get a LAP on a commercial property?", answer: "Yes, lenders offer Loans Against Property for both residential and commercial real estate." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50-lakh",
+    type: "scenarios",
+    title: "50 Lakh EMI Calculator | Loan Scenario Breakdown",
+    h1: "EMI Calculator for ₹50 Lakh",
+    description: "Calculate the EMI for a 50 Lakh loan. Essential for large home loans or business expansions. View amortization schedules.",
+    intro: "Borrowing ₹50 Lakh is a major commitment. See exactly how much you'll pay in interest and how to structure your repayment.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-07-17",
+    content: `
+      <h2>Managing a ₹50 Lakh Loan</h2>
+      <p>A ₹50 Lakh loan is typical for a mid-range home purchase in India. At this scale, interest costs can easily match or exceed the principal amount if the tenure is too long.</p>
+
+      <h3>The 20-Year Impact</h3>
+      <p>For a ₹50 Lakh loan at 8.5% over 20 years, your EMI is approximately ₹43,391. The total interest paid over the life of the loan is a staggering ₹54.13 Lakh. Making small prepayments can drastically reduce this cost.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 50 Lakhs for 20 years?", answer: "At an 8.5% interest rate, the EMI for a 50 Lakh loan over 20 years is around ₹43,391." },
+      { question: "How much total interest will I pay on 50 Lakhs?", answer: "Over 20 years at 8.5%, the total interest paid is roughly ₹54,13,879." }
+    ]
+  },
+  {
+    slug: "emi-calculator-30-lakh",
+    type: "scenarios",
+    title: "30 Lakh EMI Calculator | Visualize Your Loan Payments",
+    h1: "EMI Calculator for ₹30 Lakh",
+    description: "Calculate your EMI for a 30 Lakh loan. Find the optimal balance between monthly payments and total interest.",
+    intro: "Find out your exact monthly commitment for a ₹30 Lakh loan. Adjust interest rates and tenures to fit your budget.",
+    amount: 3000000,
+    interestRate: 9.0,
+    tenure: 180,
+    date: "2026-07-17",
+    content: `
+      <h2>Planning a ₹30 Lakh Loan Repayment</h2>
+      <p>Whether for a home or a business investment, a ₹30 Lakh loan requires careful planning. A 15-year tenure is often the sweet spot for balancing affordable EMIs with manageable total interest.</p>
+
+      <h3>Interest Burden</h3>
+      <p>At 9.0% over 15 years, your EMI will be around ₹30,428, resulting in a total interest payout of approximately ₹24.77 Lakh. Consider making yearly prepayments to bring this down.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 30 Lakh home loan?", answer: "For a 15-year tenure at 9.0%, the EMI is about ₹30,428." },
+      { question: "How can I reduce the interest on my 30 Lakh loan?", answer: "The best way is to make part-prepayments early in the loan tenure, which reduces the principal on which interest is calculated." }
+    ]
+  },
+  {
+    slug: "emi-calculator-1-crore",
+    type: "scenarios",
+    title: "1 Crore EMI Calculator | High Value Loan Planner",
+    h1: "EMI Calculator for ₹1 Crore",
+    description: "Calculate the EMI for a 1 Crore loan. Essential for luxury real estate or large-scale business funding.",
+    intro: "A ₹1 Crore loan carries significant interest weight. Use our calculator to understand the long-term financial implications.",
+    amount: 10000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-07-17",
+    content: `
+      <h2>Structuring a ₹1 Crore Loan</h2>
+      <p>Borrowing ₹1 Crore, typically for luxury real estate, means you are entering a long-term financial relationship with your bank. Understanding the amortization schedule is critical.</p>
+
+      <h3>The Cost of Borrowing</h3>
+      <p>On a 20-year ₹1 Crore loan at 8.5%, your EMI will be ₹86,782. More importantly, the total interest paid will exceed ₹1.08 Crores. Negotiating even a 0.25% reduction in interest rate saves you lakhs.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 1 Crore home loan?", answer: "At 8.5% over 20 years, the monthly EMI is approximately ₹86,782." },
+      { question: "Is a 30-year tenure good for a 1 Crore loan?", answer: "A 30-year tenure lowers the EMI to about ₹76,891, but the total interest skyrockets to over ₹1.76 Crores. It is generally not advisable." }
+    ]
+  },
+  {
+    slug: "emi-10-years-vs-20-years",
+    type: "tenure-comparison",
+    title: "EMI Comparison: 10 Years vs 20 Years",
+    h1: "EMI Comparison: 10 Years vs 20 Years",
+    description: "Compare a 10-year loan versus a 20-year loan. See how your EMI and total interest change with tenure.",
+    intro: "Choosing between a 10-year and 20-year tenure is a major decision. See the exact mathematical difference here.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 120,
+    date: "2026-07-17",
+    content: `
+      <h2>10 Years vs 20 Years: The Tenure Debate</h2>
+      <p>For large loans, borrowers often debate between a 10-year and 20-year tenure. Let's compare a ₹50 Lakh loan at 8.5% interest.</p>
+
+      <h3>The 10-Year Aggressive Repayment</h3>
+      <p>A 10-year tenure requires a high EMI of ₹61,993. However, you pay only ₹24.39 Lakh in total interest. You are debt-free in a decade.</p>
+
+      <h3>The 20-Year Affordable EMI</h3>
+      <p>A 20-year tenure drops the EMI to ₹43,391, making it much easier on the monthly budget. But the catch is massive: the total interest paid balloons to ₹54.13 Lakh. You pay nearly ₹30 Lakh more for that monthly convenience.</p>
+    `,
+    faqs: [
+      { question: "Should I choose 10 or 20 years for my home loan?", answer: "If you can afford the higher EMI, a 10-year tenure is mathematically far superior and saves you lakhs in interest." },
+      { question: "Can I take a 20-year loan and pay it off in 10 years?", answer: "Yes! This is often the best strategy: take a 20-year loan for safety but make extra prepayments to effectively close it in 10 years." }
+    ]
+  },
+  {
+    slug: "emi-15-years-vs-30-years",
+    type: "tenure-comparison",
+    title: "EMI Comparison: 15 Years vs 30 Years",
+    h1: "EMI Comparison: 15 Years vs 30 Years",
+    description: "Compare a 15-year loan versus a 30-year loan. Understand the massive interest cost of ultra-long tenures.",
+    intro: "A 30-year loan offers the lowest possible EMI, but at what cost? Compare it against a 15-year tenure to see the reality.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 180,
+    date: "2026-07-17",
+    content: `
+      <h2>15 Years vs 30 Years: The Cost of Time</h2>
+      <p>Some banks offer 30-year home loans to make large properties seem affordable. Let's look at the numbers for a ₹50 Lakh loan at 8.5%.</p>
+
+      <h3>The 15-Year Sweet Spot</h3>
+      <p>A 15-year tenure has an EMI of ₹49,237. The total interest paid is ₹38.62 Lakh. This is a balanced approach.</p>
+
+      <h3>The 30-Year Trap</h3>
+      <p>A 30-year tenure lowers the EMI to ₹38,445. It feels affordable. However, the total interest paid is an astonishing ₹88.40 Lakh. You end up paying nearly double the borrowed amount just in interest.</p>
+    `,
+    faqs: [
+      { question: "Is a 30-year home loan a bad idea?", answer: "Mathematically, yes. You end up paying significantly more interest than the original loan amount. It should only be used if absolutely necessary for short-term affordability." },
+      { question: "How much more do I pay with a 30-year loan vs a 15-year loan?", answer: "On a ₹50 Lakh loan at 8.5%, a 30-year loan costs roughly ₹50 Lakh more in interest compared to a 15-year loan." }
+    ]
+  },
 ];
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {

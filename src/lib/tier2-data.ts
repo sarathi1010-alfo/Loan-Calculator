@@ -14,6 +14,168 @@ export interface Tier2Page {
 }
 
 export const TIER2_PAGES: Tier2Page[] = [
+
+  {
+    slug: "bike-loan-emi-calculator",
+    type: "loan-types",
+    title: "Bike Loan EMI Calculator | Two-Wheeler Repayment Planning",
+    h1: "Bike Loan EMI Calculator",
+    description: "Calculate your two-wheeler or bike loan EMI instantly. Understand your monthly obligations before buying your next motorcycle or scooter.",
+    intro: "Looking to buy a new two-wheeler? Use our bike loan calculator to estimate your monthly EMI and see the total interest payable.",
+    amount: 100000,
+    interestRate: 11.5,
+    tenure: 36,
+    date: "2026-07-19",
+    content: `
+      <h2>Calculate Your Bike Loan EMI Instantly</h2>
+      <p>Whether you're purchasing a commuter scooter or a high-end sports bike, financing it through a two-wheeler loan is common. However, these loans often carry higher interest rates than car loans. Using our calculator helps you lock in a budget-friendly EMI.</p>
+    `,
+    faqs: [
+      { question: "What is a good tenure for a bike loan?", answer: "Most bike loans range from 1 to 3 years. A 2-year or 3-year tenure is ideal to balance a manageable EMI with lower interest costs." },
+      { question: "Are interest rates higher for bike loans?", answer: "Yes, generally, two-wheeler loan interest rates are slightly higher than car loans due to the higher risk of default and depreciation." }
+    ]
+  },
+  {
+    slug: "consumer-durable-loan-emi-calculator",
+    type: "loan-types",
+    title: "Consumer Durable Loan EMI Calculator | Appliance Financing",
+    h1: "Consumer Durable Loan EMI Calculator",
+    description: "Plan your appliance or electronics purchases with our consumer durable loan EMI calculator. Often offered as 'No Cost EMI'.",
+    intro: "Upgrading your appliances? Calculate your consumer durable loan EMI to ensure the monthly payments fit into your household budget.",
+    amount: 50000,
+    interestRate: 0, // Sometimes No Cost EMI
+    tenure: 12,
+    date: "2026-07-19",
+    content: `
+      <h2>Planning Your Appliance Purchases</h2>
+      <p>Consumer durable loans are used to buy electronics like TVs, refrigerators, and washing machines. Many retailers offer 'No Cost EMI', where the interest component is absorbed as a discount on the product price. Use this calculator to see exactly what you'll pay.</p>
+    `,
+    faqs: [
+      { question: "What is a No Cost EMI?", answer: "In a No Cost EMI, you only pay the original price of the product divided by the tenure. The interest is typically offered as an upfront discount by the retailer." },
+      { question: "Do consumer durable loans require a down payment?", answer: "Often, lenders require a small processing fee or a 10-20% down payment, depending on the promotional offer." }
+    ]
+  },
+  {
+    slug: "wedding-loan-emi-calculator",
+    type: "loan-types",
+    title: "Wedding Loan EMI Calculator | Marriage Financing Planner",
+    h1: "Wedding Loan EMI Calculator",
+    description: "Plan your dream wedding without financial stress. Calculate the EMI for your marriage loan to ensure comfortable repayments.",
+    intro: "Weddings can be expensive. If you are taking a personal loan for marriage expenses, use this calculator to figure out your monthly commitments.",
+    amount: 500000,
+    interestRate: 12.5,
+    tenure: 60,
+    date: "2026-07-19",
+    content: `
+      <h2>Budgeting for Your Big Day</h2>
+      <p>A wedding loan is essentially a personal loan used specifically for marriage-related expenses like venue booking, catering, and jewelry. Because it's an unsecured loan, interest rates can be high. It's crucial to calculate your EMI beforehand so you don't start your married life burdened by unmanageable debt.</p>
+    `,
+    faqs: [
+      { question: "Is a wedding loan different from a personal loan?", answer: "No, financially it is the same as an unsecured personal loan, just marketed for wedding expenses." },
+      { question: "What is the maximum tenure for a wedding loan?", answer: "Most banks offer a maximum tenure of 5 years (60 months) for wedding loans." }
+    ]
+  },
+  {
+    slug: "travel-loan-emi-calculator",
+    type: "loan-types",
+    title: "Travel Loan EMI Calculator | Vacation Financing",
+    h1: "Travel Loan EMI Calculator",
+    description: "Calculate the EMI for your vacation loan. Plan your travel budget and know your exact monthly repayment before booking your trip.",
+    intro: "Taking a loan for your dream vacation? Calculate your travel loan EMI to ensure the post-trip repayments don't ruin the holiday memories.",
+    amount: 200000,
+    interestRate: 13.0,
+    tenure: 24,
+    date: "2026-07-19",
+    content: `
+      <h2>Financing Your Dream Vacation</h2>
+      <p>Travel loans are short-term personal loans designed to cover flights, hotels, and tour packages. Since vacations do not generate a financial return, it is highly recommended to keep the loan amount small and the tenure short to minimize interest payments.</p>
+    `,
+    faqs: [
+      { question: "Should I take a travel loan?", answer: "It is generally better to save for a vacation. However, if taking a loan, keep the tenure under 1-2 years to avoid paying excessive interest." },
+      { question: "Are travel loans secured or unsecured?", answer: "Travel loans are typically unsecured personal loans, meaning you don't need to pledge collateral." }
+    ]
+  },
+  {
+    slug: "emi-calculator-2-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹2 Lakh Loan | Repayment Schedule",
+    h1: "EMI Calculator for ₹2 Lakh Loan",
+    description: "Calculate the monthly EMI for a 2 Lakh loan. View the complete amortization schedule and total interest payable.",
+    intro: "Borrowing ₹2 Lakhs? Find out your exact monthly EMI, total interest, and repayment schedule with our dedicated 2 Lakh loan calculator.",
+    amount: 200000,
+    interestRate: 11.0,
+    tenure: 36,
+    date: "2026-07-19",
+    content: `
+      <h2>Understanding Your ₹2 Lakh Loan EMI</h2>
+      <p>A ₹2 Lakh loan is typically taken as a personal loan for medical emergencies, home repairs, or short-term needs. Adjust the interest rate and tenure sliders below to see how they impact your monthly outgoing.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 2 Lakh personal loan for 3 years?", answer: "At an assumed interest rate of 11%, the EMI for a ₹2 Lakh loan over 3 years is approximately ₹6,548." },
+      { question: "Can I prepay a 2 Lakh loan?", answer: "Yes, most lenders allow prepayment after a lock-in period (usually 6-12 months), though a foreclosure charge may apply." }
+    ]
+  },
+  {
+    slug: "emi-calculator-15-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹15 Lakh Loan | Repayment Schedule",
+    h1: "EMI Calculator for ₹15 Lakh Loan",
+    description: "Calculate the monthly EMI for a 15 Lakh loan. View the complete amortization schedule and total interest payable.",
+    intro: "Borrowing ₹15 Lakhs? Find out your exact monthly EMI, total interest, and repayment schedule with our dedicated 15 Lakh loan calculator.",
+    amount: 1500000,
+    interestRate: 9.5,
+    tenure: 120,
+    date: "2026-07-19",
+    content: `
+      <h2>Understanding Your ₹15 Lakh Loan EMI</h2>
+      <p>A ₹15 Lakh loan could be a small home loan, a large personal loan, or an education loan. The tenure you choose will drastically change the total interest paid. Use the amortization table to plan your finances.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 15 Lakh loan for 10 years?", answer: "At an assumed interest rate of 9.5%, the EMI for a ₹15 Lakh loan over 10 years is approximately ₹19,409." },
+      { question: "What income is required for a 15 Lakh loan?", answer: "Lenders typically require a net monthly income of at least ₹40,000 to ₹50,000 to approve a ₹15 Lakh unsecured personal loan." }
+    ]
+  },
+  {
+    slug: "emi-calculator-25-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹25 Lakh Loan | Repayment Schedule",
+    h1: "EMI Calculator for ₹25 Lakh Loan",
+    description: "Calculate the monthly EMI for a 25 Lakh loan. View the complete amortization schedule and total interest payable.",
+    intro: "Borrowing ₹25 Lakhs? Find out your exact monthly EMI, total interest, and repayment schedule with our dedicated 25 Lakh loan calculator.",
+    amount: 2500000,
+    interestRate: 8.75,
+    tenure: 180,
+    date: "2026-07-19",
+    content: `
+      <h2>Understanding Your ₹25 Lakh Loan EMI</h2>
+      <p>₹25 Lakh is a standard amount for mid-tier home loans or large property loans. At this amount, even a small reduction in the interest rate or tenure can save you lakhs of rupees in interest.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 25 Lakh home loan for 15 years?", answer: "At an assumed interest rate of 8.75%, the EMI for a ₹25 Lakh loan over 15 years is approximately ₹24,986." },
+      { question: "Is a 25 Lakh loan tax deductible?", answer: "If it is a home loan, you can claim tax deductions under Section 80C (for principal) and Section 24b (for interest) of the Income Tax Act." }
+    ]
+  },
+  {
+    slug: "emi-3-years-vs-5-years",
+    type: "tenure-comparison",
+    title: "3 Years vs 5 Years EMI Comparison | Short vs Medium Tenure",
+    h1: "3 Years vs 5 Years Loan Comparison",
+    description: "Compare the EMI and total interest for a 3-year versus a 5-year loan tenure. Find out which repayment schedule suits your budget.",
+    intro: "Deciding between a 3-year or 5-year repayment plan? A 3-year plan has higher EMIs but saves you interest, while a 5-year plan offers lower EMIs but costs more overall. Compare the two below.",
+    amount: 500000,
+    interestRate: 11.5,
+    tenure: 36, // Defaults to 3 years to show the higher EMI initially
+    date: "2026-07-19",
+    content: `
+      <h2>Which is Better: 3 Years or 5 Years?</h2>
+      <p>When taking a personal or car loan, you often have to choose between a short tenure (3 years/36 months) and a medium tenure (5 years/60 months). This calculator helps you see the trade-off between monthly cash flow and total interest costs.</p>
+    `,
+    faqs: [
+      { question: "Does a 3-year loan save money?", answer: "Yes, a shorter 3-year loan significantly reduces the total interest you pay to the bank compared to a 5-year loan." },
+      { question: "Why choose a 5-year loan instead of 3 years?", answer: "A 5-year loan lowers your monthly EMI, making it easier to manage cash flow and reducing the risk of defaulting if your income fluctuates." }
+    ]
+  },
+
   // Loan Types
   {
     slug: "home-loan-emi-calculator",

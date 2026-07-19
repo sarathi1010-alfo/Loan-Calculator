@@ -32,3 +32,11 @@
   * **Status: Verified.**
   * All newly generated Tier 2 routes return strict HTTP 200 statuses and render content fully on the server side (SSG).
   * Ensured the `metadataBase` and `robots` parameters in `layout.tsx` and specific `page.tsx` files are allowing indexation.
+
+### Simulated Audit: 2026-07-19
+**Issue Found:** 2 old parameterized URLs (e.g. `/?amount=1500000` and `/?tenure=120`) showing "Crawled - currently not indexed" due to duplicate content.
+
+**Fix Plan Generated:**
+1. Add a canonical tag to the root calculator page (`/`) to consolidate link equity.
+2. Use GSC URL Inspection to request re-crawling for the canonical root.
+3. Ensure internal links point strictly to clean URLs (not parameterized versions).

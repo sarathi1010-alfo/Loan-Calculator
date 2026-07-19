@@ -70,3 +70,25 @@ Check the link in bio! 🔗
 One extra EMI a year can shave 5 years off your mortgage. 🤯 See the "what-if" scenarios on our amortization table.
 Start planning at EMICalculatorPro.alfo.online 🔗
 #WealthBuilding #HomeOwner #SmartMoney
+
+---
+
+## Daily Social Distribution (2026-07-19) - Interest Rate Comparison Theme
+
+### LinkedIn (Financial Thought Leadership)
+1. **Post:** "Are you comparing loan offers by looking only at the nominal interest rate? You might be falling for a classic trap. Always ask lenders for the Annual Percentage Rate (APR) to see the true cost, including processing fees. We broke down exactly how to compare rates in our latest guide."
+2. **Post:** "Fixed vs. Floating Rates: Which is better? While fixed rates offer predictability, floating rates have historically been cheaper over long tenures like a 20-year home loan. Choose based on your risk tolerance and the current economic cycle. Link to our full breakdown in the comments."
+
+### Twitter/X (Punchy Data Tips)
+3. **Tweet:** "A 0.5% drop in your interest rate on a ₹50L home loan saves you ₹3.8 Lakhs over 20 years. Always negotiate! 💸 Check out our latest guide to learn how."
+4. **Tweet:** "Nominal Interest Rate ≠ True Cost of Loan. Always ask for the APR to uncover hidden processing fees before signing. 📝"
+5. **Tweet:** "Fixed rates give peace of mind. Floating rates usually save money. Pick the one that fits your financial strategy. #PersonalFinance"
+6. **Tweet:** "Your credit score is your biggest negotiation tool. Above 750? Demand the prime rate. Don't settle for subprime offers."
+
+### Facebook (Community Engagement)
+7. **Post:** "Thinking of taking a loan? Before you sign anything, read our new guide on how to compare interest rates like a pro. Don't leave money on the table!"
+8. **Post:** "Did you know? A simple 0.5% difference in your interest rate can save you lakhs over the life of your loan. Check out our EMI calculator to visualize the savings."
+
+### Instagram (Visual Data)
+9. **Carousel:** Slide 1: "The 0.5% Difference" (Graphic showing ₹3.8L savings on ₹50L loan). Slide 2: "Nominal Rate vs APR" (Graphic showing hidden fees). Slide 3: "Fixed vs Floating" (Pros and Cons table). CTA: "Link in bio to read the full guide!"
+10. **Story:** Quiz sticker: "What's more important when comparing loans?" Options: [Nominal Rate] [APR - Correct]. Next slide links to the Interest Rate Comparison guide.

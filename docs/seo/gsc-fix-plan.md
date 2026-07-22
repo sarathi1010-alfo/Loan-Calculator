@@ -40,3 +40,6 @@
 1. Add a canonical tag to the root calculator page (`/`) to consolidate link equity.
 2. Use GSC URL Inspection to request re-crawling for the canonical root.
 3. Ensure internal links point strictly to clean URLs (not parameterized versions).
+
+### Simulated Audit: 2026-07-22
+**Update (2026-07-22):** Completed daily publishing cycle focused on Balance Transfers. Published 1 new Tier 1 article and 8 new Tier 2 programmatic pages. Refreshed all dates across `src/lib/blog-data.ts` and `src/lib/tier2-data.ts` to `2026-07-22`. Verified internal linking and successfully ran `tsc` build check. Appended 10 new native social posts to `social-posts.md`. Triggered IndexNow API and Search Engine sitemap pings via scripts for all generated/updated routes.

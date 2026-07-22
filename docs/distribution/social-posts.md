@@ -92,3 +92,25 @@ Start planning at EMICalculatorPro.alfo.online 🔗
 ### Instagram (Visual Data)
 9. **Carousel:** Slide 1: "The 0.5% Difference" (Graphic showing ₹3.8L savings on ₹50L loan). Slide 2: "Nominal Rate vs APR" (Graphic showing hidden fees). Slide 3: "Fixed vs Floating" (Pros and Cons table). CTA: "Link in bio to read the full guide!"
 10. **Story:** Quiz sticker: "What's more important when comparing loans?" Options: [Nominal Rate] [APR - Correct]. Next slide links to the Interest Rate Comparison guide.
+
+---
+
+## Daily Social Distribution (2026-07-22) - Balance Transfer Theme
+
+### LinkedIn (Financial Thought Leadership)
+1. **Post:** "Are you still paying 9.5% on a home loan when the market is offering 8.5%? You could be losing lakhs in unnecessary interest. It’s time to explore a loan balance transfer. Read our comprehensive 2026 guide to switching lenders and saving big."
+2. **Post:** "A Balance Transfer isn't just about a lower rate; it’s about cash flow management. By switching lenders, you can lower your EMI or shorten your tenure. Run the numbers on our EMI calculator before you make a move."
+
+### Twitter/X (Punchy Data Tips)
+3. **Tweet:** "Paying high interest on your home loan? 🏠 A Balance Transfer could save you massive amounts. Even a 0.5% drop makes a huge difference. Use our calculator to find out if switching is right for you. 💸 #PersonalFinance #Savings"
+4. **Tweet:** "Don't just stick with your current bank out of loyalty. Loyalty doesn't pay your EMIs! Always negotiate and consider a Balance Transfer if you find a better rate. 📈"
+5. **Tweet:** "Thinking about a balance transfer? Don't forget to calculate processing fees and prepayment penalties! Our new guide shows you how to find your *true* savings. 🔍"
+6. **Tweet:** "Your credit score improved? You deserve a better rate! Leverage your high CIBIL score to get a cheaper loan via a Balance Transfer. 💳⬆️"
+
+### Facebook (Community Engagement)
+7. **Post:** "Did you know you can transfer your loan to a different bank to get a lower interest rate? It's called a Balance Transfer, and it can save you lakhs! Read our latest guide to learn how it works and if it's right for you."
+8. **Post:** "Struggling with high EMIs? A balance transfer might be the solution. Calculate your potential savings instantly with our free tool and see how much you could save every month!"
+
+### Instagram (Visual Data)
+9. **Carousel:** Slide 1: "Stuck with a High Interest Rate?" (Image of a heavy burden). Slide 2: "The Solution: Balance Transfer" (Graphic explaining the concept). Slide 3: "Calculate Your Savings!" (Screenshot of the calculator). CTA: "Link in bio to read the full guide!"
+10. **Story:** Poll sticker: "Have you ever negotiated your loan interest rate?" Options: [Yes!] [I can do that?]. Next slide links to the Balance Transfer guide.

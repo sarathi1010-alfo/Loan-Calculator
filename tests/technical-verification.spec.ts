@@ -57,8 +57,18 @@ test.describe('Technical Verification', () => {
       '/scenarios/emi-calculator-30-lakh',
       '/scenarios/emi-calculator-1-crore',
       '/tenure-comparison/emi-10-years-vs-20-years',
-      '/tenure-comparison/emi-15-years-vs-30-years'
+      '/tenure-comparison/emi-15-years-vs-30-years',
+
+      '/loan-types/scooter-loan-emi-calculator',
+      '/loan-types/tractor-loan-emi-calculator',
+      '/loan-types/commercial-vehicle-loan-emi-calculator',
+      '/scenarios/emi-calculator-1-lakh',
+      '/scenarios/emi-calculator-6-lakh',
+      '/scenarios/emi-calculator-12-lakh',
+      '/scenarios/emi-calculator-22-lakh',
+      '/scenarios/emi-calculator-35-lakh'
     ];
+
 
     for (const slug of slugs) {
       const response = await page.goto(`${baseUrl}${slug}`);

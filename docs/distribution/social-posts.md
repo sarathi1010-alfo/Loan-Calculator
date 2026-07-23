@@ -114,3 +114,65 @@ Start planning at EMICalculatorPro.alfo.online 🔗
 ### Instagram (Visual Data)
 9. **Carousel:** Slide 1: "Stuck with a High Interest Rate?" (Image of a heavy burden). Slide 2: "The Solution: Balance Transfer" (Graphic explaining the concept). Slide 3: "Calculate Your Savings!" (Screenshot of the calculator). CTA: "Link in bio to read the full guide!"
 10. **Story:** Poll sticker: "Have you ever negotiated your loan interest rate?" Options: [Yes!] [I can do that?]. Next slide links to the Balance Transfer guide.
+
+### Processing Fees & Hidden Charges - Cross-Platform Campaign (2026-07-23)
+
+#### LinkedIn (Professional & Strategic)
+**Post 1:**
+Are you obsessing over a 0.5% interest rate drop while ignoring a 2% processing fee? 🤔
+
+The true cost of borrowing isn't just the headline interest rate—it's the Annual Percentage Rate (APR). Banks often offset lower rates with high administrative and foreclosure fees.
+
+Always ask for the APR and read the fine print before signing. Run the numbers on our EMI Calculator to see the total outflow.
+[Link to Processing Fees Guide]
+
+**Post 2:**
+Foreclosure charges can completely wipe out the benefits of prepaying your loan. 📉
+
+If you plan to pay off your debt early to save on interest, make sure you negotiate a zero-prepayment-penalty clause. Smart borrowing is about the long game. Use EMICalculatorPro to visualize the exact savings.
+[Link to Tool]
+
+**Post 3:**
+Financial literacy test: Do you know the difference between Nominal Interest Rate and Effective Annual Rate?
+
+Your nominal rate might be 9%, but after processing fees, documentation charges, and monthly compounding, your effective cost could be 9.5% or more. Don't be caught off guard.
+[Link to Processing Fees Guide]
+
+#### X / Twitter (Punchy & Direct)
+**Tweet 1:**
+Don't celebrate that low interest rate until you've checked the processing fee! A 2% fee on a ₹50L loan is ₹1 Lakh gone instantly. Always ask for the APR. 📉💸 #LoanTips #PersonalFinance
+
+**Tweet 2:**
+Planning to pay off your loan early? Watch out for foreclosure charges! Banks penalize you for taking away their interest income. Negotiate this BEFORE you sign. 📝🛑 #EMI #FinanceHacks
+
+**Tweet 3:**
+Nominal Interest Rate ≠ True Cost of Borrowing.
+Factor in processing fees, admin charges, and late payment penalties. Use our EMI Calculator to see the real numbers. 🧮✅ #FinancialLiteracy
+
+**Tweet 4:**
+A loan offer with an 8.5% rate + 2% processing fee might be MORE expensive than a 9% rate + 0 fee. Always do the math! 📊 [Link] #EMICalculator
+
+#### Facebook (Community & Advice)
+**Post 1:**
+"I got a great interest rate, but the bank charged me ₹50,000 in processing fees!" 😱
+
+We hear this all the time. Lenders often hide the true cost of a loan in the fine print. From administrative charges to prepayment penalties, it's crucial to understand what you're signing up for.
+
+Read our latest guide on how to spot and negotiate hidden loan charges to save yourself thousands! 👇
+[Link to Processing Fees Guide]
+
+**Post 2:**
+Did you know you can often negotiate the processing fee on your loan? If you have a good credit score (750+), you have the leverage to ask the bank to waive or reduce it. Don't leave money on the table! Use our calculator to see how much you could save. 💰🏠
+[Link to Calculator]
+
+#### Instagram (Visual & Engaging)
+**Post 1 (Carousel):**
+Slide 1: The Hidden Cost of Loans 🏦 (Text over graphic)
+Slide 2: Nominal Rate vs APR. What they advertise vs What you actually pay. (Pie chart graphic)
+Slide 3: Top 3 Hidden Fees: 1. Processing Fees 2. Foreclosure Charges 3. Admin Costs. (Icons list)
+Slide 4: Always do the math before you sign! Link in bio to use our EMI Calculator. (Call to Action)
+
+**Post 2 (Story):**
+Poll: Have you ever been surprised by a hidden fee on a loan?
+[Yes, it was awful!] / [No, I always check the fine print!]
+Next Slide: Don't get caught out. Tap here to read our guide on avoiding hidden loan charges! (Link Sticker to Guide)

@@ -16,6 +16,168 @@ export interface Tier2Page {
 export const TIER2_PAGES: Tier2Page[] = [
 
   {
+    slug: "scooter-loan-emi-calculator",
+    type: "loan-types",
+    title: "Scooter Loan EMI Calculator | Calculate Two-Wheeler EMI",
+    h1: "Scooter Loan EMI Calculator",
+    description: "Plan your new scooter purchase with our dedicated scooter loan EMI calculator. Compare tenures and interest rates instantly.",
+    intro: "A scooter is a practical mobility solution. Use this calculator to find the exact EMI you will pay over the life of your scooter loan.",
+    amount: 80000,
+    interestRate: 11.5,
+    tenure: 36,
+    date: "2026-07-23",
+    content: `
+      <h2>Why Calculate Scooter Loan EMI?</h2>
+      <p>Buying a scooter on EMI is a great way to manage your cash flow. However, two-wheeler interest rates are typically higher than car loans. Using our calculator allows you to experiment with different down payment amounts and loan tenures to find a monthly installment that fits perfectly into your budget without overpaying on total interest.</p>
+    `,
+    faqs: [
+      { question: "What is a typical tenure for a scooter loan?", answer: "Scooter loans usually span 12 to 48 months. A shorter tenure minimizes interest costs." },
+      { question: "Do scooter loans require a down payment?", answer: "Yes, most lenders finance 80% to 90% of the on-road price. You will need to make a down payment for the rest." }
+    ]
+  },
+  {
+    slug: "tractor-loan-emi-calculator",
+    type: "loan-types",
+    title: "Tractor Loan EMI Calculator | Farm Equipment Finance",
+    h1: "Tractor Loan EMI Calculator",
+    description: "Calculate EMIs for tractor loans. Flexible repayment schedules tailored for agricultural needs.",
+    intro: "Tractors are significant investments for agriculture. Calculate your monthly or half-yearly equivalent EMIs to plan your farm finances better.",
+    amount: 500000,
+    interestRate: 10.5,
+    tenure: 60,
+    date: "2026-07-23",
+    content: `
+      <h2>Understanding Tractor Loans</h2>
+      <p>Tractor loans are uniquely tailored for the agricultural sector, often featuring flexible repayment terms that align with harvesting seasons. While our calculator defaults to standard monthly EMIs, you can use the total interest generated here to approximate your costs if your lender allows half-yearly or annual bullet payments.</p>
+    `,
+    faqs: [
+      { question: "Can farmers pay tractor EMIs half-yearly?", answer: "Many lenders offer flexible repayment schedules matching crop cycles, including half-yearly payments." },
+      { question: "Is collateral required for a tractor loan?", answer: "The tractor itself serves as the primary collateral (hypothecation), but lenders might ask for land records." }
+    ]
+  },
+  {
+    slug: "commercial-vehicle-loan-emi-calculator",
+    type: "loan-types",
+    title: "Commercial Vehicle Loan EMI Calculator | Truck & Bus Finance",
+    h1: "Commercial Vehicle Loan EMI Calculator",
+    description: "Estimate the EMI for commercial vehicles like trucks, buses, and tempos to manage fleet cash flows.",
+    intro: "Managing fleet cash flow is vital. Use our calculator to determine the EMI for your next commercial vehicle and plan your operational expenses.",
+    amount: 1500000,
+    interestRate: 9.5,
+    tenure: 60,
+    date: "2026-07-23",
+    content: `
+      <h2>Commercial Fleet Financing</h2>
+      <p>Whether you are an independent operator or managing a large logistics fleet, understanding your debt service coverage ratio is critical. Commercial vehicle loans can heavily impact your monthly operational cash flow. Use this tool to visualize how extending your loan tenure might ease monthly burdens, albeit at a higher total interest cost.</p>
+    `,
+    faqs: [
+      { question: "What factors affect a commercial vehicle loan interest rate?", answer: "Your credit history, fleet size, business vintage, and the vehicle type primarily influence the rate." },
+      { question: "Can I get 100% financing for a commercial vehicle?", answer: "Lenders typically offer up to 90% on-road funding, though 100% financing might be available for large fleet operators with excellent profiles." }
+    ]
+  },
+  {
+    slug: "emi-calculator-1-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for 1 Lakh Loan | Repayment Schedule",
+    h1: "1 Lakh Loan EMI Calculator",
+    description: "Calculate the exact EMI, total interest, and amortization schedule for a ₹1 Lakh loan across various tenures.",
+    intro: "A ₹1 Lakh loan is common for medical emergencies or small home upgrades. Check how the EMI changes with different interest rates.",
+    amount: 100000,
+    interestRate: 12.0,
+    tenure: 12,
+    date: "2026-07-23",
+    content: `
+      <h2>Managing a ₹1 Lakh Personal Loan</h2>
+      <p>A ₹1 Lakh unsecured loan is often acquired for short-term liquidity needs. Because it is unsecured, the interest rates tend to be higher. By using our calculator, you can see how opting for a shorter 1-year or 2-year repayment tenure significantly reduces your interest burden compared to a 3-year term.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 1 Lakh at 12% for 1 year?", answer: "The EMI would be approximately ₹8,885, with a total interest outgo of about ₹6,619." },
+      { question: "Is a 1 Lakh personal loan unsecured?", answer: "Yes, typically personal loans of this amount are unsecured and do not require collateral." }
+    ]
+  },
+  {
+    slug: "emi-calculator-6-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for 6 Lakh Loan | Detailed Breakdown",
+    h1: "6 Lakh Loan EMI Calculator",
+    description: "Find out the monthly EMI for a ₹6 Lakh loan. Compare options across personal and car loans.",
+    intro: "Borrowing ₹6 Lakhs? Whether it's for a premium hatchback or a wedding, understanding your monthly liability is critical.",
+    amount: 600000,
+    interestRate: 10.0,
+    tenure: 60,
+    date: "2026-07-23",
+    content: `
+      <h2>Planning Your ₹6 Lakh Liability</h2>
+      <p>A ₹6 Lakh loan often hits the sweet spot for purchasing a mid-range vehicle or funding a major life event. With a standard 5-year tenure, the monthly commitment becomes highly manageable. Explore the amortization schedule below to see how your payments are split between principal and interest during the early years of the loan.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 6 Lakh car loan for 5 years?", answer: "At a 10% interest rate, the EMI is roughly ₹12,748 per month." },
+      { question: "Can I prepay a 6 Lakh loan?", answer: "Yes, most loans allow prepayment. Check your lender's policy on prepayment charges before proceeding." }
+    ]
+  },
+  {
+    slug: "emi-calculator-12-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for 12 Lakh Loan | Amortization Guide",
+    h1: "12 Lakh Loan EMI Calculator",
+    description: "Estimate your monthly repayment for a ₹12 Lakh loan. Ideal for comprehensive financial planning.",
+    intro: "A ₹12 Lakh loan is substantial. Ensure you map out your EMIs clearly to avoid financial strain over the loan tenure.",
+    amount: 1200000,
+    interestRate: 9.0,
+    tenure: 60,
+    date: "2026-07-23",
+    content: `
+      <h2>Strategizing a ₹12 Lakh Borrowing</h2>
+      <p>Taking on ₹12 Lakhs in debt requires careful foresight. Typically associated with high-end vehicle loans or significant home renovations, lenders will heavily scrutinize your debt-to-income ratio for this amount. Ensure that the EMI calculated below does not push your total monthly obligations past 40% of your take-home pay.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 12 Lakhs at 9% for 5 years?", answer: "Your EMI will be around ₹24,910, totaling about ₹2,94,589 in interest." },
+      { question: "What income is required for a 12 Lakh loan?", answer: "Lenders look for an EMI-to-income ratio below 40-50%, meaning you need a net monthly income of roughly ₹60,000+ to qualify comfortably." }
+    ]
+  },
+  {
+    slug: "emi-calculator-22-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for 22 Lakh Loan | Long Term Planning",
+    h1: "22 Lakh Loan EMI Calculator",
+    description: "Visualize the monthly EMI, total interest, and principal breakdown for a ₹22 Lakh loan.",
+    intro: "Often used for home purchases or major business expansions, a ₹22 Lakh loan requires careful multi-year planning. Calculate your EMI here.",
+    amount: 2200000,
+    interestRate: 8.5,
+    tenure: 120,
+    date: "2026-07-23",
+    content: `
+      <h2>₹22 Lakh Multi-Year Financial Planning</h2>
+      <p>When borrowing ₹22 Lakhs, you are likely entering into a 10 to 15-year commitment. At this scale, even a 0.5% difference in the interest rate can alter your total repayment by lakhs. Use the interactive tools on this page to visualize the profound impact of interest rates over a long-term amortization schedule.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 22 Lakh home loan for 10 years?", answer: "At 8.5% interest, the EMI comes out to roughly ₹27,277." },
+      { question: "Is a 10-year tenure good for 22 Lakhs?", answer: "A 10-year tenure offers a balance between manageable EMIs and lower overall interest compared to a 20-year term." }
+    ]
+  },
+  {
+    slug: "emi-calculator-35-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for 35 Lakh Loan | Housing Loan Estimation",
+    h1: "35 Lakh Loan EMI Calculator",
+    description: "Calculate your home loan EMI for ₹35 Lakhs. Understand how tenure impacts your total interest outflow.",
+    intro: "Taking a ₹35 Lakh mortgage? Use this calculator to see how extending your loan tenure drastically increases your total interest.",
+    amount: 3500000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-07-23",
+    content: `
+      <h2>Analyzing a ₹35 Lakh Mortgage</h2>
+      <p>A ₹35 Lakh loan is a standard ticket size for home buyers. Over a typical 20-year (240 months) tenure, the magic of compounding interest works against the borrower. Review the pie chart breakdown carefully—you will notice that over two decades, the total interest paid often rivals or exceeds the original principal amount borrowed.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI on a 35 Lakh home loan for 20 years?", answer: "Assuming an 8.5% rate, the EMI is approximately ₹30,374 per month." },
+      { question: "How much total interest will I pay on 35 Lakhs over 20 years?", answer: "At 8.5%, the total interest will be around ₹37.9 Lakhs—more than the principal amount." }
+    ]
+  },
+
+
+  {
     slug: "bike-loan-emi-calculator",
     type: "loan-types",
     title: "Bike Loan EMI Calculator | Two-Wheeler Repayment Planning",
@@ -25,7 +187,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 100000,
     interestRate: 11.5,
     tenure: 36,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Calculate Your Bike Loan EMI Instantly</h2>
       <p>Whether you're purchasing a commuter scooter or a high-end sports bike, financing it through a two-wheeler loan is common. However, these loans often carry higher interest rates than car loans. Using our calculator helps you lock in a budget-friendly EMI.</p>
@@ -45,7 +207,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 50000,
     interestRate: 0, // Sometimes No Cost EMI
     tenure: 12,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Planning Your Appliance Purchases</h2>
       <p>Consumer durable loans are used to buy electronics like TVs, refrigerators, and washing machines. Many retailers offer 'No Cost EMI', where the interest component is absorbed as a discount on the product price. Use this calculator to see exactly what you'll pay.</p>
@@ -65,7 +227,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 500000,
     interestRate: 12.5,
     tenure: 60,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Budgeting for Your Big Day</h2>
       <p>A wedding loan is essentially a personal loan used specifically for marriage-related expenses like venue booking, catering, and jewelry. Because it's an unsecured loan, interest rates can be high. It's crucial to calculate your EMI beforehand so you don't start your married life burdened by unmanageable debt.</p>
@@ -85,7 +247,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 200000,
     interestRate: 13.0,
     tenure: 24,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Financing Your Dream Vacation</h2>
       <p>Travel loans are short-term personal loans designed to cover flights, hotels, and tour packages. Since vacations do not generate a financial return, it is highly recommended to keep the loan amount small and the tenure short to minimize interest payments.</p>
@@ -105,7 +267,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 200000,
     interestRate: 11.0,
     tenure: 36,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Understanding Your ₹2 Lakh Loan EMI</h2>
       <p>A ₹2 Lakh loan is typically taken as a personal loan for medical emergencies, home repairs, or short-term needs. Adjust the interest rate and tenure sliders below to see how they impact your monthly outgoing.</p>
@@ -125,7 +287,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 1500000,
     interestRate: 9.5,
     tenure: 120,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Understanding Your ₹15 Lakh Loan EMI</h2>
       <p>A ₹15 Lakh loan could be a small home loan, a large personal loan, or an education loan. The tenure you choose will drastically change the total interest paid. Use the amortization table to plan your finances.</p>
@@ -145,7 +307,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 2500000,
     interestRate: 8.75,
     tenure: 180,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Understanding Your ₹25 Lakh Loan EMI</h2>
       <p>₹25 Lakh is a standard amount for mid-tier home loans or large property loans. At this amount, even a small reduction in the interest rate or tenure can save you lakhs of rupees in interest.</p>
@@ -165,7 +327,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 500000,
     interestRate: 11.5,
     tenure: 36, // Defaults to 3 years to show the higher EMI initially
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Which is Better: 3 Years or 5 Years?</h2>
       <p>When taking a personal or car loan, you often have to choose between a short tenure (3 years/36 months) and a medium tenure (5 years/60 months). This calculator helps you see the trade-off between monthly cash flow and total interest costs.</p>
@@ -187,7 +349,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 5000000,
     interestRate: 8.5,
     tenure: 240,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>The Complete Guide to Home Loan EMIs in 2026</h2>
       <p>Buying a home is one of the most significant financial milestones in an individual's life. However, it usually involves a long-term commitment in the form of a home loan. Understanding your Home Loan EMI (Equated Monthly Installment) is the first step toward stress-free homeownership.</p>
@@ -223,7 +385,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 500000,
     interestRate: 11.5,
     tenure: 60,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Personal Loan EMI Planning in 2026</h2>
       <p>Personal loans are a versatile financial tool that can help you manage unexpected expenses, consolidate high-interest debt, or fund major life events. Unlike home or car loans, personal loans are typically unsecured, meaning they don't require collateral.</p>
@@ -252,7 +414,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 800000,
     interestRate: 9.0,
     tenure: 48,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Car Loan EMI Calculator: Plan Your Auto Finance</h2>
       <p>Driving your own car is a dream for many, and auto loans make it accessible. However, because cars are depreciating assets, planning your repayment strategy is vital to avoid "upside-down" loans where you owe more than the car is worth.</p>
@@ -278,7 +440,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 2000000,
     interestRate: 10.5,
     tenure: 120,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Education Loan EMI: Investing in Your Future</h2>
       <p>Education loans are an investment in human capital. They often come with unique features like moratorium periods, where you don't have to pay the EMI during your course duration plus a grace period.</p>
@@ -306,7 +468,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 500000,
     interestRate: 10.0,
     tenure: 60,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>EMI Analysis for a ₹5 Lakh Loan</h2>
       <p>A ₹5 Lakh loan is a common requirement for various needs like small business expansion, high-end consumer durables, or emergency medical bills. Understanding the monthly commitment for this specific amount is crucial for cash flow management.</p>
@@ -329,7 +491,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 1000000,
     interestRate: 9.5,
     tenure: 84,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Optimizing Repayment for a ₹10 Lakh Loan</h2>
       <p>Borrowing ₹10 Lakh represents a significant financial step. Whether it's for a major home renovation or a wedding, the interest component on a million-rupee loan can be substantial if not managed correctly.</p>
@@ -352,7 +514,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 2000000,
     interestRate: 8.75,
     tenure: 180,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Financial Strategy for a ₹20 Lakh Loan</h2>
       <p>A ₹20 Lakh loan is often the entry point for property purchases or significant business investments. At this scale, even a 0.25% change in the interest rate can result in savings of nearly a lakh over a 15-year period.</p>
@@ -377,7 +539,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 100000,
     interestRate: 12.0,
     tenure: 60, // Default to 5 years for visualization, text will explain comparison
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>EMI Comparison: 1 Year vs 5 Year Tenure</h2>
       <p>One of the most common dilemmas borrowers face is choosing between a short tenure with high EMIs and a long tenure with low EMIs. Let's compare a ₹1 Lakh loan at 12% interest to see the real-world impact.</p>
@@ -404,7 +566,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 1500000,
     interestRate: 13.5,
     tenure: 36,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Planning Your Business Loan EMI</h2>
       <p>Taking a business loan is a strategic move to scale operations. However, the interest rates are often higher than secured personal loans. Knowing your exact monthly commitment helps you maintain a healthy cash flow.</p>
@@ -427,7 +589,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 300000,
     interestRate: 9.0,
     tenure: 12,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Calculating Your Gold Loan EMI</h2>
       <p>Gold loans are secured loans with relatively lower interest rates. They are perfect for short-term financial needs.</p>
@@ -450,7 +612,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 5000000,
     interestRate: 10.5,
     tenure: 120,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Understanding Loan Against Property (LAP)</h2>
       <p>A Loan Against Property allows you to unlock the value of your real estate. Because it is a secured loan, you can access larger amounts for longer tenures at lower interest rates compared to personal loans.</p>
@@ -473,7 +635,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 5000000,
     interestRate: 8.5,
     tenure: 240,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Managing a ₹50 Lakh Loan</h2>
       <p>A ₹50 Lakh loan is typical for a mid-range home purchase in India. At this scale, interest costs can easily match or exceed the principal amount if the tenure is too long.</p>
@@ -496,7 +658,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 3000000,
     interestRate: 9.0,
     tenure: 180,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Planning a ₹30 Lakh Loan Repayment</h2>
       <p>Whether for a home or a business investment, a ₹30 Lakh loan requires careful planning. A 15-year tenure is often the sweet spot for balancing affordable EMIs with manageable total interest.</p>
@@ -519,7 +681,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 10000000,
     interestRate: 8.5,
     tenure: 240,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Structuring a ₹1 Crore Loan</h2>
       <p>Borrowing ₹1 Crore, typically for luxury real estate, means you are entering a long-term financial relationship with your bank. Understanding the amortization schedule is critical.</p>
@@ -542,7 +704,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 5000000,
     interestRate: 8.5,
     tenure: 120,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>10 Years vs 20 Years: The Tenure Debate</h2>
       <p>For large loans, borrowers often debate between a 10-year and 20-year tenure. Let's compare a ₹50 Lakh loan at 8.5% interest.</p>
@@ -568,7 +730,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 5000000,
     interestRate: 8.5,
     tenure: 180,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>15 Years vs 30 Years: The Cost of Time</h2>
       <p>Some banks offer 30-year home loans to make large properties seem affordable. Let's look at the numbers for a ₹50 Lakh loan at 8.5%.</p>
@@ -594,7 +756,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 300000,
     interestRate: 11.5,
     tenure: 24,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Calculate Your Medical Loan EMI Instantly</h2>
       <p>Medical loans are a type of personal loan specifically designed to cover healthcare expenses. They are usually unsecured, meaning they have higher interest rates but faster disbursal times.</p>
@@ -614,7 +776,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 400000,
     interestRate: 12.0,
     tenure: 48,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Why Used Car Loans Are Different</h2>
       <p>Loans for pre-owned cars typically carry an interest rate 1% to 3% higher than loans for new cars because the asset (the car) has already depreciated and poses a slightly higher risk to the lender.</p>
@@ -634,7 +796,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 300000,
     interestRate: 10.5,
     tenure: 36,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Repaying a ₹3 Lakh Loan</h2>
       <p>A ₹3 Lakh loan is commonly used for home renovations, weddings, or medical emergencies. Knowing your exact monthly commitment helps you budget effectively without financial stress.</p>
@@ -654,7 +816,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 800000,
     interestRate: 9.5,
     tenure: 60,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Visualizing Your ₹8 Lakh Debt</h2>
       <p>Whether for a premium car or extensive home repairs, an ₹8 Lakh loan requires a solid repayment strategy. Check the amortization chart to see how your balance reduces over time.</p>
@@ -674,7 +836,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 4000000,
     interestRate: 8.5,
     tenure: 180,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Managing a ₹40 Lakh Home Loan</h2>
       <p>When dealing with a loan of this size, even small adjustments to your interest rate or tenure can result in massive savings. Use our charts to analyze the principal vs. interest components.</p>
@@ -694,7 +856,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 500000,
     interestRate: 11.0,
     tenure: 24,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>Short Term vs Medium Term</h2>
       <p>A 2-year loan means aggressive repayment. A 4-year loan offers breathing room but significantly increases the bank's profit.</p>
@@ -714,7 +876,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 1500000,
     interestRate: 9.5,
     tenure: 60,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>The 5 vs 10 Year Debate</h2>
       <p>This comparison is common for large personal loans or small home loans. Doubling the tenure doesn't halve the EMI, but it drastically increases the total interest.</p>
@@ -734,7 +896,7 @@ export const TIER2_PAGES: Tier2Page[] = [
     amount: 3000000,
     interestRate: 8.5,
     tenure: 180,
-    date: "2026-07-22",
+    date: "2026-07-23",
     content: `
       <h2>The Impact of Rate Changes</h2>
       <p>With a fixed rate, your EMI is locked in. With a floating rate, it fluctuates with market conditions. See how a 1% rate hike impacts your repayment.</p>

@@ -906,6 +906,159 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Does a floating rate change my EMI or my tenure?", answer: "Usually, banks increase your loan tenure when rates go up to keep your EMI constant. However, if you hit a maximum age limit, they will increase the EMI." }
     ]
   },
+
+  {
+    type: "loan-types",
+    slug: "home-loan-emi-guide",
+    title: "The Complete Guide to Home Loan EMIs in 2026",
+    h1: "Home Loan EMI Guide",
+    description: "Learn everything about planning and paying off your mortgage. Use our comprehensive guide to understand your Home Loan EMI.",
+    intro: "Buying a home is one of the most significant financial milestones. Understanding your Home Loan EMI is the first step toward stress-free homeownership.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-07-25",
+    content: `
+      <h2>What are Home Loan EMIs and When to Use Them?</h2>
+      <p>A home loan EMI is a fixed monthly payment that includes both the principal amount and the interest. Since home loans involve large sums of money and long tenures (often up to 30 years), the EMI makes the repayment manageable.</p>
+
+      <h2>How Home Loan EMIs are Calculated</h2>
+      <p>Home loan EMIs are calculated using the standard reducing balance formula. For example, on a ₹50 Lakh loan at 8.5% interest for 20 years, your EMI would be exactly calculated to cover both interest and principal over 240 months.</p>
+
+      <h2>Key Factors Affecting Your EMI</h2>
+      <ul>
+        <li><strong>Interest Rates:</strong> Even a 0.5% change can drastically affect your total outflow.</li>
+        <li><strong>Tenure:</strong> Longer tenures mean smaller EMIs but higher total interest.</li>
+        <li><strong>Down Payment:</strong> A larger down payment reduces the principal and the EMI.</li>
+      </ul>
+
+      <h2>How to Use EMICalculatorPro for Planning</h2>
+      <p>Use our advanced tools to simulate prepayments, compare different interest rates, and visualize your amortization schedule.</p>
+    `,
+    faqs: [
+      {
+        question: "Can I reduce my home loan EMI?",
+        answer: "Yes, by making part-prepayments, increasing your loan tenure, or negotiating a lower interest rate with your bank."
+      },
+      {
+        question: "Is home loan interest calculated daily or monthly?",
+        answer: "Most banks in India calculate home loan interest on a monthly reducing balance basis."
+      }
+    ],
+  },
+  {
+    slug: "personal-loan-emi-guide",
+    type: "loan-types",
+    title: "Personal Loan EMI Guide: How to Navigate Unsecured Loans",
+    h1: "Personal Loan EMI Guide",
+    description: "Navigate unsecured loans effectively and minimize interest burdens with our comprehensive personal loan EMI guide.",
+    intro: "Personal loans are versatile but carry higher interest rates. Learn how to plan your repayments efficiently to avoid debt traps.",
+    amount: 500000,
+    interestRate: 11.5,
+    tenure: 60,
+    date: "2026-07-25",
+    content: `
+      <h2>What are Personal Loans?</h2>
+      <p>Personal loans are unsecured loans provided by banks and NBFCs. They do not require collateral and can be used for various purposes like medical emergencies, weddings, or debt consolidation.</p>
+
+      <h2>How Personal Loan EMIs are Calculated</h2>
+      <p>Like home loans, personal loans use the reducing balance method. However, due to the shorter tenure (usually 1 to 5 years) and higher interest rate, the EMI is generally larger relative to the loan amount.</p>
+
+      <h2>Key Factors Affecting Personal Loan EMIs</h2>
+      <ul>
+        <li><strong>Credit Score:</strong> A high CIBIL score is crucial for securing a lower interest rate.</li>
+        <li><strong>Income and Stability:</strong> Lenders assess your repayment capacity to determine the loan amount and rate.</li>
+        <li><strong>Tenure:</strong> Choosing a shorter tenure reduces the overall interest burden significantly.</li>
+      </ul>
+    `,
+    faqs: [
+      {
+        question: "Are there prepayment penalties on personal loans?",
+        answer: "Yes, many banks charge a prepayment penalty (often 2-5% of the outstanding amount) if you close the loan early, although some waive it after a certain period."
+      },
+      {
+        question: "How much personal loan can I get?",
+        answer: "Typically, banks allow a loan amount where the EMI does not exceed 40-50% of your net monthly income, including existing obligations."
+      }
+    ],
+  },
+  {
+    slug: "sbi-home-loan-emi-guide",
+    type: "loan-types",
+    title: "SBI Home Loan EMI Guide: Rates & Planning for 2026",
+    h1: "SBI Home Loan EMI Guide",
+    description: "A comprehensive guide to State Bank of India (SBI) home loans, current interest rates, and how to calculate your exact EMI.",
+    intro: "State Bank of India is the largest mortgage lender in the country. Understand their specific loan products and plan your EMI accurately.",
+    amount: 5000000,
+    interestRate: 8.4,
+    tenure: 240,
+    date: "2026-07-25",
+    content: `
+      <h2>Current SBI Home Loan Interest Rates</h2>
+      <p>As of 2026, SBI offers highly competitive home loan interest rates, typically starting around 8.4% to 8.5% for borrowers with excellent credit scores (CIBIL > 750). They offer various schemes tailored to regular employees, defense personnel, and non-salaried individuals.</p>
+
+      <h2>How to Calculate SBI Home Loan EMI</h2>
+      <p>You can use the EMICalculatorPro tool above to calculate your exact SBI home loan EMI. Simply input your desired loan amount, the current SBI interest rate applicable to your profile, and your preferred tenure.</p>
+
+      <h2>SBI Loan Eligibility and Documentation</h2>
+      <p>To qualify for the best rates at SBI, you generally need a CIBIL score of 750 or above. Documentation includes proof of identity, address, income (salary slips and IT returns), and property documents.</p>
+
+      <h2>Pros and Cons of Choosing SBI</h2>
+      <ul>
+        <li><strong>Pros:</strong> Lower interest rates, no prepayment penalties on floating rate loans, high trust factor.</li>
+        <li><strong>Cons:</strong> The application process can be rigorous and time-consuming compared to some private lenders.</li>
+      </ul>
+    `,
+    faqs: [
+      {
+        question: "Does SBI charge a processing fee for home loans?",
+        answer: "Yes, but they frequently run festive campaigns where the processing fee is completely waived. Normally, it is a small percentage of the loan amount."
+      },
+      {
+        question: "Can I transfer my existing home loan to SBI?",
+        answer: "Yes, SBI offers a Home Loan Balance Transfer facility, often at very attractive rates to encourage borrowers to switch."
+      }
+    ],
+  },
+  {
+    slug: "hdfc-home-loan-emi-guide",
+    type: "loan-types",
+    title: "HDFC Home Loan EMI Guide: Rates & Planning for 2026",
+    h1: "HDFC Home Loan EMI Guide",
+    description: "Detailed guide to HDFC Bank home loans, featuring current 2026 interest rates, eligibility criteria, and EMI calculation strategies.",
+    intro: "HDFC Bank is a premier private sector lender known for fast processing and excellent customer service. Explore their home loan offerings.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-07-25",
+    content: `
+      <h2>Current HDFC Bank Home Loan Interest Rates</h2>
+      <p>HDFC Bank's home loan interest rates for 2026 are highly competitive, generally starting at around 8.5% for salaried individuals with strong credit profiles. They offer specialized rates for women borrowers, often providing a 0.05% concession.</p>
+
+      <h2>How to Calculate HDFC Home Loan EMI</h2>
+      <p>Input your loan parameters into our calculator above. HDFC loans use the standard monthly reducing balance method. Accurately determining your EMI helps you plan your monthly budget effectively.</p>
+
+      <h2>HDFC Loan Eligibility and Documentation</h2>
+      <p>Eligibility is based on income, age, credit score, and the value of the property. HDFC requires standard KYC documents, income proofs (Form 16, salary slips, bank statements), and clear property titles.</p>
+
+      <h2>Pros and Cons of Choosing HDFC Bank</h2>
+      <ul>
+        <li><strong>Pros:</strong> Fast and streamlined processing, excellent digital services, dedicated relationship managers.</li>
+        <li><strong>Cons:</strong> Interest rates might occasionally be marginally higher than public sector banks, and processing fees can be stricter.</li>
+      </ul>
+    `,
+    faqs: [
+      {
+        question: "Does HDFC Bank offer a pre-approved home loan?",
+        answer: "Yes, HDFC Bank provides in-principle approvals for home loans even before you have selected a property, which is valid for a certain period."
+      },
+      {
+        question: "Are there any prepayment charges for HDFC home loans?",
+        answer: "For floating rate home loans, HDFC Bank does not charge any prepayment penalties, allowing you to pay off the loan early without extra costs."
+      }
+    ],
+  }
+
 ];
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {

@@ -46,3 +46,6 @@
 
 ### Simulated Audit: 2026-07-23
 **Update (2026-07-23):** Completed daily publishing cycle. Published 1 new Tier 1 article (`/blog/processing-fees-hidden-charges-guide`) and 8 new Tier 2 programmatic pages (3 loan types, 5 scenarios). These 9 new URLs have been added to the internal linking graph. All dates refreshed to `2026-07-23`. Triggered IndexNow API and Search Engine sitemap pings via scripts for all generated/updated routes.
+
+### Simulated Audit: 2026-07-26
+**Update (2026-07-26):** Completed daily publishing cycle focused on Smart Loan Borrowing. Published 1 new Tier 1 article (`/blog/smart-loan-borrowing-guide-2026`) and 8 new Tier 2 programmatic pages (3 loan types, 5 scenarios/tenure comparisons). These 9 new URLs have been added to the internal linking graph. Updated legacy content with 2 inbound links. All dates refreshed to `2026-07-26`. Verified internal linking and successfully ran `tsc` build check. Appended 10 new native social posts to `social-posts.md`. Triggered IndexNow API and Search Engine sitemap pings via scripts for all generated/updated routes.

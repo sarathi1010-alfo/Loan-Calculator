@@ -1059,6 +1059,200 @@ export const TIER2_PAGES: Tier2Page[] = [
     ],
   }
 
+,
+  {
+    slug: "icici-car-loan-emi-calculator",
+    type: "loan-types",
+    title: "ICICI Car Loan EMI Calculator | Estimate Your Auto Loan EMI",
+    h1: "ICICI Car Loan EMI Calculator",
+    description: "Calculate your ICICI car loan EMI instantly. Understand your monthly payments, total interest, and amortization schedule for your dream vehicle.",
+    intro: "ICICI Bank offers competitive interest rates for both new and used car loans. Use this calculator to estimate your exact EMI before you head to the dealership.",
+    amount: 1000000,
+    interestRate: 8.75,
+    tenure: 60,
+    date: "2026-07-26",
+    content: `
+      <h2>How to Calculate Your ICICI Car Loan EMI</h2>
+      <p>Calculating your ICICI car loan EMI is straightforward with our tool. Enter your principal amount, ICICI's current interest rate, and your desired loan tenure. The calculator will instantly apply the standard reducing-balance formula to show your monthly payment and total interest.</p>
+
+      <h2>Why Choose ICICI for Your Car Loan?</h2>
+      <p>ICICI Bank is known for quick processing times and flexible tenure options up to 7 years (84 months). However, a longer tenure means you pay more total interest. Always aim for the shortest tenure you can comfortably afford.</p>
+    `,
+    faqs: [
+      { question: "What is the maximum tenure for an ICICI car loan?", answer: "ICICI Bank typically offers car loan tenures up to 7 years (84 months) for new cars, subject to eligibility criteria." },
+      { question: "Does ICICI offer fixed or floating rates for car loans?", answer: "ICICI car loans are generally offered with fixed interest rates, meaning your EMI will remain constant throughout the loan tenure." },
+      { question: "Is there a prepayment penalty on ICICI car loans?", answer: "Yes, ICICI Bank may charge a prepayment or foreclosure penalty if you close the loan early, usually calculated as a percentage of the outstanding principal." },
+      { question: "How is the ICICI car loan EMI calculated?", answer: "The EMI is calculated using the standard mathematical formula: EMI = [P x R x (1+R)^N] / [(1+R)^N-1], where P is Principal, R is monthly rate, and N is tenure in months." },
+      { question: "Can I get a 100% on-road funding from ICICI?", answer: "On select models and for customers with excellent credit profiles, ICICI Bank may offer up to 100% funding on the ex-showroom or on-road price of the car." }
+    ]
+  },
+  {
+    slug: "axis-personal-loan-emi-calculator",
+    type: "loan-types",
+    title: "Axis Bank Personal Loan EMI Calculator | Quick Repayment Check",
+    h1: "Axis Bank Personal Loan EMI Calculator",
+    description: "Plan your Axis Bank personal loan repayment. Calculate your monthly EMI and visualize the interest breakdown with our free tool.",
+    intro: "Whether it's for a medical emergency or a dream vacation, Axis Bank personal loans offer quick funds. Use this calculator to find out exactly how much you'll pay every month.",
+    amount: 500000,
+    interestRate: 10.49,
+    tenure: 48,
+    date: "2026-07-26",
+    content: `
+      <h2>Planning Your Axis Bank Personal Loan</h2>
+      <p>Personal loans are unsecured, meaning they typically carry a higher interest rate than secured loans like home or car loans. It's crucial to calculate your EMI accurately to ensure it fits within your monthly budget.</p>
+
+      <h2>Factors Affecting Axis Bank Personal Loan Interest Rates</h2>
+      <p>Axis Bank determines your interest rate based on factors such as your credit score (CIBIL), your monthly income, your employer category, and your existing relationship with the bank. Maintaining a high credit score is the best way to secure the lowest possible rate.</p>
+    `,
+    faqs: [
+      { question: "What is the minimum EMI for an Axis Bank Personal Loan?", answer: "The minimum EMI depends on the loan amount, interest rate, and tenure. Use our calculator to find the exact EMI for your specific loan requirements." },
+      { question: "How long does it take for Axis Bank to disburse a personal loan?", answer: "For pre-approved customers, Axis Bank can disburse personal loans within hours. For regular applications, it typically takes 24 to 48 hours after document verification." },
+      { question: "Can I prepay my Axis Bank personal loan?", answer: "Yes, you can prepay your Axis Bank personal loan, but it is subject to prepayment charges as per the bank's terms and conditions, and usually only allowed after paying a certain number of EMIs." },
+      { question: "Are Axis Bank personal loan rates fixed or floating?", answer: "Axis Bank personal loans generally come with fixed interest rates." },
+      { question: "What documents are needed for an Axis Bank personal loan?", answer: "Commonly required documents include identity proof, address proof, recent salary slips, and bank statements." }
+    ]
+  },
+  {
+    slug: "emi-calculator-14-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for 14 Lakh Loan | Repayment Schedule",
+    h1: "EMI Calculator for ₹14 Lakh Loan",
+    description: "Calculate your monthly EMI for a ₹14 Lakh loan. View the complete amortization schedule and interest breakdown.",
+    intro: "A ₹14 Lakh loan is a significant amount. Whether it's for home renovation or a premium car, knowing your exact monthly obligation is essential.",
+    amount: 1400000,
+    interestRate: 9.5,
+    tenure: 60,
+    date: "2026-07-26",
+    content: `
+      <h2>Breaking Down a ₹14 Lakh Loan</h2>
+      <p>When you borrow ₹14 Lakhs, the interest rate and tenure you choose will heavily impact your finances. A shorter tenure increases your monthly EMI but saves you money overall, while a longer tenure does the opposite.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 14 Lakh home loan?", answer: "For a 14 Lakh home loan at 8.5% over 15 years, the EMI would be approximately ₹13,786." },
+      { question: "What is the EMI for a 14 Lakh personal loan?", answer: "For a 14 Lakh personal loan at 11% over 5 years (60 months), the EMI would be approximately ₹30,439." },
+      { question: "How much total interest will I pay on a 14 Lakh loan?", answer: "The total interest depends on the rate and tenure. At 9.5% for 5 years, the total interest is roughly ₹3.6 Lakhs." },
+      { question: "Can I close a 14 Lakh loan early?", answer: "Yes, making prepayments directly towards the principal will help you close the loan early and save on total interest." },
+      { question: "How is the EMI calculated for 14 Lakhs?", answer: "EMI is calculated using the reducing balance formula: EMI = [P x R x (1+R)^N] / [(1+R)^N-1], applied to the 14 Lakh principal." }
+    ]
+  },
+  {
+    slug: "emi-calculator-16-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for 16 Lakh Loan | Compare Interest Rates",
+    h1: "EMI Calculator for ₹16 Lakh Loan",
+    description: "Find the EMI for a ₹16 Lakh loan. Easily compare how different tenures and interest rates affect your monthly payments.",
+    intro: "Need to borrow ₹16 Lakhs? Use our calculator to find out exactly how much your monthly EMI will be and plan your finances accordingly.",
+    amount: 1600000,
+    interestRate: 9.0,
+    tenure: 84,
+    date: "2026-07-26",
+    content: `
+      <h2>Planning Your ₹16 Lakh Repayment</h2>
+      <p>A ₹16 Lakh loan represents a substantial monthly commitment. It's crucial to adjust the sliders for interest rate and tenure to find an EMI that comfortably fits your budget without overpaying on interest.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 16 Lakh car loan?", answer: "For a 16 Lakh car loan at 9% for 7 years (84 months), the EMI is roughly ₹25,743." },
+      { question: "What is the EMI for a 16 Lakh home loan over 20 years?", answer: "At an interest rate of 8.5% for 20 years, a 16 Lakh home loan EMI is approximately ₹13,885." },
+      { question: "How does tenure affect my 16 Lakh loan?", answer: "Increasing the tenure lowers your monthly EMI but significantly increases the total interest you will pay over the life of the loan." },
+      { question: "Should I take a 16 Lakh loan?", answer: "Only if the calculated EMI fits comfortably within your monthly budget (ideally keeping your total EMI-to-income ratio below 40-50%)." },
+      { question: "What happens if I miss an EMI on a 16 Lakh loan?", answer: "Missing an EMI will result in late fees, penal interest, and a negative impact on your CIBIL credit score." }
+    ]
+  },
+  {
+    slug: "emi-calculator-45-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for 45 Lakh Loan | Home Loan Planner",
+    h1: "EMI Calculator for ₹45 Lakh Loan",
+    description: "Calculate your EMI for a ₹45 Lakh loan, typically used for housing. View the detailed amortization schedule and interest cost.",
+    intro: "Borrowing ₹45 Lakhs is a major financial decision, most commonly associated with a home loan. Accurately calculate your EMI to ensure long-term affordability.",
+    amount: 4500000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-07-26",
+    content: `
+      <h2>The True Cost of a ₹45 Lakh Loan</h2>
+      <p>When dealing with large principals like ₹45 Lakhs over long tenures (e.g., 20 years), the total interest you pay can sometimes equal or exceed the principal amount. Making small, regular prepayments can save you millions of rupees.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 45 Lakh home loan for 20 years?", answer: "At a standard rate of 8.5%, the EMI for a 45 Lakh home loan over 20 years is approximately ₹39,052." },
+      { question: "What is the EMI for a 45 Lakh home loan for 30 years?", answer: "At 8.5%, the EMI for 30 years is about ₹34,601. However, the total interest paid is drastically higher than a 20-year loan." },
+      { question: "How much income is required for a 45 Lakh loan?", answer: "Lenders typically require that your EMI does not exceed 50% of your net monthly income. For an EMI of ₹39,000, your net income should be at least ₹78,000 to ₹80,000." },
+      { question: "Can I prepay a 45 Lakh home loan?", answer: "Yes, you can prepay a home loan. Most floating rate home loans in India have no prepayment penalties." },
+      { question: "How much total interest will I pay on a 45 Lakh loan over 20 years?", answer: "At 8.5%, the total interest over 20 years is approximately ₹48.7 Lakhs, meaning your total repayment is over ₹93 Lakhs." }
+    ]
+  },
+  {
+    slug: "emi-2-years-vs-3-years",
+    type: "tenure-comparison",
+    title: "EMI Comparison: 2 Years vs 3 Years Tenure",
+    h1: "2 Years vs 3 Years EMI Comparison",
+    description: "Compare the difference in monthly EMI and total interest paid between a 2-year and a 3-year loan tenure.",
+    intro: "Choosing between a 24-month and 36-month loan tenure is a common dilemma. See how much extra interest a 3-year term costs compared to a 2-year term.",
+    amount: 300000,
+    interestRate: 11,
+    tenure: 24,
+    date: "2026-07-26",
+    content: `
+      <h2>Balancing EMI and Total Interest</h2>
+      <p>A 2-year tenure will result in a significantly higher monthly EMI, requiring stronger cash flow. However, it minimizes the total interest paid to the bank. A 3-year tenure makes the monthly payment easier to manage but increases the overall cost of borrowing.</p>
+    `,
+    faqs: [
+      { question: "Which is better: a 2-year or 3-year loan?", answer: "A 2-year loan is cheaper overall due to lower total interest, but a 3-year loan offers lower monthly EMIs, making it easier on monthly cash flow." },
+      { question: "How much interest do I save by choosing a 2-year tenure over 3 years?", answer: "It depends on the loan amount and rate. On a ₹3 Lakh loan at 11%, you save about ₹18,000 in interest by choosing 2 years instead of 3 years." },
+      { question: "Is it harder to get approved for a 2-year loan?", answer: "Because the EMI is higher, you need a higher monthly income to meet the bank's debt-to-income ratio requirements for a 2-year loan compared to a 3-year loan." },
+      { question: "Can I switch from a 3-year to a 2-year tenure later?", answer: "Generally, you cannot easily switch tenures mid-loan. However, you can achieve the same effect by increasing your monthly EMI payments (prepayment)." },
+      { question: "What loan types typically use 2 to 3-year tenures?", answer: "Personal loans, consumer durable loans, and two-wheeler loans are very common in the 2 to 3-year tenure range." }
+    ]
+  },
+  {
+    slug: "emi-3-years-vs-4-years",
+    type: "tenure-comparison",
+    title: "EMI Comparison: 3 Years vs 4 Years Tenure",
+    h1: "3 Years vs 4 Years EMI Comparison",
+    description: "Compare loan EMIs for 3-year (36 months) vs 4-year (48 months) tenures to find the perfect balance for your budget.",
+    intro: "Should you take a loan for 3 years or stretch it to 4 years? Compare the EMI and total interest differences instantly.",
+    amount: 500000,
+    interestRate: 10.5,
+    tenure: 36,
+    date: "2026-07-26",
+    content: `
+      <h2>The Cost of an Extra Year</h2>
+      <p>Extending your loan from 3 years to 4 years might make your EMI look more attractive, but you are paying an entire extra year of interest. Always calculate the total outflow before making your decision.</p>
+    `,
+    faqs: [
+      { question: "Does a 4-year loan have a much lower EMI than a 3-year loan?", answer: "The EMI will be noticeably lower, but not proportionally, because the interest component increases with the longer tenure." },
+      { question: "How much more expensive is a 4-year loan compared to a 3-year loan?", answer: "On a ₹5 Lakh loan at 10.5%, a 4-year tenure costs about ₹27,000 more in total interest than a 3-year tenure." },
+      { question: "Is a 4-year personal loan common?", answer: "Yes, 3 to 5 years is the standard tenure range for most personal and car loans." },
+      { question: "How do I calculate the difference manually?", answer: "Calculate the EMI for both tenures, multiply each EMI by its respective number of months (36 vs 48), and compare the total amount payable." },
+      { question: "Should I prioritize lower EMI or lower total interest?", answer: "Ideally, you should aim for the highest EMI you can comfortably afford without risking default, as this minimizes the total interest you pay to the bank." }
+    ]
+  },
+  {
+    slug: "bajaj-finserv-personal-loan-emi-calculator",
+    type: "loan-types",
+    title: "Bajaj Finserv Personal Loan EMI Calculator | Check Your EMI",
+    h1: "Bajaj Finserv Personal Loan EMI Calculator",
+    description: "Estimate your Bajaj Finserv personal loan EMI. Calculate your monthly repayment, total interest, and amortization schedule.",
+    intro: "Bajaj Finserv is a leading NBFC offering quick personal loans. Use this calculator to see your expected EMI before applying.",
+    amount: 300000,
+    interestRate: 11.5,
+    tenure: 36,
+    date: "2026-07-26",
+    content: `
+      <h2>Understanding Your Bajaj Finserv Personal Loan</h2>
+      <p>NBFCs like Bajaj Finserv often provide faster approvals and more flexible eligibility criteria than traditional banks, but it's essential to carefully calculate the EMI and understand all associated charges.</p>
+
+      <h2>Checking the Total Cost</h2>
+      <p>Always factor in the processing fees (often a percentage of the loan amount) when calculating the true cost of an NBFC personal loan. The EMI calculated here reflects the principal and interest repayment.</p>
+    `,
+    faqs: [
+      { question: "What is the typical tenure for a Bajaj Finserv personal loan?", answer: "Bajaj Finserv offers flexible tenures ranging from 12 months up to 96 months, depending on the borrower's profile." },
+      { question: "How fast is a Bajaj Finserv personal loan approved?", answer: "They are known for instant approvals and can disburse funds within 24 hours for eligible customers." },
+      { question: "Does Bajaj Finserv charge a prepayment penalty?", answer: "Yes, most NBFCs, including Bajaj Finserv, charge a foreclosure or part-prepayment fee if you decide to pay off the loan early." },
+      { question: "Is a CIBIL score required for a Bajaj Finserv personal loan?", answer: "Yes, a good CIBIL score (usually 750+) is required to get the best interest rates." },
+      { question: "How is the EMI calculated for Bajaj Finserv?", answer: "It is calculated using the standard reducing-balance EMI formula." }
+    ]
+  }
 ];
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {

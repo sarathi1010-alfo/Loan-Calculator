@@ -49,3 +49,15 @@
 
 ### Simulated Audit: 2026-07-26
 **Update (2026-07-26):** Completed daily publishing cycle focused on Smart Loan Borrowing. Published 1 new Tier 1 article (`/blog/smart-loan-borrowing-guide-2026`) and 8 new Tier 2 programmatic pages (3 loan types, 5 scenarios/tenure comparisons). These 9 new URLs have been added to the internal linking graph. Updated legacy content with 2 inbound links. All dates refreshed to `2026-07-26`. Verified internal linking and successfully ran `tsc` build check. Appended 10 new native social posts to `social-posts.md`. Triggered IndexNow API and Search Engine sitemap pings via scripts for all generated/updated routes.
+
+### GSC Audit & Fix Plan (2026-07-27)
+
+**Issue Found:** 2 old parameterized URLs showing "Crawled - currently not indexed" due to duplicate content in Google Search Console (GSC).
+- `https://emicalculatorpro.alfo.online/?amount=100000`
+- `https://emicalculatorpro.alfo.online/?interest=8.5`
+
+**Fix Plan Execution Steps:**
+1. **Canonicalization:** Ensure the root page (`/`) enforces a self-referencing canonical tag `<link rel="canonical" href="https://emicalculatorpro.alfo.online/" />` to consolidate link equity and signal to Google that parameter URLs are dynamic state representations, not unique pages.
+2. **GSC URL Inspection:** Use the GSC URL Inspection tool to request re-crawling for the canonical root page (`/`).
+3. **Internal Link Audit:** Verify that no internal links are pointing to these parameterized versions; all internal links (e.g., from Tier 1 and Tier 2 pages) must strictly point to the clean root URL (`/` or `/#loan-types`).
+4. **Monitoring:** Monitor the "Crawled - currently not indexed" report in GSC over the next 14 days to confirm the parameterized URLs are dropped or consolidated under the canonical root.

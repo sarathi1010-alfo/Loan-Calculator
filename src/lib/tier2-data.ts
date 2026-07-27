@@ -1253,6 +1253,264 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "How is the EMI calculated for Bajaj Finserv?", answer: "It is calculated using the standard reducing-balance EMI formula." }
     ]
   }
+,
+{
+    slug: "two-wheeler-loan-emi-calculator",
+    type: "loan-types",
+    title: "Two-Wheeler Loan EMI Calculator | Check Bike Loan EMI",
+    h1: "Two-Wheeler Loan EMI Calculator",
+    description: "Calculate your two-wheeler loan EMI instantly. Plan your bike purchase with accurate monthly repayment schedules and interest breakdowns.",
+    intro: "Planning to buy a new bike or scooter? A two-wheeler loan can help you finance your purchase. Use our calculator to find out exactly how much your monthly EMI will be, ensuring it fits perfectly within your budget.",
+    amount: 150000,
+    interestRate: 10.5,
+    tenure: 36,
+    date: "2026-07-27",
+    content: `
+      <h2>How Two-Wheeler Loan EMIs Work</h2>
+      <p>A two-wheeler loan allows you to purchase a motorcycle or scooter by paying a small down payment upfront and financing the rest. The lender pays the dealer, and you repay the lender in Equated Monthly Installments (EMIs). These EMIs consist of both the principal amount borrowed and the interest charged by the bank.</p>
+
+      <h2>Factors Influencing Your Bike Loan EMI</h2>
+      <p>Your two-wheeler loan EMI depends on three critical factors:</p>
+      <ul>
+        <li><strong>Loan Amount (Principal):</strong> The total amount you borrow. A higher down payment reduces the loan amount, lowering your EMI.</li>
+        <li><strong>Interest Rate:</strong> Two-wheeler loan interest rates typically range from 8% to 15% depending on your credit score, the lender, and the vehicle type.</li>
+        <li><strong>Tenure:</strong> The repayment period. Most bike loans are offered for 12 to 60 months. A shorter tenure means a higher EMI but lower total interest paid.</li>
+      </ul>
+
+      <h2>Why Use Our Two-Wheeler Loan Calculator?</h2>
+      <p>Manually calculating loan EMIs can be complex due to the reducing balance method used by banks. Our tool automates this process. By simply adjusting the sliders for amount, interest rate, and tenure, you can instantly see your monthly commitment. Furthermore, the amortization schedule clearly outlines how much of your payment goes towards interest versus principal over the life of the loan.</p>
+    `,
+    faqs: [
+      { question: "What is the typical interest rate for a two-wheeler loan?", answer: "Interest rates generally range from 8% to 15% per annum, largely depending on your credit history and the lending institution." },
+      { question: "Can I get a 100% financing two-wheeler loan?", answer: "Some lenders offer up to 100% financing on the ex-showroom price, but you usually have to pay for registration and insurance upfront." },
+      { question: "How long can a two-wheeler loan tenure be?", answer: "Most banks offer tenures ranging from 1 to 5 years (12 to 60 months)." },
+      { question: "Are there processing fees on bike loans?", answer: "Yes, lenders typically charge a processing fee ranging from 1% to 3% of the loan amount." },
+      { question: "Does prepaying a two-wheeler loan save money?", answer: "Yes, prepaying reduces the outstanding principal, which in turn reduces the total interest you will pay. However, check for any prepayment penalty fees." }
+    ]
+  },
+  {
+    slug: "machinery-loan-emi-calculator",
+    type: "loan-types",
+    title: "Machinery Loan EMI Calculator | Business Equipment Finance",
+    h1: "Machinery Loan EMI Calculator",
+    description: "Calculate your machinery loan EMI accurately. Plan your business equipment financing with clear amortization and interest breakdowns.",
+    intro: "Upgrading or acquiring new machinery is vital for business growth but requires significant capital. A machinery loan provides the necessary funds. Use this calculator to determine your monthly repayment obligations and ensure they align with your business cash flow.",
+    amount: 2500000,
+    interestRate: 11.5,
+    tenure: 60,
+    date: "2026-07-27",
+    content: `
+      <h2>Understanding Machinery Loan EMIs</h2>
+      <p>Machinery loans, a type of business equipment financing, help enterprises purchase new or upgraded equipment without depleting working capital. The equipment itself often serves as collateral. The EMI for these loans is calculated based on the borrowed amount, the interest rate offered, and the repayment term.</p>
+
+      <h2>Key Components of Equipment Financing</h2>
+      <p>When applying for a machinery loan, several factors will dictate your EMI:</p>
+      <ul>
+        <li><strong>Principal Amount:</strong> This is typically up to 80-90% of the machinery's value. The remaining percentage is paid as a margin or down payment by the business.</li>
+        <li><strong>Interest Rates:</strong> Rates are generally competitive but vary based on the business's vintage, financial health, and credit rating, usually hovering between 9% and 14%.</li>
+        <li><strong>Repayment Tenure:</strong> Tenures typically range from 3 to 7 years, designed to align roughly with the productive life of the asset being purchased.</li>
+      </ul>
+
+      <h2>Strategizing Your Repayment</h2>
+      <p>For businesses, managing cash flow is paramount. By using this calculator, you can model different loan scenarios. Choosing a longer tenure reduces the monthly EMI, preserving working capital for daily operations, but increases the overall interest cost. Conversely, a shorter tenure increases the monthly EMI but minimizes the total cost of financing, helping your business achieve higher profitability on the asset sooner.</p>
+    `,
+    faqs: [
+      { question: "What collateral is required for a machinery loan?", answer: "In most cases, the machinery or equipment being purchased serves as the primary collateral for the loan." },
+      { question: "What is the maximum tenure for a machinery loan?", answer: "Lenders typically offer maximum tenures of up to 5 to 7 years, depending on the type and expected lifespan of the machinery." },
+      { question: "Are interest rates fixed or floating for machinery loans?", answer: "Both options are available, though many lenders offer fixed rates to help businesses maintain predictable monthly outflows." },
+      { question: "Can a startup apply for a machinery loan?", answer: "Yes, though startups may face stricter scrutiny, require higher margin money, or need a strong business plan compared to established enterprises." },
+      { question: "How does this loan impact business taxes?", answer: "The interest paid on a business machinery loan is generally tax-deductible as a business expense, reducing the effective cost of borrowing." }
+    ]
+  },
+  {
+    slug: "pnb-home-loan-emi-calculator",
+    type: "loan-types",
+    title: "PNB Home Loan EMI Calculator | Check Repayment Plans",
+    h1: "PNB Home Loan EMI Calculator",
+    description: "Calculate your Punjab National Bank (PNB) home loan EMI. Instantly view your monthly payments, total interest, and amortization schedule.",
+    intro: "Punjab National Bank (PNB) offers highly competitive home loan rates for various housing needs. Use our specialized calculator to estimate your PNB home loan EMI, helping you plan your housing budget accurately.",
+    amount: 5000000,
+    interestRate: 8.55,
+    tenure: 240,
+    date: "2026-07-27",
+    content: `
+      <h2>Planning Your PNB Home Loan</h2>
+      <p>Punjab National Bank (PNB) is one of India's premier public sector banks, known for offering some of the lowest interest rates on housing loans. Whether you are buying a ready-to-move apartment, constructing a house, or purchasing a plot, calculating your exact EMI before applying is a crucial step in your financial planning.</p>
+
+      <h2>Factors Affecting Your PNB EMI</h2>
+      <p>Your EMI with PNB will be determined by three primary variables:</p>
+      <ul>
+        <li><strong>Loan Amount:</strong> PNB finances up to 90% of the property value for smaller loans (up to ₹30 Lakhs) and up to 80% for loans above ₹75 Lakhs.</li>
+        <li><strong>Interest Rate:</strong> PNB's rates are often linked to the Repo Rate (RLLR). Borrowers with a CIBIL score of 750 and above typically secure the best, lowest margin rates.</li>
+        <li><strong>Tenure:</strong> PNB allows a maximum repayment tenure of up to 30 years. While a 30-year term offers the lowest EMI, a 15 or 20-year term drastically reduces your interest burden.</li>
+      </ul>
+
+      <h2>How to Use This Calculator</h2>
+      <p>Simply adjust the sliders above to reflect the loan amount you need, the current PNB interest rate you qualify for, and your preferred tenure. The calculator immediately updates to show your monthly EMI. Switch to the 'Amortization' tab to see exactly how much of your first EMI goes to interest versus principal, which is critical for planning future prepayments.</p>
+    `,
+    faqs: [
+      { question: "What is the current PNB home loan interest rate?", answer: "PNB home loan interest rates typically start around 8.40% to 8.60% per annum, varying based on the applicant's credit score and loan amount." },
+      { question: "What is the maximum tenure for a PNB home loan?", answer: "PNB offers a maximum repayment tenure of up to 30 years for home loans." },
+      { question: "Does PNB charge a prepayment penalty on home loans?", answer: "No, per RBI guidelines, PNB does not charge any prepayment or foreclosure penalty on floating-rate home loans for individual borrowers." },
+      { question: "How does my CIBIL score affect my PNB loan rate?", answer: "PNB offers tiered interest rates based on credit scores. A CIBIL score above 750 or 800 will qualify you for the lowest possible interest rate spread." },
+      { question: "Can I add a co-applicant to increase my PNB loan eligibility?", answer: "Yes, adding an earning co-applicant (like a spouse) allows PNB to consider both incomes, significantly increasing your maximum eligible loan amount." }
+    ]
+  },
+  {
+    slug: "kotak-personal-loan-emi-calculator",
+    type: "loan-types",
+    title: "Kotak Personal Loan EMI Calculator | Check Monthly Payment",
+    h1: "Kotak Mahindra Bank Personal Loan EMI Calculator",
+    description: "Calculate your Kotak Mahindra Bank personal loan EMI. Instantly check your monthly repayment schedule and total interest payable.",
+    intro: "Kotak Mahindra Bank offers rapid, collateral-free personal loans to meet your urgent financial needs. Use our calculator to accurately estimate your monthly EMI and total interest cost before submitting your application.",
+    amount: 500000,
+    interestRate: 10.99,
+    tenure: 48,
+    date: "2026-07-27",
+    content: `
+      <h2>Navigating Kotak Personal Loans</h2>
+      <p>Kotak Mahindra Bank provides personal loans with minimal documentation and quick disbursals, making them ideal for emergencies, weddings, travel, or debt consolidation. Because these loans are unsecured, they carry higher interest rates than home or car loans. Therefore, meticulously calculating your EMI is essential to avoid over-leveraging your monthly cash flow.</p>
+
+      <h2>Decoding the EMI Calculation</h2>
+      <p>Your Kotak personal loan EMI is calculated using the standard reducing-balance formula. This means interest is charged only on the outstanding loan principal each month.</p>
+      <ul>
+        <li><strong>Principal Amount:</strong> Kotak typically offers personal loans ranging from ₹50,000 up to ₹40 Lakhs, depending on your income profile.</li>
+        <li><strong>Interest Rates:</strong> Rates generally start around 10.99% and can go up to 24% per annum based on your credit score, employer category, and existing debt obligations.</li>
+        <li><strong>Tenure:</strong> Repayment tenures are highly flexible, usually ranging from 12 months (1 year) to 60 months (5 years).</li>
+      </ul>
+
+      <h2>Smart Borrowing Strategies</h2>
+      <p>When taking an unsecured personal loan, always aim for the shortest tenure you can comfortably afford. A 5-year loan might make the EMI look attractive, but it significantly increases the total interest you pay to the bank. Use the interactive charts in our tool to visualize exactly how much extra interest a longer tenure costs you.</p>
+    `,
+    faqs: [
+      { question: "What is the starting interest rate for Kotak personal loans?", answer: "Interest rates for Kotak personal loans typically start at around 10.99% per annum for borrowers with excellent credit profiles." },
+      { question: "How long does it take for Kotak to disburse a personal loan?", answer: "Kotak is known for fast processing, often disbursing funds within 24 to 48 hours for pre-approved or highly qualified customers." },
+      { question: "Is a guarantor required for a Kotak personal loan?", answer: "No, a personal loan is unsecured, meaning you do not need to provide collateral or a guarantor." },
+      { question: "Can I foreclose my Kotak personal loan early?", answer: "Yes, you can foreclose the loan, but usually only after a lock-in period (e.g., 12 months), and Kotak will charge a foreclosure penalty fee (often up to 4-5% of the outstanding principal)." },
+      { question: "How much loan can I get from Kotak based on my salary?", answer: "As a rule of thumb, banks will offer a loan amount where the resulting EMI (along with any existing EMIs) does not exceed 50-60% of your net monthly take-home salary." }
+    ]
+  },
+  {
+    slug: "emi-calculator-75-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹75 Lakh Loan | Compare Repayments",
+    h1: "EMI Calculator for ₹75 Lakh Loan",
+    description: "Calculate the EMI for a ₹75 Lakh loan. Analyze your monthly installment, total interest paid, and full amortization schedule.",
+    intro: "Borrowing ₹75 Lakhs is a major financial undertaking, typically used for premium real estate or large-scale business financing. Use our calculator to precisely model your monthly EMI and long-term interest burden.",
+    amount: 7500000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-07-27",
+    content: `
+      <h2>The Financial Impact of a ₹75 Lakh Loan</h2>
+      <p>Taking on a ₹75 Lakh debt requires robust financial planning. Over a long tenure, such as 20 years, the total interest paid can be staggering. A minor change in the interest rate can result in lakhs of rupees in savings or excess costs.</p>
+
+      <h2>Why Interest Rates Matter at This Scale</h2>
+      <p>For a ₹75 Lakh loan, the difference between an 8.5% interest rate and an 8.0% interest rate is immense. Over a 20-year term, that half-percent reduction can save you roughly ₹6 Lakhs in total interest. This underscores the critical importance of negotiating aggressively with your lender and maintaining an impeccable credit score to secure the best possible rate.</p>
+
+      <h2>The Power of Strategic Prepayments</h2>
+      <p>When dealing with a principal this large, prepayments are your most powerful tool. Using the amortization schedule provided by our calculator, you'll see that in the first few years, the majority of your EMI goes toward interest. By making even small, periodic lump-sum prepayments (e.g., using annual bonuses) early in the loan tenure, you can drastically reduce the principal, thereby shaving years off your repayment timeline and saving massive amounts of interest.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 75 Lakh home loan at 8.5% for 20 years?", answer: "At an 8.5% interest rate, the monthly EMI for a 20-year ₹75 Lakh loan is approximately ₹65,087." },
+      { question: "How much total interest will I pay on a 75 Lakh loan over 20 years?", answer: "At 8.5%, the total interest paid over 20 years will be roughly ₹81.2 Lakhs, making the total amount payable over ₹1.5 Crores." },
+      { question: "What income is required for a 75 Lakh home loan?", answer: "Lenders typically require your total EMIs to be less than 50% of your income. Therefore, you would need a net monthly income of at least ₹1.3 to ₹1.5 Lakhs." },
+      { question: "Should I choose a 20-year or 30-year tenure for a 75 Lakh loan?", answer: "A 20-year tenure is generally better. While a 30-year tenure lowers the EMI to about ₹57,668, it increases the total interest paid by a massive ₹51 Lakhs compared to a 20-year term." },
+      { question: "Can I prepay a 75 Lakh loan?", answer: "Yes, if it is a floating-rate home loan taken by an individual, you can make prepayments without any penalty fees." }
+    ]
+  },
+  {
+    slug: "emi-calculator-2-crore",
+    type: "scenarios",
+    title: "EMI Calculator for ₹2 Crore Loan | Luxury Property Finance",
+    h1: "EMI Calculator for ₹2 Crore Loan",
+    description: "Calculate your EMI for a ₹2 Crore loan. View detailed amortization schedules and total interest breakdown for luxury real estate financing.",
+    intro: "A ₹2 Crore loan is typically sought for luxury residential properties or major commercial real estate investments. Calculate your exact EMI obligations and long-term interest costs with precision.",
+    amount: 20000000,
+    interestRate: 8.4,
+    tenure: 240,
+    date: "2026-07-27",
+    content: `
+      <h2>Structuring a ₹2 Crore Loan</h2>
+      <p>Financing a high-value asset of ₹2 Crores requires careful consideration of your long-term cash flow. At this scale, your monthly EMI represents a substantial fixed outflow. It is crucial to model different interest rates and tenures to find a structure that balances affordability with cost-efficiency.</p>
+
+      <h2>Interest Cost vs. Capital Appreciation</h2>
+      <p>When borrowing ₹2 Crores, you will likely pay more than ₹2 Crores purely in interest over a standard 20-year term. Borrowers at this tier often weigh the massive interest cost against the expected capital appreciation of the luxury property. If the property value grows faster than the effective interest rate (after tax benefits), the loan remains a viable investment leverage.</p>
+
+      <h2>Tax Implications and Savings</h2>
+      <p>For large home loans in India, Section 24(b) of the Income Tax Act allows deductions on interest paid (up to ₹2 Lakhs for self-occupied properties, and actual interest for let-out properties). At a ₹2 Crore scale, understanding and maximizing these tax deductions is critical to lowering your effective cost of borrowing.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 2 Crore loan at 8.4% for 20 years?", answer: "The EMI for a ₹2 Crore loan at an 8.4% interest rate over 20 years is approximately ₹1,72,305." },
+      { question: "What salary is required to get a 2 Crore loan?", answer: "To comfortably afford an EMI of ₹1.72 Lakhs, a bank will typically require a net monthly household income of at least ₹3.5 to ₹4 Lakhs." },
+      { question: "How much total interest will I pay on a 2 Crore loan?", answer: "Over a 20-year tenure at 8.4%, the total interest payable is roughly ₹2.13 Crores, exceeding the original principal amount." },
+      { question: "Does a 15-year tenure make a big difference for a 2 Crore loan?", answer: "Yes. Reducing the tenure from 20 to 15 years increases the EMI to roughly ₹1,95,744, but saves you over ₹61 Lakhs in total interest." },
+      { question: "Are interest rates different for loans above 1 Crore?", answer: "Yes, many banks tier their interest rates based on the loan amount and risk profile. High-value loans sometimes have slightly different margin spreads." }
+    ]
+  },
+  {
+    slug: "emi-5-years-vs-7-years",
+    type: "tenure-comparison",
+    title: "EMI Comparison: 5 Years vs 7 Years Tenure",
+    h1: "5 Years vs 7 Years EMI Comparison",
+    description: "Compare loan EMIs and total interest between 5-year (60 months) and 7-year (84 months) tenures to find your optimal repayment plan.",
+    intro: "Deciding between a 5-year and a 7-year loan tenure? This is a common choice for large car loans or substantial personal loans. Compare the difference in monthly payments and overall interest costs instantly.",
+    amount: 1500000,
+    interestRate: 9.5,
+    tenure: 60,
+    date: "2026-07-27",
+    content: `
+      <h2>Balancing EMI Affordability and Total Cost</h2>
+      <p>Choosing between a 60-month (5 years) and an 84-month (7 years) loan tenure requires balancing two competing financial goals: keeping your monthly payments manageable versus minimizing the total amount of money you pay the bank.</p>
+
+      <h2>The Cost of Lower Monthly Payments</h2>
+      <p>A 7-year tenure stretches your principal repayment over two extra years. This undeniably lowers your monthly EMI, providing more breathing room in your monthly budget. However, this comes at a steep cost. You are paying an additional 24 months of interest on a slowly reducing principal. On a ₹15 Lakh loan at 9.5%, choosing a 7-year tenure over a 5-year tenure can cost you over ₹1.7 Lakhs in extra interest.</p>
+
+      <h2>Making the Right Choice</h2>
+      <p>If your cash flow is strong, always opt for the 5-year tenure to save significantly on interest. If you need the lower EMI of a 7-year tenure to qualify for the loan or to maintain monthly liquidity, consider selecting the 7-year term but making proactive, voluntary prepayments whenever you have surplus funds to mimic a shorter repayment schedule.</p>
+    `,
+    faqs: [
+      { question: "Which is cheaper: a 5-year or 7-year loan?", answer: "A 5-year loan is significantly cheaper overall because you pay two fewer years of interest. A 7-year loan only appears 'cheaper' on a monthly EMI basis." },
+      { question: "How much interest do I save by choosing a 5-year tenure over 7 years?", answer: "On a ₹15 Lakh loan at 9.5%, you save approximately ₹1.75 Lakhs in interest by choosing a 5-year term instead of a 7-year term." },
+      { question: "Is a 7-year car loan a bad idea?", answer: "It is generally not recommended because cars depreciate quickly. With a 7-year loan, you risk being 'underwater' (owing more than the car is worth) for a significant portion of the loan." },
+      { question: "Can I take a 7-year loan and pay it off in 5 years?", answer: "Yes, you can take a 7-year loan for the safety of a lower required EMI, but voluntarily overpay your installments (prepay) to finish the loan in 5 years, saving interest." },
+      { question: "What is the EMI difference on a 15 Lakh loan at 9.5%?", answer: "A 5-year EMI is roughly ₹31,503, while a 7-year EMI is roughly ₹24,510. You save about ₹7,000 monthly, but pay much more in total interest." }
+    ]
+  },
+  {
+    slug: "emi-20-years-vs-25-years",
+    type: "tenure-comparison",
+    title: "EMI Comparison: 20 Years vs 25 Years Tenure",
+    h1: "20 Years vs 25 Years EMI Comparison",
+    description: "Compare home loan EMIs for 20-year vs 25-year tenures. See exactly how much extra interest a 25-year loan costs you.",
+    intro: "Should you take a home loan for 20 years or stretch it to 25 years? Compare the long-term financial impact, EMI differences, and massive total interest disparity.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-07-27",
+    content: `
+      <h2>The Home Loan Tenure Trap</h2>
+      <p>When applying for a home loan, lenders often suggest extending the tenure from 20 years to 25 or even 30 years to increase your loan eligibility by lowering the EMI. While a 25-year tenure might seem appealing due to the slightly lower monthly payment, it is a massive financial drain over the long term.</p>
+
+      <h2>Analyzing the Numbers</h2>
+      <p>Let's look at a ₹50 Lakh loan at an 8.5% interest rate.</p>
+      <ul>
+        <li><strong>20-Year Tenure:</strong> The EMI is ₹43,391. Total interest paid is roughly ₹54.1 Lakhs.</li>
+        <li><strong>25-Year Tenure:</strong> The EMI drops slightly to ₹40,261. However, the total interest paid skyrockets to roughly ₹70.7 Lakhs.</li>
+      </ul>
+      <p>By extending the loan by 5 years, your EMI decreases by a mere ₹3,130 per month, but you end up paying an astonishing ₹16.6 Lakhs more in total interest to the bank!</p>
+
+      <h2>The Best Strategy for Borrowers</h2>
+      <p>Always aim for the shortest tenure possible, ideally 20 years or less. If you must take a 25-year tenure to meet the bank's income eligibility criteria, make a firm commitment to prepay aggressively. By prepaying a small amount every year (like a bonus), you can easily collapse a 25-year loan into a 15 or 18-year repayment schedule.</p>
+    `,
+    faqs: [
+      { question: "Should I choose a 20-year or 25-year home loan?", answer: "You should almost always choose a 20-year tenure if you can afford the EMI. A 25-year tenure drastically increases the total interest you pay for a very small reduction in monthly EMI." },
+      { question: "How much more expensive is a 25-year loan?", answer: "On a ₹50 Lakh loan at 8.5%, choosing a 25-year tenure costs over ₹16.5 Lakhs more in total interest compared to a 20-year tenure." },
+      { question: "Why do banks recommend 25-year loans?", answer: "Banks earn significantly more interest profit on longer loans. Additionally, the lower EMI makes it easier for borrowers to qualify under strict debt-to-income ratio rules." },
+      { question: "How much lower is the EMI on a 25-year loan?", answer: "For a ₹50 Lakh loan at 8.5%, the EMI on a 25-year loan is only about ₹3,130 less than the EMI on a 20-year loan." },
+      { question: "Can I shorten my 25-year loan later?", answer: "Yes, you can dramatically shorten your effective tenure and save interest by making regular, partial prepayments against the principal amount." }
+    ]
+  }
 ];
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {

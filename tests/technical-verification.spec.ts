@@ -162,4 +162,47 @@ test.describe('Technical Verification', () => {
     await exportButton.click();
     await page.waitForTimeout(2000);
   });
+
+  test('New Tier 1 Article returns 200 OK and has valid Schema for prepayment strategies', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/prepayment-strategies-guide`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toContainText('Prepayment Strategies');
+
+    // Validate Article Schema
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+    expect(articleSchema['@type']).toBe('Article');
+  });
+
+  test('New Tier 2 Programmatic URLs return 200 OK and have FAQ Schema for Prepayment focus', async ({ page }) => {
+    const newSlugs = [
+      '/loan-types/two-wheeler-loan-emi-calculator',
+      '/loan-types/machinery-loan-emi-calculator',
+      '/loan-types/pnb-home-loan-emi-calculator',
+      '/loan-types/kotak-personal-loan-emi-calculator',
+      '/scenarios/emi-calculator-75-lakh',
+      '/scenarios/emi-calculator-2-crore',
+      '/tenure-comparison/emi-5-years-vs-7-years',
+      '/tenure-comparison/emi-20-years-vs-25-years'
+    ];
+
+    for (const slug of newSlugs) {
+      const response = await page.goto(`${baseUrl}${slug}`);
+      expect(response?.status()).toBe(200);
+
+      // Validate FAQ Schema
+      const faqSchema = await page.evaluate(() => {
+        const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+          .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+        return script ? JSON.parse(script.textContent || '{}') : null;
+      });
+      expect(faqSchema).not.toBeNull();
+      expect(faqSchema['@type']).toBe('FAQPage');
+      expect(faqSchema.mainEntity.length).toBeGreaterThan(0);
+    }
+  });
 });

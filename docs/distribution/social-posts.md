@@ -218,3 +218,23 @@ Did you know that a loan advertised at a 10% "flat rate" is significantly more e
 8. **Carousel Post:** Slide 1: "The Prepayment Magic Rule" | Slide 2: "Year 2 Prepayment vs Year 15 Prepayment (Chart)" | Slide 3: "How to use EMICalculatorPro to track savings." 🔗 Link in Bio! #FinanceTips #DebtFree
 9. **Reel:** (Screen recording of EMICalculatorPro). "Watch what happens to this ₹50 Lakh loan when we add just one extra EMI per year... BAM! 4 years of debt gone. Link in bio to try it yourself." 🚀💸
 10. **Story:** Poll - "Have you ever made a loan prepayment?" (Yes/No). Follow up story: "Swipe up to read the 5 Proven Prepayment Strategies for 2026 and see how much you could be saving!" 👆
+
+### Loan Affordability Planning (2026-07-28)
+
+**LinkedIn (Thought Leadership & Strategy):**
+1. 💡 Before you sign that loan agreement, have you stress-tested your budget? True loan affordability isn't just what the bank approves you for; it's about keeping your Debt-to-Income (DTI) ratio below 40%. Read our 2026 Ultimate Guide to Loan Affordability Planning to build a bulletproof financial strategy. 🔗 [Link]
+2. 📉 A massive home loan without a 6-month emergency fund is a financial disaster waiting to happen. The smartest borrowers plan for the worst while optimizing for the best. Discover how to calculate your safe EMI limit and avoid the DTI trap in our latest guide. #FinancialPlanning #SmartBorrowing 🔗 [Link]
+
+**Twitter / X (Punchy Advice & Formulas):**
+3. The 50% Rule: If your total monthly EMIs exceed 50% of your take-home pay, you are over-leveraged. Period. Don't let banks dictate your lifestyle. Calculate your true affordability today. 🧮💸 🔗 [Link]
+4. The ultimate loan stress test: Live for 3 months as if you're already paying the new EMI (put it in savings). If you struggle, the loan is too big. Read more tips in our 2026 Affordability Guide! 🏡📉 🔗 [Link]
+5. Emergency Fund > Early Repayment. Never drain your safety net just to make a larger down payment. A 6-month buffer is mandatory before taking on a 20-year debt. 🧠💼 🔗 [Link]
+
+**Facebook (Community Advice):**
+6. 📊 "The bank approved me for ₹1 Crore, so I can afford it, right?" WRONG! Banks calculate risk differently than you should calculate affordability. Learn how to protect your monthly budget and sleep peacefully with our new Loan Affordability Guide. Read the full guide here. 🔗 [Link]
+7. 🤔 Are you worried about taking on a new EMI? You need to understand your Debt-to-Income (DTI) ratio. We break it down step-by-step in our latest article so you can borrow without the financial anxiety. Tag a friend who is house hunting! 👇 🔗 [Link]
+
+**Instagram (Visuals & Reels):**
+8. **Carousel Post:** Slide 1: "How much loan can you ACTUALLY afford?" | Slide 2: "The 40% DTI Rule Explained" | Slide 3: "The 3-Month EMI Stress Test" | Slide 4: "Calculate your limit with EMICalculatorPro." 🔗 Link in Bio! #FinanceTips #DebtFree
+9. **Reel:** (Talking head style). "Don't let the bank tell you what you can afford. Here is the exact formula you need to calculate your Debt-to-Income ratio before buying a house..." 🚀💸
+10. **Story:** Poll - "Do you know your current Debt-to-Income ratio?" (Yes, exactly / No idea). Follow up story: "Swipe up to read the 2026 Guide to Loan Affordability Planning and find out why this number is crucial!" 👆

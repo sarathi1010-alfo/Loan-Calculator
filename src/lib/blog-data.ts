@@ -10,6 +10,36 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "loan-affordability-planning-guide",
+    title: "The Ultimate Guide to Loan Affordability Planning in 2026",
+    description: "Learn how to assess your loan affordability, manage your Debt-to-Income (DTI) ratio, and build a stress-free financial plan before borrowing.",
+    date: "2026-07-28",
+    category: "Financial Planning & Budgeting",
+    answerBlock: "Loan affordability is determined by calculating your Debt-to-Income (DTI) ratio. Financial experts recommend keeping your total monthly debt payments (including any new EMIs) below 40-50% of your net monthly income to ensure long-term financial stability.",
+    content: `
+      <h2>How to Determine Your Loan Affordability?</h2>
+      <p>Before committing to a long-term loan, it is crucial to determine how much you can truly afford to borrow. While banks will offer you a maximum loan amount based on their internal risk models, their calculation does not account for your personal financial goals, lifestyle expenses, or emergency savings requirements. True loan affordability planning is about ensuring your new Equated Monthly Installment (EMI) fits comfortably within your budget without causing financial stress.</p>
+
+      <h2>Understanding the Debt-to-Income (DTI) Ratio</h2>
+      <p>The foundation of affordability planning is the Debt-to-Income (DTI) ratio. This metric compares your total monthly debt obligations to your net (take-home) monthly income.</p>
+
+      <h3>The 40-50% Rule</h3>
+      <p>As a general financial guideline, your total EMI obligations—including your current credit card payments, personal loans, and the projected EMI of the new loan—should not exceed 40% to 50% of your net monthly income. If your DTI crosses this threshold, you are at a high risk of defaulting if you encounter any unexpected financial emergencies, such as a medical issue or job loss.</p>
+
+      <h2>Stress Testing Your Budget</h2>
+      <p>Before you sign a loan agreement, conduct a 'stress test' on your budget. Live for three months as if you are already paying the new EMI. Take the projected EMI amount and transfer it into a dedicated savings account at the start of each month. If you find yourself struggling to cover your daily expenses, the loan amount is too high, and you need to reassess your borrowing strategy.</p>
+
+      <h2>Using EMICalculatorPro for Affordability Planning</h2>
+      <p>Our tools are designed to help you plan effectively. Head over to our <a href="/">Homepage</a> and use the main EMI calculator to estimate your potential monthly payments based on different loan amounts, interest rates, and tenures. You can also explore specialized calculators in our <a href="/#explore-calculators">Explore Specific Calculators</a> section to find the right loan structure for your needs.</p>
+
+      <h2>Building an Emergency Fund</h2>
+      <p>An essential component of loan affordability is having a robust emergency fund. Never take on a massive loan without a safety net. Aim to save at least 3 to 6 months of living expenses—including the new EMI amount—in a highly liquid account. This buffer ensures that a temporary loss of income will not immediately result in a loan default.</p>
+
+      <h2>Conclusion</h2>
+      <p>Loan affordability planning is about taking control of your financial future. By understanding your DTI ratio, stress testing your budget, utilizing calculation tools, and building an emergency fund, you can ensure that your borrowing serves as a tool for wealth creation rather than a source of financial anxiety.</p>
+    `,
+  },
+  {
     slug: "processing-fees-hidden-charges-guide",
     title: "Processing Fees & Hidden Charges: The Ultimate Guide for Borrowers",
     description: "Learn how to identify and minimize processing fees, prepayment penalties, and other hidden loan charges to lower your effective interest rate.",
@@ -217,13 +247,13 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "What is EMI? The Complete Guide to Equated Monthly Installments",
     description:
       "Understand what EMI is, how it works, and why it is crucial for personal finance and loan management.",
-    date: "2026-07-27",
+    date: "2026-07-28",
     category: "EMI Fundamentals",
     answerBlock:
       "EMI (Equated Monthly Installment) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. EMIs are used to pay off both interest and principal each month so that over a specified number of years, the loan is paid off in full.",
     content: `
       <h2>Understanding the Basics</h2>
-      <p>When you take a loan from a bank or financial institution, you are required to repay the borrowed amount (the principal) along with the cost of borrowing (the interest). Instead of paying this back in one lump sum, the total amount is broken down into smaller, manageable chunks called Equated Monthly Installments, or EMIs.</p>
+      <p>When you take a loan from a bank or financial institution, you are required to repay the borrowed amount (the principal) along with the cost of borrowing (the interest). Instead of paying this back in one lump sum, the total amount is broken down into smaller, manageable chunks called Equated Monthly Installments, or EMIs. Make sure to carefully assess your financial readiness by reading our <a href="/blog/loan-affordability-planning-guide">Loan Affordability Planning Guide</a>.</p>
 
       <h2>How Does an EMI Work?</h2>
       <p>Every EMI you pay consists of two parts:</p>

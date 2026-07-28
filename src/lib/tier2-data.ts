@@ -14,6 +14,239 @@ export interface Tier2Page {
 }
 
 export const TIER2_PAGES: Tier2Page[] = [
+  {
+    slug: "sbi-home-loan-emi-calculator",
+    type: "loan-types",
+    title: "SBI Home Loan EMI Calculator 2026 | Interest Rates & Repayment",
+    h1: "SBI Home Loan EMI Calculator",
+    description: "Calculate your SBI Home Loan EMI instantly. View the latest State Bank of India interest rates, repayment schedules, and processing fees.",
+    intro: "Planning a home loan with the State Bank of India? Use our EMI calculator to estimate your monthly installments based on SBI's current interest rates, maximizing your financial planning.",
+    amount: 5000000,
+    interestRate: 8.50,
+    tenure: 240,
+    date: "2026-07-28",
+    content: `
+      <h2>Why Choose SBI for Your Home Loan?</h2>
+      <p>State Bank of India (SBI) is one of the most trusted and largest public sector banks in India, offering competitive home loan interest rates and flexible repayment options. Their loans are structured using the reducing balance method, ensuring transparency and cost-effectiveness for borrowers.</p>
+
+      <h2>Understanding SBI Home Loan Interest Rates</h2>
+      <p>SBI offers both fixed and floating interest rates. Most borrowers opt for the floating rate, which is linked to the External Benchmark Lending Rate (EBLR). This means your interest rate—and subsequently your EMI—may fluctuate based on market conditions dictated by the RBI.</p>
+
+      <h2>Processing Fees and Additional Charges</h2>
+      <p>When calculating your total outflow, remember to factor in SBI's processing fees. These typically range from 0.35% to 0.50% of the loan amount, subject to minimum and maximum caps. During festive seasons, SBI often waives these processing fees completely, making it a highly attractive time to apply.</p>
+
+      <h2>How to Reduce Your SBI Home Loan EMI</h2>
+      <p>To minimize your EMI and total interest paid, consider making a larger down payment, maintaining an excellent credit score (typically above 750) to secure the lowest possible interest rate tier, and utilizing your annual bonuses for partial prepayments.</p>
+    `,
+    faqs: [
+      { question: "What is the current SBI home loan interest rate?", answer: "SBI home loan interest rates typically start around 8.50% p.a. for borrowers with an excellent credit score (CIBIL 750+), though rates vary based on the loan amount and borrower profile." },
+      { question: "Does SBI charge a prepayment penalty?", answer: "For individual borrowers on floating rate home loans, SBI does not charge any prepayment or foreclosure penalties, allowing you to pay off your loan early without extra cost." },
+      { question: "What is the maximum tenure for an SBI home loan?", answer: "SBI offers home loans with a maximum repayment tenure of up to 30 years, subject to the borrower's age at maturity." },
+      { question: "How is the SBI Home Loan EMI calculated?", answer: "The EMI is calculated using the standard reducing balance formula: EMI = [P x R x (1+R)^N] / [(1+R)^N-1], where P is Principal, R is the monthly rate, and N is tenure in months." }
+    ]
+  },
+  {
+    slug: "hdfc-personal-loan-emi-calculator",
+    type: "loan-types",
+    title: "HDFC Personal Loan EMI Calculator | Check Monthly Repayment",
+    h1: "HDFC Personal Loan EMI Calculator",
+    description: "Calculate your HDFC Bank personal loan EMI. Plan your borrowing with accurate monthly installment estimates based on current HDFC rates.",
+    intro: "Need a personal loan from HDFC Bank? Estimate your exact monthly EMI and total interest payable using our accurate calculator tailored for HDFC's personal loan terms.",
+    amount: 500000,
+    interestRate: 10.50,
+    tenure: 60,
+    date: "2026-07-28",
+    content: `
+      <h2>HDFC Bank Personal Loans</h2>
+      <p>HDFC Bank offers quick, collateral-free personal loans for various needs, from medical emergencies to weddings and debt consolidation. Understanding your potential EMI before applying is crucial to ensure the loan fits within your monthly budget.</p>
+
+      <h2>Factors Influencing Your HDFC Personal Loan Rate</h2>
+      <p>HDFC determines your personalized interest rate based on several factors, including your credit score, monthly income, employer category, and existing relationship with the bank. A strong credit history significantly improves your chances of securing a lower rate.</p>
+
+      <h2>The Cost of Borrowing</h2>
+      <p>Personal loans typically carry higher interest rates than secured loans like home or car loans. While HDFC's rates are competitive in the private banking sector, the total interest paid over a 5-year tenure can be substantial. Use the amortization schedule below to visualize the interest breakdown.</p>
+
+      <h2>Prepayment and Foreclosure Terms</h2>
+      <p>Unlike floating-rate home loans, HDFC personal loans usually come with lock-in periods (e.g., no prepayments allowed in the first 12 months) and specific foreclosure charges. Always review these terms carefully if you intend to pay off the loan before the full tenure.</p>
+    `,
+    faqs: [
+      { question: "What is the starting interest rate for HDFC personal loans?", answer: "Interest rates for HDFC personal loans generally start from 10.50% p.a., varying based on your credit profile and income." },
+      { question: "Can I prepay my HDFC personal loan?", answer: "Yes, but usually only after paying a minimum number of EMIs (often 12 months), and it may attract foreclosure charges ranging from 2% to 4% of the outstanding principal." },
+      { question: "How long does it take for HDFC to disburse a personal loan?", answer: "For pre-approved customers, HDFC can disburse personal loans in as little as 10 seconds. For others, it typically takes a few working days after document verification." },
+      { question: "What is the maximum tenure available for an HDFC personal loan?", answer: "HDFC Bank typically offers personal loans with flexible tenures ranging from 12 to 60 months (1 to 5 years)." }
+    ]
+  },
+  {
+    slug: "consumer-durable-loan-emi-calculator",
+    type: "loan-types",
+    title: "Consumer Durable Loan EMI Calculator | No Cost EMI Check",
+    h1: "Consumer Durable Loan EMI Calculator",
+    description: "Calculate EMIs for consumer durable loans on appliances and electronics. Understand 'No Cost EMI' processing fees and real interest rates.",
+    intro: "Planning to buy a new smartphone, laptop, or appliance? Calculate your monthly installments for consumer durable loans and uncover the hidden costs of 'Zero Interest' offers.",
+    amount: 50000,
+    interestRate: 15.0,
+    tenure: 12,
+    date: "2026-07-28",
+    content: `
+      <h2>Financing Your Electronics and Appliances</h2>
+      <p>Consumer durable loans are short-term loans designed to help you purchase electronics, white goods, and lifestyle products. They are typically offered at the point of sale by retailers in partnership with NBFCs like Bajaj Finserv or banks like HDFC and ICICI.</p>
+
+      <h2>The Truth About 'No Cost EMI'</h2>
+      <p>Retailers heavily promote 'No Cost EMI' or 'Zero Interest' schemes. While you might not pay explicit interest, these schemes often embed the interest cost as a discount that is waived when you opt for the loan, or they charge a significant upfront 'processing fee' or 'file charge'. Use our calculator to determine the effective interest rate of these 'free' loans.</p>
+
+      <h2>Impact on Credit Score</h2>
+      <p>Taking multiple consumer durable loans in a short period can negatively impact your credit score by lowering the average age of your credit accounts and increasing your credit utilization. However, paying them off diligently can help build a positive credit history for young borrowers.</p>
+
+      <h2>Short Tenures, High Monthly Outflow</h2>
+      <p>Because consumer goods depreciate rapidly, lenders keep the loan tenures short (usually 6 to 18 months). While the total loan amount is small, a short tenure means the monthly EMI can take a noticeable bite out of your disposable income.</p>
+    `,
+    faqs: [
+      { question: "Is a 'No Cost EMI' really free of interest?", answer: "No. The RBI has stated that zero percent interest schemes do not exist. The interest is usually passed on as a processing fee or by removing cash discounts." },
+      { question: "What documents are required for a consumer durable loan?", answer: "Typically, you need basic KYC documents (Aadhaar, PAN), proof of income or a bank statement, and a canceled cheque. Many approvals are instantly processed using your PAN and CIBIL score." },
+      { question: "Can I get a consumer durable loan without a credit card?", answer: "Yes, NBFCs provide these loans at the store level without requiring a credit card, using their own credit assessment models." },
+      { question: "What happens if I miss a consumer durable loan EMI?", answer: "Missing an EMI will incur hefty bounce charges, late payment fees, and negatively impact your CIBIL score, affecting future loan approvals." }
+    ]
+  },
+  {
+    slug: "emi-calculator-8-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹8 Lakh Loan | Personal & Car Financing",
+    h1: "EMI Calculator for ₹8 Lakh Loan",
+    description: "Calculate your EMI for an ₹8 Lakh loan. View detailed monthly repayment schedules and total interest costs for a typical car or personal loan.",
+    intro: "An ₹8 Lakh loan is the perfect middle-ground amount for purchasing a premium hatchback or consolidating mid-tier debt. Calculate your exact EMI obligations.",
+    amount: 800000,
+    interestRate: 9.5,
+    tenure: 60,
+    date: "2026-07-28",
+    content: `
+      <h2>Planning an ₹8 Lakh Loan</h2>
+      <p>Whether you are upgrading your vehicle or funding a major home renovation, borrowing ₹8 Lakhs requires a solid repayment strategy. The EMI will depend significantly on whether the loan is secured (like a car loan) or unsecured (like a personal loan).</p>
+
+      <h2>Secured vs. Unsecured Interest Rates</h2>
+      <p>If this is an auto loan, you can expect interest rates around 8.5% to 9.5%, leading to an EMI of roughly ₹16,400 to ₹16,800 over 5 years. If it's a personal loan, rates might be 10.5% to 12% or higher, pushing the EMI past ₹17,000. This highlights the importance of providing collateral if possible.</p>
+
+      <h2>Total Interest Breakdown</h2>
+      <p>Over a standard 5-year tenure, the interest on an ₹8 Lakh loan can range from ₹1.8 Lakhs to over ₹2.5 Lakhs depending on the rate. Reviewing the amortization schedule will show you how quickly you are building equity in your purchase versus paying bank interest.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for an 8 Lakh loan for 5 years?", answer: "At an average interest rate of 10%, the EMI for an ₹8 Lakh loan over 5 years (60 months) is approximately ₹16,998." },
+      { question: "How much interest will I pay on an 8 Lakh car loan?", answer: "On an ₹8 Lakh car loan at 9% for 5 years, the total interest paid will be approximately ₹1,96,400." },
+      { question: "Is a 7-year tenure better for an 8 Lakh loan?", answer: "A 7-year tenure lowers the EMI to about ₹13,300 (at 10%), but it increases the total interest paid to roughly ₹3.15 Lakhs, making the loan significantly more expensive overall." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50-thousand",
+    type: "scenarios",
+    title: "EMI Calculator for ₹50,000 Loan | Short Term Micro Loans",
+    h1: "EMI Calculator for ₹50,000 Loan",
+    description: "Calculate your EMI for a ₹50,000 micro-loan. Plan short-term borrowing for emergencies, consumer durables, or medical bills.",
+    intro: "Need a quick ₹50,000 for a medical emergency, a new laptop, or a minor home repair? Calculate your monthly installments for short-term personal or consumer loans.",
+    amount: 50000,
+    interestRate: 14.0,
+    tenure: 12,
+    date: "2026-07-28",
+    content: `
+      <h2>Managing Micro-Loans Effectively</h2>
+      <p>A loan of ₹50,000 is typically categorized as a micro-loan or a short-term personal loan. These are often unsecured and disbursed quickly via digital lending apps or bank pre-approvals.</p>
+
+      <h2>The Cost of Convenience</h2>
+      <p>Because these loans are small and unsecured, they often carry higher interest rates (usually between 12% to 18% or more) and flat processing fees. It is critical to calculate the Annual Percentage Rate (APR) to understand the true cost of borrowing ₹50,000.</p>
+
+      <h2>Optimal Repayment Tenure</h2>
+      <p>For a loan of this size, it is highly recommended to keep the tenure as short as possible, typically between 6 to 12 months. Stretching a ₹50,000 loan over 3 or 4 years results in paying a disproportionate amount of interest relative to the principal.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 50,000 loan for 1 year?", answer: "At an interest rate of 15%, the EMI for a ₹50,000 loan over 12 months is approximately ₹4,513." },
+      { question: "How much total interest will I pay on 50,000?", answer: "Over a 1-year tenure at 15%, you will pay roughly ₹4,155 in total interest." },
+      { question: "Are instant loan apps safe for a 50,000 loan?", answer: "Ensure you only borrow from RBI-registered NBFCs or banks. Many unregulated instant loan apps charge exorbitant rates and employ unethical recovery practices." }
+    ]
+  },
+  {
+    slug: "emi-calculator-3-crore",
+    type: "scenarios",
+    title: "EMI Calculator for ₹3 Crore Loan | Ultra-Luxury Property",
+    h1: "EMI Calculator for ₹3 Crore Loan",
+    description: "Calculate your EMI for a ₹3 Crore loan. View detailed amortization schedules for high-net-worth real estate and commercial financing.",
+    intro: "Securing a ₹3 Crore loan for a premium residential villa or commercial property? Model your massive monthly commitments and total interest outflow with precision.",
+    amount: 30000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-07-28",
+    content: `
+      <h2>Financing Ultra-Luxury Real Estate</h2>
+      <p>A ₹3 Crore loan is a massive financial undertaking, typically reserved for high-net-worth individuals investing in premium real estate. Managing the cash flow for a loan of this magnitude requires strategic financial planning.</p>
+
+      <h2>The Scale of Interest Payments</h2>
+      <p>On a ₹3 Crore loan, the sheer volume of interest is staggering. Over a standard 20-year term at 8.5%, you will pay over ₹3.24 Crores in interest alone—more than the original principal. This makes prepayment strategies absolutely critical for high-value loans.</p>
+
+      <h2>Tax Optimization Strategy</h2>
+      <p>For high-income earners, utilizing tax deductions on home loan interest (Section 24) and principal repayment (Section 80C) can slightly offset the effective cost of the loan. However, for a ₹3 Crore loan, the actual interest paid far exceeds the maximum deduction limits, meaning the majority of the interest is paid from post-tax income.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 3 Crore home loan?", answer: "At an interest rate of 8.5% over a 20-year tenure, the monthly EMI for a ₹3 Crore loan is approximately ₹2,60,347." },
+      { question: "What income is required for a 3 Crore loan?", answer: "Lenders typically expect your total EMI obligations to be below 50% of your income. To afford a ₹2.6 Lakh EMI, a net monthly household income of at least ₹5.5 to ₹6 Lakhs is usually required." },
+      { question: "How much interest is paid on a 3 Crore loan over 20 years?", answer: "At 8.5%, the total interest paid over 20 years is roughly ₹3,24,83,000." },
+      { question: "Does a 15-year tenure save money on a 3 Crore loan?", answer: "Yes, reducing the tenure from 20 to 15 years increases the EMI to ₹2.95 Lakhs but saves you over ₹93 Lakhs in total interest." }
+    ]
+  },
+  {
+    slug: "emi-12-years-vs-15-years",
+    type: "tenure-comparison",
+    title: "EMI Comparison: 12 Years vs 15 Years Tenure",
+    h1: "12 Years vs 15 Years EMI Comparison",
+    description: "Compare home loan EMIs and total interest between 12-year and 15-year tenures. Find the optimal balance for medium-term debt repayment.",
+    intro: "Deciding between a 12-year and a 15-year loan tenure? This comparison helps you strike the perfect balance between monthly affordability and total interest savings.",
+    amount: 4000000,
+    interestRate: 8.5,
+    tenure: 144,
+    date: "2026-07-28",
+    content: `
+      <h2>The Medium-Term Tenure Dilemma</h2>
+      <p>When borrowers want to pay off their home loans faster than the standard 20 years, they often debate between a 12-year and a 15-year tenure. This 3-year difference might seem small, but it has a significant impact on both cash flow and interest costs.</p>
+
+      <h2>Analyzing the Trade-off</h2>
+      <p>Let's consider a ₹40 Lakh loan at 8.5%:</p>
+      <ul>
+        <li><strong>12-Year Tenure:</strong> The EMI is higher (approx. ₹44,591), but the total interest is contained at roughly ₹24.2 Lakhs.</li>
+        <li><strong>15-Year Tenure:</strong> The EMI is more manageable (approx. ₹39,389), but the total interest rises to roughly ₹30.9 Lakhs.</li>
+      </ul>
+
+      <h2>The Verdict</h2>
+      <p>Choosing the 12-year tenure saves you over ₹6.7 Lakhs in interest for an extra monthly outlay of about ₹5,200. If your budget can handle the slightly higher EMI, the 12-year option is mathematically superior and gets you debt-free significantly faster.</p>
+    `,
+    faqs: [
+      { question: "How much interest do I save with a 12-year loan instead of 15 years?", answer: "On a ₹40 Lakh loan at 8.5%, you save approximately ₹6.7 Lakhs in total interest by choosing a 12-year tenure over a 15-year tenure." },
+      { question: "Is the EMI much higher on a 12-year loan?", answer: "For a ₹40 Lakh loan, the EMI for 12 years is about ₹5,200 higher per month compared to a 15-year loan." },
+      { question: "Can I take a 15-year loan and prepay it in 12 years?", answer: "Yes, this is a very smart strategy. It gives you the safety net of a lower required EMI (15 years) while allowing you to save interest by voluntarily overpaying to finish the loan in 12 years." }
+    ]
+  },
+  {
+    slug: "emi-7-years-vs-10-years",
+    type: "tenure-comparison",
+    title: "EMI Comparison: 7 Years vs 10 Years Tenure",
+    h1: "7 Years vs 10 Years EMI Comparison",
+    description: "Compare EMI and total interest for 7-year vs 10-year loan tenures. Ideal for large personal loans, car loans, or short-term property financing.",
+    intro: "Should you repay your loan in 7 years or stretch it to 10 years? Compare the financial impact of these two tenures to optimize your borrowing cost.",
+    amount: 2000000,
+    interestRate: 10.0,
+    tenure: 84,
+    date: "2026-07-28",
+    content: `
+      <h2>Evaluating Short-to-Medium Term Debt</h2>
+      <p>The choice between a 7-year (84 months) and a 10-year (120 months) tenure is common for large personal loans, expensive car loans, or top-up home loans. The interest rate on these loans is often higher than standard mortgages, making the tenure decision even more critical.</p>
+
+      <h2>The Cost of Delaying Repayment</h2>
+      <p>Stretching a loan from 7 to 10 years noticeably reduces your monthly burden, which can be tempting. However, at a 10% interest rate, a ₹20 Lakh loan over 10 years will cost you over ₹11.6 Lakhs in interest. If you condense that to 7 years, the interest drops to around ₹7.9 Lakhs.</p>
+
+      <h2>Making the Smart Decision</h2>
+      <p>By opting for a 10-year term, you pay nearly ₹3.7 Lakhs more in interest just for the privilege of a smaller monthly payment. Unless the lower EMI is absolutely necessary for your month-to-month survival, the 7-year tenure is the financially prudent choice.</p>
+    `,
+    faqs: [
+      { question: "Which is better: a 7-year or 10-year personal loan?", answer: "A 7-year loan is significantly better as it dramatically reduces the total interest paid, especially given the higher interest rates typical of personal loans." },
+      { question: "How much more expensive is a 10-year loan compared to 7 years?", answer: "On a ₹20 Lakh loan at 10%, a 10-year tenure will cost you approximately ₹3.7 Lakhs more in total interest than a 7-year tenure." },
+      { question: "What is the EMI difference between 7 and 10 years?", answer: "For a ₹20 Lakh loan at 10%, the 7-year EMI is roughly ₹33,200, while the 10-year EMI is roughly ₹26,430." }
+    ]
+  },
 
   {
     slug: "scooter-loan-emi-calculator",

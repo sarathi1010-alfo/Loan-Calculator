@@ -248,4 +248,19 @@ test.describe('Technical Verification', () => {
       expect(faqSchema.mainEntity.length).toBeGreaterThan(0);
     }
   });
+
+
+  test('New hub pages and about page return 200 OK and have valid Schema', async ({ page }) => {
+    const urls = [
+      '/about',
+      '/blog/loan-types',
+      '/blog/lenders',
+      '/blog/financial-planning'
+    ];
+
+    for (const url of urls) {
+      const response = await page.goto(`${baseUrl}${url}`);
+      expect(response?.status()).toBe(200);
+    }
+  });
 });

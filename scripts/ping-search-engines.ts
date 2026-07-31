@@ -7,6 +7,19 @@ async function pingSearchEngines() {
   console.log("--- Search Engine Notification System ---");
 
   const newUrls = [
+
+    // New Tier 1 (2026-07-31)
+    `${SITE_URL}/blog/loan-interest-rates-2026-guide`,
+
+    // New Tier 2 (2026-07-31)
+    `${SITE_URL}/loan-types/laptop-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/furniture-loan-emi-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-7-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-9-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-80-lakh`,
+    `${SITE_URL}/tenure-comparison/emi-4-years-vs-5-years`,
+    `${SITE_URL}/tenure-comparison/emi-6-years-vs-8-years`,
+    `${SITE_URL}/tenure-comparison/emi-25-years-vs-30-years`,
     `${SITE_URL}/blog/how-to-calculate-emi`,
     `${SITE_URL}/loan-types/home-loan-emi-calculator`,
     `${SITE_URL}/loan-types/personal-loan-emi-calculator`,

@@ -238,3 +238,28 @@ Did you know that a loan advertised at a 10% "flat rate" is significantly more e
 8. **Carousel Post:** Slide 1: "How much loan can you ACTUALLY afford?" | Slide 2: "The 40% DTI Rule Explained" | Slide 3: "The 3-Month EMI Stress Test" | Slide 4: "Calculate your limit with EMICalculatorPro." 🔗 Link in Bio! #FinanceTips #DebtFree
 9. **Reel:** (Talking head style). "Don't let the bank tell you what you can afford. Here is the exact formula you need to calculate your Debt-to-Income ratio before buying a house..." 🚀💸
 10. **Story:** Poll - "Do you know your current Debt-to-Income ratio?" (Yes, exactly / No idea). Follow up story: "Swipe up to read the 2026 Guide to Loan Affordability Planning and find out why this number is crucial!" 👆
+
+### Date: 2026-07-31
+**Theme:** Loan Interest Rates & Smart Borrowing (Tier 1: /blog/loan-interest-rates-2026-guide)
+
+#### LinkedIn (Professional / Analytical)
+1. **Post:** "Are you negotiating a loan purely based on the quoted interest rate? If you aren't checking whether it's a 'reducing balance' or 'flat rate', you might be falling into an expensive trap. Let's break down the math. 👇 [Link to /blog/loan-interest-rates-2026-guide]"
+2. **Post:** "The standard EMI formula `EMI = [P x R x (1+R)^N] / [(1+R)^N-1]` looks complex, but its implications are simple: small rate drops equal massive long-term savings. Learn how to optimize your borrowing strategy. [Link to /blog/loan-interest-rates-2026-guide]"
+
+#### Twitter/X (Snappy Data Points)
+3. **Tweet:** "A 0.5% difference in your home loan interest rate doesn't sound like much, but over 20 years it can cost you lakhs. Always compare the APR! 📉 #PersonalFinance [Link to /blog/loan-interest-rates-2026-guide]"
+4. **Tweet:** "Flat Rate vs. Reducing Balance. The difference? One costs you significantly more in interest over the life of the loan. Know the difference before signing! ✍️💸 [Link to /blog/loan-interest-rates-2026-guide]"
+5. **Tweet:** "Want to know how your credit score affects your loan interest rate? A 750+ score is your ticket to the best rates. Check out our 2026 guide to borrowing smart! 🏦 [Link to /blog/loan-interest-rates-2026-guide]"
+
+#### Facebook (Community / Educational)
+6. **Post:** "Planning to buy a house or a car soon? Don't accept the first interest rate a bank offers you. Read our comprehensive 2026 guide on understanding loan interest rates and how to negotiate the best deal! 🏡🚗 [Link to /blog/loan-interest-rates-2026-guide]"
+7. **Post:** "Confused about how your EMI is actually calculated? We break down the universal EMI formula and show you exactly where your money goes every month. It's time to take control of your debt! 💪 [Link to /blog/loan-interest-rates-2026-guide]"
+
+#### Instagram (Visual / Engaging)
+8. **Carousel (3 Slides):**
+   - Slide 1: Graphic showing "Flat Rate vs Reducing Balance".
+   - Slide 2: The universal EMI formula visually decoded.
+   - Slide 3: Screenshot of the EMICalculatorPro tool in action.
+   - Caption: "Stop guessing your EMI! Dive into the math behind loan interest rates. Link in bio!"
+9. **Reel:** A 30-second screen recording showing a 50 Lakh loan scenario, demonstrating how changing the interest rate by just 1% alters the total interest paid in the EMICalculatorPro tool.
+10. **Story:** Interactive Poll: "Do you know if your current loan uses a flat rate or reducing balance?" [Yes/No] -> Next slide links to the guide.

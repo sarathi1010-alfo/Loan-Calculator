@@ -61,3 +61,12 @@
 2. **GSC URL Inspection:** Use the GSC URL Inspection tool to request re-crawling for the canonical root page (`/`).
 3. **Internal Link Audit:** Verify that no internal links are pointing to these parameterized versions; all internal links (e.g., from Tier 1 and Tier 2 pages) must strictly point to the clean root URL (`/` or `/#loan-types`).
 4. **Monitoring:** Monitor the "Crawled - currently not indexed" report in GSC over the next 14 days to confirm the parameterized URLs are dropped or consolidated under the canonical root.
+
+## Audit Date: 2026-07-31
+
+**Issue Found:** Simulated GSC audit flagged duplicate parameter URLs (`/?amount=1000000`, `/?amount=500000`) showing as "Crawled - currently not indexed" due to duplication with the root page.
+
+**Fix Plan:**
+1. Maintain the canonical tag on the root calculator page (`<link rel="canonical" href="https://emicalculatorpro.alfo.online/" />`) to consolidate all link equity to the main URL.
+2. Ensure internal links strictly avoid query parameters; use dedicated Tier 2 semantic URLs (`/scenarios/emi-calculator-10-lakh`) for sharing and linking instead of parameterized root paths.
+3. Submit a recrawl request via GSC URL Inspection Tool for the root URL (`/`) after validating the canonical tags.

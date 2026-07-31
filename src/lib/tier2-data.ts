@@ -14,6 +14,197 @@ export interface Tier2Page {
 }
 
 export const TIER2_PAGES: Tier2Page[] = [
+
+  {
+    slug: "laptop-loan-emi-calculator",
+    type: "loan-types",
+    title: "Laptop Loan EMI Calculator 2026 | Finance Your Next PC",
+    h1: "Laptop Loan EMI Calculator",
+    description: "Calculate your laptop loan EMI. Compare financing options and plan your tech upgrade with our accurate calculator.",
+    intro: "Need a new laptop for work or gaming? Use our calculator to determine the monthly installments for your laptop loan and find a financing plan that fits your budget.",
+    amount: 100000,
+    interestRate: 15.0,
+    tenure: 12,
+    date: "2026-07-31",
+    content: `
+      <h2>Financing Your Laptop Purchase</h2>
+      <p>Laptops are essential tools for modern work and study. Consumer durable loans make it easy to finance high-end laptops without a massive upfront payment.</p>
+
+      <h2>Interest Rates and Zero-Cost EMI</h2>
+      <p>Many retailers offer "Zero-Cost EMI" options, where the interest is subsidized by the manufacturer or retailer. Always check for processing fees even with zero-cost offers.</p>
+
+      <h2>Calculating Your Laptop Loan EMI</h2>
+      <p>If you opt for a standard consumer loan, the EMI is calculated using the reducing balance method. Ensure you factor in the tenure to keep the monthly payments manageable.</p>
+    `,
+    faqs: [
+      { question: "What is the typical tenure for a laptop loan?", answer: "Laptop loans usually have short tenures ranging from 6 to 24 months, given the fast depreciation of consumer electronics." },
+      { question: "Are zero-cost EMIs really free?", answer: "While you might not pay explicit interest, you might still need to pay a processing fee, and you often forfeit upfront cash discounts." }
+    ]
+  },
+  {
+    slug: "furniture-loan-emi-calculator",
+    type: "loan-types",
+    title: "Furniture Loan EMI Calculator 2026 | Furnish Your Home",
+    h1: "Furniture Loan EMI Calculator",
+    description: "Plan your home furnishing budget with our Furniture Loan EMI Calculator. Estimate your monthly payments quickly.",
+    intro: "Furnishing a new home can be expensive. Use our calculator to break down the cost of furniture into manageable monthly EMIs.",
+    amount: 150000,
+    interestRate: 14.5,
+    tenure: 24,
+    date: "2026-07-31",
+    content: `
+      <h2>Upgrading Your Living Space</h2>
+      <p>Furniture loans allow you to buy high-quality pieces and pay for them over time, ensuring your home is comfortable without draining your savings.</p>
+
+      <h2>Interest Rates for Furniture Loans</h2>
+      <p>Rates can vary significantly based on your credit score and the retailer's financing partners. Always compare standard personal loans with store financing.</p>
+
+      <h2>How to Calculate the EMI</h2>
+      <p>Enter the total cost of the furniture (minus any down payment) into our calculator to see the monthly commitment required to furnish your home.</p>
+    `,
+    faqs: [
+      { question: "Can I use a personal loan for furniture?", answer: "Yes, personal loans are commonly used for home furnishing and often provide flexibility in where you can shop." },
+      { question: "Is a down payment required for store financing?", answer: "Many store financing options require a small down payment, though some offer 100% financing for qualified buyers." }
+    ]
+  },
+  {
+    slug: "emi-calculator-7-lakh",
+    type: "scenarios",
+    title: "₹7 Lakh Loan EMI Calculator | Full Amortization Schedule",
+    h1: "EMI Calculator for ₹7 Lakh Loan",
+    description: "Calculate the EMI for a ₹7 Lakh loan. View the exact monthly installment, total interest payable, and the full amortization schedule.",
+    intro: "Looking to borrow ₹7 Lakhs? Use our precise calculator to visualize your repayment plan, whether it's for a car, personal needs, or home renovation.",
+    amount: 700000,
+    interestRate: 11.5,
+    tenure: 60,
+    date: "2026-07-31",
+    content: `
+      <h2>Planning a ₹7 Lakh Repayment</h2>
+      <p>A ₹7 Lakh loan represents a significant financial commitment. Understanding your monthly outflow is crucial for maintaining your budget.</p>
+
+      <h2>Impact of Interest Rates</h2>
+      <p>For a ₹7 Lakh principal, securing a lower interest rate can save you tens of thousands of rupees over a 5-year tenure.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a ₹7 Lakh personal loan?", answer: "At an 11.5% interest rate over 5 years (60 months), the monthly EMI for a ₹7 Lakh loan is approximately ₹15,395." },
+      { question: "How much interest will I pay on a ₹7 Lakh loan?", answer: "Using the same 11.5% rate over 5 years, the total interest paid will be around ₹2,23,680." }
+    ]
+  },
+  {
+    slug: "emi-calculator-9-lakh",
+    type: "scenarios",
+    title: "₹9 Lakh Loan EMI Calculator | Personal & Car Loans",
+    h1: "EMI Calculator for ₹9 Lakh Loan",
+    description: "Find the EMI for a ₹9 Lakh loan. Instantly calculate your monthly payments and see the interest breakdown.",
+    intro: "Need to estimate the repayment for a ₹9 Lakh loan? Our calculator provides an instant, accurate EMI figure based on the reducing balance formula.",
+    amount: 900000,
+    interestRate: 9.0,
+    tenure: 84,
+    date: "2026-07-31",
+    content: `
+      <h2>Managing a ₹9 Lakh Debt</h2>
+      <p>Whether you are financing a premium car or consolidating debt, a ₹9 Lakh loan requires careful financial planning.</p>
+
+      <h2>Choosing the Right Tenure</h2>
+      <p>Opting for a longer tenure (e.g., 7 years) lowers the EMI but increases the total interest paid. Use our tool to find the optimal balance.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a ₹9 Lakh car loan?", answer: "At a 9.0% interest rate for 7 years (84 months), the EMI is approximately ₹14,480." },
+      { question: "Is it better to choose a 5-year or 7-year tenure for ₹9 Lakhs?", answer: "A 5-year tenure will have higher EMIs but saves you interest in the long run. Choose the tenure that best fits your monthly budget." }
+    ]
+  },
+  {
+    slug: "emi-calculator-80-lakh",
+    type: "scenarios",
+    title: "₹80 Lakh Home Loan EMI Calculator | Check Monthly Repayment",
+    h1: "EMI Calculator for ₹80 Lakh Loan",
+    description: "Calculate the EMI for an ₹80 Lakh home loan. Plan your mortgage repayment with our precise amortization tool.",
+    intro: "Taking an ₹80 Lakh loan for a premium property? Visualize your long-term commitment and total interest outlay with our accurate calculator.",
+    amount: 8000000,
+    interestRate: 8.75,
+    tenure: 240,
+    date: "2026-07-31",
+    content: `
+      <h2>Financing an ₹80 Lakh Property</h2>
+      <p>An ₹80 Lakh mortgage is a long-term commitment that often spans 20 to 30 years. Small changes in the interest rate can have a massive impact over this period.</p>
+
+      <h2>Prepayment Strategies for Large Loans</h2>
+      <p>When dealing with principals this large, making strategic prepayments in the early years can save you lakhs in interest and reduce the tenure significantly.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for an ₹80 Lakh home loan for 20 years?", answer: "At an 8.75% interest rate over 20 years, the EMI is roughly ₹70,697." },
+      { question: "How can I reduce the interest burden on an ₹80 Lakh loan?", answer: "Making an additional EMI payment each year or increasing your EMI by 5% annually can drastically reduce the total interest paid." }
+    ]
+  },
+  {
+    slug: "emi-4-years-vs-5-years",
+    type: "tenure-comparison",
+    title: "4 Year vs 5 Year Loan EMI Comparison | Which is Better?",
+    h1: "EMI Comparison: 4 Years vs 5 Years",
+    description: "Compare loan EMIs for 4-year and 5-year tenures. See the difference in monthly payments and total interest to make the best choice.",
+    intro: "Should you choose a 48-month or 60-month loan? This comparison reveals the trade-offs between higher EMIs and higher total interest.",
+    amount: 500000,
+    interestRate: 11.0,
+    tenure: 60,
+    date: "2026-07-31",
+    content: `
+      <h2>Choosing Between 4 and 5 Year Tenures</h2>
+      <p>When selecting a loan tenure for a personal or car loan, the decision often comes down to 4 years (48 months) versus 5 years (60 months).</p>
+
+      <h2>The Financial Trade-off</h2>
+      <p>A 4-year tenure will require higher monthly payments but will save you a notable amount in total interest. The 5-year option provides more breathing room in your monthly budget.</p>
+    `,
+    faqs: [
+      { question: "How much more do I pay in a 5-year loan vs a 4-year loan?", answer: "On a ₹5 Lakh loan at 11%, a 5-year tenure costs about ₹31,000 more in interest compared to a 4-year tenure." },
+      { question: "Is a shorter tenure always better?", answer: "Mathematically, yes, as you pay less interest. However, if the higher EMI strains your budget and increases the risk of default, a longer tenure is safer." }
+    ]
+  },
+  {
+    slug: "emi-6-years-vs-8-years",
+    type: "tenure-comparison",
+    title: "6 Year vs 8 Year Loan EMI Comparison | Mid-Term Loans",
+    h1: "EMI Comparison: 6 Years vs 8 Years",
+    description: "Analyze the EMI and interest differences between 6-year and 8-year loan tenures. Make an informed borrowing decision.",
+    intro: "Comparing a 72-month and 96-month tenure? Understand how extending your loan by 2 years affects your cash flow and total borrowing cost.",
+    amount: 1500000,
+    interestRate: 9.5,
+    tenure: 96,
+    date: "2026-07-31",
+    content: `
+      <h2>Mid-Term Loan Planning</h2>
+      <p>For mid-sized loans, deciding between a 6-year and an 8-year tenure requires balancing affordability with long-term cost.</p>
+
+      <h2>The Cost of Extending Tenure</h2>
+      <p>Extending the tenure lowers the immediate EMI but significantly increases the aggregate interest. This is especially true for interest rates near 10%.</p>
+    `,
+    faqs: [
+      { question: "Does extending the tenure to 8 years lower the EMI significantly?", answer: "It lowers the EMI, but the reduction becomes less significant as the tenure lengthens, while the total interest paid continues to climb." },
+      { question: "Can I choose a 6-year tenure and prepay if possible?", answer: "Yes, choosing a longer tenure for safety and aggressively prepaying when you have surplus funds is often a smart strategy." }
+    ]
+  },
+  {
+    slug: "emi-25-years-vs-30-years",
+    type: "tenure-comparison",
+    title: "25 Year vs 30 Year Home Loan EMI | Long-Term Mortgage Comparison",
+    h1: "EMI Comparison: 25 Years vs 30 Years",
+    description: "Compare 25-year and 30-year home loan EMIs. Discover why a 30-year tenure might cost you substantially more in interest.",
+    intro: "Deciding on a mortgage tenure? Compare the 25-year and 30-year options to see how a slight reduction in EMI can result in massive interest payments over decades.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 360,
+    date: "2026-07-31",
+    content: `
+      <h2>The Illusion of the 30-Year Mortgage</h2>
+      <p>A 30-year mortgage offers the lowest possible EMI, making it seem attractive. However, the interest accrued in those final 5 years is staggering.</p>
+
+      <h2>25 Years: The Sweet Spot?</h2>
+      <p>For many borrowers, a 25-year tenure provides a manageable EMI while saving lakhs of rupees in interest compared to the 30-year option.</p>
+    `,
+    faqs: [
+      { question: "How much do I save with a 25-year tenure instead of 30 years?", answer: "On a ₹50 Lakh loan at 8.5%, choosing 25 years over 30 years can save you over ₹13 Lakhs in total interest, while the EMI difference is only around ₹2,000." },
+      { question: "Why do banks push 30-year loans?", answer: "Banks earn significantly more interest over a 30-year period, making it a highly profitable product for them." }
+    ]
+  },
   {
     slug: "sbi-home-loan-emi-calculator",
     type: "loan-types",

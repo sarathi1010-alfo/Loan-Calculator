@@ -16,6 +16,216 @@ export interface Tier2Page {
 export const TIER2_PAGES: Tier2Page[] = [
 
   {
+    slug: "medical-loan-emi-calculator",
+    type: "loan-types",
+    title: "Medical Loan EMI Calculator 2026 | Fund Your Healthcare Needs",
+    h1: "Medical Loan EMI Calculator",
+    description: "Calculate your medical loan EMI instantly. Plan for unforeseen healthcare expenses with our accurate and easy-to-use EMI calculator.",
+    intro: "Healthcare emergencies can arise without warning. If you're considering a medical loan, our calculator helps you estimate the monthly EMI, ensuring your treatment financing aligns with your budget.",
+    amount: 500000,
+    interestRate: 11.5,
+    tenure: 36,
+    date: "2026-08-01",
+    content: `
+      <h2>Financing Healthcare with a Medical Loan</h2>
+      <p>A medical loan is a specialized personal loan designed specifically for healthcare procedures. Whether it is an unexpected emergency or an elective surgery, a medical loan provides the necessary funds quickly.</p>
+
+      <h2>Why Use a Medical Loan EMI Calculator?</h2>
+      <p>During a health crisis, the last thing you want is financial stress. Our EMI calculator gives you instant clarity on your monthly obligations, allowing you to focus on recovery rather than repayment anxiety.</p>
+
+      <h2>Key Factors in Medical Loan EMIs</h2>
+      <p>Interest rates on medical loans are typically similar to personal loans, as they are unsecured. Securing a shorter tenure minimizes the total interest paid, though it increases the monthly EMI.</p>
+    `,
+    faqs: [
+      { question: "Can a medical loan cover all treatments?", answer: "Yes, medical loans typically cover everything from hospitalization to cosmetic surgery, depending on the lender." },
+      { question: "How quickly are medical loans disbursed?", answer: "Many lenders offer rapid disbursement, sometimes within 24 to 48 hours, given the critical nature of the loan." }
+    ]
+  },
+  {
+    slug: "travel-loan-emi-calculator",
+    type: "loan-types",
+    title: "Travel Loan EMI Calculator 2026 | Plan Your Dream Vacation",
+    h1: "Travel Loan EMI Calculator",
+    description: "Estimate the EMI for your travel loan. Compare rates and tenures to perfectly balance your vacation budget and repayment schedule.",
+    intro: "Dreaming of an international getaway or a grand domestic tour? A travel loan can make it happen. Use our calculator to understand your monthly payments and ensure your vacation doesn't break the bank.",
+    amount: 300000,
+    interestRate: 12.0,
+    tenure: 24,
+    date: "2026-08-01",
+    content: `
+      <h2>Funding Your Adventures with a Travel Loan</h2>
+      <p>A travel loan is a type of personal loan meant to cover all travel-related expenses, including flights, accommodation, and tours. It allows you to travel now and pay later in manageable installments.</p>
+
+      <h2>How the Travel Loan EMI Calculator Helps</h2>
+      <p>By entering your expected travel costs, our calculator instantly shows your EMI. This helps you decide if you can afford the trip right now or if you should adjust your travel budget.</p>
+
+      <h2>Travel Loan Tenures</h2>
+      <p>It is generally advisable to keep travel loan tenures short (e.g., 12 to 24 months). You do not want to be paying off a vacation years after the memories have faded.</p>
+    `,
+    faqs: [
+      { question: "Is a travel loan different from a personal loan?", answer: "A travel loan is fundamentally a personal loan, but some lenders offer specific packages labeled for travel with tailored terms." },
+      { question: "Should I take a loan for travel?", answer: "It depends on your financial stability. If the EMI fits comfortably within your budget, it can be a convenient way to manage cash flow." }
+    ]
+  },
+  {
+    slug: "wedding-loan-emi-calculator",
+    type: "loan-types",
+    title: "Wedding Loan EMI Calculator 2026 | Finance Your Big Day",
+    h1: "Wedding Loan EMI Calculator",
+    description: "Calculate your wedding loan EMI. Plan your marriage expenses effectively with our accurate and transparent EMI calculator.",
+    intro: "Weddings are beautiful but can be incredibly expensive. A wedding loan helps you cover costs from the venue to the catering. Calculate your EMI to keep your big day financially stress-free.",
+    amount: 1000000,
+    interestRate: 11.0,
+    tenure: 60,
+    date: "2026-08-01",
+    content: `
+      <h2>Managing Marriage Expenses with a Wedding Loan</h2>
+      <p>A wedding loan helps couples and their families manage the substantial upfront costs of a wedding without depleting all their savings at once.</p>
+
+      <h2>Using the Wedding Loan EMI Calculator</h2>
+      <p>Planning a wedding requires strict budgeting. By calculating your EMI beforehand, you can accurately determine the loan amount that fits your post-wedding financial life.</p>
+
+      <h2>Interest Rates and Repayment</h2>
+      <p>Like other personal loans, wedding loans are unsecured, meaning the interest rate heavily depends on your credit score and income. Aim for a balance between an affordable EMI and a reasonable total interest payout.</p>
+    `,
+    faqs: [
+      { question: "Can both partners co-apply for a wedding loan?", answer: "Yes, many lenders allow couples to co-apply, which can increase the eligible loan amount and sometimes improve the interest rate." },
+      { question: "What expenses does a wedding loan cover?", answer: "It can cover almost any wedding-related expense, including jewelry, venue booking, catering, and even the honeymoon." }
+    ]
+  },
+  {
+    slug: "emi-calculator-30-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹30 Lakh Loan | Monthly Repayment Breakdown",
+    h1: "EMI Calculator for ₹30 Lakh Loan",
+    description: "Calculate the exact EMI for a ₹30 Lakh loan. View the complete amortization schedule and understand the total interest payable.",
+    intro: "Taking a ₹30 Lakh loan is a significant financial step, typically for home buying or a large business investment. Use this calculator to see your exact EMI and the long-term interest cost.",
+    amount: 3000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-08-01",
+    content: `
+      <h2>Breaking Down a ₹30 Lakh Loan</h2>
+      <p>A ₹30 Lakh loan is a substantial commitment. Understanding the exact EMI and the total interest outflow is critical before signing any agreement.</p>
+
+      <h2>The Importance of Tenure</h2>
+      <p>For a ₹30 Lakh loan, tenure significantly impacts the total cost. A 20-year tenure makes the EMI affordable, but the total interest paid can often equal the principal amount.</p>
+
+      <h2>Prepayment Impact</h2>
+      <p>Making partial prepayments on a ₹30 Lakh loan, especially in the early years, can save you lakhs in interest and drastically reduce your tenure.</p>
+    `,
+    faqs: [
+      { question: "What is a typical EMI for a ₹30 Lakh home loan?", answer: "At an 8.5% interest rate for 20 years, the EMI is approximately ₹26,035." },
+      { question: "How much income is needed for a ₹30 Lakh loan?", answer: "Lenders generally look for a monthly income where the EMI does not exceed 40-50% of your take-home pay." }
+    ]
+  },
+  {
+    slug: "emi-calculator-40-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹40 Lakh Loan | Total Cost Analysis",
+    h1: "EMI Calculator for ₹40 Lakh Loan",
+    description: "Find the monthly EMI for a ₹40 Lakh loan. Compare different tenures and interest rates to optimize your repayment strategy.",
+    intro: "Planning to borrow ₹40 Lakhs? Whether for a premium property or a major business expansion, accurately calculating your EMI is the first step to successful debt management.",
+    amount: 4000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-08-01",
+    content: `
+      <h2>Analyzing a ₹40 Lakh Loan</h2>
+      <p>When borrowing ₹40 Lakhs, the total interest paid over a long tenure becomes very high. Using our calculator helps you visualize this cost.</p>
+
+      <h2>Strategies for a ₹40 Lakh Loan</h2>
+      <p>To minimize the interest burden, consider opting for a 15-year tenure instead of 20 years if your monthly cash flow allows it.</p>
+
+      <h2>The Role of Interest Rates</h2>
+      <p>Even a 0.5% reduction in the interest rate on a ₹40 Lakh loan can save you hundreds of thousands of rupees over 20 years. Always negotiate hard.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a ₹40 Lakh loan at 8.5% for 20 years?", answer: "The EMI would be roughly ₹34,713." },
+      { question: "Can I prepay a ₹40 Lakh home loan?", answer: "Yes, and for floating-rate home loans, RBI guidelines mandate that no prepayment penalties can be charged to individuals." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹50 Lakh Loan | Amortization & Planning",
+    h1: "EMI Calculator for ₹50 Lakh Loan",
+    description: "Calculate the EMI and view the amortization schedule for a ₹50 Lakh loan. Essential planning for large mortgages and business loans.",
+    intro: "A ₹50 Lakh loan requires careful financial planning. Use our calculator to break down the principal and interest components of your monthly EMI.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-08-01",
+    content: `
+      <h2>Planning for a ₹50 Lakh Loan</h2>
+      <p>Borrowing ₹50 Lakhs is a major milestone. The EMI is significant, and the total interest paid over 20 years will be substantial.</p>
+
+      <h2>Visualizing the Debt</h2>
+      <p>Our EMI calculator provides a pie chart that clearly shows how much of your total repayment is principal versus interest. This visual is crucial for understanding the true cost of the loan.</p>
+
+      <h2>Smart Repayment</h2>
+      <p>For a loan of this size, making even small prepayments annually (like one extra EMI per year) can shave years off the tenure.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a ₹50 Lakh home loan for 20 years?", answer: "At an 8.5% rate, the EMI is approximately ₹43,391." },
+      { question: "Is a ₹50 Lakh loan considered a jumbo loan?", answer: "In India, ₹50 Lakhs is a standard home loan amount in tier 1 cities, though it may be considered large in smaller towns." }
+    ]
+  },
+  {
+    slug: "emi-10-years-vs-15-years",
+    type: "tenure-comparison",
+    title: "10 Year vs 15 Year Loan EMI | Which Tenure is Better?",
+    h1: "10 Year vs 15 Year Loan EMI Comparison",
+    description: "Compare the EMI and total interest for a 10-year vs 15-year loan. See the math and choose the optimal tenure for your financial goals.",
+    intro: "Choosing between a 10-year and 15-year loan tenure? A shorter tenure means higher EMIs but massive interest savings. Compare the numbers to see which option suits your cash flow.",
+    amount: 3000000,
+    interestRate: 9.0,
+    tenure: 120, // using 10 years as default view
+    date: "2026-08-01",
+    content: `
+      <h2>The 10-Year vs 15-Year Dilemma</h2>
+      <p>When selecting a loan tenure, the choice between 10 and 15 years often comes down to a trade-off between monthly comfort and long-term cost.</p>
+
+      <h2>10-Year Tenure: High EMI, High Savings</h2>
+      <p>A 10-year tenure forces you to pay off the principal faster. Your monthly EMI will be significantly higher, but the total interest you pay to the bank will be much lower.</p>
+
+      <h2>15-Year Tenure: Lower EMI, Higher Cost</h2>
+      <p>A 15-year tenure spreads the payments out, lowering your EMI and easing monthly cash flow. However, you will pay interest for an additional 5 years, making the loan much more expensive overall.</p>
+    `,
+    faqs: [
+      { question: "How much interest do I save with a 10-year loan over a 15-year loan?", answer: "On a ₹30 Lakh loan at 9%, you save over ₹10 Lakhs in interest by choosing a 10-year tenure." },
+      { question: "Which tenure is better for a home loan?", answer: "If you can afford the higher EMI without compromising your lifestyle or emergency funds, the 10-year tenure is always financially superior." }
+    ]
+  },
+  {
+    slug: "emi-15-years-vs-20-years",
+    type: "tenure-comparison",
+    title: "15 Year vs 20 Year Loan EMI | Compare Interest Costs",
+    h1: "15 Year vs 20 Year Loan EMI Comparison",
+    description: "Analyze the difference between a 15-year and 20-year loan. Calculate the EMI impact and total interest savings.",
+    intro: "Deciding between a 15-year and 20-year home loan? While a 20-year loan lowers your monthly EMI, a 15-year loan drastically reduces the total interest paid. Compare both scenarios here.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 180, // using 15 years as default view
+    date: "2026-08-01",
+    content: `
+      <h2>Comparing 15 and 20 Year Tenures</h2>
+      <p>For large loans, such as a ₹50 Lakh home loan, the difference between 15 and 20 years is massive in terms of absolute numbers.</p>
+
+      <h2>The 15-Year Advantage</h2>
+      <p>Opting for 15 years increases your monthly EMI, but you become debt-free 5 years sooner. More importantly, the total interest paid is significantly less.</p>
+
+      <h2>The 20-Year Comfort</h2>
+      <p>A 20-year tenure is popular because it keeps the EMI affordable, making it easier to qualify for the loan. However, the interest cost is substantially higher. A common strategy is to take a 20-year loan for safety but prepay it as if it were a 15-year loan.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI difference between 15 and 20 years?", answer: "On a ₹50 Lakh loan at 8.5%, the 15-year EMI is roughly ₹49,237, while the 20-year EMI is ₹43,391." },
+      { question: "Can I change my 20-year loan to a 15-year loan later?", answer: "Yes, you can usually increase your EMI amount with your lender, effectively reducing your remaining tenure without needing to officially refinance." }
+    ]
+  }
+,
+
+  {
     slug: "laptop-loan-emi-calculator",
     type: "loan-types",
     title: "Laptop Loan EMI Calculator 2026 | Finance Your Next PC",

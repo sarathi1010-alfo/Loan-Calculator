@@ -70,3 +70,13 @@
 1. Maintain the canonical tag on the root calculator page (`<link rel="canonical" href="https://emicalculatorpro.alfo.online/" />`) to consolidate all link equity to the main URL.
 2. Ensure internal links strictly avoid query parameters; use dedicated Tier 2 semantic URLs (`/scenarios/emi-calculator-10-lakh`) for sharing and linking instead of parameterized root paths.
 3. Submit a recrawl request via GSC URL Inspection Tool for the root URL (`/`) after validating the canonical tags.
+
+## Simulated GSC Audit - 2026-08-01
+
+**Issue Found:**
+2 old parameterized URLs (`?amount=100000`) showing "Crawled - currently not indexed" due to duplicate content.
+
+**Fix Plan Generated:**
+1. Add a canonical tag to the root calculator page to consolidate link equity.
+2. Use GSC URL Inspection to request re-crawling for the canonical root.
+3. Update internal links to point strictly to clean URLs (not parameterized versions).

@@ -16,10 +16,10 @@ export default function BlogHubPage() {
           EMI Calculator Pro Blog – Expert Guides on Loans & Financial Planning
         </h1>
         <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-          Welcome to the EMI Calculator Pro Blog, your ultimate destination for mastering loans and personal finance. Whether you're planning to buy a new home, finance a car, or looking to restructure your existing debts, navigating the complex world of interest rates and tenures can be daunting. Our mission is to demystify financial jargon and equip you with actionable, expert-backed strategies.
+          Welcome to the EMI Calculator Pro Blog, your ultimate destination for mastering loans and personal finance. Whether you're planning to buy a new home, finance a car, or looking to restructure your existing debts, navigating the complex world of interest rates and tenures can be daunting. Our mission is to demystify financial jargon and equip you with actionable, expert-backed strategies that you can apply immediately to your financial life. We believe that an informed borrower is an empowered borrower, capable of saving thousands over the lifetime of a loan.
         </p>
         <p className="text-lg text-muted-foreground leading-relaxed">
-          Here, you'll find comprehensive guides that break down how Equated Monthly Installments (EMIs) work, deep dives into smart borrowing, and objective comparisons of top lenders. By understanding the mathematics of your loans and utilizing our <Link href="/" className="text-primary hover:underline font-medium">cutting-edge calculation tools</Link>, you can avoid common pitfalls, save thousands in interest, and take full control of your financial future. Explore our expertly curated categories below to start making smarter, more informed borrowing decisions today.
+          Here, you'll find comprehensive guides that break down how Equated Monthly Installments (EMIs) work, deep dives into smart borrowing, and objective comparisons of top lenders. By understanding the mathematics of your loans and utilizing our <Link href="/" className="text-primary hover:underline font-medium">cutting-edge calculation tools</Link>, you can avoid common pitfalls, save thousands in interest, and take full control of your financial future. Explore our expertly curated categories below to start making smarter, more informed borrowing decisions today and build a secure foundation for your goals.
         </p>
       </div>
 

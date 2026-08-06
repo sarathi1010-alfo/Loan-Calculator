@@ -351,4 +351,47 @@ test.describe('Technical Verification', () => {
     }
   });
 
+
+  test('New Tier 1 Article returns 200 OK and has valid Schema for credit score impact', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/credit-score-impact-on-emi-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toContainText('How Credit Scores Impact Loan Interest Rates in 2026');
+
+    // Validate Article Schema
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+    expect(articleSchema['@type']).toBe('Article');
+  });
+
+  test('New Tier 2 Programmatic URLs return 200 OK and have FAQ Schema for Credit Score focus', async ({ page }) => {
+    const newSlugs = [
+      '/loan-types/axis-home-loan-emi-calculator',
+      '/loan-types/icici-personal-loan-emi-calculator',
+      '/loan-types/used-bike-loan-emi-calculator',
+      '/loan-types/machinery-loan-emi-calculator-2026',
+      '/scenarios/emi-calculator-15-thousand',
+      '/scenarios/emi-calculator-2-lakh-50-thousand',
+      '/scenarios/emi-calculator-12-crore',
+      '/tenure-comparison/emi-7-years-vs-8-years'
+    ];
+
+    for (const slug of newSlugs) {
+      const response = await page.goto(`${baseUrl}${slug}`);
+      expect(response?.status()).toBe(200);
+
+      // Validate FAQ Schema
+      const faqSchema = await page.evaluate(() => {
+        const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+          .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+        return script ? JSON.parse(script.textContent || '{}') : null;
+      });
+      expect(faqSchema).not.toBeNull();
+      expect(faqSchema['@type']).toBe('FAQPage');
+      expect(faqSchema.mainEntity.length).toBeGreaterThan(0);
+    }
+  });
 });

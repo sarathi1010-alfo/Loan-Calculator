@@ -2145,6 +2145,171 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Can I shorten my 25-year loan later?", answer: "Yes, you can dramatically shorten your effective tenure and save interest by making regular, partial prepayments against the principal amount." }
     ]
   }
+,
+
+  {
+    slug: "axis-home-loan-emi-calculator",
+    type: "loan-types",
+    title: "Axis Bank Home Loan EMI Calculator 2026 | Check Repayment Plans",
+    h1: "Axis Bank Home Loan EMI Calculator",
+    description: "Calculate your Axis Bank home loan EMI instantly. View your monthly payments, total interest, and amortization schedule.",
+    intro: "Axis Bank offers competitive home loan rates for various housing needs. Use our specialized calculator to estimate your Axis home loan EMI.",
+    amount: 5000000,
+    interestRate: 8.55,
+    tenure: 240,
+    date: "2026-08-06",
+    content: `
+      <h2>Planning Your Axis Bank Home Loan</h2>
+      <p>Axis Bank is a leading private sector bank, known for fast processing and competitive interest rates on housing loans. Calculating your exact EMI before applying is a crucial step in your financial planning.</p>
+
+      <h2>Factors Affecting Your Axis Bank EMI</h2>
+      <p>Your EMI with Axis Bank will be determined by the loan amount, interest rate, and tenure.</p>
+    `,
+    faqs: [
+      { question: "What is the current Axis Bank home loan interest rate?", answer: "Axis Bank home loan interest rates typically start around 8.55% per annum, varying based on the applicant's credit score and loan amount." },
+      { question: "What is the maximum tenure for an Axis Bank home loan?", answer: "Axis Bank offers a maximum repayment tenure of up to 30 years for home loans." }
+    ]
+  },
+  {
+    slug: "icici-personal-loan-emi-calculator",
+    type: "loan-types",
+    title: "ICICI Personal Loan EMI Calculator 2026 | Check Monthly Payment",
+    h1: "ICICI Personal Loan EMI Calculator",
+    description: "Calculate your ICICI personal loan EMI. Instantly check your monthly repayment schedule and total interest payable.",
+    intro: "ICICI Bank offers quick, collateral-free personal loans. Use our calculator to accurately estimate your monthly EMI and total interest cost.",
+    amount: 500000,
+    interestRate: 10.50,
+    tenure: 48,
+    date: "2026-08-06",
+    content: `
+      <h2>Navigating ICICI Personal Loans</h2>
+      <p>ICICI Bank provides personal loans with minimal documentation and quick disbursals, making them ideal for emergencies or debt consolidation. Meticulously calculating your EMI is essential.</p>
+    `,
+    faqs: [
+      { question: "What is the starting interest rate for ICICI personal loans?", answer: "Interest rates for ICICI personal loans typically start at around 10.50% per annum for borrowers with excellent credit profiles." },
+      { question: "How long does it take for ICICI to disburse a personal loan?", answer: "ICICI is known for fast processing, often disbursing funds within hours for pre-approved customers." }
+    ]
+  },
+  {
+    slug: "used-bike-loan-emi-calculator",
+    type: "loan-types",
+    title: "Used Bike Loan EMI Calculator | Pre-Owned Two-Wheeler Finance",
+    h1: "Used Bike Loan EMI Calculator",
+    description: "Calculate EMI for a used bike loan. Understand the higher interest rates typically associated with pre-owned two-wheeler financing.",
+    intro: "Buying a pre-owned bike? Used bike loans often carry different rates than new ones. Calculate your EMI here.",
+    amount: 50000,
+    interestRate: 15.0,
+    tenure: 24,
+    date: "2026-08-06",
+    content: `
+      <h2>Why Used Bike Loans Are Different</h2>
+      <p>Loans for pre-owned bikes typically carry a higher interest rate because the asset has already depreciated and poses a slightly higher risk to the lender.</p>
+    `,
+    faqs: [
+      { question: "Why are used bike loan interest rates higher?", answer: "Lenders charge more because used bikes have lower resale value and higher depreciation risk compared to new bikes." },
+      { question: "What is the typical tenure for a used bike loan?", answer: "Lenders usually restrict used bike loan tenures to 1 to 3 years depending on the age of the vehicle." }
+    ]
+  },
+  {
+    slug: "machinery-loan-emi-calculator-2026",
+    type: "loan-types",
+    title: "Machinery Loan EMI Calculator 2026 | Business Equipment Finance",
+    h1: "Machinery Loan EMI Calculator",
+    description: "Calculate your machinery loan EMI accurately. Plan your business equipment financing with clear amortization and interest breakdowns.",
+    intro: "Upgrading or acquiring new machinery is vital for business growth. Use this calculator to determine your monthly repayment obligations.",
+    amount: 1500000,
+    interestRate: 12.0,
+    tenure: 60,
+    date: "2026-08-06",
+    content: `
+      <h2>Understanding Machinery Loan EMIs</h2>
+      <p>Machinery loans help enterprises purchase new equipment without depleting working capital. The EMI is calculated based on the borrowed amount, interest rate, and term.</p>
+    `,
+    faqs: [
+      { question: "What collateral is required for a machinery loan?", answer: "In most cases, the machinery being purchased serves as the primary collateral for the loan." },
+      { question: "Are interest rates fixed or floating for machinery loans?", answer: "Both options are available, though many lenders offer fixed rates to help businesses maintain predictable monthly outflows." }
+    ]
+  },
+  {
+    slug: "emi-calculator-15-thousand",
+    type: "scenarios",
+    title: "EMI Calculator for ₹15,000 Loan | Micro Loan Scenario",
+    h1: "EMI Calculator for ₹15,000 Loan",
+    description: "Calculate your EMI for a ₹15,000 micro-loan. Plan short-term borrowing for small emergencies or purchases.",
+    intro: "Need a quick ₹15,000? Calculate your monthly installments for short-term personal loans.",
+    amount: 15000,
+    interestRate: 18.0,
+    tenure: 6,
+    date: "2026-08-06",
+    content: `
+      <h2>Managing Micro-Loans Effectively</h2>
+      <p>A loan of ₹15,000 is a micro-loan. These are often unsecured and disbursed quickly. Keep the tenure as short as possible to avoid excessive interest.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 15,000 loan for 6 months?", answer: "At an interest rate of 18%, the EMI is approximately ₹2,633." },
+      { question: "How much total interest will I pay on 15,000?", answer: "Over a 6-month tenure at 18%, you will pay roughly ₹797 in total interest." }
+    ]
+  },
+  {
+    slug: "emi-calculator-2-lakh-50-thousand",
+    type: "scenarios",
+    title: "EMI Calculator for ₹2.5 Lakh Loan | Repayment Schedule",
+    h1: "EMI Calculator for ₹2.5 Lakh Loan",
+    description: "Calculate the monthly EMI for a ₹2.5 Lakh loan. View the complete amortization schedule and total interest payable.",
+    intro: "Borrowing ₹2.5 Lakhs? Find out your exact monthly EMI and total interest with our dedicated calculator.",
+    amount: 250000,
+    interestRate: 11.0,
+    tenure: 36,
+    date: "2026-08-06",
+    content: `
+      <h2>Understanding Your ₹2.5 Lakh Loan EMI</h2>
+      <p>A ₹2.5 Lakh loan is typical for a personal loan or small vehicle financing. See how the tenure impacts your monthly outgoing.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 2.5 Lakh loan for 3 years?", answer: "At 11%, the EMI is approximately ₹8,185." },
+      { question: "Can I prepay a 2.5 Lakh loan?", answer: "Yes, most lenders allow prepayment after a lock-in period." }
+    ]
+  },
+  {
+    slug: "emi-calculator-12-crore",
+    type: "scenarios",
+    title: "EMI Calculator for ₹12 Crore Loan | Ultra-Luxury & Commercial",
+    h1: "EMI Calculator for ₹12 Crore Loan",
+    description: "Calculate your EMI for a ₹12 Crore loan. View detailed amortization schedules for high-net-worth real estate.",
+    intro: "Securing a ₹12 Crore loan? Model your massive monthly commitments and total interest outflow with precision.",
+    amount: 120000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-08-06",
+    content: `
+      <h2>Financing Ultra-Luxury Real Estate</h2>
+      <p>A ₹12 Crore loan is a massive financial undertaking. The sheer volume of interest requires strategic financial planning and prepayments.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 12 Crore home loan?", answer: "At 8.5% over a 20-year tenure, the monthly EMI is approximately ₹10,41,387." },
+      { question: "How much interest is paid on a 12 Crore loan over 20 years?", answer: "At 8.5%, the total interest paid over 20 years is roughly ₹12,99,32,000." }
+    ]
+  },
+  {
+    slug: "emi-7-years-vs-8-years",
+    type: "tenure-comparison",
+    title: "EMI Comparison: 7 Years vs 8 Years Tenure",
+    h1: "7 Years vs 8 Years EMI Comparison",
+    description: "Compare loan EMIs for 7-year (84 months) vs 8-year (96 months) tenures to find the perfect balance for your budget.",
+    intro: "Should you take a loan for 7 years or stretch it to 8 years? Compare the EMI and total interest differences instantly.",
+    amount: 2000000,
+    interestRate: 10.0,
+    tenure: 84,
+    date: "2026-08-06",
+    content: `
+      <h2>The Cost of an Extra Year</h2>
+      <p>Extending your loan from 7 years to 8 years might make your EMI look more attractive, but you pay an entire extra year of interest.</p>
+    `,
+    faqs: [
+      { question: "How much more expensive is an 8-year loan compared to a 7-year loan?", answer: "On a ₹20 Lakh loan at 10%, an 8-year tenure costs about ₹1.6 Lakhs more in total interest than a 7-year tenure." },
+      { question: "Should I prioritize lower EMI or lower total interest?", answer: "Ideally, you should aim for the highest EMI you can comfortably afford." }
+    ]
+  }
 ];
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {

@@ -8,6 +8,20 @@ async function pingSearchEngines() {
 
   const newUrls = [
 
+    // New Tier 1 (2026-08-06)
+    `${SITE_URL}/blog/credit-score-impact-on-emi-2026`,
+
+    // New Tier 2 (2026-08-06)
+    `${SITE_URL}/loan-types/axis-home-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/icici-personal-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/used-bike-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/machinery-loan-emi-calculator-2026`,
+    `${SITE_URL}/scenarios/emi-calculator-15-thousand`,
+    `${SITE_URL}/scenarios/emi-calculator-2-lakh-50-thousand`,
+    `${SITE_URL}/scenarios/emi-calculator-12-crore`,
+    `${SITE_URL}/tenure-comparison/emi-7-years-vs-8-years`,
+
+
     // New Tier 1 (2026-07-31)
     `${SITE_URL}/blog/loan-interest-rates-2026-guide`,
 

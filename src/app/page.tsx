@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Free EMI Calculator Pro - Personal, Home & Car Loan EMI Calculator",
   description:
     "Free EMI calculator for personal, home, and car loans. Calculate your monthly payments instantly and compare different loan options. 100% free, no registration required.",
+  alternates: {
+    canonical: "https://emicalculatorpro.alfo.online/",
+  },
 };
 
 export default function Home() {

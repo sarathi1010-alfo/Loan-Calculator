@@ -80,3 +80,9 @@
 1. Add a canonical tag to the root calculator page to consolidate link equity.
 2. Use GSC URL Inspection to request re-crawling for the canonical root.
 3. Update internal links to point strictly to clean URLs (not parameterized versions).
+
+## Audit Date: 2026-08-07
+
+**Issue Found:** Parameterized URLs causing duplicate content flags.
+
+**Action Taken:** Added self-referencing canonical tag `<link rel="canonical" href="https://emicalculatorpro.alfo.online/" />` to the root `page.tsx` metadata to consolidate link equity. Added new Tier 1 and Tier 2 URLs to `scripts/ping-search-engines.ts`.

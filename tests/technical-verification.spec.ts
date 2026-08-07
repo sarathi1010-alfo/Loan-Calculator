@@ -394,4 +394,48 @@ test.describe('Technical Verification', () => {
       expect(faqSchema.mainEntity.length).toBeGreaterThan(0);
     }
   });
+
+  test('New Tier 1 Article returns 200 OK and has valid Schema for home loan tax benefits', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/home-loan-tax-benefits-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toContainText('Home Loan Tax Benefits 2026');
+
+    // Validate Article Schema
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+    expect(articleSchema['@type']).toBe('Article');
+  });
+
+  test('New Tier 2 Programmatic URLs return 200 OK and have FAQ Schema for Tax Benefits focus', async ({ page }) => {
+    const newSlugs = [
+      '/loan-types/top-up-loan-emi-calculator',
+      '/loan-types/hdfc-home-loan-emi-calculator',
+      '/loan-types/sbi-personal-loan-emi-calculator',
+      '/loan-types/bajaj-finserv-personal-loan-emi-calculator',
+      '/scenarios/emi-calculator-1-lakh',
+      '/scenarios/emi-calculator-15-lakh',
+      '/scenarios/emi-calculator-35-lakh',
+      '/tenure-comparison/emi-2-years-vs-3-years'
+    ];
+
+    for (const slug of newSlugs) {
+      const response = await page.goto(`${baseUrl}${slug}`);
+      expect(response?.status()).toBe(200);
+
+      // Validate FAQ Schema
+      const faqSchema = await page.evaluate(() => {
+        const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+          .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+        return script ? JSON.parse(script.textContent || '{}') : null;
+      });
+      expect(faqSchema).not.toBeNull();
+      expect(faqSchema['@type']).toBe('FAQPage');
+      expect(faqSchema.mainEntity.length).toBeGreaterThan(0);
+    }
+  });
+
 });

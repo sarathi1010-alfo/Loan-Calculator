@@ -2309,7 +2309,168 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "How much more expensive is an 8-year loan compared to a 7-year loan?", answer: "On a ₹20 Lakh loan at 10%, an 8-year tenure costs about ₹1.6 Lakhs more in total interest than a 7-year tenure." },
       { question: "Should I prioritize lower EMI or lower total interest?", answer: "Ideally, you should aim for the highest EMI you can comfortably afford." }
     ]
+  },
+  {
+    slug: "top-up-loan-emi-calculator",
+    type: "loan-types",
+    title: "Top-Up Loan EMI Calculator 2026 | Calculate Additional Funding",
+    h1: "Top-Up Loan EMI Calculator",
+    description: "Calculate your Top-Up Loan EMI instantly. View monthly payments, interest, and plan your additional borrowing effectively.",
+    intro: "A top-up loan provides additional funding over an existing home loan. Use our calculator to determine the extra EMI burden before applying.",
+    amount: 1500000,
+    interestRate: 9.0,
+    tenure: 120,
+    date: "2026-08-07",
+    content: `
+      <h2>Planning Your Top-Up Loan</h2>
+      <p>A top-up loan is a convenient way to access extra funds at competitive interest rates if you already have a running home loan. It can be used for home renovation, personal expenses, or debt consolidation.</p>
+    `,
+    faqs: [
+      { question: "What is a top-up loan?", answer: "It is an additional loan offered by banks to existing home loan customers, usually at a slightly higher interest rate than the base home loan." },
+      { question: "Are top-up loans eligible for tax benefits?", answer: "Yes, if the top-up loan is used for the acquisition, construction, repair, or renovation of the property, you can claim tax benefits under Section 24(b)." }
+    ]
+  },
+  {
+    slug: "hdfc-home-loan-emi-calculator",
+    type: "loan-types",
+    title: "HDFC Home Loan EMI Calculator 2026 | Check Repayment Plans",
+    h1: "HDFC Home Loan EMI Calculator",
+    description: "Calculate your HDFC home loan EMI instantly. View your monthly payments, total interest, and amortization schedule.",
+    intro: "HDFC Bank offers competitive home loan rates for various housing needs. Use our specialized calculator to estimate your HDFC home loan EMI.",
+    amount: 6000000,
+    interestRate: 8.50,
+    tenure: 240,
+    date: "2026-08-07",
+    content: `
+      <h2>Planning Your HDFC Home Loan</h2>
+      <p>HDFC is one of the leading providers of home loans in India. Calculating your exact EMI before applying is a crucial step in your financial planning.</p>
+    `,
+    faqs: [
+      { question: "What is the current HDFC home loan interest rate?", answer: "HDFC home loan interest rates typically start around 8.50% per annum, varying based on the applicant's credit score and loan amount." },
+      { question: "What is the maximum tenure for an HDFC home loan?", answer: "HDFC offers a maximum repayment tenure of up to 30 years for home loans." }
+    ]
+  },
+  {
+    slug: "sbi-personal-loan-emi-calculator",
+    type: "loan-types",
+    title: "SBI Personal Loan EMI Calculator 2026 | Check Monthly Payment",
+    h1: "SBI Personal Loan EMI Calculator",
+    description: "Calculate your SBI personal loan EMI. Instantly check your monthly repayment schedule and total interest payable.",
+    intro: "SBI provides personal loans with minimal documentation and quick disbursals. Use our calculator to accurately estimate your monthly EMI.",
+    amount: 400000,
+    interestRate: 11.0,
+    tenure: 60,
+    date: "2026-08-07",
+    content: `
+      <h2>Navigating SBI Personal Loans</h2>
+      <p>SBI personal loans are widely preferred for their lower interest rates and transparent processing. Proper EMI calculation is essential to manage this unsecured debt.</p>
+    `,
+    faqs: [
+      { question: "What is the starting interest rate for SBI personal loans?", answer: "Interest rates for SBI personal loans typically start at around 11.0% per annum for borrowers with a salary account." },
+      { question: "How long does it take for SBI to disburse a personal loan?", answer: "For pre-approved customers, SBI can disburse personal loans almost instantly via their digital platforms." }
+    ]
+  },
+  {
+    slug: "bajaj-finserv-personal-loan-emi-calculator",
+    type: "loan-types",
+    title: "Bajaj Finserv Personal Loan EMI Calculator | Check Your EMI",
+    h1: "Bajaj Finserv Personal Loan EMI Calculator",
+    description: "Calculate your Bajaj Finserv personal loan EMI instantly. View the complete amortization schedule and plan your repayment.",
+    intro: "Bajaj Finserv offers quick, high-ticket personal loans. Use our calculator to determine your EMI and total interest outflow.",
+    amount: 1000000,
+    interestRate: 13.0,
+    tenure: 48,
+    date: "2026-08-07",
+    content: `
+      <h2>Planning Your Bajaj Finserv Personal Loan</h2>
+      <p>Bajaj Finserv is known for rapid processing and flexible tenure options. Because interest rates can be higher than traditional banks, precise EMI planning is crucial.</p>
+    `,
+    faqs: [
+      { question: "What is the maximum loan amount offered by Bajaj Finserv?", answer: "Bajaj Finserv offers personal loans up to ₹40 Lakhs, subject to eligibility criteria." },
+      { question: "Are there prepayment charges on Bajaj Finserv personal loans?", answer: "Yes, prepayment charges apply if the loan is closed before the completion of the agreed tenure, varying by specific loan terms." }
+    ]
+  },
+  {
+    slug: "emi-calculator-1-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹1 Lakh Loan | Monthly Payment Breakdown",
+    h1: "EMI Calculator for ₹1 Lakh Loan",
+    description: "Calculate your EMI for a ₹1 Lakh loan. Plan short-term borrowing for emergencies, gadgets, or personal needs.",
+    intro: "Need a ₹1 Lakh loan? Calculate your monthly installments and total interest instantly with our tool.",
+    amount: 100000,
+    interestRate: 12.0,
+    tenure: 12,
+    date: "2026-08-07",
+    content: `
+      <h2>Managing a ₹1 Lakh Loan</h2>
+      <p>A ₹1 Lakh loan is a common requirement for medical emergencies or small purchases. It's usually unsecured, meaning higher interest rates, so keep the tenure short.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 1 Lakh loan for 1 year?", answer: "At an interest rate of 12%, the EMI is approximately ₹8,885." },
+      { question: "How much total interest will I pay on 1 Lakh over 1 year?", answer: "Over a 1-year tenure at 12%, you will pay roughly ₹6,619 in total interest." }
+    ]
+  },
+  {
+    slug: "emi-calculator-15-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹15 Lakh Loan | Repayment Schedule",
+    h1: "EMI Calculator for ₹15 Lakh Loan",
+    description: "Calculate the monthly EMI for a ₹15 Lakh loan. View the complete amortization schedule and total interest payable.",
+    intro: "Borrowing ₹15 Lakhs? Find out your exact monthly EMI and total interest with our dedicated calculator.",
+    amount: 1500000,
+    interestRate: 10.5,
+    tenure: 60,
+    date: "2026-08-07",
+    content: `
+      <h2>Understanding Your ₹15 Lakh Loan EMI</h2>
+      <p>A ₹15 Lakh loan is typical for a major personal loan, a car loan, or a small home renovation. See how the tenure impacts your monthly outgoing.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 15 Lakh loan for 5 years?", answer: "At 10.5%, the EMI is approximately ₹32,241." },
+      { question: "Can I prepay a 15 Lakh loan?", answer: "Yes, most lenders allow prepayment after a lock-in period, which can significantly reduce your interest burden." }
+    ]
+  },
+  {
+    slug: "emi-calculator-35-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹35 Lakh Loan | Comprehensive Amortization",
+    h1: "EMI Calculator for ₹35 Lakh Loan",
+    description: "Calculate your EMI for a ₹35 Lakh loan. View detailed amortization schedules for home or large business loans.",
+    intro: "Securing a ₹35 Lakh loan? Model your monthly commitments and total interest outflow with precision.",
+    amount: 3500000,
+    interestRate: 8.75,
+    tenure: 180,
+    date: "2026-08-07",
+    content: `
+      <h2>Financing with a ₹35 Lakh Loan</h2>
+      <p>A ₹35 Lakh loan is a substantial financial undertaking, often used for purchasing property. Strategic financial planning and prepayments are highly recommended.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 35 Lakh home loan for 15 years?", answer: "At 8.75% over a 15-year tenure, the monthly EMI is approximately ₹34,980." },
+      { question: "How much interest is paid on a 35 Lakh loan over 15 years?", answer: "At 8.75%, the total interest paid over 15 years is roughly ₹27,96,000." }
+    ]
+  },
+  {
+    slug: "emi-2-years-vs-3-years",
+    type: "tenure-comparison",
+    title: "EMI Comparison: 2 Years vs 3 Years Tenure",
+    h1: "2 Years vs 3 Years EMI Comparison",
+    description: "Compare loan EMIs for 2-year (24 months) vs 3-year (36 months) tenures to find the perfect balance for your short-term budget.",
+    intro: "Should you take a loan for 2 years or stretch it to 3 years? Compare the EMI and total interest differences instantly.",
+    amount: 500000,
+    interestRate: 11.5,
+    tenure: 24,
+    date: "2026-08-07",
+    content: `
+      <h2>The Cost of an Extra Year</h2>
+      <p>Extending a short-term loan from 2 years to 3 years lowers your EMI but significantly increases the total interest paid over the life of the loan.</p>
+    `,
+    faqs: [
+      { question: "How much more expensive is a 3-year loan compared to a 2-year loan?", answer: "On a ₹5 Lakh loan at 11.5%, a 3-year tenure costs about ₹31,000 more in total interest than a 2-year tenure." },
+      { question: "Should I prioritize lower EMI or lower total interest?", answer: "For smaller personal loans, it is generally advised to choose the shortest tenure you can comfortably afford to minimize interest costs." }
+    ]
   }
+
 ];
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {

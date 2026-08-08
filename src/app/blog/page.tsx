@@ -45,7 +45,9 @@ export default function BlogHubPage() {
         <h2 className="text-2xl font-bold mb-6 border-b pb-2">Explore by Category</h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           <div className="bg-card rounded-lg border p-6">
-            <h3 className="font-bold text-lg mb-3">Loan Guides</h3>
+            <Link href="/blog/loan-types" className="group block mb-3">
+              <h3 className="font-bold text-lg group-hover:text-primary transition-colors">Loan Guides</h3>
+            </Link>
             <ul className="space-y-2 text-sm">
               <li><Link href="/home-loan-calculator" className="text-muted-foreground hover:text-primary">Home Loan Calculator</Link></li>
               <li><Link href="/personal-loan-calculator" className="text-muted-foreground hover:text-primary">Personal Loan Calculator</Link></li>
@@ -53,7 +55,9 @@ export default function BlogHubPage() {
             </ul>
           </div>
           <div className="bg-card rounded-lg border p-6">
-            <h3 className="font-bold text-lg mb-3">Financial Planning</h3>
+            <Link href="/blog/financial-planning" className="group block mb-3">
+              <h3 className="font-bold text-lg group-hover:text-primary transition-colors">Financial Planning</h3>
+            </Link>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Budgeting around EMIs</li>
               <li>Debt-to-Income Strategies</li>
@@ -61,7 +65,9 @@ export default function BlogHubPage() {
             </ul>
           </div>
           <div className="bg-card rounded-lg border p-6">
-            <h3 className="font-bold text-lg mb-3">Lender Comparisons</h3>
+            <Link href="/blog/lenders" className="group block mb-3">
+              <h3 className="font-bold text-lg group-hover:text-primary transition-colors">Lender Comparisons</h3>
+            </Link>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Top Bank Rates</li>
               <li>Fixed vs Floating</li>
@@ -69,7 +75,9 @@ export default function BlogHubPage() {
             </ul>
           </div>
           <div className="bg-card rounded-lg border p-6">
-            <h3 className="font-bold text-lg mb-3">Interest Rate Updates</h3>
+            <Link href="/blog/loan-interest-rates-2026-guide" className="group block mb-3">
+              <h3 className="font-bold text-lg group-hover:text-primary transition-colors">Interest Rate Updates</h3>
+            </Link>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Repo Rate Impacts</li>
               <li>2026 Rate Trends</li>

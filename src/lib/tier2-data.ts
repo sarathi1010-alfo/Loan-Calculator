@@ -2469,8 +2469,168 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "How much more expensive is a 3-year loan compared to a 2-year loan?", answer: "On a ₹5 Lakh loan at 11.5%, a 3-year tenure costs about ₹31,000 more in total interest than a 2-year tenure." },
       { question: "Should I prioritize lower EMI or lower total interest?", answer: "For smaller personal loans, it is generally advised to choose the shortest tenure you can comfortably afford to minimize interest costs." }
     ]
-  }
+  },
 
+  {
+    slug: "debt-consolidation-emi-calculator",
+    type: "loan-types",
+    title: "Debt Consolidation EMI Calculator 2026 | Combine Your Loans",
+    h1: "Debt Consolidation EMI Calculator",
+    description: "Calculate your single monthly EMI after combining multiple high-interest debts. See how much you can save with a debt consolidation loan.",
+    intro: "Juggling multiple loan payments? Consolidating them into one can simplify your finances and reduce interest. Use our calculator to find your new EMI.",
+    amount: 1200000,
+    interestRate: 11.5,
+    tenure: 60,
+    date: "2026-08-08",
+    content: `
+      <h2>Planning Your Debt Consolidation</h2>
+      <p>A debt consolidation loan replaces various existing debts (like credit cards or small personal loans) with a single loan, ideally at a lower interest rate. This makes tracking your finances easier and can save you money.</p>
+    `,
+    faqs: [
+      { question: "Will debt consolidation lower my EMI?", answer: "Usually, yes. By securing a lower interest rate and potentially extending the tenure, your single new EMI is often lower than the combined total of your old payments." },
+      { question: "Is a debt consolidation loan a secured loan?", answer: "It can be either. Unsecured personal loans are common, but you can also use secured options like a loan against property for lower rates." }
+    ]
+  },
+  {
+    slug: "kotak-personal-loan-emi-calculator",
+    type: "loan-types",
+    title: "Kotak Personal Loan EMI Calculator 2026 | Check Monthly Payment",
+    h1: "Kotak Personal Loan EMI Calculator",
+    description: "Calculate your Kotak Mahindra Bank personal loan EMI instantly. View your monthly repayment schedule and total interest payable.",
+    intro: "Kotak Mahindra Bank offers personal loans with quick processing. Use our calculator to accurately estimate your monthly EMI before applying.",
+    amount: 500000,
+    interestRate: 10.99,
+    tenure: 48,
+    date: "2026-08-08",
+    content: `
+      <h2>Navigating Kotak Personal Loans</h2>
+      <p>Whether it's for a medical emergency, a wedding, or home renovation, Kotak provides competitive personal loan options. Precise EMI calculation helps you budget effectively.</p>
+    `,
+    faqs: [
+      { question: "What is the starting interest rate for Kotak personal loans?", answer: "Interest rates for Kotak personal loans typically start at around 10.99% per annum." },
+      { question: "Does Kotak allow pre-closure of personal loans?", answer: "Yes, you can pre-close your loan after paying a specified number of EMIs, usually subject to pre-closure charges." }
+    ]
+  },
+  {
+    slug: "two-wheeler-loan-emi-calculator",
+    type: "loan-types",
+    title: "Two-Wheeler Loan EMI Calculator 2026 | Plan Your Bike Loan",
+    h1: "Two-Wheeler Loan EMI Calculator",
+    description: "Calculate your bike or scooter loan EMI instantly. Check your monthly payments and total interest for two-wheeler financing.",
+    intro: "Planning to buy a new bike or scooter? Use our two-wheeler loan EMI calculator to find the perfect balance between down payment and monthly installments.",
+    amount: 80000,
+    interestRate: 9.5,
+    tenure: 24,
+    date: "2026-08-08",
+    content: `
+      <h2>Financing Your Two-Wheeler</h2>
+      <p>Two-wheeler loans are easily accessible and typically have shorter tenures than car loans. Finding the right EMI ensures your new ride fits comfortably into your monthly budget.</p>
+    `,
+    faqs: [
+      { question: "What is a typical tenure for a two-wheeler loan?", answer: "Most two-wheeler loans range from 1 to 3 years (12 to 36 months), though some lenders offer up to 5 years." },
+      { question: "Does the EMI include insurance?", answer: "Usually, no. EMI only covers the principal and interest. Insurance is typically paid separately, often yearly." }
+    ]
+  },
+  {
+    slug: "balance-transfer-emi-calculator",
+    type: "loan-types",
+    title: "Balance Transfer EMI Calculator 2026 | Save on Interest",
+    h1: "Balance Transfer EMI Calculator",
+    description: "Calculate your new EMI after transferring your loan balance to a lower interest rate. See how much total interest you can save.",
+    intro: "A balance transfer lets you move your outstanding loan to a different bank offering a lower interest rate. Use our calculator to see your potential savings.",
+    amount: 2500000,
+    interestRate: 8.75,
+    tenure: 180,
+    date: "2026-08-08",
+    content: `
+      <h2>Understanding Balance Transfers</h2>
+      <p>If you are paying a high interest rate on your current home or personal loan, a balance transfer can significantly reduce your EMI and total interest outflow.</p>
+    `,
+    faqs: [
+      { question: "Are there charges for a balance transfer?", answer: "Yes, the new bank usually charges a processing fee, and your old bank might charge a foreclosure fee (though floating rate home loans generally don't have foreclosure fees)." },
+      { question: "When does a balance transfer make sense?", answer: "It makes sense when the interest savings are significantly higher than the transfer costs (processing and foreclosure fees) combined." }
+    ]
+  },
+  {
+    slug: "emi-calculator-2-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹2 Lakh Loan | Monthly Repayment Check",
+    h1: "EMI Calculator for ₹2 Lakh Loan",
+    description: "Calculate the EMI for a ₹2 Lakh loan. See detailed amortization for short-term personal or two-wheeler loans.",
+    intro: "Need to borrow ₹2 Lakhs? Calculate your exact monthly installment and total interest burden with our easy tool.",
+    amount: 200000,
+    interestRate: 11.0,
+    tenure: 24,
+    date: "2026-08-08",
+    content: `
+      <h2>Managing a ₹2 Lakh Loan</h2>
+      <p>A ₹2 Lakh loan is often used for medium-sized expenses like home repairs, medical bills, or purchasing a premium two-wheeler. Keep the tenure manageable to minimize interest.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 2 Lakh loan for 2 years?", answer: "At 11%, the monthly EMI is approximately ₹9,321." },
+      { question: "How much interest will I pay on 2 Lakhs over 2 years?", answer: "You will pay roughly ₹23,715 in total interest." }
+    ]
+  },
+  {
+    slug: "emi-calculator-4-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹4 Lakh Loan | Full Amortization",
+    h1: "EMI Calculator for ₹4 Lakh Loan",
+    description: "Calculate the EMI and view the amortization schedule for a ₹4 Lakh loan. Plan your personal or used car financing.",
+    intro: "Planning a ₹4 Lakh loan? Use our calculator to determine your monthly outgoing and the total cost of borrowing.",
+    amount: 400000,
+    interestRate: 10.5,
+    tenure: 36,
+    date: "2026-08-08",
+    content: `
+      <h2>Repaying a ₹4 Lakh Loan</h2>
+      <p>Whether it's a personal loan or for a used vehicle, a ₹4 Lakh commitment requires careful planning. Adjust the tenure to find an EMI that suits your cash flow.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 4 Lakh loan for 3 years?", answer: "At a 10.5% interest rate, the EMI is about ₹13,002." },
+      { question: "Is a 4 Lakh loan considered a large loan?", answer: "It falls into the medium-ticket personal loan category, usually requiring a good credit score for favorable rates." }
+    ]
+  },
+  {
+    slug: "emi-calculator-45-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹45 Lakh Loan | Home Loan Repayment",
+    h1: "EMI Calculator for ₹45 Lakh Loan",
+    description: "Calculate your EMI for a ₹45 Lakh home loan. Get a comprehensive month-by-month breakdown of principal and interest.",
+    intro: "Securing a ₹45 Lakh mortgage? Model your long-term monthly commitments and total interest outflow accurately.",
+    amount: 4500000,
+    interestRate: 8.65,
+    tenure: 240,
+    date: "2026-08-08",
+    content: `
+      <h2>Financing with a ₹45 Lakh Loan</h2>
+      <p>A ₹45 Lakh loan is a major financial undertaking, typical for property purchases. Long tenures make the EMI affordable, but drastically increase the total interest paid.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 45 Lakh home loan for 20 years?", answer: "At 8.65%, the monthly EMI is approximately ₹39,471." },
+      { question: "How much interest is paid on a 45 Lakh loan over 20 years?", answer: "Over 20 years at 8.65%, you will pay nearly ₹49.7 Lakhs just in interest, which is more than the principal amount." }
+    ]
+  },
+  {
+    slug: "emi-3-years-vs-4-years",
+    type: "tenure-comparison",
+    title: "EMI Comparison: 3 Years vs 4 Years Tenure",
+    h1: "3 Years vs 4 Years EMI Comparison",
+    description: "Compare loan EMIs for 3-year (36 months) vs 4-year (48 months) tenures to find the optimal balance for your personal or car loan.",
+    intro: "Deciding between a 3-year or 4-year loan? Compare how extending the tenure lowers your EMI but increases your total interest.",
+    amount: 600000,
+    interestRate: 11.25,
+    tenure: 36,
+    date: "2026-08-08",
+    content: `
+      <h2>Evaluating Medium-Term Loan Tenures</h2>
+      <p>Choosing between 36 and 48 months is a common dilemma for car and personal loans. The right choice depends on your monthly cash flow versus your desire to minimize total interest.</p>
+    `,
+    faqs: [
+      { question: "How much does a 4-year loan cost compared to a 3-year loan?", answer: "On a ₹6 Lakh loan at 11.25%, the 4-year option costs about ₹38,000 more in total interest than the 3-year option." },
+      { question: "Why might someone choose the 4-year option?", answer: "To keep the monthly EMI lower, which provides a larger buffer in their monthly budget for other expenses or emergencies." }
+    ]
+  }
 ];
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {

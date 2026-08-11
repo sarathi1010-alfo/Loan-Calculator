@@ -438,4 +438,47 @@ test.describe('Technical Verification', () => {
     }
   });
 
+  test('New Tier 1 Article returns 200 OK and has valid Schema for debt consolidation loan guide 2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/debt-consolidation-loan-guide-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toContainText('Debt Consolidation Loan Guide 2026');
+
+    // Validate Article Schema
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+    expect(articleSchema['@type']).toBe('Article');
+  });
+
+  test('New Tier 2 Programmatic URLs return 200 OK and have FAQ Schema for Debt Consolidation focus', async ({ page }) => {
+    const newSlugs = [
+      '/loan-types/debt-consolidation-emi-calculator',
+      '/loan-types/kotak-personal-loan-emi-calculator',
+      '/loan-types/two-wheeler-loan-emi-calculator',
+      '/loan-types/balance-transfer-emi-calculator',
+      '/scenarios/emi-calculator-2-lakh',
+      '/scenarios/emi-calculator-4-lakh',
+      '/scenarios/emi-calculator-45-lakh',
+      '/tenure-comparison/emi-3-years-vs-4-years'
+    ];
+
+    for (const slug of newSlugs) {
+      const response = await page.goto(`${baseUrl}${slug}`);
+      expect(response?.status()).toBe(200);
+
+      // Validate FAQ Schema
+      const faqSchema = await page.evaluate(() => {
+        const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+          .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+        return script ? JSON.parse(script.textContent || '{}') : null;
+      });
+      expect(faqSchema).not.toBeNull();
+      expect(faqSchema['@type']).toBe('FAQPage');
+      expect(faqSchema.mainEntity.length).toBeGreaterThan(0);
+    }
+  });
+
 });

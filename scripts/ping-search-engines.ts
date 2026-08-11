@@ -7,6 +7,20 @@ async function pingSearchEngines() {
   console.log("--- Search Engine Notification System ---");
 
   const newUrls = [
+    // New Tier 1 (2026-08-08)
+    `${SITE_URL}/blog/debt-consolidation-loan-guide-2026`,
+
+    // New Tier 2 (2026-08-08)
+    `${SITE_URL}/loan-types/debt-consolidation-emi-calculator`,
+    `${SITE_URL}/loan-types/kotak-personal-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/two-wheeler-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/balance-transfer-emi-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-2-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-4-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-45-lakh`,
+    `${SITE_URL}/tenure-comparison/emi-3-years-vs-4-years`,
+
+
     // New Tier 1 (2026-08-07)
     `${SITE_URL}/blog/home-loan-tax-benefits-2026`,
 

@@ -481,4 +481,38 @@ test.describe('Technical Verification', () => {
     }
   });
 
+
+  test('New Tier 1 Article (LAP) returns 200 OK and has valid Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/loan-against-property-emi-guide`);
+    expect(response?.status()).toBe(200);
+
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+  });
+
+  test('New Tier 2 Programmatic Page (LAP Calculator) returns 200 OK and has FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/lap-emi-calculator`);
+    expect(response?.status()).toBe(200);
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('New Tier 2 Scenario Page (75 Lakh LAP) returns 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-75-lakh-lap`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('New Tier 2 Comparison Page (10 vs 15 Years) returns 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/lap-emi-10-years-vs-15-years`);
+    expect(response?.status()).toBe(200);
+  });
 });

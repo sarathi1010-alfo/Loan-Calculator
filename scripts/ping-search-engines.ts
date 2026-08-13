@@ -7,6 +7,19 @@ async function pingSearchEngines() {
   console.log("--- Search Engine Notification System ---");
 
   const newUrls = [
+    // New Tier 1 (2026-08-13)
+    `${SITE_URL}/blog/loan-against-property-emi-guide`,
+
+    // New Tier 2 (2026-08-13)
+    `${SITE_URL}/loan-types/lap-emi-calculator`,
+    `${SITE_URL}/loan-types/commercial-property-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/residential-property-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/sbi-lap-emi-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-75-lakh-lap`,
+    `${SITE_URL}/scenarios/emi-calculator-1-crore-lap`,
+    `${SITE_URL}/scenarios/emi-calculator-2-crore-lap`,
+    `${SITE_URL}/tenure-comparison/lap-emi-10-years-vs-15-years`,
+
     // New Tier 1 (2026-08-08)
     `${SITE_URL}/blog/debt-consolidation-loan-guide-2026`,
 

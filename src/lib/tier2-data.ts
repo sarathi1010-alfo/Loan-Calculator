@@ -16,6 +16,167 @@ export interface Tier2Page {
 export const TIER2_PAGES: Tier2Page[] = [
 
   {
+    slug: "lap-emi-calculator",
+    type: "loan-types",
+    title: "Loan Against Property EMI Calculator 2026 | Calculate LAP EMI",
+    h1: "Loan Against Property EMI Calculator",
+    description: "Calculate your Loan Against Property (LAP) EMI instantly. Plan your large expenses with our accurate and easy-to-use LAP EMI calculator.",
+    intro: "Need a substantial amount for business expansion or medical emergencies? A Loan Against Property can provide the necessary funds at lower interest rates. Use our LAP EMI calculator to estimate your monthly obligations.",
+    amount: 5000000,
+    interestRate: 9.5,
+    tenure: 180,
+    date: "2026-08-13",
+    content: `
+      <h2>Planning Your Loan Against Property</h2>
+      <p>A Loan Against Property (LAP) is an excellent way to leverage the value of your real estate for significant financial needs. Because it's secured, you benefit from lower interest rates and longer repayment tenures.</p>
+    `,
+    faqs: [
+      { question: "What is the typical interest rate for a LAP?", answer: "Interest rates for a Loan Against Property typically range from 8.5% to 15%, depending on the lender and your credit profile." },
+      { question: "Can I prepay my LAP?", answer: "Yes, most lenders allow prepayment, though some may charge a nominal fee for floating-rate loans." }
+    ]
+  },
+  {
+    slug: "commercial-property-loan-emi-calculator",
+    type: "loan-types",
+    title: "Commercial Property Loan EMI Calculator 2026",
+    h1: "Commercial Property Loan EMI Calculator",
+    description: "Calculate your Commercial Property Loan EMI instantly. Manage your business finances effectively with our precise EMI calculator.",
+    intro: "Purchasing a commercial property is a major business milestone. Our Commercial Property Loan EMI calculator helps you plan your monthly repayments and understand the financial commitment.",
+    amount: 15000000,
+    interestRate: 10.5,
+    tenure: 120,
+    date: "2026-08-13",
+    content: `
+      <h2>Financing Your Commercial Real Estate</h2>
+      <p>Investing in commercial real estate requires careful financial planning. Our calculator helps you visualize how the loan amount, interest rate, and tenure impact your EMI, enabling you to make informed business decisions.</p>
+    `,
+    faqs: [
+      { question: "What is the maximum tenure for a commercial property loan?", answer: "The tenure can range from 10 to 15 years, depending on the lender's policies." },
+      { question: "How much loan can I get against a commercial property?", answer: "Lenders typically offer 50% to 60% of the property's market value." }
+    ]
+  },
+  {
+    slug: "residential-property-loan-emi-calculator",
+    type: "loan-types",
+    title: "Residential Property Loan EMI Calculator 2026",
+    h1: "Residential Property Loan EMI Calculator",
+    description: "Calculate your Residential Property Loan EMI accurately. Use our tool to plan your finances when taking a loan against your home.",
+    intro: "Your home can be a valuable asset for raising funds. With our Residential Property Loan EMI calculator, you can estimate your monthly payments and ensure your borrowing fits your budget.",
+    amount: 3000000,
+    interestRate: 9.0,
+    tenure: 180,
+    date: "2026-08-13",
+    content: `
+      <h2>Utilizing Your Home's Equity</h2>
+      <p>A residential property loan allows you to access funds at lower interest rates compared to personal loans. Use our calculator to understand the long-term cost and plan your repayment strategy.</p>
+    `,
+    faqs: [
+      { question: "Can I take a loan against a self-occupied property?", answer: "Yes, loans can be availed against both self-occupied and rented residential properties." },
+      { question: "What is the LTV ratio for residential property loans?", answer: "The Loan-to-Value (LTV) ratio is typically between 60% to 75% for residential properties." }
+    ]
+  },
+  {
+    slug: "sbi-lap-emi-calculator",
+    type: "loan-types",
+    title: "SBI Loan Against Property EMI Calculator 2026",
+    h1: "SBI Loan Against Property EMI Calculator",
+    description: "Calculate your SBI Loan Against Property EMI. Get accurate estimates and plan your repayment with our easy-to-use SBI LAP EMI calculator.",
+    intro: "SBI offers competitive rates for Loans Against Property. Use our dedicated SBI LAP EMI calculator to find out your expected monthly payments based on the latest interest rates.",
+    amount: 7500000,
+    interestRate: 9.75,
+    tenure: 120,
+    date: "2026-08-13",
+    content: `
+      <h2>SBI Loan Against Property Options</h2>
+      <p>State Bank of India (SBI) provides Loans Against Property with flexible tenures and attractive interest rates. Use our tool to compare different scenarios and choose the best repayment plan for your SBI LAP.</p>
+    `,
+    faqs: [
+      { question: "What are the current SBI LAP interest rates?", answer: "SBI LAP interest rates typically start around 9.5%, varying based on your credit score and loan amount." },
+      { question: "Does SBI charge processing fees for LAP?", answer: "Yes, SBI charges a processing fee, which is usually a small percentage of the loan amount." }
+    ]
+  },
+  {
+    slug: "emi-calculator-75-lakh-lap",
+    type: "scenarios",
+    title: "EMI Calculator for ₹75 Lakh Loan Against Property",
+    h1: "EMI Calculator for ₹75 Lakh Loan Against Property",
+    description: "Calculate the EMI for a ₹75 Lakh Loan Against Property. View the detailed amortization schedule and plan your big financial goals.",
+    intro: "Planning to borrow ₹75 Lakhs against your property? Our calculator provides a clear breakdown of your monthly EMI, total interest, and an amortization schedule to help you manage this significant loan.",
+    amount: 7500000,
+    interestRate: 10.0,
+    tenure: 180,
+    date: "2026-08-13",
+    content: `
+      <h2>Managing a ₹75 Lakh LAP</h2>
+      <p>A ₹75 Lakh loan requires disciplined repayment. Our calculator shows exactly how your payments are distributed between principal and interest over the chosen tenure.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a ₹75 Lakh LAP for 15 years?", answer: "At a 10% interest rate, the EMI for a ₹75 Lakh loan over 15 years is approximately ₹80,593." },
+      { question: "How can I reduce the EMI for a ₹75 Lakh loan?", answer: "You can reduce the EMI by opting for a longer tenure, though this increases the total interest paid." }
+    ]
+  },
+  {
+    slug: "emi-calculator-1-crore-lap",
+    type: "scenarios",
+    title: "EMI Calculator for ₹1 Crore Loan Against Property",
+    h1: "EMI Calculator for ₹1 Crore Loan Against Property",
+    description: "Calculate the EMI for a ₹1 Crore Loan Against Property. Get insights into your monthly payments and total interest for large borrowings.",
+    intro: "Securing a ₹1 Crore Loan Against Property is a major step. Use our EMI calculator to understand the long-term financial commitment and optimize your repayment plan.",
+    amount: 10000000,
+    interestRate: 9.5,
+    tenure: 240,
+    date: "2026-08-13",
+    content: `
+      <h2>Financial Planning for a ₹1 Crore Loan</h2>
+      <p>When borrowing ₹1 Crore, even a small difference in the interest rate can significantly affect your total outflow. Our tool helps you compare scenarios to find the most cost-effective option.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a ₹1 Crore LAP for 20 years at 9.5%?", answer: "The EMI for a ₹1 Crore loan at 9.5% for 20 years is approximately ₹93,213." },
+      { question: "Is it advisable to take a ₹1 Crore loan for 20 years?", answer: "A 20-year tenure makes the EMI manageable, but you will pay a substantial amount in interest over time." }
+    ]
+  },
+  {
+    slug: "emi-calculator-2-crore-lap",
+    type: "scenarios",
+    title: "EMI Calculator for ₹2 Crore Loan Against Property",
+    h1: "EMI Calculator for ₹2 Crore Loan Against Property",
+    description: "Calculate the EMI for a ₹2 Crore Loan Against Property. Accurately estimate your monthly cash outflow for high-value secured loans.",
+    intro: "Need ₹2 Crores for business expansion? Our LAP EMI calculator helps you estimate your monthly obligations and plan your business cash flows effectively.",
+    amount: 20000000,
+    interestRate: 10.5,
+    tenure: 180,
+    date: "2026-08-13",
+    content: `
+      <h2>Strategic Planning for High-Value Loans</h2>
+      <p>Borrowing ₹2 Crores requires careful financial modeling. Use our amortization schedule to see how the principal balance decreases over time and plan potential prepayments.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a ₹2 Crore loan for 15 years at 10.5%?", answer: "The EMI would be approximately ₹2,21,077." },
+      { question: "How does the interest rate affect a ₹2 Crore loan?", answer: "Given the high principal, even a 0.5% increase in the interest rate can add lakhs to your total interest cost." }
+    ]
+  },
+  {
+    slug: "lap-emi-10-years-vs-15-years",
+    type: "tenure-comparison",
+    title: "LAP EMI: 10 Years vs 15 Years Comparison",
+    h1: "LAP EMI: 10 Years vs 15 Years Comparison",
+    description: "Compare Loan Against Property EMIs for 10-year and 15-year tenures. Find out which option saves you more on interest.",
+    intro: "Deciding between a 10-year and 15-year tenure for your Loan Against Property? Our comparison tool shows you the trade-off between higher monthly EMIs and total interest savings.",
+    amount: 5000000,
+    interestRate: 9.5,
+    tenure: 120, // Used for base calc, view handles comparison
+    date: "2026-08-13",
+    content: `
+      <h2>Choosing the Right Tenure for Your LAP</h2>
+      <p>A 10-year tenure requires higher monthly EMIs but significantly reduces your total interest cost. A 15-year tenure offers more affordable EMIs but increases the overall cost of borrowing. Use this comparison to balance your cash flow with long-term savings.</p>
+    `,
+    faqs: [
+      { question: "Which tenure is better for a LAP: 10 years or 15 years?", answer: "If you can afford higher EMIs, a 10-year tenure is better as it saves on total interest. Choose 15 years for lower monthly payments." },
+      { question: "How much interest can I save by choosing a 10-year tenure?", answer: "The savings depend on the loan amount and interest rate, but it can often amount to several lakhs over the life of the loan." }
+    ]
+  },
+
+  {
     slug: "medical-loan-emi-calculator",
     type: "loan-types",
     title: "Medical Loan EMI Calculator 2026 | Fund Your Healthcare Needs",

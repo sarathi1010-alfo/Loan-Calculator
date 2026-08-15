@@ -229,10 +229,12 @@ export default function Home() {
                   number of years, the loan is paid off in full.
                 </p>
                 <p>
-                  In the most common types of loans, such as real estate
-                  mortgages, auto loans, and student loans, the borrower makes
-                  fixed periodic payments to the lender over several years with
-                  the goal of retiring the loan.
+                  In the most common types of loans, such as real estate mortgages,
+                  auto loans, and student loans, the borrower makes fixed periodic
+                  payments to the lender over several years to retire the loan,
+                  which uses the standard reducing-balance formula. For a comprehensive walkthrough
+                  of the exact mathematical inputs and outputs, plus tips to save on interest,
+                  check out our dedicated <Link href="/blog/how-to-calculate-emi-loan" className="text-primary hover:underline">How to Calculate EMI for a Loan</Link> deep-dive guide.
                 </p>
                 <p>
                   The formula used by banks to calculate your EMI is: <br />
@@ -283,7 +285,7 @@ export default function Home() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-foreground mt-8 mb-4">
-                  Common EMI Mistakes to Avoid
+                  Common <Link href="/blog/how-to-calculate-emi-loan" className="hover:underline">EMI Mistakes</Link> to Avoid
                 </h3>
                 <ul className="list-disc pl-5 space-y-2">
                   <li>

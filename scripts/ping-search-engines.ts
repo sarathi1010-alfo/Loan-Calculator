@@ -7,6 +7,19 @@ async function pingSearchEngines() {
   console.log("--- Search Engine Notification System ---");
 
   const newUrls = [
+
+    // New Tier 1 (2026-08-14)
+    `${SITE_URL}/blog/how-to-calculate-emi-loan`,
+
+    // New Tier 2 (2026-08-14)
+    `${SITE_URL}/loan-types/home-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/personal-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/car-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/education-loan-emi-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-5-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-10-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-20-lakh`,
+    `${SITE_URL}/tenure-comparison/emi-1-year-vs-5-years`,
     // New Tier 1 (2026-08-13)
     `${SITE_URL}/blog/loan-against-property-emi-guide`,
 

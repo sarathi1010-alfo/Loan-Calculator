@@ -16,6 +16,107 @@ export interface Tier2Page {
 export const TIER2_PAGES: Tier2Page[] = [
 
   {
+    slug: "education-loan-emi-calculator",
+    type: "loan-types",
+    title: "Education Loan EMI Calculator 2026",
+    h1: "Education Loan EMI Calculator – Plan Your Study Abroad Investment",
+    description: "Calculate your Education Loan EMI instantly. Plan your higher studies and manage your education finances effectively with our precise EMI calculator.",
+    intro: "An education loan is an investment in your future. Our Education Loan EMI Calculator helps you plan your monthly repayments and understand the financial commitment involved in your studies.",
+    amount: 2000000,
+    interestRate: 11.5,
+    tenure: 120,
+    date: "2026-08-14",
+    content: `
+      <h2>Financing Your Higher Education</h2>
+      <p>Taking an education loan is a significant step towards achieving your academic and career goals. Using an EMI calculator allows you to visualize your future financial obligations and plan accordingly.</p>
+    `,
+    faqs: [
+      { question: "What is the typical interest rate for an education loan?", answer: "Interest rates for education loans typically range from 9% to 14%, depending on the bank, the institution, and the co-applicant's profile." },
+      { question: "When does the repayment of an education loan start?", answer: "Repayment usually starts after a moratorium period, which is typically the course duration plus 6 months or 1 year." }
+    ]
+  },
+  {
+    slug: "emi-calculator-5-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹5 Lakh Loan | 5 Lakh Loan EMI",
+    h1: "EMI Calculator for ₹5 Lakh Loan – Monthly Payment Breakdown",
+    description: "Calculate the EMI for a ₹5 Lakh loan. See the complete amortization schedule and interest breakdown for a 5,00,000 rupee loan.",
+    intro: "Planning to borrow ₹5 Lakhs? Use this specific calculator scenario to see exactly how much your monthly payment will be and how much total interest you will pay.",
+    amount: 500000,
+    interestRate: 10.5,
+    tenure: 60,
+    date: "2026-08-14",
+    content: `
+      <h2>Breaking Down a ₹5 Lakh Loan</h2>
+      <p>A ₹5 Lakh loan is a common borrowing amount for personal expenses, home renovations, or purchasing a used car. Understanding the EMI is crucial for budgeting.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 5 Lakh personal loan?", answer: "The EMI for a ₹5 Lakh personal loan depends on the interest rate and tenure. At 10.5% for 5 years, the EMI is approximately ₹10,747." },
+      { question: "How much interest will I pay on a 5 Lakh loan?", answer: "The total interest depends on the loan terms. For a 5-year loan at 10.5%, the total interest is around ₹1,44,817." }
+    ]
+  },
+  {
+    slug: "emi-calculator-10-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹10 Lakh Loan | 10 Lakh Loan EMI",
+    h1: "EMI Calculator for ₹10 Lakh Loan – Full Amortization Schedule",
+    description: "Calculate the EMI for a ₹10 Lakh loan. See the complete amortization schedule and interest breakdown for a 10,00,000 rupee loan.",
+    intro: "Borrowing ₹10 Lakhs? Use this calculator to determine your monthly EMI, total interest payable, and view the full amortization schedule.",
+    amount: 1000000,
+    interestRate: 10.5,
+    tenure: 60,
+    date: "2026-08-14",
+    content: `
+      <h2>Planning a ₹10 Lakh Loan Repayment</h2>
+      <p>Whether for a wedding, medical emergency, or business need, a ₹10 Lakh loan requires careful financial planning. Our calculator helps you visualize the repayment journey.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 10 Lakh loan for 5 years?", answer: "At an interest rate of 10.5% for 5 years, the EMI for a ₹10 Lakh loan is approximately ₹21,494." },
+      { question: "Can I prepay my 10 Lakh loan?", answer: "Yes, you can prepay the loan, but check with your lender regarding any prepayment penalties or lock-in periods." }
+    ]
+  },
+  {
+    slug: "emi-calculator-20-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹20 Lakh Loan | 20 Lakh Loan EMI",
+    h1: "EMI Calculator for ₹20 Lakh Loan – Compare 5 vs 10 Year Tenures",
+    description: "Calculate the EMI for a ₹20 Lakh loan. See the complete amortization schedule and interest breakdown for a 20,00,000 rupee loan.",
+    intro: "Considering a ₹20 Lakh loan? Use this calculator to estimate your EMI, compare different tenures, and understand the total cost of borrowing.",
+    amount: 2000000,
+    interestRate: 10.5,
+    tenure: 120,
+    date: "2026-08-14",
+    content: `
+      <h2>Managing a ₹20 Lakh Loan</h2>
+      <p>A ₹20 Lakh loan is a substantial amount, often used for home improvements or major expenses. Choosing the right tenure is critical to balancing affordability and total interest paid.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 20 Lakh loan for 10 years?", answer: "At 10.5% interest for 10 years, the EMI for a ₹20 Lakh loan is approximately ₹26,987." },
+      { question: "How does tenure affect the total interest on a 20 Lakh loan?", answer: "A longer tenure reduces the monthly EMI but significantly increases the total interest paid over the life of the loan." }
+    ]
+  },
+  {
+    slug: "emi-1-year-vs-5-years",
+    type: "tenure-comparison",
+    title: "1 Year vs 5 Year Loan EMI Comparison",
+    h1: "1 Year vs 5 Year Loan EMI – Which Tenure Saves You More?",
+    description: "Compare the EMI, total interest, and overall cost of a loan over 1 year versus 5 years. Find the best repayment strategy for your budget.",
+    intro: "Should you pay off your loan in 1 year or stretch it to 5 years? This comparison helps you understand the trade-offs between a higher monthly EMI and higher total interest.",
+    amount: 500000,
+    interestRate: 10.5,
+    tenure: 60,
+    date: "2026-08-14",
+    content: `
+      <h2>Choosing Between a 1-Year and 5-Year Tenure</h2>
+      <p>When taking a loan, selecting the tenure is a crucial decision. A 1-year tenure means high EMIs but minimal interest, while a 5-year tenure offers affordable EMIs at the cost of higher total interest.</p>
+    `,
+    faqs: [
+      { question: "Why is the EMI higher for a 1-year loan?", answer: "The EMI is higher because the principal is being repaid over a much shorter period (12 months) compared to 60 months." },
+      { question: "Which tenure is better for a 5 Lakh loan?", answer: "It depends on your monthly cash flow. If you can afford the higher EMI, a 1-year tenure saves you significant interest. If cash flow is tight, a 5-year tenure is safer." }
+    ]
+  },
+
+  {
     slug: "lap-emi-calculator",
     type: "loan-types",
     title: "Loan Against Property EMI Calculator 2026 | Calculate LAP EMI",
@@ -1138,13 +1239,13 @@ export const TIER2_PAGES: Tier2Page[] = [
     slug: "home-loan-emi-calculator",
     type: "loan-types",
     title: "Home Loan EMI Calculator | Compare Rates & Repayment",
-    h1: "Home Loan EMI Calculator",
+    h1: "Home Loan EMI Calculator – Estimate Your Monthly Housing Repayment",
     description: "Calculate your home loan EMI instantly. View complete amortization schedule and balance between your monthly EMI and total interest paid.",
     intro: "Planning to buy your dream home? Use this specific calculator to find your exact monthly outgoing. It defaults to typical home loan terms but can be customized completely.",
     amount: 5000000,
     interestRate: 8.5,
     tenure: 240,
-    date: "2026-07-23",
+    date: "2026-08-14",
     content: `
       <h2>The Complete Guide to Home Loan EMIs in 2026</h2>
       <p>Buying a home is one of the most significant financial milestones in an individual's life. However, it usually involves a long-term commitment in the form of a home loan. Understanding your Home Loan EMI (Equated Monthly Installment) is the first step toward stress-free homeownership.</p>
@@ -1174,13 +1275,13 @@ export const TIER2_PAGES: Tier2Page[] = [
     slug: "personal-loan-emi-calculator",
     type: "loan-types",
     title: "Personal Loan EMI Calculator | Check Monthly Installments",
-    h1: "Personal Loan EMI Calculator",
+    h1: "Personal Loan EMI Calculator – Plan Your Short-Term Borrowing",
     description: "Plan your personal loan repayment efficiently. Check your monthly payments, compare interest rates, and find the perfect tenure for your budget.",
     intro: "Personal loans are unsecured and typically have higher interest rates. Use this tool to instantly generate a precise amortization schedule for your personal financing needs.",
     amount: 500000,
     interestRate: 11.5,
     tenure: 60,
-    date: "2026-07-23",
+    date: "2026-08-14",
     content: `
       <h2>Personal Loan EMI Planning in 2026</h2>
       <p>Personal loans are a versatile financial tool that can help you manage unexpected expenses, consolidate high-interest debt, or fund major life events. Unlike home or car loans, personal loans are typically unsecured, meaning they don't require collateral.</p>
@@ -1203,13 +1304,13 @@ export const TIER2_PAGES: Tier2Page[] = [
     slug: "car-loan-emi-calculator",
     type: "loan-types",
     title: "Car Loan EMI Calculator | Auto Finance Planning",
-    h1: "Car Loan EMI Calculator",
+    h1: "Car Loan EMI Calculator – Budget for Your Dream Vehicle",
     description: "Calculate your car loan EMI and plan your auto finance. Understand your monthly payments and total interest over the life of the loan.",
     intro: "Since cars are depreciating assets, experts recommend keeping loan tenures relatively short. Find the perfect balance between loan tenure and your monthly budget.",
     amount: 800000,
     interestRate: 9.0,
     tenure: 48,
-    date: "2026-07-23",
+    date: "2026-08-14",
     content: `
       <h2>Car Loan EMI Calculator: Plan Your Auto Finance</h2>
       <p>Driving your own car is a dream for many, and auto loans make it accessible. However, because cars are depreciating assets, planning your repayment strategy is vital to avoid "upside-down" loans where you owe more than the car is worth.</p>

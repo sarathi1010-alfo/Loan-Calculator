@@ -14,6 +14,167 @@ export interface Tier2Page {
 }
 
 export const TIER2_PAGES: Tier2Page[] = [
+  {
+    slug: "zero-down-payment-car-loan-emi-calculator",
+    type: "loan-types",
+    title: "Zero Down Payment Car Loan EMI Calculator 2026",
+    h1: "Zero Down Payment Car Loan EMI Calculator",
+    description: "Calculate your EMI for a 100% financed car loan with zero down payment. Understand the long-term cost implications of borrowing the full vehicle value.",
+    intro: "Thinking about buying a car with no upfront cash? A zero down payment car loan finances 100% of the on-road price. Use our calculator to see how this impacts your monthly EMI and total interest.",
+    amount: 800000,
+    interestRate: 10.5,
+    tenure: 60,
+    date: "2026-08-16",
+    content: `
+      <h2>Understanding 100% Car Financing</h2>
+      <p>A zero down payment car loan might sound appealing because it requires no immediate cash outlay. However, borrowing the entire value of the car means a significantly higher principal amount. This directly leads to larger monthly EMIs and substantially more total interest paid over the life of the loan. We always recommend making at least a small down payment if possible.</p>
+    `,
+    faqs: [
+      { question: "Are zero down payment car loans a good idea?", answer: "While convenient, they result in higher EMIs and you risk being 'underwater' (owing more than the car is worth) due to rapid vehicle depreciation in the first few years." },
+      { question: "Do banks charge higher interest for 100% financing?", answer: "Yes, lenders typically view zero down payment loans as higher risk and often attach a slightly higher interest rate compared to loans with a 20% down payment." }
+    ]
+  },
+  {
+    slug: "bike-loan-zero-down-payment-calculator",
+    type: "loan-types",
+    title: "Bike Loan Zero Down Payment EMI Calculator 2026",
+    h1: "Bike Loan Zero Down Payment Calculator",
+    description: "Instantly calculate your EMI for a zero down payment bike loan. Plan your two-wheeler purchase without any upfront cash contribution.",
+    intro: "Want to ride home a new bike today without dipping into your savings? Calculate your exact monthly payments for a 100% financed two-wheeler loan.",
+    amount: 120000,
+    interestRate: 11.5,
+    tenure: 36,
+    date: "2026-08-16",
+    content: `
+      <h2>Financing Your Bike with Zero Down Payment</h2>
+      <p>Many dealers and NBFCs offer zero down payment schemes during festive seasons. While this makes getting a bike accessible, remember that the interest rates on 100% financing for two-wheelers can be quite high. Adjust the tenure slider to find an EMI you can comfortably manage without stretching your monthly budget.</p>
+    `,
+    faqs: [
+      { question: "What is the maximum tenure for a zero down payment bike loan?", answer: "Most lenders offer a maximum tenure of 3 to 4 years (36 to 48 months) for 100% financed two-wheeler loans." },
+      { question: "Does zero down payment include registration and insurance?", answer: "Not always. Some 'zero down payment' offers only cover the ex-showroom price. You may still need to pay for RTO and insurance upfront." }
+    ]
+  },
+  {
+    slug: "two-wheeler-loan-zero-down-payment",
+    type: "loan-types",
+    title: "Two-Wheeler Loan Zero Down Payment Calculator 2026",
+    h1: "Two-Wheeler Loan Zero Down Payment Calculator",
+    description: "Calculate your EMI for a 100% financed two-wheeler loan. Evaluate the cost of buying a scooter or motorcycle with no down payment.",
+    intro: "Evaluate the financial impact of a zero down payment two-wheeler loan. See the complete breakdown of principal and interest.",
+    amount: 90000,
+    interestRate: 11.0,
+    tenure: 24,
+    date: "2026-08-16",
+    content: `
+      <h2>The Cost of Zero Down Payment on Two-Wheelers</h2>
+      <p>Borrowing the full amount for a two-wheeler means you pay interest on the entire purchase price. While it preserves your liquidity, it increases the overall cost of the vehicle. Use our tool to compare the total interest of this loan versus one with a 10% or 20% down payment.</p>
+    `,
+    faqs: [
+      { question: "How much interest will I pay on a 90,000 loan for 2 years?", answer: "At an 11% interest rate, you will pay approximately ₹10,670 in total interest over 24 months." },
+      { question: "Is it better to pay a down payment for a two-wheeler?", answer: "Yes, even a small down payment of 10-15% can significantly reduce your monthly EMI and total interest burden." }
+    ]
+  },
+  {
+    slug: "scooter-loan-zero-down-payment",
+    type: "loan-types",
+    title: "Scooter Loan Zero Down Payment Calculator 2026",
+    h1: "Scooter Loan Zero Down Payment Calculator",
+    description: "Calculate the exact EMI for your new scooter with 100% financing and zero down payment options.",
+    intro: "Calculate the exact EMI for your new scooter with 100% financing. Plan your commute budget with our easy-to-use zero down payment calculator.",
+    amount: 85000,
+    interestRate: 10.75,
+    tenure: 24,
+    date: "2026-08-16",
+    content: `
+      <h2>100% Financing for Scooters</h2>
+      <p>Scooters are essential for daily city commutes. 100% financing schemes make them immediately accessible. However, ensure that the EMI, combined with fuel and maintenance costs, fits comfortably within your monthly disposable income.</p>
+    `,
+    faqs: [
+      { question: "Can students get a zero down payment scooter loan?", answer: "It is difficult without a regular income. A student might need a co-applicant (like a parent) with a stable income and good credit score to qualify." },
+      { question: "What is the EMI for an 85,000 scooter loan for 2 years?", answer: "At 10.75%, the monthly EMI is approximately ₹3,952." }
+    ]
+  },
+  {
+    slug: "emi-calculator-8-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹8 Lakh Loan | Personal & Car Financing",
+    h1: "EMI Calculator for ₹8 Lakh Loan",
+    description: "Calculate your monthly EMI for an ₹8 Lakh loan. View the full amortization schedule for car loans, personal loans, or business financing.",
+    intro: "Need to borrow ₹8 Lakhs? Whether it's for a new car, a wedding, or a business expense, use our calculator to visualize your repayment journey.",
+    amount: 800000,
+    interestRate: 9.5,
+    tenure: 60,
+    date: "2026-08-16",
+    content: `
+      <h2>Managing an ₹8 Lakh Loan</h2>
+      <p>An ₹8 Lakh loan is a significant commitment, commonly used for vehicle purchases or major personal expenses. Balancing the tenure is crucial: a 5-year tenure keeps EMIs affordable, but a 3-year tenure will save you heavily on interest if you can manage the higher monthly payment.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for an 8 Lakh car loan for 5 years?", answer: "At a 9.5% interest rate, the monthly EMI for an ₹8 Lakh loan over 5 years is approximately ₹16,801." },
+      { question: "How much total interest will I pay on an 8 Lakh loan over 5 years?", answer: "At 9.5%, the total interest payable over 60 months will be around ₹2,08,079." }
+    ]
+  },
+  {
+    slug: "emi-calculator-12-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹12 Lakh Loan | Repayment Schedule",
+    h1: "EMI Calculator for ₹12 Lakh Loan",
+    description: "Calculate the exact EMI and view the month-by-month breakdown for a ₹12 Lakh loan. Ideal for premium cars or home renovations.",
+    intro: "Calculate the exact EMI and view the month-by-month breakdown for a ₹12 Lakh loan. See how different interest rates impact your total payout.",
+    amount: 1200000,
+    interestRate: 10.0,
+    tenure: 60,
+    date: "2026-08-16",
+    content: `
+      <h2>Planning a ₹12 Lakh Loan Repayment</h2>
+      <p>A ₹12 Lakh loan requires careful financial planning. The interest rate you secure makes a massive difference at this principal amount. Even a 0.5% reduction in your interest rate can save you tens of thousands of rupees over a 5-year tenure.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 12 Lakh loan for 5 years?", answer: "At a 10% interest rate, the monthly EMI is approximately ₹25,496." },
+      { question: "Can I prepay a 12 Lakh personal loan?", answer: "Yes, most lenders allow prepayment after a lock-in period (usually 6-12 months), though a foreclosure charge of 2-5% may apply." }
+    ]
+  },
+  {
+    slug: "emi-calculator-25-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹25 Lakh Loan | Home & Business Financing",
+    h1: "EMI Calculator for ₹25 Lakh Loan",
+    description: "Calculate your EMI for a ₹25 Lakh loan. Get a detailed amortization schedule for housing loans, LAP, or business expansion.",
+    intro: "Borrowing ₹25 Lakhs? Ensure your monthly cash flow can comfortably support the EMI. Generate a detailed repayment schedule in seconds.",
+    amount: 2500000,
+    interestRate: 8.75,
+    tenure: 180,
+    date: "2026-08-16",
+    content: `
+      <h2>Structuring a ₹25 Lakh Loan</h2>
+      <p>Loans of ₹25 Lakh are typically secured loans, such as Home Loans or Loans Against Property (LAP). Because the amount is large, tenures are usually longer (10 to 20 years). We strongly recommend making part-payments whenever you receive an annual bonus to significantly reduce your total interest burden.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 25 Lakh home loan for 15 years?", answer: "At an 8.75% interest rate, the monthly EMI for a ₹25 Lakh loan over 15 years is roughly ₹24,986." },
+      { question: "How much interest will I pay on 25 Lakhs over 15 years?", answer: "Over 15 years at 8.75%, the total interest paid will be approximately ₹19.9 Lakhs." }
+    ]
+  },
+  {
+    slug: "emi-12-months-vs-24-months",
+    type: "tenure-comparison",
+    title: "EMI Comparison: 12 Months vs 24 Months Tenure",
+    h1: "12 Months vs 24 Months EMI Comparison",
+    description: "Compare short-term loan EMIs for 1-year (12 months) vs 2-year (24 months) tenures. See how accelerating your payments saves you money.",
+    intro: "Deciding between a 1-year or 2-year loan? Compare how a shorter tenure increases your EMI but drastically cuts down your total interest.",
+    amount: 300000,
+    interestRate: 11.5,
+    tenure: 12,
+    date: "2026-08-16",
+    content: `
+      <h2>Short-Term Loan Strategies</h2>
+      <p>When choosing between 12 and 24 months for a short-term personal or two-wheeler loan, the trade-off is clear: cash flow vs total cost. A 12-month tenure means a steep EMI, but you are debt-free faster and pay less interest. A 24-month tenure halves your EMI burden but increases the bank's profit.</p>
+    `,
+    faqs: [
+      { question: "How much do I save by choosing 12 months over 24 months?", answer: "On a ₹3 Lakh loan at 11.5%, the 24-month loan costs about ₹37,300 in interest. The 12-month loan costs only ₹19,000. You save roughly ₹18,300 by choosing the shorter tenure." },
+      { question: "Is a 12-month loan too aggressive?", answer: "It depends on your income. If the 12-month EMI exceeds 40% of your take-home pay, it might be too risky, and the 24-month option is safer for your daily budget." }
+    ]
+  },
+
 
   {
     slug: "education-loan-emi-calculator",

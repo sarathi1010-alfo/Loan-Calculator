@@ -426,7 +426,6 @@ test.describe('Technical Verification', () => {
       const response = await page.goto(`${baseUrl}${slug}`);
       expect(response?.status()).toBe(200);
 
-      // Validate FAQ Schema
       const faqSchema = await page.evaluate(() => {
         const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
           .find(s => s.textContent?.includes('"@type":"FAQPage"'));
@@ -558,5 +557,48 @@ test.describe('Technical Verification', () => {
   test('New Tier 2 Comparison Page (10 vs 15 Years) returns 200 OK', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/lap-emi-10-years-vs-15-years`);
     expect(response?.status()).toBe(200);
+  });
+
+  test('New Tier 1 Article returns 200 OK and has valid Schema for down payment impact on EMI', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/down-payment-impact-on-emi-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toContainText('How Your Down Payment Impacts Your EMI');
+
+    // Validate Article Schema
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+    expect(articleSchema['@type']).toBe('Article');
+  });
+
+  test('New Tier 2 Programmatic URLs return 200 OK and have FAQ Schema for Down Payment focus', async ({ page }) => {
+    const newSlugs = [
+      '/loan-types/zero-down-payment-car-loan-emi-calculator',
+      '/loan-types/bike-loan-zero-down-payment-calculator',
+      '/loan-types/two-wheeler-loan-zero-down-payment',
+      '/loan-types/scooter-loan-zero-down-payment',
+      '/scenarios/emi-calculator-8-lakh',
+      '/scenarios/emi-calculator-12-lakh',
+      '/scenarios/emi-calculator-25-lakh',
+      '/tenure-comparison/emi-12-months-vs-24-months'
+    ];
+
+    for (const slug of newSlugs) {
+      const response = await page.goto(`${baseUrl}${slug}`);
+      expect(response?.status()).toBe(200);
+
+      // Validate FAQ Schema
+      const faqSchema = await page.evaluate(() => {
+        const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+          .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+        return script ? JSON.parse(script.textContent || '{}') : null;
+      });
+      expect(faqSchema).not.toBeNull();
+      expect(faqSchema['@type']).toBe('FAQPage');
+      expect(faqSchema.mainEntity.length).toBeGreaterThan(0);
+    }
   });
 });

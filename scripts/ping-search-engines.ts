@@ -7,6 +7,19 @@ async function pingSearchEngines() {
   console.log("--- Search Engine Notification System ---");
 
   const newUrls = [
+    // New Tier 1 (2026-08-16)
+    `${SITE_URL}/blog/down-payment-impact-on-emi-2026`,
+
+    // New Tier 2 (2026-08-16)
+    `${SITE_URL}/loan-types/zero-down-payment-car-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/bike-loan-zero-down-payment-calculator`,
+    `${SITE_URL}/loan-types/two-wheeler-loan-zero-down-payment`,
+    `${SITE_URL}/loan-types/scooter-loan-zero-down-payment`,
+    `${SITE_URL}/scenarios/emi-calculator-8-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-12-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-25-lakh`,
+    `${SITE_URL}/tenure-comparison/emi-12-months-vs-24-months`,
+
 
     // New Tier 1 (2026-08-14)
     `${SITE_URL}/blog/how-to-calculate-emi-loan`,

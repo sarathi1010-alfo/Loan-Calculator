@@ -7,6 +7,20 @@ async function pingSearchEngines() {
   console.log("--- Search Engine Notification System ---");
 
   const newUrls = [
+
+    // New Tier 1 (2026-08-18)
+    `${SITE_URL}/blog/how-to-compare-loan-interest-rates-2026`,
+
+    // New Tier 2 (2026-08-18)
+    `${SITE_URL}/loan-types/fixed-rate-home-loan-calculator`,
+    `${SITE_URL}/loan-types/floating-rate-home-loan-calculator`,
+    `${SITE_URL}/loan-types/sbi-vs-hdfc-home-loan-calculator`,
+    `${SITE_URL}/loan-types/icici-vs-axis-home-loan-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-6-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-11-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-22-lakh`,
+    `${SITE_URL}/tenure-comparison/emi-18-months-vs-36-months`,
+
     // New Tier 1 (2026-08-16)
     `${SITE_URL}/blog/down-payment-impact-on-emi-2026`,
 

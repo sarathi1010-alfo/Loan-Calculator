@@ -14,6 +14,167 @@ export interface Tier2Page {
 }
 
 export const TIER2_PAGES: Tier2Page[] = [
+
+  {
+    slug: "fixed-rate-home-loan-calculator",
+    type: "loan-types",
+    title: "Fixed Rate Home Loan EMI Calculator 2026",
+    h1: "Fixed Rate Home Loan EMI Calculator",
+    description: "Calculate your exact EMI for a fixed rate home loan. Understand the impact of choosing a constant interest rate over your loan tenure.",
+    intro: "A fixed interest rate guarantees that your EMI will never change, regardless of market fluctuations. Use our calculator to see what your long-term commitment looks like with a fixed rate home loan.",
+    amount: 3500000,
+    interestRate: 8.75,
+    tenure: 240,
+    date: "2026-08-18",
+    content: `
+      <h2>Why Choose a Fixed Rate Home Loan?</h2>
+      <p>A fixed-rate home loan provides immense peace of mind. Knowing exactly what your monthly outflow will be for the next 15 or 20 years makes budgeting much easier. This is particularly advantageous if you secure the loan during a period of historically low interest rates.</p>
+    `,
+    faqs: [
+      { question: "Can a fixed interest rate ever change?", answer: "Usually, a fixed rate remains constant for the entire tenure. However, some banks offer 'semi-fixed' rates that are fixed for the first few years and then convert to floating. Always check the loan agreement." },
+      { question: "Is a fixed rate higher than a floating rate?", answer: "Yes, banks typically charge a premium (a slightly higher rate) for fixed-rate loans because they are taking on the risk of future interest rate hikes." }
+    ]
+  },
+  {
+    slug: "floating-rate-home-loan-calculator",
+    type: "loan-types",
+    title: "Floating Rate Home Loan EMI Calculator 2026",
+    h1: "Floating Rate Home Loan EMI Calculator",
+    description: "Estimate your initial EMI for a floating rate home loan. See how potential interest rate changes might affect your total repayment.",
+    intro: "Floating rate home loans offer flexibility and are usually cheaper initially. Calculate your starting EMI and visualize the amortization schedule based on current market rates.",
+    amount: 3500000,
+    interestRate: 8.40,
+    tenure: 240,
+    date: "2026-08-18",
+    content: `
+      <h2>Understanding Floating Rate Loans</h2>
+      <p>With a floating rate loan, your interest rate is tied to an external benchmark, such as the RBI Repo Rate. If the repo rate drops, your interest rate drops, which usually means your loan tenure decreases (while your EMI remains the same). While floating rates carry the risk of increasing if market rates rise, they do not have prepayment penalties, making it easier to pay off the loan early.</p>
+    `,
+    faqs: [
+      { question: "What happens to my EMI if the floating rate increases?", answer: "Most banks prefer to keep your monthly EMI amount constant and instead extend the tenure of your loan. However, if extending the tenure isn't mathematically possible before your retirement age, they will increase the EMI amount." },
+      { question: "Are there prepayment penalties on floating rate home loans?", answer: "No, as per RBI guidelines, banks cannot charge prepayment or foreclosure penalties on floating rate home loans for individual borrowers." }
+    ]
+  },
+  {
+    slug: "sbi-vs-hdfc-home-loan-calculator",
+    type: "loan-types",
+    title: "SBI vs HDFC Home Loan EMI Calculator Comparison",
+    h1: "SBI vs HDFC Home Loan: EMI Comparison Calculator",
+    description: "Compare home loan EMIs between SBI and HDFC based on current 2026 interest rates. Make an informed decision before applying.",
+    intro: "Choosing between India's largest public and private sector banks for a home loan? Use this calculator to compare the EMI impact of a slight interest rate difference between SBI and HDFC.",
+    amount: 5000000,
+    interestRate: 8.50, // Using an average/example rate for comparison baseline
+    tenure: 240,
+    date: "2026-08-18",
+    content: `
+      <h2>Comparing SBI and HDFC Home Loans</h2>
+      <p>Both SBI and HDFC offer highly competitive home loan products. While SBI often has slightly lower floating rates, HDFC is known for faster processing and dedicated customer service. Even a 0.05% difference in the interest rate can result in significant savings over a 20-year tenure. Use the calculator to run the numbers based on the exact rates you have been quoted by each bank.</p>
+    `,
+    faqs: [
+      { question: "Which bank is better for a home loan, SBI or HDFC?", answer: "Both are excellent choices. SBI often offers lower interest rates and lower processing fees, but HDFC generally has a faster, more streamlined digital approval process." },
+      { question: "Do both banks use the reducing balance method?", answer: "Yes, both SBI and HDFC calculate home loan interest using the monthly reducing balance method, not flat rate." }
+    ]
+  },
+  {
+    slug: "icici-vs-axis-home-loan-calculator",
+    type: "loan-types",
+    title: "ICICI vs Axis Bank Home Loan EMI Comparison",
+    h1: "ICICI vs Axis Bank Home Loan Calculator",
+    description: "Compare EMI options between ICICI Bank and Axis Bank home loans. Find the best interest rate and repayment plan.",
+    intro: "ICICI and Axis Bank are major players in the home loan market. Calculate and compare your potential EMI to determine which bank offers the most cost-effective solution for your property purchase.",
+    amount: 4000000,
+    interestRate: 8.75,
+    tenure: 180,
+    date: "2026-08-18",
+    content: `
+      <h2>Evaluating ICICI and Axis Bank</h2>
+      <p>When comparing private lenders like ICICI and Axis Bank, look beyond just the advertised interest rate. Consider the processing fees, documentation requirements, and the speed of disbursement. Using our calculator allows you to model how slight differences in their offered rates will affect your total interest paid over 15 years.</p>
+    `,
+    faqs: [
+      { question: "How do I negotiate a better rate with ICICI or Axis?", answer: "Having a high credit score (above 750) and applying for the loan with a co-applicant who also has a good income profile are the best ways to negotiate a lower interest rate." },
+      { question: "Do these banks charge for part-prepayments?", answer: "No, as per RBI rules, neither ICICI nor Axis Bank can charge part-prepayment fees on floating rate home loans for individual borrowers." }
+    ]
+  },
+  {
+    slug: "emi-calculator-6-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹6 Lakh Loan | 2026 Updates",
+    h1: "EMI Calculator for ₹6 Lakh Loan",
+    description: "Calculate your monthly EMI and total interest for a ₹6 Lakh personal, car, or business loan.",
+    intro: "Planning to borrow ₹6 Lakhs? Use our calculator to instantly view your monthly repayment schedule and determine how much interest you will pay overall.",
+    amount: 600000,
+    interestRate: 11.0,
+    tenure: 48,
+    date: "2026-08-18",
+    content: `
+      <h2>Planning a ₹6 Lakh Repayment</h2>
+      <p>A ₹6 Lakh loan is commonly used for buying a premium car, funding an elaborate wedding, or expanding a small business. Because the principal is moderate, keeping the tenure to 4 years (48 months) or less is highly recommended to prevent the interest costs from snowballing.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 6 Lakhs at 11% for 4 years?", answer: "For a ₹6 Lakh loan at 11% interest over 4 years, the monthly EMI is approximately ₹15,507." },
+      { question: "Is it better to take a 3-year or 5-year tenure for 6 Lakhs?", answer: "A 3-year tenure will save you significant interest but requires a higher monthly EMI. If cash flow is tight, a 5-year tenure lowers the EMI but increases total interest paid." }
+    ]
+  },
+  {
+    slug: "emi-calculator-11-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹11 Lakh Loan | Monthly Breakdown",
+    h1: "EMI Calculator for ₹11 Lakh Loan",
+    description: "Find out your exact EMI for an ₹11 Lakh loan. View the full amortization schedule and principal breakdown.",
+    intro: "Borrowing ₹11 Lakhs requires careful planning. Calculate your monthly installment and visualize how your principal reduces over time using our interactive tool.",
+    amount: 1100000,
+    interestRate: 10.5,
+    tenure: 60,
+    date: "2026-08-18",
+    content: `
+      <h2>Managing an ₹11 Lakh Loan</h2>
+      <p>Whether you are consolidating high-interest debt or purchasing an SUV, an ₹11 Lakh loan represents a substantial monthly commitment. Ensure you calculate the EMI accurately and leave a buffer in your monthly budget to handle unexpected expenses without defaulting on the loan.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 11 Lakhs at 10.5% for 5 years?", answer: "For an ₹11 Lakh loan at 10.5% interest over 5 years, the monthly EMI comes to approximately ₹23,643." },
+      { question: "Can I prepay an 11 Lakh personal loan?", answer: "Yes, but personal loans often carry prepayment penalty charges (typically 2-4% of the outstanding principal). Check your loan agreement before prepaying." }
+    ]
+  },
+  {
+    slug: "emi-calculator-22-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹22 Lakh Loan | Long Term Repayment",
+    h1: "EMI Calculator for ₹22 Lakh Loan",
+    description: "Calculate your EMI for a ₹22 Lakh loan. Ideal for home loans, major property investments, or business expansions.",
+    intro: "A ₹22 Lakh loan is a major financial step. Use our precision calculator to determine your exact EMI and understand the long-term interest implications of your borrowing.",
+    amount: 2200000,
+    interestRate: 8.5,
+    tenure: 180,
+    date: "2026-08-18",
+    content: `
+      <h2>Strategies for a ₹22 Lakh Loan</h2>
+      <p>Loans of this size are typically home loans or large business loans, stretched over 10 to 15 years. Because of the long tenure, the total interest paid can be massive. We highly recommend utilizing part-prepayments whenever you receive a bonus to drastically reduce the total interest burden over the life of the loan.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 22 Lakhs at 8.5% for 15 years?", answer: "For a ₹22 Lakh loan at 8.5% interest over 15 years, the monthly EMI is approximately ₹21,664." },
+      { question: "How much total interest will I pay on a 22 Lakh loan over 15 years?", answer: "At 8.5%, you will pay roughly ₹16.9 Lakhs in interest alone, bringing the total repayment amount to nearly ₹39 Lakhs." }
+    ]
+  },
+  {
+    slug: "emi-18-months-vs-36-months",
+    type: "tenure-comparison",
+    title: "18 Months vs 36 Months Loan EMI Comparison",
+    h1: "18 Months vs 36 Months EMI Comparison",
+    description: "Compare the EMI and total interest for 1.5 year vs 3 year loan tenures. See how shortening your loan saves you money.",
+    intro: "Should you clear your loan in 1.5 years or stretch it to 3 years? Compare the monthly cash flow impact versus the total interest saved to make the best financial decision.",
+    amount: 300000,
+    interestRate: 12.0,
+    tenure: 36, // Using the longer tenure as the primary calculator state
+    date: "2026-08-18",
+    content: `
+      <h2>Comparing Short-Term Loan Tenures</h2>
+      <p>When dealing with personal loans or consumer durables, choosing between an 18-month and a 36-month tenure is a common dilemma. An 18-month loan requires a much higher monthly EMI, but you escape the debt trap twice as fast. A 36-month loan provides breathing room in your monthly budget but significantly inflates the total cost of the item you purchased.</p>
+    `,
+    faqs: [
+      { question: "Which is better: 18 months or 36 months?", answer: "Mathematically, 18 months is better because you pay less total interest. Practically, it depends on whether you can comfortably afford the higher monthly EMI of the 18-month tenure." },
+      { question: "How much interest do I save by choosing 18 months over 36 months?", answer: "On a ₹3 Lakh loan at 12%, an 18-month tenure costs about ₹29,000 in interest, while a 36-month tenure costs about ₹58,000. You save roughly ₹29,000 by paying it off faster." }
+    ]
+  },
   {
     slug: "zero-down-payment-car-loan-emi-calculator",
     type: "loan-types",

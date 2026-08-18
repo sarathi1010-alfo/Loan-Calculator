@@ -86,3 +86,15 @@
 **Issue Found:** Parameterized URLs causing duplicate content flags.
 
 **Action Taken:** Added self-referencing canonical tag `<link rel="canonical" href="https://emicalculatorpro.alfo.online/" />` to the root `page.tsx` metadata to consolidate link equity. Added new Tier 1 and Tier 2 URLs to `scripts/ping-search-engines.ts`.
+
+## Simulated GSC Audit - 2026-08-18
+
+**Issue Found:**
+2 old parameterized URLs showing "Crawled - currently not indexed" due to duplicate content:
+- \`https://emicalculatorpro.alfo.online/?amount=1500000\`
+- \`https://emicalculatorpro.alfo.online/?interest=9.5\`
+
+**Fix Plan Generated:**
+1. Maintain the canonical tag on the root calculator page (\`/\`) to consolidate link equity.
+2. Use GSC URL Inspection to request re-crawling for the canonical root.
+3. Update internal links to point strictly to clean URLs (not parameterized versions).

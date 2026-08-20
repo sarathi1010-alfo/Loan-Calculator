@@ -16,6 +16,168 @@ export interface Tier2Page {
 export const TIER2_PAGES: Tier2Page[] = [
 
   {
+    slug: "home-renovation-loan-emi-calculator",
+    type: "loan-types",
+    title: "Home Renovation Loan EMI Calculator 2026",
+    h1: "Home Renovation Loan EMI Calculator",
+    description: "Calculate your EMI for a home renovation loan. Plan your home improvement budget efficiently.",
+    intro: "Upgrading your home? A home renovation loan can help you finance the costs without draining your savings. Use this calculator to estimate your monthly EMI and plan your repayment.",
+    amount: 1000000,
+    interestRate: 9.5,
+    tenure: 60,
+    date: "2026-08-20",
+    content: `
+      <h2>Planning Your Home Renovation Budget</h2>
+      <p>Home renovation can significantly increase the value of your property, but it requires substantial capital. A dedicated renovation loan often comes with better terms than a standard personal loan. Calculating your expected EMI helps ensure that the monthly payments fit comfortably within your current EMI-to-Income ratio.</p>
+    `,
+    faqs: [
+      { question: "Can I get tax benefits on a home renovation loan?", answer: "Yes, under Section 24 of the Income Tax Act, you can claim a deduction of up to ₹30,000 per annum on the interest paid for a home renovation loan, provided it's within the overall ₹2 Lakh limit for self-occupied properties." },
+      { question: "What is the typical tenure for a home renovation loan?", answer: "Most lenders offer tenures ranging from 1 to 15 years for home renovation loans, depending on the loan amount and your repayment capacity." }
+    ]
+  },
+  {
+    slug: "solar-panel-loan-emi-calculator",
+    type: "loan-types",
+    title: "Solar Panel Loan EMI Calculator 2026",
+    h1: "Solar Panel Loan EMI Calculator",
+    description: "Estimate your monthly EMI for financing a rooftop solar panel installation.",
+    intro: "Transitioning to green energy? Calculate your EMI for a solar panel loan to see how your monthly payments compare to your expected electricity bill savings.",
+    amount: 300000,
+    interestRate: 10.5,
+    tenure: 60,
+    date: "2026-08-20",
+    content: `
+      <h2>Financing Your Green Transition</h2>
+      <p>Investing in solar panels is a smart long-term financial decision. While the upfront cost is high, many banks now offer specialized solar loans at competitive rates. By calculating your EMI, you can determine the break-even point where your electricity savings surpass your loan repayments.</p>
+    `,
+    faqs: [
+      { question: "Are interest rates lower for solar loans?", answer: "Many banks and NBFCs offer specialized 'green loans' or solar financing at slightly lower interest rates compared to standard personal loans to encourage renewable energy adoption." },
+      { question: "Can I prepay my solar panel loan?", answer: "Yes, most lenders allow prepayment, though some may charge a nominal prepayment penalty. Always check the terms before signing." }
+    ]
+  },
+  {
+    slug: "electric-vehicle-loan-emi-calculator",
+    type: "loan-types",
+    title: "Electric Vehicle (EV) Loan EMI Calculator 2026",
+    h1: "Electric Vehicle Loan EMI Calculator",
+    description: "Calculate your EMI for buying a new electric car or two-wheeler.",
+    intro: "Ready to switch to an EV? Specialized EV loans often come with attractive interest rates. Use our calculator to find out your monthly commitment.",
+    amount: 1500000,
+    interestRate: 8.5,
+    tenure: 84,
+    date: "2026-08-20",
+    content: `
+      <h2>Smart Financing for Electric Vehicles</h2>
+      <p>Electric vehicles (EVs) are becoming increasingly popular, and lenders are taking note. To promote eco-friendly transport, many banks offer 'green car loans' with lower interest rates and longer tenures compared to traditional auto loans. Use this calculator to see your exact EMI and total interest outflow.</p>
+    `,
+    faqs: [
+      { question: "Are EV loans cheaper than regular car loans?", answer: "Yes, to promote green energy, many major banks offer a discount (usually 0.20% to 0.50%) on interest rates for electric vehicle loans compared to standard car loans." },
+      { question: "Is there any tax benefit on EV loans?", answer: "Under Section 80EEB of the Income Tax Act, you can claim a deduction of up to ₹1.5 Lakh on the interest paid for an EV loan, provided the loan was sanctioned before March 31, 2023. (Note: Check current budget updates for 2026 extensions)." }
+    ]
+  },
+  {
+    slug: "plot-loan-emi-calculator",
+    type: "loan-types",
+    title: "Plot Loan EMI Calculator 2026",
+    h1: "Plot Loan EMI Calculator",
+    description: "Estimate your monthly EMI for purchasing a plot of land.",
+    intro: "Planning to buy land for investment or future construction? Plot loans have different dynamics than regular home loans. Calculate your EMI here.",
+    amount: 5000000,
+    interestRate: 9.0,
+    tenure: 180,
+    date: "2026-08-20",
+    content: `
+      <h2>Understanding Plot Loan EMIs</h2>
+      <p>Purchasing a plot is a great investment, but financing it is slightly different from buying a ready-to-move-in house. Plot loans typically have shorter maximum tenures (often capped at 15 years) and slightly higher interest rates. Calculating your EMI accurately helps you plan this significant capital outlay.</p>
+    `,
+    faqs: [
+      { question: "What is the maximum tenure for a plot loan?", answer: "Unlike home loans which can go up to 30 years, plot loans usually have a maximum tenure of 15 years." },
+      { question: "Do plot loans offer the same tax benefits as home loans?", answer: "No, you do not get tax benefits just for buying a plot. However, if you construct a house on that plot within a specified time, you can claim benefits on the construction portion." }
+    ]
+  },
+  {
+    slug: "emi-calculator-42-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹42 Lakh Loan",
+    h1: "EMI Calculator for ₹42 Lakh Loan",
+    description: "Calculate the exact monthly EMI for a ₹42 Lakh loan amount. View the full amortization and interest breakdown.",
+    intro: "Borrowing ₹42 Lakhs is a major financial decision. Use this tool to instantly see your monthly EMI, total interest, and the full repayment schedule based on your specific interest rate and tenure.",
+    amount: 4200000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-08-20",
+    content: `
+      <h2>Breaking Down a ₹42 Lakh Loan</h2>
+      <p>A ₹42 Lakh loan is typical for mid-segment housing or significant business investments. Small changes in your interest rate or tenure can result in massive differences in total interest paid over time. For instance, increasing your EMI slightly can shave years off your loan.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a ₹42 Lakh home loan at 8.5% for 20 years?", answer: "At 8.5% interest for 20 years, the monthly EMI for a ₹42 Lakh loan is approximately ₹36,448." },
+      { question: "How much total interest will I pay on a ₹42 Lakh loan over 20 years?", answer: "At an 8.5% interest rate, the total interest paid over 20 years will be roughly ₹45,47,566, making the total repayment amount around ₹87.47 Lakhs." }
+    ]
+  },
+  {
+    slug: "emi-calculator-65-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹65 Lakh Loan",
+    h1: "EMI Calculator for ₹65 Lakh Loan",
+    description: "Calculate the exact monthly EMI for a ₹65 Lakh loan amount. View the full amortization and interest breakdown.",
+    intro: "Planning a ₹65 Lakh loan? Whether for a premium property or business expansion, use this calculator to estimate your monthly outflow and total interest burden.",
+    amount: 6500000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-08-20",
+    content: `
+      <h2>Repayment Strategy for a ₹65 Lakh Loan</h2>
+      <p>When dealing with a principal amount of ₹65 Lakhs, it's crucial to optimize your tenure. While a 30-year tenure offers the lowest monthly EMI, a 20-year tenure significantly reduces the total interest paid. Always calculate multiple scenarios to find the perfect balance for your cash flow.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a ₹65 Lakh home loan at 8.5% for 20 years?", answer: "At 8.5% interest for 20 years, the monthly EMI for a ₹65 Lakh loan is approximately ₹56,408." },
+      { question: "Should I choose a 20-year or 30-year tenure for a ₹65 Lakh loan?", answer: "A 20-year tenure is generally better if you can afford the higher EMI, as it saves you lakhs in interest compared to a 30-year tenure where the interest paid often exceeds the principal." }
+    ]
+  },
+  {
+    slug: "emi-calculator-85-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹85 Lakh Loan",
+    h1: "EMI Calculator for ₹85 Lakh Loan",
+    description: "Calculate the exact monthly EMI for a ₹85 Lakh loan amount. View the full amortization and interest breakdown.",
+    intro: "Securing an ₹85 Lakh loan requires careful financial planning. Calculate your exact EMI, visualize the principal vs interest breakdown, and explore prepayment strategies.",
+    amount: 8500000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-08-20",
+    content: `
+      <h2>Managing an ₹85 Lakh Loan Liability</h2>
+      <p>An ₹85 Lakh loan is a substantial commitment. Before finalizing the loan, ensure that the resulting EMI fits comfortably within your EMI-to-Income ratio (ideally keeping total obligations below 40-50% of your net income). Regular prepayments are highly recommended to reduce the long-term interest burden.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for an ₹85 Lakh home loan at 8.5% for 20 years?", answer: "At 8.5% interest for 20 years, the monthly EMI for an ₹85 Lakh loan is approximately ₹73,764." },
+      { question: "How does a 1% interest rate change affect an ₹85 Lakh loan?", answer: "On an ₹85 Lakh loan over 20 years, increasing the rate from 8.5% to 9.5% increases the EMI by nearly ₹5,500 per month and adds over ₹13 Lakhs to the total interest paid." }
+    ]
+  },
+  {
+    slug: "emi-20-years-vs-30-years",
+    type: "tenure-comparison",
+    title: "20 Years vs 30 Years Loan EMI Comparison",
+    h1: "20 Years vs 30 Years EMI Comparison",
+    description: "Compare a 20-year loan versus a 30-year loan. See how the tenure affects your monthly EMI and total interest payout.",
+    intro: "Choosing between a 20-year and 30-year loan tenure? While a 30-year loan lowers your monthly EMI, a 20-year loan drastically reduces the total interest you pay to the bank. Compare both side-by-side.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240, // Base calculation uses 20 years, the page will likely display both concepts
+    date: "2026-08-20",
+    content: `
+      <h2>The True Cost of a 30-Year Loan</h2>
+      <p>Many borrowers opt for a 30-year tenure to get the lowest possible monthly EMI. However, this comes at a massive cost. Over 30 years, the total interest you pay can easily exceed the original amount you borrowed. A 20-year tenure requires a slightly higher monthly commitment but saves you a substantial amount of money in the long run.</p>
+    `,
+    faqs: [
+      { question: "How much more interest do you pay on a 30-year loan compared to a 20-year loan?", answer: "On a ₹50 Lakh loan at 8.5%, a 30-year tenure costs about ₹88 Lakhs in total interest, whereas a 20-year tenure costs about ₹54 Lakhs. You save approximately ₹34 Lakhs by choosing the shorter tenure." },
+      { question: "Is it a good idea to take a 30-year loan and prepay?", answer: "Yes, this is a common strategy. You take a 30-year loan for the safety of a lower mandatory EMI but make regular prepayments as if it were a 20-year loan, giving you both flexibility and interest savings." }
+    ]
+  },
+
+
+  {
     slug: "fixed-rate-home-loan-calculator",
     type: "loan-types",
     title: "Fixed Rate Home Loan EMI Calculator 2026",

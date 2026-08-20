@@ -645,4 +645,48 @@ test.describe('Technical Verification', () => {
     }
   });
 
+
+
+  test('New Tier 1 Article returns 200 OK and has valid Schema for emi-to-income-ratio-guide-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/emi-to-income-ratio-guide-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toContainText('EMI-to-Income Ratio: How Much Loan Can You Actually Afford in 2026?');
+
+    // Validate Article Schema
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+    expect(articleSchema['@type']).toBe('Article');
+  });
+
+  test('New Tier 2 Programmatic URLs return 200 OK and have FAQ Schema for EMI-to-Income Ratio focus', async ({ page }) => {
+    const newSlugs = [
+      '/loan-types/home-renovation-loan-emi-calculator',
+      '/loan-types/solar-panel-loan-emi-calculator',
+      '/loan-types/electric-vehicle-loan-emi-calculator',
+      '/loan-types/plot-loan-emi-calculator',
+      '/scenarios/emi-calculator-42-lakh',
+      '/scenarios/emi-calculator-65-lakh',
+      '/scenarios/emi-calculator-85-lakh',
+      '/tenure-comparison/emi-20-years-vs-30-years'
+    ];
+
+    for (const slug of newSlugs) {
+      const response = await page.goto(`${baseUrl}${slug}`);
+      expect(response?.status()).toBe(200);
+
+      // Validate FAQ Schema
+      const faqSchema = await page.evaluate(() => {
+        const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+          .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+        return script ? JSON.parse(script.textContent || '{}') : null;
+      });
+      expect(faqSchema).not.toBeNull();
+      expect(faqSchema['@type']).toBe('FAQPage');
+      expect(faqSchema.mainEntity.length).toBeGreaterThan(0);
+    }
+  });
 });

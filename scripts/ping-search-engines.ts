@@ -8,6 +8,20 @@ async function pingSearchEngines() {
 
   const newUrls = [
 
+    // New Tier 1 (2026-08-20)
+    `${SITE_URL}/blog/emi-to-income-ratio-guide-2026`,
+
+    // New Tier 2 (2026-08-20)
+    `${SITE_URL}/loan-types/home-renovation-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/solar-panel-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/electric-vehicle-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/plot-loan-emi-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-42-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-65-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-85-lakh`,
+    `${SITE_URL}/tenure-comparison/emi-20-years-vs-30-years`,
+
+
     // New Tier 1 (2026-08-18)
     `${SITE_URL}/blog/how-to-compare-loan-interest-rates-2026`,
 

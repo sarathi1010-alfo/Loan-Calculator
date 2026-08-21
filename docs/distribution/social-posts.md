@@ -539,3 +539,28 @@ Learn how to improve your ratio and secure your next loan with our complete guid
 Poll: Do you know your current EMI-to-Income Ratio?
 Options: "Yes, I track it!" / "What is that?"
 Next slide: A quick explanation of the ratio + "Swipe up to read our full guide and use our calculator to find out!" (Link to guide).
+
+## Audit Date: 2026-08-21 (Prepayment Strategies Focus)
+
+### Twitter/X Posts
+1. Tweet: "Don't let your bank dictate your timeline! Paying just ONE extra EMI per year can shave years off your home loan. Use our prepayment calculator to see the math: [Link] #SmartMoney #DebtFree"
+2. Tweet: "Got a bonus? Don't just spend it—invest it in your freedom! Prepaying your loan early saves exponentially more interest than paying later. Calculate your savings here: [Link] #FinanceHacks"
+3. Tweet: "True or false: You should always prepay your loan as fast as possible. False! If you can earn 12% in the market and your loan costs 7% after tax benefits, investing might be better. Compare the numbers: [Link]"
+
+### LinkedIn Posts
+4. Post: "The compounding effect works in reverse when you're in debt. Every rupee you prepay on your loan permanently reduces the principal, bypassing future interest. This 2026 guide breaks down the math behind the 'Annual Bonus Strategy' and the 'One Extra EMI' rule. Read it before you make your next payment: [Link] #PersonalFinance #WealthBuilding #FinancialStrategy"
+5. Post: "Are you making this common prepayment mistake? Never deplete your emergency fund to pay off debt. A 20% prepayment is great, but not if it leaves you with zero liquidity. Balance is key. Learn how to optimize your loan prepayments safely using our new calculator suite: [Link] #FinancialPlanning #DebtManagement"
+
+### Facebook Posts
+6. Post: "🏡 Homeowners! Did you know you can cut years off your mortgage without a huge upfront cost? Just divide one monthly EMI by 12 and add that small amount to your payment each month. It's painless, but the long-term savings are massive! See the proof in our new calculator: [Link]"
+7. Post: "Question for our community: Do you actively try to prepay your loans, or do you just stick to the regular EMI schedule? Let's discuss what works best for you! Read our latest guide on smart prepayment strategies: [Link]"
+
+### Instagram Posts (Visual Concepts)
+8. Carousel:
+   - Slide 1: "The Bank's Best Kept Secret 🤫"
+   - Slide 2: "If you pay just 1 extra EMI per year on a 20-year loan..."
+   - Slide 3: "You can finish your loan 3+ years early and save LAKHS in interest!"
+   - Slide 4: "Swipe up to use the EMICalculatorPro Prepayment Tool and build your own strategy!"
+   - Caption: "Stop paying unnecessary interest! Link in bio to learn how to outsmart your loan. 💸📈 #FinanceTips #DebtFreeJourney"
+9. Story: Interactive Poll: "Does your current loan have a prepayment penalty?" [Yes] / [No] / [I don't know!] -> Next slide: "Always read the fine print! Swipe up to read our 2026 Guide to Prepayment Strategies."
+10. Reel: Split screen. Top: Someone stressed about a 20-year loan. Bottom: Screen recording showing the EMICalculatorPro tool, entering a small yearly prepayment, and watching the total interest number plummet instantly. Voiceover: "Watch how a small yearly bonus can literally buy back years of your life. Try it for yourself!"

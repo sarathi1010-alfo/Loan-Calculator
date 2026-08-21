@@ -8,6 +8,20 @@ async function pingSearchEngines() {
 
   const newUrls = [
 
+    // New Tier 1 (2026-08-21)
+    `${SITE_URL}/blog/how-to-plan-prepayments-2026`,
+
+    // New Tier 2 (2026-08-21)
+    `${SITE_URL}/loan-types/home-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/personal-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/car-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/education-loan-prepayment-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-3-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-18-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-50-lakh-home-loan`,
+    `${SITE_URL}/tenure-comparison/emi-5-years-vs-10-years`,
+
+
     // New Tier 1 (2026-08-20)
     `${SITE_URL}/blog/emi-to-income-ratio-guide-2026`,
 

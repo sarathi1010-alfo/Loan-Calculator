@@ -564,3 +564,28 @@ Next slide: A quick explanation of the ratio + "Swipe up to read our full guide 
    - Caption: "Stop paying unnecessary interest! Link in bio to learn how to outsmart your loan. 💸📈 #FinanceTips #DebtFreeJourney"
 9. Story: Interactive Poll: "Does your current loan have a prepayment penalty?" [Yes] / [No] / [I don't know!] -> Next slide: "Always read the fine print! Swipe up to read our 2026 Guide to Prepayment Strategies."
 10. Reel: Split screen. Top: Someone stressed about a 20-year loan. Bottom: Screen recording showing the EMICalculatorPro tool, entering a small yearly prepayment, and watching the total interest number plummet instantly. Voiceover: "Watch how a small yearly bonus can literally buy back years of your life. Try it for yourself!"
+
+## Audit Date: 2026-08-22 (Balance Transfer Focus)
+
+### Twitter/X Posts
+1. Tweet: "Paying 9.5% on your home loan while new borrowers get 8.5%? That 1% difference is costing you LAKHS. 🛑 Stop overpaying. Calculate your balance transfer savings instantly: [Link to /loan-types/home-loan-balance-transfer-calculator] #HomeLoan #FinanceTips"
+2. Tweet: "A balance transfer isn't just about a lower EMI; it's about paying off your loan YEARS earlier. Use our calculator to see how a simple switch changes your amortization schedule: [Link to /blog/home-loan-balance-transfer-guide-2026] #DebtFree"
+3. Tweet: "Don't fall for the 'zero processing fee' trap without checking the interest rate first. Always compare the total cost. Our guide breaks down when a balance transfer actually makes sense in 2026: [Link to /blog/home-loan-balance-transfer-guide-2026]"
+
+### LinkedIn Posts
+4. Post: "Financial complacency is expensive. If you haven't reviewed your home loan interest rate in the last 2 years, you are likely leaving money on the table. A home loan balance transfer can save you significant amounts in interest. We've built a comprehensive guide and calculator for 2026 to help you run the exact numbers before you switch lenders. Read it here: [Link to /blog/home-loan-balance-transfer-guide-2026] #PersonalFinance #WealthBuilding #RealEstate"
+5. Post: "Are you considering transferring your home loan to SBI or HDFC? The rate difference might seem small, but on a ₹60 Lakh loan, 0.5% saves you massive amounts over 20 years. We've added dedicated calculators for top banks to help you compare. Try the SBI calculator here: [Link to /loan-types/sbi-home-loan-balance-transfer-calculator] #Banking #FinancialPlanning"
+
+### Facebook Posts
+6. Post: "🏡 Stuck with a high-interest home loan? You don't have to stay with your current bank! A balance transfer lets you move your loan to a cheaper rate. See exactly how much your EMI will drop with our free tool: [Link to /loan-types/home-loan-balance-transfer-calculator]"
+7. Post: "Question for our community: Have you ever transferred your home loan to a different bank? Was the paperwork worth the savings? 📑💸 Read our 2026 step-by-step guide on how to do it right: [Link to /blog/home-loan-balance-transfer-guide-2026]"
+
+### Instagram Posts (Visual Concepts)
+8. Carousel:
+   - Slide 1: "Are you overpaying for your house? 🏠💸"
+   - Slide 2: "If you took a loan 3 years ago, you might be stuck on an old, high interest rate."
+   - Slide 3: "A Balance Transfer lets you move your loan to a new bank with a cheaper rate."
+   - Slide 4: "Swipe up to use the EMICalculatorPro Balance Transfer tool and see your savings!"
+   - Caption: "Stop giving the bank extra money! Link in bio to calculate your balance transfer savings. #FinanceHacks #HomeOwner"
+9. Story: Interactive Poll: "Do you know your current home loan interest rate?" [Yes, I track it!] / [No idea!] -> Next slide: "If it's over 9%, you need to read this! Swipe up for our 2026 Balance Transfer Guide."
+10. Reel: Split screen. Top: Showing a person looking shocked at a bank statement. Bottom: Screen recording of EMICalculatorPro, typing in an old rate vs a new rate, and the "Total Interest" number dropping by ₹4,00,000. Voiceover: "This one move can save you lakhs. Try it now, link in bio."

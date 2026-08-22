@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function BlogHubPage() {
   return (
-    <div className="container mx-auto px-4 py-8 md:px-8 lg:py-12">
+    <main className="container mx-auto px-4 py-8 md:px-8 lg:py-12">
       <header className="max-w-4xl mb-12 blog-intro-section">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-6">
           EMI Calculator Pro Blog – Expert Guides on Loans &amp; Financial Planning
@@ -46,7 +46,7 @@ export default function BlogHubPage() {
       <section className="mb-16 category-sections">
         <h2 className="text-2xl font-bold mb-6 border-b pb-2">Explore by Category</h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-          <div className="bg-card rounded-lg border p-6">
+          <article className="bg-card rounded-lg border p-6">
             <Link href="/blog/loan-types" className="group block mb-3">
               <h3 className="font-bold text-lg group-hover:text-primary transition-colors">Loan Guides</h3>
             </Link>
@@ -55,8 +55,8 @@ export default function BlogHubPage() {
               <li><Link href="/personal-loan-calculator" className="text-muted-foreground hover:text-primary">Personal Loan Calculator</Link></li>
               <li><Link href="/car-loan-calculator" className="text-muted-foreground hover:text-primary">Car Loan Calculator</Link></li>
             </ul>
-          </div>
-          <div className="bg-card rounded-lg border p-6">
+          </article>
+          <article className="bg-card rounded-lg border p-6">
             <Link href="/blog/financial-planning" className="group block mb-3">
               <h3 className="font-bold text-lg group-hover:text-primary transition-colors">Financial Planning</h3>
             </Link>
@@ -65,8 +65,8 @@ export default function BlogHubPage() {
               <li>Debt-to-Income Strategies</li>
               <li>Prepayment Tactics</li>
             </ul>
-          </div>
-          <div className="bg-card rounded-lg border p-6">
+          </article>
+          <article className="bg-card rounded-lg border p-6">
             <Link href="/blog/lenders" className="group block mb-3">
               <h3 className="font-bold text-lg group-hover:text-primary transition-colors">Lender Comparisons</h3>
             </Link>
@@ -75,8 +75,8 @@ export default function BlogHubPage() {
               <li>Fixed vs Floating</li>
               <li>NBFCs vs Banks</li>
             </ul>
-          </div>
-          <div className="bg-card rounded-lg border p-6">
+          </article>
+          <article className="bg-card rounded-lg border p-6">
             <Link href="/blog/loan-interest-rates-2026-guide" className="group block mb-3">
               <h3 className="font-bold text-lg group-hover:text-primary transition-colors">Interest Rate Updates</h3>
             </Link>
@@ -85,11 +85,11 @@ export default function BlogHubPage() {
               <li>2026 Rate Trends</li>
               <li>Historical Analysis</li>
             </ul>
-          </div>
+          </article>
         </div>
       </section>
 
-      <div className="mb-12">
+      <section className="mb-12">
         <h2 className="text-2xl font-bold mb-6 border-b pb-2">All Articles</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {BLOG_POSTS.map((post) => (
@@ -98,18 +98,18 @@ export default function BlogHubPage() {
               key={post.slug}
               className="group block"
             >
-              <div className="bg-card rounded-lg border p-6 h-full transition-shadow hover:shadow-md">
+              <article className="bg-card rounded-lg border p-6 h-full transition-shadow hover:shadow-md">
                 <div className="text-sm text-muted-foreground mb-3 flex items-center justify-between">
                   <span className="font-medium text-primary bg-primary/10 px-2 py-1 rounded">
                     {post.category}
                   </span>
-                  <span>
+                  <time>
                     {new Date(post.date).toLocaleDateString("en-US", {
                       month: "short",
                       day: "numeric",
                       year: "numeric",
                     })}
-                  </span>
+                  </time>
                 </div>
                 <h2 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors line-clamp-2">
                   {post.title}
@@ -117,11 +117,11 @@ export default function BlogHubPage() {
                 <p className="text-muted-foreground line-clamp-3">
                   {post.description}
                 </p>
-              </div>
+              </article>
             </Link>
           ))}
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }

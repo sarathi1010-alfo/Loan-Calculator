@@ -8,6 +8,20 @@ async function pingSearchEngines() {
 
   const newUrls = [
 
+    // New Tier 1 (2026-08-22)
+    `${SITE_URL}/blog/home-loan-balance-transfer-guide-2026`,
+
+    // New Tier 2 (2026-08-22)
+    `${SITE_URL}/loan-types/home-loan-balance-transfer-calculator`,
+    `${SITE_URL}/loan-types/personal-loan-balance-transfer-calculator`,
+    `${SITE_URL}/loan-types/sbi-home-loan-balance-transfer-calculator`,
+    `${SITE_URL}/loan-types/hdfc-home-loan-balance-transfer-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-30-lakh-balance-transfer`,
+    `${SITE_URL}/scenarios/emi-calculator-40-lakh-balance-transfer`,
+    `${SITE_URL}/scenarios/emi-calculator-60-lakh-balance-transfer`,
+    `${SITE_URL}/tenure-comparison/balance-transfer-10-years-vs-15-years`,
+
+
     // New Tier 1 (2026-08-21)
     `${SITE_URL}/blog/how-to-plan-prepayments-2026`,
 

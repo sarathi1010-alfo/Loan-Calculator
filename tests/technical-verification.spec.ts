@@ -733,4 +733,48 @@ test.describe('Technical Verification', () => {
     }
   });
 
+
+  test('New Tier 1 Article returns 200 OK and has valid Schema for home-loan-balance-transfer-guide-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/home-loan-balance-transfer-guide-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toContainText('Home Loan Balance Transfer Guide 2026: Calculate Your Savings');
+
+    // Validate Article Schema
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+    expect(articleSchema['@type']).toBe('Article');
+  });
+
+  test('New Tier 2 Programmatic URLs return 200 OK and have FAQ Schema for Balance Transfer focus', async ({ page }) => {
+    const newSlugs = [
+      '/loan-types/home-loan-balance-transfer-calculator',
+      '/loan-types/personal-loan-balance-transfer-calculator',
+      '/loan-types/sbi-home-loan-balance-transfer-calculator',
+      '/loan-types/hdfc-home-loan-balance-transfer-calculator',
+      '/scenarios/emi-calculator-30-lakh-balance-transfer',
+      '/scenarios/emi-calculator-40-lakh-balance-transfer',
+      '/scenarios/emi-calculator-60-lakh-balance-transfer',
+      '/tenure-comparison/balance-transfer-10-years-vs-15-years'
+    ];
+
+    for (const slug of newSlugs) {
+      const response = await page.goto(`${baseUrl}${slug}`);
+      expect(response?.status()).toBe(200);
+
+      // Validate FAQ Schema
+      const faqSchema = await page.evaluate(() => {
+        const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+          .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+        return script ? JSON.parse(script.textContent || '{}') : null;
+      });
+      expect(faqSchema).not.toBeNull();
+      expect(faqSchema['@type']).toBe('FAQPage');
+      expect(faqSchema.mainEntity.length).toBeGreaterThan(0);
+    }
+  });
+
 });

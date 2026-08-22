@@ -16,6 +16,167 @@ export interface Tier2Page {
 export const TIER2_PAGES: Tier2Page[] = [
 
   {
+    slug: "home-loan-balance-transfer-calculator",
+    type: "loan-types",
+    title: "Home Loan Balance Transfer Calculator | EMICalculatorPro",
+    h1: "Home Loan Balance Transfer Calculator",
+    description: "Calculate your savings by transferring your home loan to a lower interest rate.",
+    intro: "Transferring your home loan can reduce your EMI and total interest. Use this tool to calculate your potential savings.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-08-22",
+    content: `
+      <h2>Calculate Savings on Balance Transfer</h2>
+      <p>Enter your outstanding loan amount, remaining tenure, and the new interest rate offered to see how much you can save.</p>
+    `,
+    faqs: [
+      { question: "What is a home loan balance transfer?", answer: "It is the process of moving your outstanding home loan from one lender to another, usually to get a lower interest rate." },
+      { question: "Are there charges for transferring a home loan?", answer: "Yes, the new lender typically charges a processing fee, and there may be other administrative costs. Ensure your interest savings exceed these fees." }
+    ]
+  },
+  {
+    slug: "personal-loan-balance-transfer-calculator",
+    type: "loan-types",
+    title: "Personal Loan Balance Transfer Calculator | EMICalculatorPro",
+    h1: "Personal Loan Balance Transfer Calculator",
+    description: "Calculate your savings by transferring your personal loan to a lower interest rate.",
+    intro: "Reduce the burden of high-interest personal loans by transferring your balance to a new lender.",
+    amount: 500000,
+    interestRate: 11.5,
+    tenure: 48,
+    date: "2026-08-22",
+    content: `
+      <h2>Optimize Your Personal Loan</h2>
+      <p>A small reduction in your personal loan interest rate can provide significant EMI relief. Use this calculator to compare options.</p>
+    `,
+    faqs: [
+      { question: "Can I transfer my personal loan to another bank?", answer: "Yes, if you have a good repayment history and meet the new bank's eligibility criteria, you can transfer your personal loan for a lower rate." },
+      { question: "When does a personal loan balance transfer make sense?", answer: "It makes sense when the interest rate difference is substantial and you are in the early stages of your loan repayment." }
+    ]
+  },
+  {
+    slug: "sbi-home-loan-balance-transfer-calculator",
+    type: "loan-types",
+    title: "SBI Home Loan Balance Transfer Calculator 2026 | EMICalculatorPro",
+    h1: "SBI Home Loan Balance Transfer Calculator",
+    description: "Calculate your savings if you transfer your existing home loan to SBI.",
+    intro: "SBI often offers competitive home loan rates. Calculate how much you could save by switching your loan to SBI.",
+    amount: 4000000,
+    interestRate: 8.4,
+    tenure: 180,
+    date: "2026-08-22",
+    content: `
+      <h2>Transfer to SBI</h2>
+      <p>State Bank of India (SBI) is a popular choice for home loan balance transfers due to transparent processing and competitive rates. Check your savings here.</p>
+    `,
+    faqs: [
+      { question: "What is the processing fee for SBI home loan balance transfer?", answer: "SBI's processing fees vary based on ongoing campaigns, but they are generally competitive or waived during festive offers." },
+      { question: "Can I get a top-up loan with an SBI balance transfer?", answer: "Yes, SBI often allows eligible borrowers to avail of a top-up loan along with their balance transfer." }
+    ]
+  },
+  {
+    slug: "hdfc-home-loan-balance-transfer-calculator",
+    type: "loan-types",
+    title: "HDFC Home Loan Balance Transfer Calculator 2026 | EMICalculatorPro",
+    h1: "HDFC Home Loan Balance Transfer Calculator",
+    description: "Calculate your savings if you transfer your existing home loan to HDFC.",
+    intro: "HDFC provides excellent service and attractive rates for home loan transfers. Calculate your potential EMI reduction.",
+    amount: 6000000,
+    interestRate: 8.45,
+    tenure: 240,
+    date: "2026-08-22",
+    content: `
+      <h2>Transfer to HDFC</h2>
+      <p>Evaluate the financial benefits of moving your outstanding home loan balance to HDFC using our detailed calculator.</p>
+    `,
+    faqs: [
+      { question: "Why choose HDFC for a home loan balance transfer?", answer: "HDFC is known for quick processing, customized repayment options, and competitive interest rates for balance transfers." },
+      { question: "Is a NOC required for transferring to HDFC?", answer: "Yes, you will need a No Objection Certificate (NOC) and a foreclosure letter from your existing lender to transfer your loan to HDFC." }
+    ]
+  },
+  {
+    slug: "emi-calculator-30-lakh-balance-transfer",
+    type: "scenarios",
+    title: "EMI Calculator for ₹30 Lakh Balance Transfer | EMICalculatorPro",
+    h1: "EMI Calculator for ₹30 Lakh Balance Transfer",
+    description: "Calculate the EMI and interest savings on transferring a ₹30 Lakh loan.",
+    intro: "See the detailed breakdown of a ₹30 Lakh balance transfer, including the new EMI and amortization schedule.",
+    amount: 3000000,
+    interestRate: 8.5,
+    tenure: 180,
+    date: "2026-08-22",
+    content: `
+      <h2>₹30 Lakh Balance Transfer Details</h2>
+      <p>Analyze the impact of transferring a ₹30 Lakh loan. Adjust the interest rate to see how small changes affect your total repayment.</p>
+    `,
+    faqs: [
+      { question: "How much can I save on a 30 Lakh balance transfer?", answer: "Your savings depend on the rate difference and remaining tenure. A 0.5% rate reduction over 15 years on 30 Lakhs can save you approximately 1.5 Lakhs in interest." },
+      { question: "What is the typical EMI for a 30 Lakh balance transfer at 8.5%?", answer: "For a 15-year tenure at 8.5%, the EMI for a 30 Lakh loan is roughly ₹29,542." }
+    ]
+  },
+  {
+    slug: "emi-calculator-40-lakh-balance-transfer",
+    type: "scenarios",
+    title: "EMI Calculator for ₹40 Lakh Balance Transfer | EMICalculatorPro",
+    h1: "EMI Calculator for ₹40 Lakh Balance Transfer",
+    description: "Calculate the EMI and interest savings on transferring a ₹40 Lakh loan.",
+    intro: "Calculate the new EMI and total interest for transferring a ₹40 Lakh loan balance.",
+    amount: 4000000,
+    interestRate: 8.4,
+    tenure: 240,
+    date: "2026-08-22",
+    content: `
+      <h2>₹40 Lakh Balance Transfer Details</h2>
+      <p>Transferring a larger amount like ₹40 Lakhs magnifies the benefits of a lower interest rate. Review your potential savings below.</p>
+    `,
+    faqs: [
+      { question: "Is it worth transferring a 40 Lakh home loan?", answer: "Yes, especially if you have over 10 years remaining. Even a small rate drop can save you a significant amount on a 40 Lakh principal." },
+      { question: "What is the EMI for a 40 Lakh balance transfer at 8.4% for 20 years?", answer: "The EMI would be approximately ₹34,460." }
+    ]
+  },
+  {
+    slug: "emi-calculator-60-lakh-balance-transfer",
+    type: "scenarios",
+    title: "EMI Calculator for ₹60 Lakh Balance Transfer | EMICalculatorPro",
+    h1: "EMI Calculator for ₹60 Lakh Balance Transfer",
+    description: "Calculate the EMI and interest savings on transferring a ₹60 Lakh loan.",
+    intro: "High-value loans like ₹60 Lakhs offer the greatest potential for balance transfer savings. Use our calculator to verify.",
+    amount: 6000000,
+    interestRate: 8.35,
+    tenure: 240,
+    date: "2026-08-22",
+    content: `
+      <h2>₹60 Lakh Balance Transfer Details</h2>
+      <p>For a ₹60 Lakh outstanding balance, switching to a lender with a lower rate can drastically reduce your long-term financial burden.</p>
+    `,
+    faqs: [
+      { question: "How much does a 0.5% rate cut save on a 60 Lakh loan?", answer: "Over a 20-year tenure, a 0.5% rate reduction on 60 Lakhs can save you over 4 Lakhs in total interest." },
+      { question: "Are processing fees higher for a 60 Lakh balance transfer?", answer: "Processing fees are usually a percentage of the loan amount, so they will be higher in absolute terms, but many banks cap the maximum fee." }
+    ]
+  },
+  {
+    slug: "balance-transfer-10-years-vs-15-years",
+    type: "tenure-comparison",
+    title: "Balance Transfer: 10 Years vs 15 Years | EMICalculatorPro",
+    h1: "Balance Transfer: 10 Years vs 15 Years Tenure",
+    description: "Compare the EMI and total interest for a balance transfer over 10 years versus 15 years.",
+    intro: "When you transfer your balance, you can also adjust your tenure. Compare a 10-year and 15-year repayment plan.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 120, // using the 10-year default for the initial view
+    date: "2026-08-22",
+    content: `
+      <h2>Comparing Tenures After a Balance Transfer</h2>
+      <p>Choosing a shorter tenure increases your EMI but saves you money on interest. A longer tenure reduces your monthly burden. Which is right for you?</p>
+    `,
+    faqs: [
+      { question: "Should I reduce my tenure during a balance transfer?", answer: "If you can afford the higher EMI, reducing your tenure is highly recommended to maximize your overall interest savings." },
+      { question: "Can I increase my tenure when transferring my balance?", answer: "Yes, many lenders allow you to extend the tenure when you transfer your loan, which lowers your EMI, though it increases the total interest paid." }
+    ]
+  },
+
+  {
     slug: "home-loan-prepayment-calculator",
     type: "loan-types",
     title: "Home Loan Prepayment Calculator 2026 | Save on Interest",

@@ -589,3 +589,28 @@ Next slide: A quick explanation of the ratio + "Swipe up to read our full guide 
    - Caption: "Stop giving the bank extra money! Link in bio to calculate your balance transfer savings. #FinanceHacks #HomeOwner"
 9. Story: Interactive Poll: "Do you know your current home loan interest rate?" [Yes, I track it!] / [No idea!] -> Next slide: "If it's over 9%, you need to read this! Swipe up for our 2026 Balance Transfer Guide."
 10. Reel: Split screen. Top: Showing a person looking shocked at a bank statement. Bottom: Screen recording of EMICalculatorPro, typing in an old rate vs a new rate, and the "Total Interest" number dropping by ₹4,00,000. Voiceover: "This one move can save you lakhs. Try it now, link in bio."
+
+## Audit Date: 2026-08-23 (Partial Prepayment vs Foreclosure Focus)
+
+### Twitter/X Posts
+1. Tweet: "Surplus cash? 💰 Don't let it sit idle. Deciding between a partial prepayment or foreclosing your loan entirely can save you LAKHS. Here is how to choose the right strategy for 2026: [Link to /blog/partial-prepayment-vs-foreclosure-guide] #PersonalFinance"
+2. Tweet: "Foreclosing a loan sounds great until you realize you've drained your emergency fund. 🛑 Partial prepayments often provide a safer balance of liquidity and interest savings. Read our comparison guide: [Link to /blog/partial-prepayment-vs-foreclosure-guide]"
+3. Tweet: "Zero foreclosure charges? Not always true! Banks often charge 2% to 5% to close fixed-rate personal loans. Always run the numbers before making a lump-sum payment. Use our prepayment calculator to see your exact savings: [Link to /#loan-types]"
+
+### LinkedIn Posts
+4. Post: "The ultimate dilemma for borrowers with a year-end bonus: Do you make a partial prepayment on your home loan, or save up to foreclose it entirely? Both strategies have their merits, but the mathematical choice depends entirely on your remaining loan tenure and the opportunity cost of your capital. We break down the exact formulas and decision frameworks in our latest 2026 guide. Read it here before making your next move: [Link to /blog/partial-prepayment-vs-foreclosure-guide] #WealthManagement #RealEstateInvesting"
+5. Post: "Financial freedom isn't just about being debt-free; it's about maintaining liquidity while minimizing interest. If foreclosing a loan drains your safety net, a strategic partial prepayment is usually the smarter choice. Check out our new suite of bank-specific prepayment calculators for HDFC, SBI, ICICI, and Axis to run your own scenarios: [Link to /#loan-types] #FinancialPlanning"
+
+### Facebook Posts
+6. Post: "🏠🏡 Should you clear your home loan completely, or just pay a large chunk of it? Foreclosure vs Partial Prepayment is a big decision that can impact your finances for years. We built a comprehensive guide and calculator to help you choose the path that saves you the most money. Try it out: [Link to /blog/partial-prepayment-vs-foreclosure-guide]"
+7. Post: "Question of the day: If you won ₹10 Lakhs tomorrow, would you use it to foreclose your car loan, or would you make a partial prepayment on your home loan? Let us know your strategy in the comments! 🚗💸 (Need help deciding? Read our guide: [Link to /blog/partial-prepayment-vs-foreclosure-guide])"
+
+### Instagram Posts (Visual Concepts)
+8. Carousel:
+   - Slide 1: "Partial Prepayment vs Foreclosure: Which is Better? 🤔"
+   - Slide 2: "Partial Prepayment: Reduces principal, lowers total interest, keeps the loan active, maintains your emergency funds."
+   - Slide 3: "Foreclosure: Closes the loan completely, zero EMIs, maximum interest saved, BUT drains your cash reserves and might have penalties."
+   - Slide 4: "Swipe up to use our Prepayment Calculator and see exactly which strategy saves you more money!"
+   - Caption: "Don't guess with your finances. Run the numbers! Link in bio for the complete guide. 💸 #DebtFree #FinanceHacks"
+9. Story: Interactive Poll: "If you had extra cash today, what would you do?" [Prepay part of my loan] / [Close my loan completely!] -> Next slide: "Both are great, but one might cost you hidden penalty fees! Swipe up to read our 2026 guide on avoiding foreclosure traps."
+10. Reel: Split screen. Top: Someone looking confused at two piles of money. Bottom: Screen recording of EMICalculatorPro showing the massive difference in total interest saved when prepaying in Year 5 versus Year 10. Voiceover: "Timing is everything. Before you close that loan, make sure you aren't paying unnecessary penalties. Use the calculator in our bio."

@@ -7,6 +7,19 @@ async function pingSearchEngines() {
   console.log("--- Search Engine Notification System ---");
 
   const newUrls = [
+    // New Tier 1 (2026-08-23)
+    `${SITE_URL}/blog/partial-prepayment-vs-foreclosure-guide`,
+
+    // New Tier 2 (2026-08-23)
+    `${SITE_URL}/loan-types/hdfc-personal-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/sbi-home-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/icici-car-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/axis-education-loan-prepayment-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-25-lakh-prepayment`,
+    `${SITE_URL}/scenarios/emi-calculator-75-lakh-prepayment`,
+    `${SITE_URL}/scenarios/emi-calculator-1-crore-prepayment`,
+    `${SITE_URL}/tenure-comparison/prepayment-5-years-vs-10-years`,
+
 
     // New Tier 1 (2026-08-22)
     `${SITE_URL}/blog/home-loan-balance-transfer-guide-2026`,

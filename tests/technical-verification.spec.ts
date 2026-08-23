@@ -777,4 +777,48 @@ test.describe('Technical Verification', () => {
     }
   });
 
+
+  test('New Tier 1 Article returns 200 OK and has valid Schema for partial prepayment vs foreclosure', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/partial-prepayment-vs-foreclosure-guide`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toContainText('Partial Prepayment vs Foreclosure: The Ultimate 2026 Guide');
+
+    // Validate Article Schema
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+    expect(articleSchema['@type']).toBe('Article');
+  });
+
+  test('New Tier 2 Programmatic URLs return 200 OK and have FAQ Schema for Prepayment vs Foreclosure focus', async ({ page }) => {
+    const newSlugs = [
+      '/loan-types/hdfc-personal-loan-prepayment-calculator',
+      '/loan-types/sbi-home-loan-prepayment-calculator',
+      '/loan-types/icici-car-loan-prepayment-calculator',
+      '/loan-types/axis-education-loan-prepayment-calculator',
+      '/scenarios/emi-calculator-25-lakh-prepayment',
+      '/scenarios/emi-calculator-75-lakh-prepayment',
+      '/scenarios/emi-calculator-1-crore-prepayment',
+      '/tenure-comparison/prepayment-5-years-vs-10-years'
+    ];
+
+    for (const slug of newSlugs) {
+      const response = await page.goto(`${baseUrl}${slug}`);
+      expect(response?.status()).toBe(200);
+
+      // Validate FAQ Schema
+      const faqSchema = await page.evaluate(() => {
+        const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+          .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+        return script ? JSON.parse(script.textContent || '{}') : null;
+      });
+      expect(faqSchema).not.toBeNull();
+      expect(faqSchema['@type']).toBe('FAQPage');
+      expect(faqSchema.mainEntity.length).toBeGreaterThan(0);
+    }
+  });
+
 });

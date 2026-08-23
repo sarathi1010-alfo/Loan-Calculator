@@ -9,17 +9,59 @@ export interface BlogPost {
 }
 
 export const BLOG_POSTS: BlogPost[] = [
+  {
+    slug: "partial-prepayment-vs-foreclosure-guide",
+    title: "Partial Prepayment vs Foreclosure: The Ultimate 2026 Guide",
+    description: "Understand the difference between partial prepayment and loan foreclosure. Learn which strategy saves you more money and how to calculate your savings.",
+    date: "2026-08-23",
+    category: "Financial Strategy",
+    answerBlock: "Partial prepayment involves paying a lump sum towards your loan principal while continuing the loan. Foreclosure means paying off the entire outstanding loan balance at once to close the account completely. Use EMICalculatorPro to determine which saves more based on your remaining tenure and penalties.",
+    content: `
+      <h2>Partial Prepayment vs Foreclosure: Which is Better?</h2>
+      <p>When you have surplus cash, deciding whether to make a partial prepayment or foreclose the loan entirely is a critical financial decision. Both strategies reduce your debt burden, but they serve different financial goals and come with different implications for your cash flow.</p>
+
+      <h2>What is Partial Prepayment?</h2>
+      <p>A partial prepayment is a lump-sum payment made towards your outstanding loan principal in addition to your regular EMIs. This payment directly reduces the principal amount, which in turn reduces the total interest you will pay over the remaining tenure.</p>
+      <ul>
+        <li><strong>Pros:</strong> Keeps the loan active, maintains liquidity, reduces total interest.</li>
+        <li><strong>Cons:</strong> You still have a monthly EMI obligation.</li>
+      </ul>
+
+      <h2>What is Loan Foreclosure?</h2>
+      <p>Foreclosure, or pre-closure, is the process of paying off the entire remaining balance of your loan in one single payment before the tenure ends. This closes the loan account completely.</p>
+      <ul>
+        <li><strong>Pros:</strong> Completely debt-free, no more monthly EMIs, maximum interest saved.</li>
+        <li><strong>Cons:</strong> Requires a large amount of cash, potential foreclosure penalties.</li>
+      </ul>
+
+      <h2>How to Choose Between Prepayment and Foreclosure</h2>
+      <p>The decision boils down to your liquidity and the opportunity cost of your funds. If foreclosing the loan drains your emergency savings, it's better to make a partial prepayment. You should always use our <a href="/">EMI Calculator</a> to simulate how a partial prepayment affects your tenure or EMI.</p>
+
+      <h2>Step-by-Step Financial Assessment</h2>
+      <ol>
+        <li><strong>Check Penalties:</strong> Before deciding, check your loan agreement for prepayment or foreclosure charges. Many floating-rate home loans have zero penalties, but fixed-rate or personal loans often charge 2% to 5%.</li>
+        <li><strong>Analyze Remaining Tenure:</strong> If you are in the first few years of your loan, both strategies yield massive savings. If you are in the final years, the interest savings are minimal, so foreclosure might not be worth the liquidity drain.</li>
+        <li><strong>Run the Numbers:</strong> Use our <a href="/#loan-types">Explore Specific Calculators</a> section to see exact amortization schedules for different prepayment amounts.</li>
+      </ol>
+
+      <h2>Conclusion</h2>
+      <p>Both partial prepayment and foreclosure are excellent strategies for becoming debt-free faster. The right choice depends entirely on how much surplus cash you have and your other financial goals for 2026.</p>
+    `,
+  },
+
 
   {
     slug: "home-loan-balance-transfer-guide-2026",
     title: "Home Loan Balance Transfer Guide 2026: Calculate Your Savings",
     description: "Learn how to calculate if a home loan balance transfer is worth it, compare interest rates, and see exact steps to switch your lender.",
-    date: "2026-08-22",
+    date: "2026-08-23",
     category: "Loan Guides",
     answerBlock: "A home loan balance transfer involves moving your existing home loan to a new lender offering a lower interest rate. To decide if it's worth it, compare the total interest saved over the remaining tenure against the new lender's processing fees and charges.",
     content: `
       <h2>How Does a Home Loan Balance Transfer Work?</h2>
       <p>If you've been paying your home loan for a few years, chances are interest rates have changed. A home loan balance transfer allows you to move your outstanding principal amount to a new bank that offers a lower rate. This can result in a significantly lower EMI or a shorter remaining loan tenure, ultimately saving you lakhs of rupees in interest.</p>
+
+      <p>If you are also considering prepaying your loan instead of transferring, read our <a href="/blog/partial-prepayment-vs-foreclosure-guide">Partial Prepayment vs Foreclosure Guide</a> first to understand which saves more.</p>
 
       <h2>When Should You Consider a Balance Transfer?</h2>
       <ul>
@@ -49,7 +91,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "how-to-plan-prepayments-2026",
     title: "How to Plan Prepayments: Complete Guide for Borrowers in 2026",
     description: "Learn how to strategically plan your loan prepayments to minimize interest, reduce your tenure, and achieve financial freedom faster.",
-    date: "2026-08-21",
+    date: "2026-08-23",
     category: "Financial Strategy",
     answerBlock: "To plan prepayments effectively, start by checking your loan agreement for prepayment penalties. If none exist, aim to make prepayments early in your tenure when the interest component is highest, using annual bonuses or tax refunds. Use tools like EMICalculatorPro to visualize the exact savings on total interest.",
     content: `
@@ -63,6 +105,8 @@ export const BLOG_POSTS: BlogPost[] = [
         <li><strong>Calculate Your Savings:</strong> Head over to our <a href="/">EMI Calculator</a> to simulate how a lump sum or recurring extra payment impacts your amortization schedule.</li>
         <li><strong>Execute the Payment:</strong> Contact your lender or use their online portal to make a principal-only payment. Ensure you specify that the extra amount should be applied directly to the principal.</li>
       </ol>
+
+      <p>For a detailed comparison on when to foreclose versus prepay, check out our guide on <a href="/blog/partial-prepayment-vs-foreclosure-guide">Partial Prepayment vs Foreclosure</a>.</p>
 
       <h2>Top Prepayment Strategies for 2026</h2>
       <h3>1. The Annual Bonus Strategy</h3>
@@ -340,6 +384,8 @@ export const BLOG_POSTS: BlogPost[] = [
         EMI = [P x R x (1+R)^N] / [(1+R)^N-1]
       </div>
       <p>Where P is Principal, R is Monthly Interest Rate, and N is Tenure in months. In the early years of your loan, a large portion of your EMI goes toward paying the interest, while only a small fraction reduces the principal. When you make a prepayment, 100% of that amount directly reduces the principal (P). Because the interest for the next month is calculated on this new, lower principal balance, your interest burden drops instantly and permanently. This compounding effect is why early prepayments are so powerful.</p>
+
+      <p>For a detailed comparison on when to foreclose versus prepay, check out our guide on <a href="/blog/partial-prepayment-vs-foreclosure-guide">Partial Prepayment vs Foreclosure</a>.</p>
 
       <h2>Top Prepayment Strategies for 2026</h2>
 

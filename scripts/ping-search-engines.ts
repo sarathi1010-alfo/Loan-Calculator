@@ -7,6 +7,20 @@ async function pingSearchEngines() {
   console.log("--- Search Engine Notification System ---");
 
   const newUrls = [
+    // New Tier 1 (2026-08-24)
+    `${SITE_URL}/blog/fixed-vs-floating-interest-rate-2026`,
+
+    // New Tier 2 (2026-08-24)
+    `${SITE_URL}/loan-types/sbi-fixed-home-loan-calculator`,
+    `${SITE_URL}/loan-types/hdfc-fixed-home-loan-calculator`,
+    `${SITE_URL}/loan-types/icici-floating-home-loan-calculator`,
+    `${SITE_URL}/loan-types/axis-floating-home-loan-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-35-lakh-fixed`,
+    `${SITE_URL}/scenarios/emi-calculator-45-lakh-floating`,
+    `${SITE_URL}/scenarios/emi-calculator-55-lakh-fixed`,
+    `${SITE_URL}/tenure-comparison/fixed-10-years-vs-floating-10-years`,
+
+
     // New Tier 1 (2026-08-23)
     `${SITE_URL}/blog/partial-prepayment-vs-foreclosure-guide`,
 

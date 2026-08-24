@@ -3856,6 +3856,168 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "How much does a 4-year loan cost compared to a 3-year loan?", answer: "On a ₹6 Lakh loan at 11.25%, the 4-year option costs about ₹38,000 more in total interest than the 3-year option." },
       { question: "Why might someone choose the 4-year option?", answer: "To keep the monthly EMI lower, which provides a larger buffer in their monthly budget for other expenses or emergencies." }
     ]
+  },
+  {
+    slug: "sbi-fixed-home-loan-calculator",
+    type: "loan-types",
+    title: "SBI Fixed Rate Home Loan EMI Calculator | EMICalculatorPro",
+    h1: "SBI Fixed Rate Home Loan EMI Calculator",
+    description: "Calculate your EMI for SBI fixed rate home loans. See exactly how locking in your interest rate impacts your long-term repayment schedule.",
+    intro: "Considering an SBI fixed rate home loan? A fixed rate protects you from market fluctuations, offering predictable EMIs. Use our calculator to see the math.",
+    amount: 5000000,
+    interestRate: 9.5,
+    tenure: 240,
+    date: "2026-08-24",
+    content: `
+      <h2>Why Choose an SBI Fixed Rate Home Loan?</h2>
+      <p>State Bank of India offers competitive fixed rate home loans. This option is ideal if you believe interest rates are at a historical low and you want to lock in your EMI for the entire tenure.</p>
+      <h2>Factors to Consider</h2>
+      <p>Remember that fixed rates are generally slightly higher than floating rates initially, and prepayment penalties may apply for balance transfers. Use this calculator to simulate your exact schedule.</p>
+    `,
+    faqs: [
+      { question: "Does SBI offer a fixed interest rate on home loans?", answer: "Yes, SBI offers fixed rate home loans, though the rate is typically higher than their floating rate option." },
+      { question: "Is a fixed rate better than a floating rate?", answer: "If you want EMI predictability and expect market rates to rise, a fixed rate is safer. For long-term savings in a falling market, floating is better." }
+    ]
+  },
+  {
+    slug: "hdfc-fixed-home-loan-calculator",
+    type: "loan-types",
+    title: "HDFC Fixed Rate Home Loan EMI Calculator | EMICalculatorPro",
+    h1: "HDFC Fixed Rate Home Loan EMI Calculator",
+    description: "Calculate your EMI for HDFC fixed rate home loans. Ensure your monthly budget remains constant regardless of repo rate changes.",
+    intro: "Lock in your housing loan interest rate with HDFC. Our calculator helps you visualize the predictable amortization schedule of a fixed-rate loan.",
+    amount: 6000000,
+    interestRate: 9.6,
+    tenure: 240,
+    date: "2026-08-24",
+    content: `
+      <h2>Predictability with HDFC Fixed Rates</h2>
+      <p>A fixed interest rate from HDFC ensures that your monthly outgoing cash flow is entirely predictable, protecting you from unexpected inflation or repo rate hikes by the RBI.</p>
+    `,
+    faqs: [
+      { question: "What is the fixed rate for an HDFC home loan?", answer: "Fixed rates vary but are typically 1% to 2% higher than current floating rates. Check with HDFC for the daily rate." },
+      { question: "Can I switch from a fixed to a floating rate later?", answer: "Yes, you can usually switch by paying a conversion fee to the lender." }
+    ]
+  },
+  {
+    slug: "icici-floating-home-loan-calculator",
+    type: "loan-types",
+    title: "ICICI Floating Rate Home Loan EMI Calculator | EMICalculatorPro",
+    h1: "ICICI Floating Rate Home Loan EMI Calculator",
+    description: "Calculate your EMI for ICICI floating rate home loans. See how repo-linked rates can save you money over the long term.",
+    intro: "ICICI's floating rate home loans are linked to market benchmarks. Use this tool to simulate your starting EMI and total interest.",
+    amount: 5500000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-08-24",
+    content: `
+      <h2>Benefits of Floating Rate Loans</h2>
+      <p>Floating rates are generally cheaper initially. Furthermore, the RBI mandates zero prepayment penalties on floating rate home loans, making it easier to foreclose early.</p>
+    `,
+    faqs: [
+      { question: "Are there prepayment charges on ICICI floating home loans?", answer: "No, as per RBI guidelines, individual borrowers do not pay prepayment penalties on floating rate home loans." },
+      { question: "How often does a floating rate change?", answer: "It changes whenever the underlying benchmark, such as the RBI repo rate, is updated." }
+    ]
+  },
+  {
+    slug: "axis-floating-home-loan-calculator",
+    type: "loan-types",
+    title: "Axis Bank Floating Rate Home Loan Calculator | EMICalculatorPro",
+    h1: "Axis Bank Floating Rate Home Loan EMI Calculator",
+    description: "Plan your Axis Bank floating rate home loan. Calculate your EMI, total interest, and amortization schedule instantly.",
+    intro: "Take advantage of lower initial interest rates with an Axis Bank floating home loan. Calculate your EMI right here.",
+    amount: 7500000,
+    interestRate: 8.55,
+    tenure: 300,
+    date: "2026-08-24",
+    content: `
+      <h2>Understanding Axis Bank Floating Rates</h2>
+      <p>Your interest rate will fluctuate over the 25-year tenure. While the starting EMI is low, ensure you have a financial buffer in case rates increase in the future.</p>
+    `,
+    faqs: [
+      { question: "Why choose a floating rate with Axis Bank?", answer: "Floating rates typically offer a lower starting EMI and no prepayment penalties, which is ideal for long-term home loans." },
+      { question: "What happens to my EMI if the interest rate goes up?", answer: "Usually, the bank extends your loan tenure to keep the EMI the same. If the tenure cannot be extended further, the EMI amount will increase." }
+    ]
+  },
+  {
+    slug: "emi-calculator-35-lakh-fixed",
+    type: "scenarios",
+    title: "₹35 Lakh Fixed Rate Loan EMI Calculator | EMICalculatorPro",
+    h1: "EMI Calculator for ₹35 Lakh Fixed Rate Loan",
+    description: "Calculate the exact monthly EMI and total interest for a ₹35 Lakh fixed rate loan over 15 years.",
+    intro: "Need a ₹35 Lakh loan and want to lock in the interest rate? See exactly what your monthly EMI will be.",
+    amount: 3500000,
+    interestRate: 9.75,
+    tenure: 180,
+    date: "2026-08-24",
+    content: `
+      <h2>Detailed ₹35 Lakh Fixed Loan Analysis</h2>
+      <p>By locking in the interest rate on this ₹35 Lakh loan, your EMI will remain perfectly steady for the entire 15 years, allowing for stress-free financial planning.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 35 Lakh fixed rate loan?", answer: "At 9.75% for 15 years, the EMI is approximately ₹37,078." },
+      { question: "Is 35 Lakhs enough for a home loan?", answer: "Yes, it is a common loan amount for apartments in Tier-2 cities or as a partial loan for a property in a metro city." }
+    ]
+  },
+  {
+    slug: "emi-calculator-45-lakh-floating",
+    type: "scenarios",
+    title: "₹45 Lakh Floating Rate Loan EMI Calculator | EMICalculatorPro",
+    h1: "EMI Calculator for ₹45 Lakh Floating Rate Loan",
+    description: "Calculate the starting EMI and total interest for a ₹45 Lakh floating rate loan over 20 years.",
+    intro: "See the amortization schedule for a ₹45 Lakh floating rate loan. Calculate your initial EMI and interest savings.",
+    amount: 4500000,
+    interestRate: 8.4,
+    tenure: 240,
+    date: "2026-08-24",
+    content: `
+      <h2>₹45 Lakh Floating Rate Breakdown</h2>
+      <p>With a floating rate, your initial EMI is lower. However, if market rates rise, the total interest paid on this ₹45 Lakh loan will increase.</p>
+    `,
+    faqs: [
+      { question: "What is the starting EMI for a 45 Lakh floating loan?", answer: "At a starting rate of 8.4% for 20 years, the initial EMI is roughly ₹38,768." },
+      { question: "Can I prepay my 45 Lakh floating loan without penalty?", answer: "Yes, floating rate home loans generally do not attract prepayment penalties for individual borrowers." }
+    ]
+  },
+  {
+    slug: "emi-calculator-55-lakh-fixed",
+    type: "scenarios",
+    title: "₹55 Lakh Fixed Rate Loan EMI Calculator | EMICalculatorPro",
+    h1: "EMI Calculator for ₹55 Lakh Fixed Rate Loan",
+    description: "Calculate the exact monthly EMI and total interest for a ₹55 Lakh fixed rate loan.",
+    intro: "Budgeting for a massive ₹55 Lakh fixed rate loan? Our calculator provides the exact numbers you need.",
+    amount: 5500000,
+    interestRate: 9.8,
+    tenure: 240,
+    date: "2026-08-24",
+    content: `
+      <h2>Planning a ₹55 Lakh Fixed Repayment</h2>
+      <p>Because the principal amount is high, securing a fixed rate provides absolute certainty over the massive total interest you will repay over 20 years.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 55 Lakh fixed loan for 20 years?", answer: "At 9.8% interest, the EMI is approximately ₹52,319." },
+      { question: "Should I choose fixed or floating for a 55 Lakh loan?", answer: "Given the large loan size and 20-year tenure, floating rates are historically cheaper, but fixed rates offer complete peace of mind." }
+    ]
+  },
+  {
+    slug: "fixed-10-years-vs-floating-10-years",
+    type: "tenure-comparison",
+    title: "Fixed vs Floating Interest Rate Comparison (10 Years)",
+    h1: "Fixed Rate vs Floating Rate: 10-Year Loan Comparison",
+    description: "Compare the costs of a fixed rate versus a floating rate on a 10-year loan to see which saves you more money.",
+    intro: "Stuck deciding between a 9.5% fixed rate and an 8.5% floating rate? See the mathematical difference for a 10-year loan.",
+    amount: 2500000,
+    interestRate: 8.5,
+    tenure: 120,
+    date: "2026-08-24",
+    content: `
+      <h2>Fixed vs Floating: A Direct Comparison</h2>
+      <p>Assuming a loan of ₹25 Lakhs, a floating rate starting at 8.5% gives an EMI of ₹30,996. A fixed rate at 9.5% gives an EMI of ₹32,349. The floating rate saves you roughly ₹1,353 per month initially.</p>
+    `,
+    faqs: [
+      { question: "How much can I save with a floating rate on a 10-year loan?", answer: "If the floating rate stays 1% lower than the fixed rate, you can save over ₹1.6 Lakhs in interest over 10 years on a ₹25 Lakh loan." },
+      { question: "Is the floating rate risky?", answer: "Yes, if market rates soar, the floating rate could surpass the fixed rate, erasing your early savings." }
+    ]
   }
 ];
 

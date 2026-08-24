@@ -614,3 +614,28 @@ Next slide: A quick explanation of the ratio + "Swipe up to read our full guide 
    - Caption: "Don't guess with your finances. Run the numbers! Link in bio for the complete guide. 💸 #DebtFree #FinanceHacks"
 9. Story: Interactive Poll: "If you had extra cash today, what would you do?" [Prepay part of my loan] / [Close my loan completely!] -> Next slide: "Both are great, but one might cost you hidden penalty fees! Swipe up to read our 2026 guide on avoiding foreclosure traps."
 10. Reel: Split screen. Top: Someone looking confused at two piles of money. Bottom: Screen recording of EMICalculatorPro showing the massive difference in total interest saved when prepaying in Year 5 versus Year 10. Voiceover: "Timing is everything. Before you close that loan, make sure you aren't paying unnecessary penalties. Use the calculator in our bio."
+
+## Audit Date: 2026-08-24 (Fixed vs Floating Interest Rate Focus)
+
+### Twitter/X Posts
+1. Tweet: "Choosing a fixed interest rate might feel safe, but it could cost you lakhs over 20 years. 📈 Compare fixed vs floating rates instantly: [Link to /blog/fixed-vs-floating-interest-rate-2026] #HomeLoan #FinanceTips"
+2. Tweet: "Did you know floating rate home loans have ZERO prepayment penalties? That’s a huge win for paying off your debt early! See the exact math here: [Link to /blog/fixed-vs-floating-interest-rate-2026] #DebtFree"
+3. Tweet: "A 1% difference between fixed and floating rates changes your EMI dramatically. Don't guess, calculate! Try our ICICI floating rate calculator: [Link to /loan-types/icici-floating-home-loan-calculator]"
+
+### LinkedIn Posts
+4. Post: "When taking a 20-year home loan, certainty comes at a premium. Banks typically charge 1% to 2% more for a fixed-rate mortgage. While peace of mind is valuable, the mathematical reality is that floating rates often yield long-term savings, especially when paired with aggressive prepayments. Read our 2026 breakdown of Fixed vs Floating Rates here: [Link to /blog/fixed-vs-floating-interest-rate-2026] #WealthBuilding #RealEstate #PersonalFinance"
+5. Post: "Before locking in your home loan, you must run the numbers. We've added dedicated calculators for SBI Fixed and HDFC Fixed rates so you can directly compare them against floating options. Make an informed decision. Explore the tools here: [Link to /#loan-types] #FinancialPlanning"
+
+### Facebook Posts
+6. Post: "🏠🏡 Should you lock in your home loan rate or let it float with the market? A fixed rate means your EMI never changes, but a floating rate could save you big money over 20 years! Learn how to choose in our latest 2026 guide: [Link to /blog/fixed-vs-floating-interest-rate-2026]"
+7. Post: "Are you paying a fixed rate on your home loan right now? 📉 You might be paying too much! Use our free calculator to see if switching to a floating rate is worth it. Try it out: [Link to /loan-types/fixed-10-years-vs-floating-10-years]"
+
+### Instagram Posts (Visual Concepts)
+8. Carousel:
+   - Slide 1: "Fixed vs Floating Rates: The Ultimate Showdown 🥊"
+   - Slide 2: "FIXED: EMI stays the same forever. Safe, predictable, but usually more expensive."
+   - Slide 3: "FLOATING: EMI changes with the market. Cheaper starting rate, zero prepayment penalties!"
+   - Slide 4: "Swipe up to use our 2026 Rate Calculator and find out which one saves YOU more money!"
+   - Caption: "Don't let the bank choose for you. Run the numbers! Link in bio. 💸 #DebtFree #FinanceHacks"
+9. Story: Interactive Poll: "What type of loan do you prefer?" [Predictable Fixed Rate] / [Cheaper Floating Rate] -> Next slide: "See the mathematical difference! Swipe up to read our 2026 guide."
+10. Reel: Split screen. Top: Someone sweating over changing interest rates. Bottom: Screen recording of EMICalculatorPro showing the massive difference in total interest saved using a floating rate on a ₹45 Lakh loan. Voiceover: "Is paying extra for a fixed rate really worth the peace of mind? Watch the numbers drop. Link in bio."

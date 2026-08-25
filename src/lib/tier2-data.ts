@@ -15,6 +15,167 @@ export interface Tier2Page {
 
 export const TIER2_PAGES: Tier2Page[] = [
   {
+    slug: "sbi-pension-loan-emi-calculator",
+    type: "loan-types",
+    title: "SBI Pension Loan EMI Calculator | EMICalculatorPro",
+    h1: "SBI Pension Loan EMI Calculator",
+    description: "Calculate your monthly EMI for an SBI Pension Loan. Compare interest rates and tenure options for pensioners.",
+    intro: "Use our SBI Pension Loan EMI Calculator to plan your finances effectively post-retirement. Find out your monthly outgo based on current interest rates.",
+    amount: 500000,
+    interestRate: 11.15,
+    tenure: 60,
+    date: "2026-08-25",
+    content: `
+      <h2>Planning Your Retirement with SBI Pension Loan</h2>
+      <p>State Bank of India offers specialized pension loans for central and state government pensioners. With competitive interest rates and minimal processing fees, it's a reliable source of funds for medical emergencies, family weddings, or home renovations.</p>
+    `,
+    faqs: [
+      { question: "What is the interest rate for SBI Pension Loan?", answer: "The interest rate for SBI Pension Loans typically starts around 11.15%, but it may vary based on the type of pensioner (defense, central, or state government) and current RBI repo rates." },
+      { question: "What is the maximum loan amount I can get?", answer: "The maximum loan amount depends on your monthly pension and age, typically capped at 18 months of your pension or a maximum of ₹14 lakhs, whichever is lower." }
+    ]
+  },
+  {
+    slug: "hdfc-jumbo-loan-emi-calculator",
+    type: "loan-types",
+    title: "HDFC Jumbo Loan EMI Calculator | EMICalculatorPro",
+    h1: "HDFC Jumbo Loan EMI Calculator",
+    description: "Calculate your EMI for HDFC Jumbo Loan (pre-approved loan on credit card) instantly. Check interest rates and repayment schedules.",
+    intro: "The HDFC Jumbo Loan is a pre-approved loan offered over and above your credit card limit. Calculate your exact EMI, total interest, and repayment schedule here.",
+    amount: 300000,
+    interestRate: 15.0,
+    tenure: 36,
+    date: "2026-08-25",
+    content: `
+      <h2>Understanding HDFC Jumbo Loans</h2>
+      <p>If you need funds instantly without any documentation, the HDFC Jumbo Loan is an excellent option for existing credit card holders. The funds are transferred directly to your bank account, and the EMI is billed separately from your credit card statement.</p>
+    `,
+    faqs: [
+      { question: "Is the HDFC Jumbo Loan limit separate from my credit limit?", answer: "Yes, a Jumbo Loan is issued over and above your existing credit card limit, meaning it won't block your regular card usage." },
+      { question: "Can I foreclose my HDFC Jumbo Loan?", answer: "Yes, you can foreclose the loan, but foreclosure charges (typically 3% of the outstanding principal) plus GST will apply." }
+    ]
+  },
+  {
+    slug: "icici-insta-personal-loan-calculator",
+    type: "loan-types",
+    title: "ICICI Insta Personal Loan EMI Calculator | EMICalculatorPro",
+    h1: "ICICI Insta Personal Loan EMI Calculator",
+    description: "Calculate EMI for ICICI Insta Personal Loan. Get instant breakdown of your monthly payments and interest costs.",
+    intro: "ICICI Bank offers Insta Personal Loans with quick disbursal for pre-approved customers. Use this calculator to know your EMI before accepting the offer.",
+    amount: 200000,
+    interestRate: 13.5,
+    tenure: 48,
+    date: "2026-08-25",
+    content: `
+      <h2>Quick Funds with ICICI Insta Personal Loan</h2>
+      <p>With zero physical documentation and funds disbursed in 3 seconds for select customers, this is one of the fastest ways to access cash. However, always calculate the EMI to ensure it fits comfortably within your monthly budget.</p>
+    `,
+    faqs: [
+      { question: "How fast is the ICICI Insta Personal Loan disbursed?", answer: "For pre-approved customers, the loan is typically disbursed into the ICICI bank account within 3 seconds of accepting the terms online." },
+      { question: "What is the typical interest rate?", answer: "Interest rates range from 10.75% to 19%, highly dependent on your relationship with the bank and your credit profile." }
+    ]
+  },
+  {
+    slug: "axis-24x7-personal-loan-calculator",
+    type: "loan-types",
+    title: "Axis Bank 24x7 Personal Loan EMI Calculator | EMICalculatorPro",
+    h1: "Axis Bank 24x7 Personal Loan EMI Calculator",
+    description: "Calculate your EMI for Axis Bank 24x7 Personal Loan. Compare rates and tenures.",
+    intro: "Axis Bank provides 24x7 personal loans with minimal documentation. Calculate your monthly installments and total interest payable.",
+    amount: 400000,
+    interestRate: 12.75,
+    tenure: 36,
+    date: "2026-08-25",
+    content: `
+      <h2>Flexible Borrowing with Axis Bank</h2>
+      <p>Whether it's for travel, a wedding, or a medical emergency, Axis Bank's 24x7 personal loans offer flexible tenures from 12 to 60 months. Use our tool to find the perfect balance between a low EMI and low total interest.</p>
+    `,
+    faqs: [
+      { question: "Can non-Axis bank customers apply for the 24x7 Personal Loan?", answer: "Yes, both existing and new customers can apply, though existing customers might get faster approvals and better rates." },
+      { question: "Are there any part-payment charges?", answer: "Axis Bank generally allows part-payment, but specific charges (often a percentage of the part-paid amount) apply depending on the loan agreement." }
+    ]
+  },
+  {
+    slug: "emi-calculator-10-lakh-personal-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹10 Lakh Personal Loan | EMICalculatorPro",
+    h1: "EMI Calculator for ₹10 Lakh Personal Loan",
+    description: "Calculate the exact EMI for a ₹10 Lakh personal loan. See the complete month-by-month amortization schedule.",
+    intro: "Planning to borrow ₹10 Lakhs? See exactly how much you'll pay every month and the total interest cost over your chosen tenure.",
+    amount: 1000000,
+    interestRate: 11.5,
+    tenure: 60,
+    date: "2026-08-25",
+    content: `
+      <h2>Breaking Down a ₹10 Lakh Personal Loan</h2>
+      <p>A ₹10 Lakh loan is a significant financial commitment. At an 11.5% interest rate over 5 years, your monthly EMI will be approximately ₹21,993. It's crucial to ensure your monthly income can comfortably support this outflow alongside your regular expenses.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 10 Lakh personal loan for 5 years?", answer: "At a standard interest rate of 11.5%, the EMI for a ₹10 Lakh personal loan over 5 years is approximately ₹21,993." },
+      { question: "What salary is required for a 10 Lakh personal loan?", answer: "Generally, banks look for a minimum net monthly income of ₹30,000 to ₹40,000 to approve a ₹10 Lakh loan, provided you have no other existing EMIs." }
+    ]
+  },
+  {
+    slug: "emi-calculator-15-lakh-personal-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹15 Lakh Personal Loan | EMICalculatorPro",
+    h1: "EMI Calculator for ₹15 Lakh Personal Loan",
+    description: "Calculate the EMI and total interest for a ₹15 Lakh personal loan. Compare 3-year vs 5-year repayment schedules.",
+    intro: "Calculate the monthly installments and total interest outlay for a ₹15 Lakh personal loan using our advanced calculator.",
+    amount: 1500000,
+    interestRate: 12.0,
+    tenure: 60,
+    date: "2026-08-25",
+    content: `
+      <h2>Managing a ₹15 Lakh Borrowing</h2>
+      <p>When borrowing a larger amount like ₹15 Lakhs, the interest rate significantly impacts the total cost. A slightly higher rate can add tens of thousands to your total repayment. Use this tool to negotiate better terms with your bank.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 15 Lakh personal loan for 5 years?", answer: "At an interest rate of 12%, the EMI for a ₹15 Lakh loan over 5 years is approximately ₹33,367." },
+      { question: "Is collateral required for a 15 Lakh loan?", answer: "If it's a personal loan, it is unsecured and does not require collateral. However, approval requires a very strong credit score and high income." }
+    ]
+  },
+  {
+    slug: "emi-calculator-20-lakh-personal-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹20 Lakh Personal Loan | EMICalculatorPro",
+    h1: "EMI Calculator for ₹20 Lakh Personal Loan",
+    description: "Find the EMI for a ₹20 Lakh personal loan. View the detailed amortization chart and interest breakdown.",
+    intro: "Need a high-value personal loan? Calculate the EMI for ₹20 Lakhs and understand the financial commitment before applying.",
+    amount: 2000000,
+    interestRate: 10.99,
+    tenure: 60,
+    date: "2026-08-25",
+    content: `
+      <h2>Financial Planning for a ₹20 Lakh Loan</h2>
+      <p>A ₹20 Lakh unsecured loan is typically approved for high-net-worth individuals or top corporate employees. With an EMI often exceeding ₹43,000, proper financial planning is essential to avoid default.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 20 Lakh personal loan for 5 years?", answer: "Assuming an interest rate of 10.99%, the EMI would be approximately ₹43,485." },
+      { question: "Can I get a 20 Lakh personal loan for 7 years?", answer: "While standard personal loans max out at 5 years (60 months), some banks may offer up to 6 or 7 years for specific profiles or under specific schemes." }
+    ]
+  },
+  {
+    slug: "personal-loan-3-years-vs-5-years",
+    type: "tenure-comparison",
+    title: "Personal Loan: 3 Years vs 5 Years Tenure Comparison | EMICalculatorPro",
+    h1: "Personal Loan: 3 Years vs 5 Years",
+    description: "Compare the EMI and total interest paid for a personal loan over a 3-year versus a 5-year tenure.",
+    intro: "Should you choose a 3-year or a 5-year tenure for your personal loan? Compare the monthly burden and the total interest cost here.",
+    amount: 800000,
+    interestRate: 12.5,
+    tenure: 36,
+    date: "2026-08-25",
+    content: `
+      <h2>Choosing the Right Tenure for Your Personal Loan</h2>
+      <p>The tenure you choose drastically changes the economics of your loan. A 3-year loan means a higher monthly EMI but lower total interest. A 5-year loan reduces your monthly burden but increases the bank's profit from your interest payments.</p>
+      <p>If your cash flow permits, always opt for the shorter 3-year tenure to get out of debt faster and save money.</p>
+    `,
+    faqs: [
+      { question: "Which is better: a 3-year or 5-year personal loan?", answer: "A 3-year loan is financially better as you pay less total interest. However, a 5-year loan might be necessary if the 3-year EMI exceeds your monthly affordability." },
+      { question: "Does a longer tenure affect loan approval?", answer: "A longer tenure reduces your monthly EMI, which lowers your Fixed Obligation to Income Ratio (FOIR). This can actually increase your chances of loan approval if your income is on the lower side." }
+    ]
+  },
+  {
     slug: "hdfc-personal-loan-prepayment-calculator",
     type: "loan-types",
     title: "HDFC Personal Loan Prepayment Calculator | EMICalculatorPro",

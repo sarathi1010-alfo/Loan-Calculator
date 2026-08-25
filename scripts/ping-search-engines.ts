@@ -7,6 +7,19 @@ async function pingSearchEngines() {
   console.log("--- Search Engine Notification System ---");
 
   const newUrls = [
+    // New Tier 1 (2026-08-25)
+    `${SITE_URL}/blog/personal-loan-interest-rate-comparison-2026`,
+
+    // New Tier 2 (2026-08-25)
+    `${SITE_URL}/loan-types/sbi-pension-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/hdfc-jumbo-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/icici-insta-personal-loan-calculator`,
+    `${SITE_URL}/loan-types/axis-24x7-personal-loan-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-10-lakh-personal-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-15-lakh-personal-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-20-lakh-personal-loan`,
+    `${SITE_URL}/tenure-comparison/personal-loan-3-years-vs-5-years`,
+
     // New Tier 1 (2026-08-24)
     `${SITE_URL}/blog/fixed-vs-floating-interest-rate-2026`,
 

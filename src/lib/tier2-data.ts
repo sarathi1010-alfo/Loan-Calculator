@@ -332,8 +332,6 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Does a prepayment in year 10 still help?", answer: "Yes, it still reduces your total interest and tenure, but the savings are significantly less than making the same payment in year 5." }
     ]
   },
-
-
   {
     slug: "home-loan-balance-transfer-calculator",
     type: "loan-types",
@@ -494,7 +492,6 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Can I increase my tenure when transferring my balance?", answer: "Yes, many lenders allow you to extend the tenure when you transfer your loan, which lowers your EMI, though it increases the total interest paid." }
     ]
   },
-
   {
     slug: "home-loan-prepayment-calculator",
     type: "loan-types",
@@ -655,7 +652,6 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "When should I choose a 10-year tenure over a 5-year one?", answer: "Choose the longer tenure if the 5-year EMI pushes your EMI-to-Income ratio beyond 40-50%, risking your monthly financial stability." }
     ]
   },
-
   {
     slug: "home-renovation-loan-emi-calculator",
     type: "loan-types",
@@ -816,8 +812,6 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Is it a good idea to take a 30-year loan and prepay?", answer: "Yes, this is a common strategy. You take a 30-year loan for the safety of a lower mandatory EMI but make regular prepayments as if it were a 20-year loan, giving you both flexibility and interest savings." }
     ]
   },
-
-
   {
     slug: "fixed-rate-home-loan-calculator",
     type: "loan-types",
@@ -1138,8 +1132,6 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Is a 12-month loan too aggressive?", answer: "It depends on your income. If the 12-month EMI exceeds 40% of your take-home pay, it might be too risky, and the 24-month option is safer for your daily budget." }
     ]
   },
-
-
   {
     slug: "education-loan-emi-calculator",
     type: "loan-types",
@@ -1240,7 +1232,6 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Which tenure is better for a 5 Lakh loan?", answer: "It depends on your monthly cash flow. If you can afford the higher EMI, a 1-year tenure saves you significant interest. If cash flow is tight, a 5-year tenure is safer." }
     ]
   },
-
   {
     slug: "lap-emi-calculator",
     type: "loan-types",
@@ -1401,7 +1392,6 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "How much interest can I save by choosing a 10-year tenure?", answer: "The savings depend on the loan amount and interest rate, but it can often amount to several lakhs over the life of the loan." }
     ]
   },
-
   {
     slug: "medical-loan-emi-calculator",
     type: "loan-types",
@@ -1609,9 +1599,7 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "What is the EMI difference between 15 and 20 years?", answer: "On a ₹50 Lakh loan at 8.5%, the 15-year EMI is roughly ₹49,237, while the 20-year EMI is ₹43,391." },
       { question: "Can I change my 20-year loan to a 15-year loan later?", answer: "Yes, you can usually increase your EMI amount with your lender, effectively reducing your remaining tenure without needing to officially refinance." }
     ]
-  }
-,
-
+  },
   {
     slug: "laptop-loan-emi-calculator",
     type: "loan-types",
@@ -2035,7 +2023,6 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "What is the EMI difference between 7 and 10 years?", answer: "For a ₹20 Lakh loan at 10%, the 7-year EMI is roughly ₹33,200, while the 10-year EMI is roughly ₹26,430." }
     ]
   },
-
   {
     slug: "scooter-loan-emi-calculator",
     type: "loan-types",
@@ -2196,8 +2183,6 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "How much total interest will I pay on 35 Lakhs over 20 years?", answer: "At 8.5%, the total interest will be around ₹37.9 Lakhs—more than the principal amount." }
     ]
   },
-
-
   {
     slug: "bike-loan-emi-calculator",
     type: "loan-types",
@@ -2576,7 +2561,6 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "How much interest do I save with a 1-year loan?", answer: "On a ₹1 Lakh loan at 12%, a 1-year loan costs ~₹6,619 in interest, while a 5-year loan costs ~₹33,467. You save over ₹26,000 by paying it off faster." }
     ]
   },
-
   {
     slug: "business-loan-emi-calculator",
     type: "loan-types",
@@ -2927,7 +2911,6 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Does a floating rate change my EMI or my tenure?", answer: "Usually, banks increase your loan tenure when rates go up to keep your EMI constant. However, if you hit a maximum age limit, they will increase the EMI." }
     ]
   },
-
   {
     type: "loan-types",
     slug: "home-loan-emi-guide",
@@ -2964,7 +2947,7 @@ export const TIER2_PAGES: Tier2Page[] = [
       {
         question: "Is home loan interest calculated daily or monthly?",
         answer: "Most banks in India calculate home loan interest on a monthly reducing balance basis."
-      }
+      },
     ],
   },
   {
@@ -3000,7 +2983,7 @@ export const TIER2_PAGES: Tier2Page[] = [
       {
         question: "How much personal loan can I get?",
         answer: "Typically, banks allow a loan amount where the EMI does not exceed 40-50% of your net monthly income, including existing obligations."
-      }
+      },
     ],
   },
   {
@@ -3038,7 +3021,7 @@ export const TIER2_PAGES: Tier2Page[] = [
       {
         question: "Can I transfer my existing home loan to SBI?",
         answer: "Yes, SBI offers a Home Loan Balance Transfer facility, often at very attractive rates to encourage borrowers to switch."
-      }
+      },
     ],
   },
   {
@@ -3076,11 +3059,9 @@ export const TIER2_PAGES: Tier2Page[] = [
       {
         question: "Are there any prepayment charges for HDFC home loans?",
         answer: "For floating rate home loans, HDFC Bank does not charge any prepayment penalties, allowing you to pay off the loan early without extra costs."
-      }
+      },
     ],
-  }
-
-,
+  },
   {
     slug: "icici-car-loan-emi-calculator",
     type: "loan-types",
@@ -3273,9 +3254,8 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Is a CIBIL score required for a Bajaj Finserv personal loan?", answer: "Yes, a good CIBIL score (usually 750+) is required to get the best interest rates." },
       { question: "How is the EMI calculated for Bajaj Finserv?", answer: "It is calculated using the standard reducing-balance EMI formula." }
     ]
-  }
-,
-{
+  },
+  {
     slug: "two-wheeler-loan-emi-calculator",
     type: "loan-types",
     title: "Two-Wheeler Loan EMI Calculator | Check Bike Loan EMI",
@@ -3531,9 +3511,7 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "How much lower is the EMI on a 25-year loan?", answer: "For a ₹50 Lakh loan at 8.5%, the EMI on a 25-year loan is only about ₹3,130 less than the EMI on a 20-year loan." },
       { question: "Can I shorten my 25-year loan later?", answer: "Yes, you can dramatically shorten your effective tenure and save interest by making regular, partial prepayments against the principal amount." }
     ]
-  }
-,
-
+  },
   {
     slug: "axis-home-loan-emi-calculator",
     type: "loan-types",
@@ -3857,7 +3835,6 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Should I prioritize lower EMI or lower total interest?", answer: "For smaller personal loans, it is generally advised to choose the shortest tenure you can comfortably afford to minimize interest costs." }
     ]
   },
-
   {
     slug: "debt-consolidation-emi-calculator",
     type: "loan-types",
@@ -4179,7 +4156,160 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "How much can I save with a floating rate on a 10-year loan?", answer: "If the floating rate stays 1% lower than the fixed rate, you can save over ₹1.6 Lakhs in interest over 10 years on a ₹25 Lakh loan." },
       { question: "Is the floating rate risky?", answer: "Yes, if market rates soar, the floating rate could surpass the fixed rate, erasing your early savings." }
     ]
-  }
+  },
+  {
+    slug: "sbi-personal-loan-prepayment-calculator",
+    type: "loan-types",
+    title: "SBI Personal Loan Prepayment Calculator | EMICalculatorPro",
+    h1: "SBI Personal Loan Prepayment Calculator",
+    description: "Calculate how much interest you can save by prepaying your SBI personal loan in 2026.",
+    intro: "Planning to prepay your SBI personal loan? Use our calculator to see the exact interest savings and tenure reduction.",
+    amount: 500000,
+    interestRate: 11.5,
+    tenure: 60,
+    date: "2026-08-28",
+    content: `
+      <h2>SBI Personal Loan Prepayment Rules</h2>
+      <p>SBI allows prepayment of personal loans after a certain number of EMIs have been paid. Calculate your savings before paying the bank's prepayment penalty.</p>
+    `,
+    faqs: [
+      { question: "What is the prepayment penalty for SBI personal loans?", answer: "Usually, SBI charges up to 3% of the prepaid amount as a penalty, plus applicable taxes." }
+    ]
+  },
+  {
+    slug: "hdfc-car-loan-prepayment-calculator",
+    type: "loan-types",
+    title: "HDFC Car Loan Prepayment Calculator | EMICalculatorPro",
+    h1: "HDFC Car Loan Prepayment Calculator",
+    description: "Use the HDFC car loan prepayment calculator to determine your savings when closing your auto loan early.",
+    intro: "Foreclose or partially prepay your HDFC car loan. Our calculator reveals how much interest you will save.",
+    amount: 800000,
+    interestRate: 9.0,
+    tenure: 84,
+    date: "2026-08-28",
+    content: `
+      <h2>HDFC Car Loan Foreclosure</h2>
+      <p>Paying off your HDFC car loan early can save you a significant amount of money in interest, provided the savings exceed the foreclosure charges.</p>
+    `,
+    faqs: [
+      { question: "Can I foreclose my HDFC car loan online?", answer: "Yes, you can initiate the foreclosure process through HDFC's net banking portal." }
+    ]
+  },
+  {
+    slug: "axis-home-loan-prepayment-calculator",
+    type: "loan-types",
+    title: "Axis Bank Home Loan Prepayment Calculator | EMICalculatorPro",
+    h1: "Axis Bank Home Loan Prepayment Calculator",
+    description: "Calculate your EMI savings after making a partial prepayment on your Axis Bank home loan.",
+    intro: "Got a bonus? See how prepaying a portion of your Axis Bank home loan reduces your EMI or tenure.",
+    amount: 5000000,
+    interestRate: 8.75,
+    tenure: 240,
+    date: "2026-08-28",
+    content: `
+      <h2>Axis Home Loan Prepayment Impact</h2>
+      <p>Since Axis Bank offers floating rate home loans with zero prepayment penalties for individuals, every rupee you prepay goes straight towards reducing your principal.</p>
+    `,
+    faqs: [
+      { question: "Are there prepayment charges on Axis Bank home loans?", answer: "No, individual borrowers with floating rate home loans do not pay prepayment penalties." }
+    ]
+  },
+  {
+    slug: "icici-education-loan-prepayment",
+    type: "loan-types",
+    title: "ICICI Education Loan Prepayment Calculator | EMICalculatorPro",
+    h1: "ICICI Education Loan Prepayment Calculator",
+    description: "Calculate the revised amortization schedule after prepaying your ICICI education loan.",
+    intro: "Clear your student debt faster. Calculate the impact of prepaying your ICICI education loan.",
+    amount: 1500000,
+    interestRate: 10.5,
+    tenure: 120,
+    date: "2026-08-28",
+    content: `
+      <h2>Prepaying ICICI Education Loans</h2>
+      <p>Prepaying an education loan not only saves interest but also frees you from debt early in your career, allowing you to focus on building wealth.</p>
+    `,
+    faqs: [
+      { question: "When should I prepay my education loan?", answer: "It is best to start prepaying as soon as you have a stable income, ideally right after the moratorium period ends." }
+    ]
+  },
+  {
+    slug: "emi-calculator-20-lakh-prepayment",
+    type: "scenarios",
+    title: "₹20 Lakh Loan Prepayment Calculator | EMICalculatorPro",
+    h1: "₹20 Lakh Loan Prepayment Calculator",
+    description: "See the financial impact of prepaying a ₹20 Lakh loan. Compare tenure reduction vs EMI reduction.",
+    intro: "Calculate your new schedule after making a lump sum payment towards a ₹20 Lakh loan.",
+    amount: 2000000,
+    interestRate: 9.5,
+    tenure: 120,
+    date: "2026-08-28",
+    content: `
+      <h2>₹20 Lakh Loan Prepayment Dynamics</h2>
+      <p>Prepaying even 10% (₹2 Lakhs) early in the tenure of a ₹20 Lakh loan can save you lakhs in interest and reduce your tenure by over a year.</p>
+    `,
+    faqs: [
+      { question: "How much will I save if I prepay 1 Lakh on a 20 Lakh loan?", answer: "The exact savings depend on the interest rate and remaining tenure, but it typically reduces the tenure by several months." }
+    ]
+  },
+  {
+    slug: "emi-calculator-40-lakh-prepayment",
+    type: "scenarios",
+    title: "₹40 Lakh Loan Prepayment Calculator | EMICalculatorPro",
+    h1: "₹40 Lakh Loan Prepayment Calculator",
+    description: "Calculate your savings after a partial prepayment on a ₹40 Lakh loan.",
+    intro: "Visualize the massive interest savings when you prepay a portion of a ₹40 Lakh loan.",
+    amount: 4000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-08-28",
+    content: `
+      <h2>Impact of Prepaying a ₹40 Lakh Loan</h2>
+      <p>For large loans like ₹40 Lakhs, early prepayments have a disproportionately large impact on reducing total interest payable.</p>
+    `,
+    faqs: [
+      { question: "Is it better to reduce EMI or tenure when prepaying?", answer: "Reducing tenure maximizes your overall interest savings, while reducing EMI helps with immediate monthly cash flow." }
+    ]
+  },
+  {
+    slug: "emi-calculator-80-lakh-prepayment",
+    type: "scenarios",
+    title: "₹80 Lakh Loan Prepayment Calculator | EMICalculatorPro",
+    h1: "₹80 Lakh Loan Prepayment Calculator",
+    description: "Calculate the revised amortization schedule after prepaying a large ₹80 Lakh loan.",
+    intro: "Prepaying an ₹80 Lakh loan can save you millions in interest. Calculate your exact savings here.",
+    amount: 8000000,
+    interestRate: 8.6,
+    tenure: 240,
+    date: "2026-08-28",
+    content: `
+      <h2>₹80 Lakh Loan Prepayment Strategy</h2>
+      <p>Using annual bonuses to make regular 5% prepayments on an ₹80 Lakh loan can cut a 20-year tenure down to 12-14 years.</p>
+    `,
+    faqs: [
+      { question: "Can I make multiple prepayments in a year?", answer: "Most banks allow multiple prepayments, but some may have minimum amount restrictions or a limit on the number of transactions per year." }
+    ]
+  },
+  {
+    slug: "prepayment-emi-vs-tenure-reduction",
+    type: "tenure-comparison",
+    title: "Prepayment: EMI Reduction vs Tenure Reduction Comparison",
+    h1: "Prepayment Comparison: Reduce EMI vs Reduce Tenure",
+    description: "Compare the mathematical differences between reducing your EMI or reducing your tenure after a loan prepayment.",
+    intro: "Made a prepayment? Decide whether to lower your monthly EMI or shorten your loan term with our comparison tool.",
+    amount: 3000000,
+    interestRate: 9.0,
+    tenure: 180,
+    date: "2026-08-28",
+    content: `
+      <h2>EMI vs Tenure Reduction</h2>
+      <p>When you make a partial prepayment, banks give you two choices. Reducing the EMI keeps your loan term the same but lowers your monthly burden. Reducing the tenure keeps your EMI the same but aggressively pays down the debt, maximizing interest savings.</p>
+    `,
+    faqs: [
+      { question: "Which option saves more money?", answer: "Reducing the tenure always saves significantly more money in total interest compared to reducing the EMI." }
+    ]
+  },
+
 ];
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {

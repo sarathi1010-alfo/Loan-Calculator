@@ -215,7 +215,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>Comparing loan interest rates is one of the most critical steps in the borrowing process. A minor difference of even 0.5% in your interest rate can result in savings or losses of lakhs of rupees over a long-term loan. However, lenders often use different terminology and calculation methods, making direct comparisons difficult. This guide will help you decode interest rate quotes and find the best deal.</p>
 
       <h2>Fixed vs. Floating Interest Rates</h2>
-      <p>The first major decision you will face is choosing between a fixed or floating interest rate.</p>
+      <p>The first major decision you will face is choosing between a <a href="/blog/prepayment-strategies-comparison-2026">fixed or floating interest rate (and how it impacts prepayment strategies)</a>.</p>
       <ul>
         <li><strong>Fixed Rate:</strong> The interest rate remains constant throughout the loan tenure. Your EMI will never change. This is ideal if rates are currently low and you want predictable monthly payments.</li>
         <li><strong>Floating Rate:</strong> The interest rate is tied to a benchmark (like the RBI repo rate). If the benchmark rate changes, your loan's interest rate and EMI (or tenure) will change. This is beneficial in a declining interest rate environment.</li>
@@ -1579,12 +1579,12 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "fixed-vs-floating-interest-rate-2026",
     title: "Fixed vs Floating Interest Rate: Which is Better in 2026?",
     description: "Compare fixed and floating interest rates for home and personal loans. Understand the pros, cons, and mathematical implications to make an informed decision.",
-    date: "2026-08-24",
+    date: "2026-08-28",
     category: "Loan Guides",
     answerBlock: "A fixed interest rate remains constant throughout the loan tenure, providing predictable EMIs. A floating interest rate fluctuates based on market conditions (like the repo rate), potentially lowering EMIs when rates drop but increasing them when rates rise. Choose fixed for certainty and floating for potential long-term savings, especially on long-tenure home loans.",
     content: `
       <h2>Fixed vs Floating Interest Rates: What's the Difference?</h2>
-      <p>When you take out a loan, one of the most critical decisions is choosing between a fixed or floating interest rate. This single choice can impact your monthly budget and the total interest paid over the life of the loan by hundreds of thousands of rupees.</p>
+      <p>When you take out a loan, one of the most critical decisions is choosing between a <a href="/blog/prepayment-strategies-comparison-2026">fixed or floating interest rate (and how it impacts prepayment strategies)</a>. This single choice can impact your monthly budget and the total interest paid over the life of the loan by hundreds of thousands of rupees.</p>
 
       <h2>What is a Fixed Interest Rate?</h2>
       <p>A fixed interest rate is exactly what it sounds like: the rate is locked in at the time of disbursement and remains unchanged throughout the entire tenure of the loan. Your EMI remains perfectly constant.</p>
@@ -1609,6 +1609,30 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Conclusion</h2>
       <p>Your choice depends on your risk tolerance and the current economic environment. If interest rates are historically low and expected to rise, lock in a fixed rate. If rates are high and expected to cool down, a floating rate is the strategic choice.</p>
+    `,
+  },
+  {
+    slug: "prepayment-strategies-comparison-2026",
+    title: "Prepayment Strategies 2026: Save Lakhs on Interest | EMICalculatorPro",
+    description: "Discover the best prepayment strategies for your loans in 2026. Learn how partial prepayments and foreclosure can save you lakhs in interest.",
+    date: "2026-08-28",
+    category: "Financial Planning",
+    answerBlock: "Prepayment strategies involve paying off a portion of your loan principal before the tenure ends. By making regular partial prepayments or a lump-sum foreclosure, you significantly reduce the principal balance, which in turn slashes your total interest payout and either reduces your EMI or shortens your loan tenure.",
+    content: `
+      <h2>How do prepayment strategies work?</h2>
+      <p>When you take out a long-term loan, the majority of your early EMIs go towards interest rather than the principal. Prepayment strategies help you break this cycle by directly reducing the principal amount.</p>
+
+      <h2>The Mathematics of Prepayment</h2>
+      <p>Using the standard EMI formula, reducing the principal (P) early on has a compounding effect on your savings. You can use our <a href="/">homepage calculator</a> to visualize how even a small annual prepayment can shorten your tenure by years.</p>
+
+      <h2>Types of Prepayments</h2>
+      <p>There are two main approaches: partial prepayment (making lump-sum payments while continuing the loan) and foreclosure (paying off the entire remaining balance at once). Both require careful analysis of any associated bank penalties.</p>
+
+      <h2>Step-by-Step Prepayment Planning</h2>
+      <p>To maximize savings, align your prepayments with your annual bonuses or tax refunds. For a detailed breakdown of different loan types, see our <a href="/#loan-types">Explore Specific Calculators</a> section.</p>
+
+      <h2>Conclusion</h2>
+      <p>Implementing a solid prepayment strategy is one of the most effective ways to achieve financial freedom faster. Always calculate the net benefit after factoring in any bank charges.</p>
     `,
   },
 ];

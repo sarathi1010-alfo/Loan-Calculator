@@ -218,6 +218,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-1-crore`,
     `${SITE_URL}/tenure-comparison/emi-10-years-vs-20-years`,
     `${SITE_URL}/tenure-comparison/emi-15-years-vs-30-years`,
+
+    // New Tier 1 (2026-08-28)
+    `${SITE_URL}/blog/prepayment-strategies-comparison-2026`,
+
+    // New Tier 2 (2026-08-28)
+    `${SITE_URL}/loan-types/sbi-personal-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/hdfc-car-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/axis-home-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/icici-education-loan-prepayment`,
+    `${SITE_URL}/scenarios/emi-calculator-20-lakh-prepayment`,
+    `${SITE_URL}/scenarios/emi-calculator-40-lakh-prepayment`,
+    `${SITE_URL}/scenarios/emi-calculator-80-lakh-prepayment`,
+    `${SITE_URL}/tenure-comparison/prepayment-emi-vs-tenure-reduction`,
   ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

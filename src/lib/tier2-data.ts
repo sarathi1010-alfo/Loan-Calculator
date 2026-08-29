@@ -4309,6 +4309,158 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Which option saves more money?", answer: "Reducing the tenure always saves significantly more money in total interest compared to reducing the EMI." }
     ]
   },
+  {
+    slug: "hdfc-personal-loan-interest-rates-2026",
+    type: "loan-types",
+    title: "HDFC Personal Loan Interest Rates 2026 | Negotiate Better EMI",
+    h1: "HDFC Personal Loan Interest Rates 2026",
+    description: "Calculate your EMI based on HDFC personal loan interest rates in 2026. Learn how to negotiate a lower rate to save money.",
+    intro: "Considering an HDFC personal loan? Use our calculator to see how a small reduction in interest rate impacts your monthly EMI.",
+    amount: 500000,
+    interestRate: 11.2,
+    tenure: 60,
+    date: "2026-08-29",
+    content: `
+      <h2>Negotiating HDFC Personal Loan Rates</h2>
+      <p>HDFC offers competitive personal loan rates, but a strong CIBIL score can help you negotiate even better terms. See exactly how much you can save with a reduced rate.</p>
+    `,
+    faqs: [
+      { question: "How can I get a lower interest rate on an HDFC personal loan?", answer: "Maintain a CIBIL score above 750, show a stable high income, and leverage existing relationships like a salary account." }
+    ]
+  },
+  {
+    slug: "sbi-car-loan-interest-rates-2026",
+    type: "loan-types",
+    title: "SBI Car Loan Interest Rates 2026 | EMI Calculator & Negotiation",
+    h1: "SBI Car Loan Interest Rates 2026",
+    description: "Compare SBI car loan interest rates and calculate your potential savings through negotiation. Ensure you get the best deal on your auto loan.",
+    intro: "SBI often has some of the lowest car loan rates. See how your EMI changes if you can negotiate a 0.5% discount.",
+    amount: 800000,
+    interestRate: 8.8,
+    tenure: 84,
+    date: "2026-08-29",
+    content: `
+      <h2>SBI Auto Loan Negotiation Tips</h2>
+      <p>SBI frequently runs festive offers, but you can also negotiate year-round by presenting a strong credit profile and bringing in competing quotes from other public banks.</p>
+    `,
+    faqs: [
+      { question: "Does SBI negotiate car loan interest rates?", answer: "Yes, branch managers often have some discretion, especially for customers with a long-standing history with the bank." }
+    ]
+  },
+  {
+    slug: "icici-home-loan-interest-rates-2026",
+    type: "loan-types",
+    title: "ICICI Home Loan Interest Rates 2026 | Save Lakhs by Negotiating",
+    h1: "ICICI Home Loan Interest Rates 2026",
+    description: "Calculate your ICICI home loan EMI and see how a lower interest rate can save you lakhs over a 20-year tenure.",
+    intro: "Home loans are huge commitments. See the massive impact of negotiating your ICICI home loan rate down by just a fraction of a percent.",
+    amount: 5000000,
+    interestRate: 8.6,
+    tenure: 240,
+    date: "2026-08-29",
+    content: `
+      <h2>Why You Must Negotiate ICICI Home Loan Rates</h2>
+      <p>On a 20-year, ₹50 Lakh loan, even a 0.1% reduction in the interest rate translates to significant savings. It is crucial to bargain effectively.</p>
+    `,
+    faqs: [
+      { question: "Can I negotiate my existing ICICI home loan rate?", answer: "Yes, you can request a rate conversion by paying a nominal conversion fee, provided current market rates are lower." }
+    ]
+  },
+  {
+    slug: "axis-education-loan-interest-rates-2026",
+    type: "loan-types",
+    title: "Axis Education Loan Interest Rates 2026 | EMI Calculator",
+    h1: "Axis Education Loan Interest Rates 2026",
+    description: "Calculate the EMI on an Axis Bank education loan and learn how securing a lower rate helps you pay off student debt faster.",
+    intro: "Plan your student loan repayment efficiently. Use our calculator to understand Axis Bank's education loan interest rates.",
+    amount: 1500000,
+    interestRate: 10.0,
+    tenure: 120,
+    date: "2026-08-29",
+    content: `
+      <h2>Axis Education Loan Rates Explained</h2>
+      <p>Education loan rates depend heavily on the course and university. Having a strong co-applicant with a solid credit history is your best tool for negotiating a lower rate with Axis Bank.</p>
+    `,
+    faqs: [
+      { question: "How does a co-applicant affect the education loan rate?", answer: "A co-applicant with a high credit score significantly reduces the bank's risk, allowing them to offer a lower interest rate." }
+    ]
+  },
+  {
+    slug: "emi-calculator-3-lakh-interest-negotiation",
+    type: "scenarios",
+    title: "₹3 Lakh Loan EMI Calculator: Interest Rate Negotiation Impact",
+    h1: "₹3 Lakh Loan EMI Calculator: Rate Negotiation",
+    description: "See the financial impact of negotiating a lower interest rate on a ₹3 Lakh personal loan.",
+    intro: "Even on a smaller ₹3 Lakh loan, a lower interest rate matters. Calculate the difference a successful negotiation makes.",
+    amount: 300000,
+    interestRate: 11.5,
+    tenure: 36,
+    date: "2026-08-29",
+    content: `
+      <h2>₹3 Lakh Loan: Does Negotiation Matter?</h2>
+      <p>While the total savings on a ₹3 Lakh loan are smaller than on a home loan, negotiating a lower rate still puts money back in your pocket every single month.</p>
+    `,
+    faqs: [
+      { question: "Should I bother negotiating rates for a 3 Lakh loan?", answer: "Yes, every rupee saved on interest is money you can use elsewhere. A lower rate also helps your overall financial health." }
+    ]
+  },
+  {
+    slug: "emi-calculator-15-lakh-interest-negotiation",
+    type: "scenarios",
+    title: "₹15 Lakh Loan EMI Calculator: Negotiating Better Rates",
+    h1: "₹15 Lakh Loan EMI Calculator: Rate Negotiation",
+    description: "Calculate your savings after successfully negotiating a lower interest rate on a mid-sized ₹15 Lakh loan.",
+    intro: "Visualize the significant interest savings when you negotiate a lower rate on a ₹15 Lakh loan.",
+    amount: 1500000,
+    interestRate: 9.5,
+    tenure: 60,
+    date: "2026-08-29",
+    content: `
+      <h2>Impact of Negotiating a ₹15 Lakh Loan</h2>
+      <p>For mid-sized loans like ₹15 Lakhs, negotiating a reduction in the interest rate can save you thousands of rupees over a 5-year tenure.</p>
+    `,
+    faqs: [
+      { question: "What is the best way to negotiate a 15 Lakh loan?", answer: "Bring a competing offer to your bank. If they know you can get a better rate elsewhere, they are more likely to match it." }
+    ]
+  },
+  {
+    slug: "emi-calculator-35-lakh-interest-negotiation",
+    type: "scenarios",
+    title: "₹35 Lakh Loan EMI Calculator | The Power of Negotiation",
+    h1: "₹35 Lakh Loan EMI Calculator: The Power of Negotiation",
+    description: "Calculate the revised amortization schedule and massive savings after negotiating a lower rate on a ₹35 Lakh loan.",
+    intro: "Negotiating an interest rate on a ₹35 Lakh loan can save you a fortune. Calculate your exact savings here.",
+    amount: 3500000,
+    interestRate: 8.75,
+    tenure: 180,
+    date: "2026-08-29",
+    content: `
+      <h2>₹35 Lakh Loan: High Stakes Negotiation</h2>
+      <p>On a ₹35 Lakh loan spread over 15 years, a fraction of a percent difference in the interest rate changes your total payout substantially.</p>
+    `,
+    faqs: [
+      { question: "How much can I save by negotiating a 0.5% lower rate on a 35 Lakh loan?", answer: "On a 15-year tenure, a 0.5% reduction can save you approximately ₹1.8 Lakhs in total interest." }
+    ]
+  },
+  {
+    slug: "interest-rate-negotiation-5-vs-10-years",
+    type: "tenure-comparison",
+    title: "Interest Rate Negotiation Impact: 5 Years vs 10 Years Comparison",
+    h1: "Rate Negotiation Impact: 5-Year vs 10-Year Loan",
+    description: "Compare the mathematical differences in savings when you negotiate a lower interest rate on a 5-year versus a 10-year loan.",
+    intro: "Does negotiating your interest rate matter more on a short or long loan? Compare the savings on a 5-year and 10-year term.",
+    amount: 2500000,
+    interestRate: 9.0,
+    tenure: 60,
+    date: "2026-08-29",
+    content: `
+      <h2>Negotiation Impact Over Time</h2>
+      <p>The longer your loan tenure, the more impactful an interest rate reduction becomes due to the compounding nature of interest over time. However, even on shorter loans, the monthly savings add up.</p>
+    `,
+    faqs: [
+      { question: "Is it more important to negotiate rates on long or short loans?", answer: "While always important, negotiating is absolutely critical for long-tenure loans because the total interest paid is much higher." }
+    ]
+  },
 
 ];
 

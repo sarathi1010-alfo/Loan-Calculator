@@ -231,6 +231,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-40-lakh-prepayment`,
     `${SITE_URL}/scenarios/emi-calculator-80-lakh-prepayment`,
     `${SITE_URL}/tenure-comparison/prepayment-emi-vs-tenure-reduction`,
+
+    // New Tier 1 (2026-08-29)
+    `${SITE_URL}/blog/interest-rate-negotiation-strategies-2026`,
+
+    // New Tier 2 (2026-08-29)
+    `${SITE_URL}/loan-types/hdfc-personal-loan-interest-rates-2026`,
+    `${SITE_URL}/loan-types/sbi-car-loan-interest-rates-2026`,
+    `${SITE_URL}/loan-types/icici-home-loan-interest-rates-2026`,
+    `${SITE_URL}/loan-types/axis-education-loan-interest-rates-2026`,
+    `${SITE_URL}/scenarios/emi-calculator-3-lakh-interest-negotiation`,
+    `${SITE_URL}/scenarios/emi-calculator-15-lakh-interest-negotiation`,
+    `${SITE_URL}/scenarios/emi-calculator-35-lakh-interest-negotiation`,
+    `${SITE_URL}/tenure-comparison/interest-rate-negotiation-5-vs-10-years`,
   ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

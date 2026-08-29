@@ -963,4 +963,58 @@ test.describe('Technical Verification', () => {
     expect(response?.status()).toBe(200);
     await expect(page.locator('h1')).toBeVisible();
   });
+
+  test('2026-08-29 Tier 1: interest-rate-negotiation-strategies-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/interest-rate-negotiation-strategies-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-29 Tier 2: hdfc-personal-loan-interest-rates-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-personal-loan-interest-rates-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-29 Tier 2: sbi-car-loan-interest-rates-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-car-loan-interest-rates-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-29 Tier 2: icici-home-loan-interest-rates-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-home-loan-interest-rates-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-29 Tier 2: axis-education-loan-interest-rates-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/axis-education-loan-interest-rates-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-29 Tier 2: emi-calculator-3-lakh-interest-negotiation', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-3-lakh-interest-negotiation`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-29 Tier 2: emi-calculator-15-lakh-interest-negotiation', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-15-lakh-interest-negotiation`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-29 Tier 2: emi-calculator-35-lakh-interest-negotiation', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-35-lakh-interest-negotiation`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-29 Tier 2: interest-rate-negotiation-5-vs-10-years', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/interest-rate-negotiation-5-vs-10-years`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
 });

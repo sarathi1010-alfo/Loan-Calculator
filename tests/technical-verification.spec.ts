@@ -1017,4 +1017,58 @@ test.describe('Technical Verification', () => {
     expect(response?.status()).toBe(200);
     await expect(page.locator('h1')).toBeVisible();
   });
+
+  test('2026-08-30 Tier 1: loan-prepayment-strategies-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/loan-prepayment-strategies-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-30 Tier 2: home-loan-prepayment-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/home-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-30 Tier 2: personal-loan-prepayment-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/personal-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-30 Tier 2: car-loan-prepayment-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/car-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-30 Tier 2: education-loan-prepayment-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/education-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-30 Tier 2: emi-calculator-12-lakh-prepayment', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-12-lakh-prepayment`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-30 Tier 2: emi-calculator-25-lakh-prepayment', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-25-lakh-prepayment`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-30 Tier 2: emi-calculator-50-lakh-prepayment', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-lakh-prepayment`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-30 Tier 2: home-loan-prepayment-5-vs-10-years', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/home-loan-prepayment-5-vs-10-years`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
 });

@@ -4462,7 +4462,168 @@ export const TIER2_PAGES: Tier2Page[] = [
     ]
   },
 
+  {
+    slug: "home-loan-prepayment-calculator",
+    type: "loan-types",
+    title: "Home Loan Prepayment Calculator 2026 | Save on Interest",
+    h1: "Home Loan Prepayment Calculator",
+    description: "Calculate how much you can save on your home loan by making partial prepayments. Plan your strategy to become debt-free faster.",
+    intro: "A home loan is a decades-long commitment, but it doesn't have to be. Use our prepayment calculator to see how extra payments can drastically reduce your tenure and save you lakhs in interest.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-08-30",
+    content: `
+      <h2>Why Prepay Your Home Loan?</h2>
+      <p>Because home loans use the reducing-balance method, extra payments early on have a massive compounding effect on your total interest payout.</p>
+    `,
+    faqs: [
+      { question: "Are there prepayment charges on home loans?", answer: "For individual borrowers on floating rate home loans, the RBI mandates zero prepayment penalty. Fixed-rate loans may still carry charges." },
+      { question: "Should I reduce tenure or EMI when prepaying?", answer: "Reducing the tenure will save you the maximum amount of interest over the life of the loan." }
+    ]
+  },
+  {
+    slug: "personal-loan-prepayment-calculator",
+    type: "loan-types",
+    title: "Personal Loan Prepayment Calculator | EMICalculatorPro",
+    h1: "Personal Loan Prepayment Calculator",
+    description: "Evaluate the benefits of prepaying your high-interest personal loan. Calculate net savings after accounting for foreclosure charges.",
+    intro: "Personal loans carry high interest rates. Prepaying them is almost always a good idea, provided you account for the bank's prepayment penalties in your calculations.",
+    amount: 500000,
+    interestRate: 14.0,
+    tenure: 60,
+    date: "2026-08-30",
+    content: `
+      <h2>The Cost of Prepaying Personal Loans</h2>
+      <p>Most banks charge between 2% and 5% as a prepayment or foreclosure penalty on personal loans. You must calculate if the interest saved exceeds this fee.</p>
+    `,
+    faqs: [
+      { question: "When can I prepay my personal loan?", answer: "Most banks have a lock-in period of 6 to 12 months before they allow partial or full prepayment of a personal loan." },
+      { question: "Is partial prepayment allowed?", answer: "Yes, but many banks restrict partial prepayments to a maximum of twice a year and require the amount to be at least twice your EMI." }
+    ]
+  },
+  {
+    slug: "car-loan-prepayment-calculator",
+    type: "loan-types",
+    title: "Car Loan Prepayment Calculator | Fast Auto Loan Payoff",
+    h1: "Car Loan Prepayment Calculator",
+    description: "See how early payoff strategies can help you clear your auto loan faster and save money.",
+    intro: "Cars are depreciating assets. Paying off your car loan early ensures you aren't paying interest on an asset that's losing value every day.",
+    amount: 800000,
+    interestRate: 9.5,
+    tenure: 60,
+    date: "2026-08-30",
+    content: `
+      <h2>Auto Loan Prepayment Strategies</h2>
+      <p>Paying off a car early frees up monthly cash flow. However, ensure you read the fine print regarding foreclosure charges before making a lump sum payment.</p>
+    `,
+    faqs: [
+      { question: "What is the typical lock-in period for a car loan?", answer: "Many lenders enforce a lock-in period of 6 months before allowing prepayment on an auto loan." },
+      { question: "Does prepaying a car loan hurt my credit score?", answer: "No, paying off debt early generally has a positive or neutral impact on your credit score, as it lowers your credit utilization and debt-to-income ratio." }
+    ]
+  },
+  {
+    slug: "education-loan-prepayment-calculator",
+    type: "loan-types",
+    title: "Education Loan Prepayment Calculator | Clear Student Debt",
+    h1: "Education Loan Prepayment Calculator",
+    description: "Calculate your savings by making early payments on your education loan after graduation.",
+    intro: "Graduating with debt can be stressful. Use this calculator to model how aggressive prepayment strategies can help you become debt-free faster.",
+    amount: 1500000,
+    interestRate: 10.5,
+    tenure: 120,
+    date: "2026-08-30",
+    content: `
+      <h2>Tackling Student Debt</h2>
+      <p>Many education loans have a moratorium period. Starting small prepayments even during this period can drastically reduce the principal before full EMIs begin.</p>
+    `,
+    faqs: [
+      { question: "Can I prepay an education loan during the moratorium?", answer: "Yes, many banks allow you to pay simple interest or make principal prepayments during the moratorium period, which significantly reduces the final EMI burden." },
+      { question: "Are there tax benefits on education loan prepayments?", answer: "Under Section 80E, only the interest paid is tax-deductible, not the principal prepayment." }
+    ]
+  },
+  {
+    slug: "emi-calculator-12-lakh-prepayment",
+    type: "scenarios",
+    title: "EMI Calculator for 12 Lakh Loan with Prepayment Strategy",
+    h1: "12 Lakh Loan Prepayment Scenario",
+    description: "Analyze the amortization schedule for a ₹12 Lakh loan and see the impact of annual prepayments.",
+    intro: "Planning a ₹12 Lakh loan? See exactly how adding just one extra EMI per year alters the amortization schedule and interest payout.",
+    amount: 1200000,
+    interestRate: 11.0,
+    tenure: 60,
+    date: "2026-08-30",
+    content: `
+      <h2>12 Lakh Loan Breakdown</h2>
+      <p>Explore the full amortization schedule and see the dramatic effect of a ₹50,000 annual prepayment.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 12 Lakh at 11% for 5 years?", answer: "The EMI is approximately ₹26,091." },
+      { question: "How much interest is saved with a ₹50k annual prepayment?", answer: "You can save over ₹60,000 in interest and shorten the loan by nearly 8 months." }
+    ]
+  },
+  {
+    slug: "emi-calculator-25-lakh-prepayment",
+    type: "scenarios",
+    title: "EMI Calculator for 25 Lakh Loan with Prepayment Strategy",
+    h1: "25 Lakh Loan Prepayment Scenario",
+    description: "Analyze the amortization schedule for a ₹25 Lakh loan and calculate the savings from lump sum prepayments.",
+    intro: "A ₹25 Lakh loan carries significant interest weight. Calculate how aggressive prepayment strategies can lift that burden.",
+    amount: 2500000,
+    interestRate: 9.0,
+    tenure: 120,
+    date: "2026-08-30",
+    content: `
+      <h2>25 Lakh Loan Breakdown</h2>
+      <p>See the visual pie chart showing how much of your payment goes to interest versus principal, and how prepayments alter that ratio.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 25 Lakh at 9% for 10 years?", answer: "The EMI is approximately ₹31,669." },
+      { question: "When is the best time to prepay this loan?", answer: "The most effective time is during the first 3-4 years when the interest component of the EMI is highest." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50-lakh-prepayment",
+    type: "scenarios",
+    title: "EMI Calculator for 50 Lakh Loan with Prepayment Strategy",
+    h1: "50 Lakh Loan Prepayment Scenario",
+    description: "Model long-term prepayment strategies on a massive ₹50 Lakh home loan to save lakhs in interest.",
+    intro: "A ₹50 Lakh home loan is a major commitment. Discover how increasing your EMI by just 5% annually can shave years off your 20-year term.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-08-30",
+    content: `
+      <h2>50 Lakh Loan Breakdown</h2>
+      <p>Use our tools to model the 'Step-Up' prepayment strategy and visualize the long-term savings.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 50 Lakh at 8.5% for 20 years?", answer: "The EMI is approximately ₹43,391." },
+      { question: "How much interest is saved by increasing EMI by 5% yearly?", answer: "A 5% annual increase can reduce your 20-year tenure to around 12 years, saving over ₹15 Lakh in interest." }
+    ]
+  },
+  {
+    slug: "home-loan-prepayment-5-vs-10-years",
+    type: "tenure-comparison",
+    title: "Home Loan Prepayment: Impact After 5 vs 10 Years",
+    h1: "Prepayment Timing: 5 Years vs 10 Years",
+    description: "Compare the mathematical impact of making a large lump sum prepayment early (Year 5) versus later (Year 10) in your loan term.",
+    intro: "Timing is everything in debt management. See the mathematical proof of why early prepayments are vastly superior to later ones.",
+    amount: 4000000,
+    interestRate: 8.75,
+    tenure: 240,
+    date: "2026-08-30",
+    content: `
+      <h2>The Compounding Effect of Early Prepayment</h2>
+      <p>Because interest is calculated on the reducing balance, reducing the principal in Year 5 saves you 15 years of compounded interest, compared to only 10 years if you wait until Year 10.</p>
+    `,
+    faqs: [
+      { question: "Why does early prepayment save more money?", answer: "Because in the early years of a loan, your principal balance is highest, meaning you are being charged the maximum amount of interest. Reducing it early prevents future interest from compounding." },
+      { question: "Is it ever too late to prepay?", answer: "While early is better, any prepayment that reduces your principal before the loan naturally ends will result in some interest savings." }
+    ]
+  }
 ];
+
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {
   return TIER2_PAGES.find((page) => page.slug === slug && page.type === type);

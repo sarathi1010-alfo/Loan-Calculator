@@ -7,6 +7,19 @@ async function pingSearchEngines() {
   console.log("--- Search Engine Notification System ---");
 
   const newUrls = [
+    // New Tier 1 (2026-08-30)
+    `${SITE_URL}/blog/loan-prepayment-strategies-2026`,
+
+    // New Tier 2 (2026-08-30)
+    `${SITE_URL}/loan-types/home-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/personal-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/car-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/education-loan-prepayment-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-12-lakh-prepayment`,
+    `${SITE_URL}/scenarios/emi-calculator-25-lakh-prepayment`,
+    `${SITE_URL}/scenarios/emi-calculator-50-lakh-prepayment`,
+    `${SITE_URL}/tenure-comparison/home-loan-prepayment-5-vs-10-years`,
+
     // New Tier 1 (2026-08-25)
     `${SITE_URL}/blog/personal-loan-interest-rate-comparison-2026`,
 

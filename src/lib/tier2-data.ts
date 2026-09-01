@@ -15,6 +15,167 @@ export interface Tier2Page {
 
 export const TIER2_PAGES: Tier2Page[] = [
   {
+    slug: "msme-loan-emi-calculator",
+    type: "loan-types",
+    title: "MSME Loan EMI Calculator | Check Monthly EMIs",
+    h1: "MSME Loan EMI Calculator",
+    description: "Calculate your MSME loan EMI accurately. Plan your small business financing with clear amortization schedules.",
+    intro: "Fueling your small business requires capital. Whether expanding operations or buying inventory, MSME loans offer specialized rates. Use this calculator to plan your monthly business obligations.",
+    amount: 1500000,
+    interestRate: 11.5,
+    tenure: 48,
+    date: "2026-08-31",
+    content: `
+      <h2>MSME Loan Repayment Strategies</h2>
+      <p>Managing cash flow is the biggest challenge for MSMEs. Ensuring your EMI fits comfortably within your monthly operating budget is critical to avoid default and maintain a healthy business credit score.</p>
+    `,
+    faqs: [
+      { question: "What is an MSME loan?", answer: "MSME loans are financial products specifically designed for Micro, Small, and Medium Enterprises to support their growth, working capital, or asset acquisition needs." },
+      { question: "Are MSME loan rates fixed?", answer: "Lenders offer both fixed and floating rates, but many MSMEs prefer fixed rates for predictable monthly outflow." }
+    ]
+  },
+  {
+    slug: "working-capital-loan-emi-calculator",
+    type: "loan-types",
+    title: "Working Capital Loan EMI Calculator | EMICalculatorPro",
+    h1: "Working Capital Loan EMI Calculator",
+    description: "Calculate the cost of your working capital loan. Plan for short-term operational expenses and manage cash flow.",
+    intro: "Working capital loans keep the daily operations of your business running smoothly during cash crunches. Calculate your potential EMI to see how it impacts your bottom line.",
+    amount: 800000,
+    interestRate: 13.0,
+    tenure: 24,
+    date: "2026-08-31",
+    content: `
+      <h2>Short-term Financing for Operations</h2>
+      <p>Working capital loans typically have shorter tenures than term loans. This means higher EMIs but a faster payoff, reducing the total interest burden on your operations.</p>
+    `,
+    faqs: [
+      { question: "What is a working capital loan used for?", answer: "It is used to cover everyday operational expenses like payroll, rent, and inventory, rather than long-term investments or assets." },
+      { question: "Do working capital loans require collateral?", answer: "Some do, but many are unsecured, which is why they often carry slightly higher interest rates than secured term loans." }
+    ]
+  },
+  {
+    slug: "equipment-finance-emi-calculator",
+    type: "loan-types",
+    title: "Equipment Finance EMI Calculator | Business Asset Planning",
+    h1: "Equipment Finance EMI Calculator",
+    description: "Determine the monthly cost of financing new business equipment or machinery with our specialized EMI calculator.",
+    intro: "Upgrading technology or machinery is vital for staying competitive. Equipment financing allows you to acquire these assets without draining your cash reserves.",
+    amount: 2500000,
+    interestRate: 9.5,
+    tenure: 60,
+    date: "2026-08-31",
+    content: `
+      <h2>Secured Asset Financing</h2>
+      <p>Because the equipment itself serves as collateral, these loans often feature lower interest rates. Calculate your EMI to align the equipment's expected ROI with your monthly payments.</p>
+    `,
+    faqs: [
+      { question: "Is a down payment required for equipment finance?", answer: "Usually, yes. Lenders typically finance 80% to 90% of the equipment's value, requiring a 10% to 20% margin from the borrower." },
+      { question: "Can I claim depreciation on financed equipment?", answer: "Yes, businesses can typically claim depreciation on the equipment as well as tax deductions on the interest paid, subject to local tax laws." }
+    ]
+  },
+  {
+    slug: "startup-business-loan-calculator",
+    type: "loan-types",
+    title: "Startup Business Loan EMI Calculator | Plan Your Launch",
+    h1: "Startup Business Loan EMI Calculator",
+    description: "Calculate potential EMIs for your new business venture. Plan your startup costs and monthly repayment obligations safely.",
+    intro: "Launching a startup requires careful financial modeling. Estimate your monthly debt obligations to ensure your business plan is viable before you approach lenders.",
+    amount: 500000,
+    interestRate: 14.5,
+    tenure: 36,
+    date: "2026-08-31",
+    content: `
+      <h2>Navigating Early-Stage Debt</h2>
+      <p>Startups often face higher interest rates due to a lack of operational history. Keeping tenures manageable while ensuring you have enough runway is the delicate balance of startup financing.</p>
+    `,
+    faqs: [
+      { question: "Are startup loans hard to get?", answer: "They can be, as lenders view startups as high-risk. A solid business plan, good personal credit, and sometimes collateral are essential." },
+      { question: "What is the typical interest rate for a startup loan?", answer: "Rates vary widely but are generally higher than established business loans, often ranging from 12% to 18% depending on the borrower's profile." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50-lakh-business-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹50 Lakh Business Loan | Amortization Schedule",
+    h1: "₹50 Lakh Business Loan Scenario",
+    description: "Analyze the EMI and full amortization schedule for a ₹50 Lakh business loan. Plan your commercial debt effectively.",
+    intro: "A ₹50 Lakh loan is a significant commercial commitment. Visualize the breakdown of principal and interest to make informed financial decisions for your company.",
+    amount: 5000000,
+    interestRate: 10.5,
+    tenure: 60,
+    date: "2026-08-31",
+    content: `
+      <h2>₹50 Lakh Commercial Debt Breakdown</h2>
+      <p>Use the pie chart to understand how much of your total payment is going towards servicing the interest over a standard 5-year tenure.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 50 Lakh business loan for 5 years?", answer: "Assuming a 10.5% interest rate, the monthly EMI would be approximately ₹1,07,469." },
+      { question: "How can I reduce the EMI burden?", answer: "Negotiating a lower interest rate or opting for a slightly longer tenure (e.g., 7 years) can reduce the monthly cash outflow." }
+    ]
+  },
+  {
+    slug: "emi-calculator-1-crore-business-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹1 Crore Business Loan | Commercial Planning",
+    h1: "₹1 Crore Business Loan Scenario",
+    description: "Plan your major corporate expansion. Calculate the EMI and interest on a ₹1 Crore business term loan.",
+    intro: "Scaling operations often requires substantial capital. See exactly what a ₹1 Crore debt obligation looks like on your monthly balance sheet.",
+    amount: 10000000,
+    interestRate: 9.8,
+    tenure: 120,
+    date: "2026-08-31",
+    content: `
+      <h2>₹1 Crore Expansion Financing</h2>
+      <p>For loans of this size, even a 0.25% difference in interest rate translates to lakhs in savings. Thoroughly review the amortization schedule before signing.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 1 Crore business loan over 10 years?", answer: "At an interest rate of 9.8%, the monthly EMI is around ₹1,30,815." },
+      { question: "Is a 10-year tenure common for business loans?", answer: "10-year tenures are typically reserved for large-scale expansion, commercial real estate, or heavy machinery financing, rather than standard working capital." }
+    ]
+  },
+  {
+    slug: "emi-calculator-5-crore-business-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹5 Crore Business Loan | Enterprise Level",
+    h1: "₹5 Crore Business Loan Scenario",
+    description: "Enterprise-level EMI calculation for a ₹5 Crore commercial loan. View the comprehensive amortization schedule.",
+    intro: "Large-scale acquisitions and infrastructure projects demand serious capital. Model the long-term impact of a ₹5 Crore facility on your corporate finances.",
+    amount: 50000000,
+    interestRate: 9.25,
+    tenure: 180,
+    date: "2026-08-31",
+    content: `
+      <h2>Enterprise Corporate Debt Strategy</h2>
+      <p>Managing a ₹5 Crore loan requires precise cash flow forecasting. The amortization schedule below highlights the long-term cost of capital for your enterprise.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 5 Crore at 9.25% for 15 years?", answer: "The monthly installment would be approximately ₹51,46,000 depending on exact compounding terms." },
+      { question: "How does this impact the corporate balance sheet?", answer: "It significantly increases liabilities, but the interest paid serves as a substantial tax deduction for the corporation." }
+    ]
+  },
+  {
+    slug: "business-loan-3-years-vs-5-years",
+    type: "tenure-comparison",
+    title: "Business Loan Tenure: 3 Years vs 5 Years Comparison",
+    h1: "Business Loan Comparison: 3 Years vs 5 Years",
+    description: "Compare the monthly EMI and total interest paid on a business loan over a 3-year versus a 5-year tenure.",
+    intro: "Should you prioritize a lower monthly payment or lower total interest? Compare a 3-year aggressive payoff vs a 5-year conservative approach for your business loan.",
+    amount: 2000000,
+    interestRate: 11.0,
+    tenure: 60,
+    date: "2026-08-31",
+    content: `
+      <h2>Cash Flow vs. Total Cost</h2>
+      <p>A 3-year term minimizes total interest but demands a higher monthly EMI, stressing working capital. A 5-year term eases monthly cash flow but increases the overall cost of borrowing.</p>
+    `,
+    faqs: [
+      { question: "Why choose a 5-year tenure for a business loan?", answer: "A 5-year tenure results in a smaller monthly EMI, leaving more working capital in the business for day-to-day operations and unexpected expenses." },
+      { question: "How much interest do I save with a 3-year term?", answer: "On a ₹20 Lakh loan at 11%, choosing 3 years instead of 5 saves over ₹2.5 Lakh in total interest." }
+    ]
+  }
+,
+  {
     slug: "sbi-pension-loan-emi-calculator",
     type: "loan-types",
     title: "SBI Pension Loan EMI Calculator | EMICalculatorPro",

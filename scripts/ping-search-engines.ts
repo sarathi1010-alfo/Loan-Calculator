@@ -257,6 +257,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-15-lakh-interest-negotiation`,
     `${SITE_URL}/scenarios/emi-calculator-35-lakh-interest-negotiation`,
     `${SITE_URL}/tenure-comparison/interest-rate-negotiation-5-vs-10-years`,
+    // New Tier 1 (2026-08-31)
+    `${SITE_URL}/blog/business-loan-emi-planning-guide-2026`,
+
+    // New Tier 2 (2026-08-31)
+    `${SITE_URL}/loan-types/msme-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/working-capital-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/equipment-finance-emi-calculator`,
+    `${SITE_URL}/loan-types/startup-business-loan-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-50-lakh-business-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-1-crore-business-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-5-crore-business-loan`,
+    `${SITE_URL}/tenure-comparison/business-loan-3-years-vs-5-years`,
+
   ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

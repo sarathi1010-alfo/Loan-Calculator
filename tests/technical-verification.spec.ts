@@ -1071,4 +1071,58 @@ test.describe('Technical Verification', () => {
     expect(response?.status()).toBe(200);
     await expect(page.locator('h1')).toBeVisible();
   });
+
+  test('2026-08-31 Tier 1: business-loan-emi-planning-guide-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/business-loan-emi-planning-guide-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-31 Tier 2: msme-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/msme-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-31 Tier 2: working-capital-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/working-capital-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-31 Tier 2: equipment-finance-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/equipment-finance-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-31 Tier 2: startup-business-loan-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/startup-business-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-31 Tier 2: emi-calculator-50-lakh-business-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-lakh-business-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-31 Tier 2: emi-calculator-1-crore-business-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-1-crore-business-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-31 Tier 2: emi-calculator-5-crore-business-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-5-crore-business-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-08-31 Tier 2: business-loan-3-years-vs-5-years', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/business-loan-3-years-vs-5-years`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
 });

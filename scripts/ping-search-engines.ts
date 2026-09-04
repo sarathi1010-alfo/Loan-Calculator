@@ -270,6 +270,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-5-crore-business-loan`,
     `${SITE_URL}/tenure-comparison/business-loan-3-years-vs-5-years`,
 
+    // New Tier 1 (2026-09-01)
+    `${SITE_URL}/blog/how-to-refinance-a-loan-2026`,
+
+    // New Tier 2 (2026-09-01)
+    `${SITE_URL}/loan-types/home-loan-refinance-calculator`,
+    `${SITE_URL}/loan-types/personal-loan-refinance-calculator`,
+    `${SITE_URL}/loan-types/auto-loan-refinance-calculator`,
+    `${SITE_URL}/loan-types/education-loan-refinance-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-30-lakh-refinance`,
+    `${SITE_URL}/scenarios/emi-calculator-40-lakh-refinance`,
+    `${SITE_URL}/scenarios/emi-calculator-60-lakh-refinance`,
+    `${SITE_URL}/tenure-comparison/refinance-5-years-vs-10-years`,
+
   ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

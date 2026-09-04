@@ -25,3 +25,31 @@ Carousel: Slide 1 (Business Loan types), Slide 2 (EMI breakdown for ₹50 Lakh),
 Story: Poll: "Does your business use term loans or working capital loans?" + link to the calculator.
 
 Reel: Screen recording of using the MSME loan calculator and viewing the pie chart breakdown of principal vs interest.
+
+For LinkedIn (Financial Thought Leadership):
+
+Post: "Are you paying more interest than you should? Refinancing a loan in 2026 can unlock significant cash flow, provided you do the math right. Check out our new guide to understand when and how to refinance."
+
+Post: "A 0.5% drop in interest rates might not sound like much, but on a 20-year, ₹60 Lakh loan, it could save you ₹5 Lakh. Calculate your refinancing potential today."
+
+For Twitter/X (Punchy Data Tips):
+
+Tweet: "Stuck with a high-interest loan? Don't settle. Refinance! 🔄 A small drop in your interest rate can save you lakhs over time. Run the numbers on our new calculator."
+
+Tweet: "Refinancing a loan? Don't forget the foreclosure charges! Your net savings = Total Interest Saved - Processing Fees - Penalties. Know the math."
+
+Tweet: "Fact: Refinancing early in your loan tenure saves you substantially more than refinancing later. Beat compounding interest at its own game."
+
+For Facebook (Community Engagement):
+
+Post: Carousel showing "Step 1: Check your rate", "Step 2: Compare offers", and "Step 3: Calculate net savings". "Ready to lower your EMI? See if refinancing makes sense for you with our new tools."
+
+Post: "Does your current loan feel like a burden? See exactly how much you can save by refinancing to a lower rate. Check out our detailed amortization comparison."
+
+For Instagram (Visual Data):
+
+Carousel: Slide 1 (When to refinance checklist), Slide 2 (EMI breakdown before and after refinancing), Slide 3 (Visual savings chart). CTA: Link in bio.
+
+Story: Poll: "Have you ever refinanced a loan?" + link to the refinance calculators.
+
+Reel: Screen recording showing how a 0.5% interest rate drop drastically shrinks the 'Total Interest' slice on our interactive pie chart.

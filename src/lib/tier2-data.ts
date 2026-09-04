@@ -4783,6 +4783,168 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Is it ever too late to prepay?", answer: "While early is better, any prepayment that reduces your principal before the loan naturally ends will result in some interest savings." }
     ]
   }
+,
+
+  {
+    slug: "home-loan-refinance-calculator",
+    type: "loan-types",
+    title: "Home Loan Refinance Calculator 2026 | Save on Interest",
+    h1: "Home Loan Refinance Calculator",
+    description: "Calculate how much you can save by refinancing your home loan to a lower interest rate in 2026. Compare EMIs instantly.",
+    intro: "Refinancing a home loan can save you lakhs in interest if you time it right. Use our calculator to compare your current EMI against a new, lower-rate offer to see your true net savings.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-09-01",
+    content: `
+      <h2>Why Refinance Your Home Loan?</h2>
+      <p>Interest rates fluctuate. If rates have dropped since you took out your home loan, or if your credit score has significantly improved, refinancing to a new lender can lower your EMI and reduce total interest payout.</p>
+    `,
+    faqs: [
+      { question: "Is there a cost to refinance a home loan?", answer: "Yes, you must account for processing fees and stamp duty for the new loan. Floating rate home loans usually have no prepayment penalty." },
+      { question: "When should I refinance?", answer: "It is generally recommended to refinance if the new interest rate is at least 0.5% lower than your current rate, and you are in the early years of your tenure." }
+    ]
+  },
+  {
+    slug: "personal-loan-refinance-calculator",
+    type: "loan-types",
+    title: "Personal Loan Refinance Calculator | Lower Your EMI",
+    h1: "Personal Loan Refinance Calculator",
+    description: "Evaluate the benefits of refinancing your high-interest personal loan to a lower rate. Calculate net savings after foreclosure charges.",
+    intro: "Personal loans have some of the highest interest rates. Refinancing can provide immediate relief to your monthly cash flow, but you must account for foreclosure penalties.",
+    amount: 500000,
+    interestRate: 14.0,
+    tenure: 60,
+    date: "2026-09-01",
+    content: `
+      <h2>The Cost of Refinancing Personal Loans</h2>
+      <p>Most banks charge between 2% and 5% as a foreclosure penalty on personal loans. You must calculate if the interest saved on the new loan exceeds this penalty.</p>
+    `,
+    faqs: [
+      { question: "Can I refinance a personal loan?", answer: "Yes, taking a new personal loan at a lower rate to pay off an existing high-rate loan is a common debt optimization strategy." },
+      { question: "Does refinancing hurt my credit score?", answer: "Initially, it may cause a slight dip due to a hard inquiry, but paying off debt efficiently will improve your score long-term." }
+    ]
+  },
+  {
+    slug: "auto-loan-refinance-calculator",
+    type: "loan-types",
+    title: "Auto Loan Refinance Calculator | Fast Car Loan Payoff",
+    h1: "Auto Loan Refinance Calculator",
+    description: "See if refinancing your auto loan can lower your monthly payments and help you clear your debt faster.",
+    intro: "If your financial situation has improved since you bought your car, you might qualify for a better auto loan rate. Calculate your potential savings here.",
+    amount: 800000,
+    interestRate: 9.5,
+    tenure: 60,
+    date: "2026-09-01",
+    content: `
+      <h2>Auto Loan Refinance Strategies</h2>
+      <p>Lowering your auto loan rate frees up monthly cash flow. Ensure you read the fine print regarding foreclosure charges on your current loan before switching lenders.</p>
+    `,
+    faqs: [
+      { question: "Is it worth refinancing a car loan?", answer: "Yes, if you can secure a rate at least 1-2% lower than your current rate, it can significantly reduce your monthly burden." },
+      { question: "Can I change my tenure when I refinance?", answer: "Yes, refinancing allows you to negotiate a new tenure, either shorter to pay it off faster, or longer to reduce the EMI." }
+    ]
+  },
+  {
+    slug: "education-loan-refinance-calculator",
+    type: "loan-types",
+    title: "Education Loan Refinance Calculator | Clear Student Debt",
+    h1: "Education Loan Refinance Calculator",
+    description: "Calculate your savings by refinancing your education loan to a lower rate after securing a job.",
+    intro: "Once you graduate and secure a stable income, you become a lower-risk borrower. Use this to negotiate a better rate or refinance your student debt.",
+    amount: 1500000,
+    interestRate: 10.5,
+    tenure: 120,
+    date: "2026-09-01",
+    content: `
+      <h2>Tackling Student Debt via Refinancing</h2>
+      <p>Refinancing an education loan can lower your EMI significantly, making it easier to manage other expenses as you start your career.</p>
+    `,
+    faqs: [
+      { question: "When should I refinance my student loan?", answer: "The best time is after you have started working, built a good credit history, and can qualify for a significantly lower interest rate." },
+      { question: "Do I lose tax benefits if I refinance?", answer: "Generally, if you take a new loan specifically to repay an education loan, you may still claim deductions under Section 80E, but always consult a tax advisor." }
+    ]
+  },
+  {
+    slug: "emi-calculator-30-lakh-refinance",
+    type: "scenarios",
+    title: "EMI Calculator for 30 Lakh Loan Refinance Strategy",
+    h1: "30 Lakh Loan Refinance Scenario",
+    description: "Analyze the amortization schedule for a ₹30 Lakh loan and see the impact of refinancing to a lower rate.",
+    intro: "Planning to refinance a ₹30 Lakh loan? See exactly how a small drop in the interest rate alters the amortization schedule and total interest payout.",
+    amount: 3000000,
+    interestRate: 8.75,
+    tenure: 180,
+    date: "2026-09-01",
+    content: `
+      <h2>30 Lakh Loan Breakdown</h2>
+      <p>Explore the full amortization schedule and see the dramatic effect of refinancing your loan to a lower rate.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 30 Lakh at 8.75% for 15 years?", answer: "The EMI is approximately ₹29,983." },
+      { question: "How much interest is saved with a 0.5% rate drop?", answer: "On a 15-year 30 Lakh loan, a 0.5% reduction can save you over ₹1.5 Lakh in total interest." }
+    ]
+  },
+  {
+    slug: "emi-calculator-40-lakh-refinance",
+    type: "scenarios",
+    title: "EMI Calculator for 40 Lakh Loan Refinance Strategy",
+    h1: "40 Lakh Loan Refinance Scenario",
+    description: "Analyze the amortization schedule for a ₹40 Lakh loan and calculate the savings from refinancing.",
+    intro: "A ₹40 Lakh loan carries significant interest weight. Calculate how refinancing to a better rate can lift that burden.",
+    amount: 4000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-09-01",
+    content: `
+      <h2>40 Lakh Loan Breakdown</h2>
+      <p>See the visual pie chart showing how much of your payment goes to interest versus principal, and how a lower rate alters that ratio.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 40 Lakh at 8.5% for 20 years?", answer: "The EMI is approximately ₹34,713." },
+      { question: "When is the best time to refinance this loan?", answer: "The most effective time is during the first 5 years when the interest component of the EMI is highest." }
+    ]
+  },
+  {
+    slug: "emi-calculator-60-lakh-refinance",
+    type: "scenarios",
+    title: "EMI Calculator for 60 Lakh Loan Refinance Strategy",
+    h1: "60 Lakh Loan Refinance Scenario",
+    description: "Model long-term refinance strategies on a massive ₹60 Lakh home loan to save lakhs in interest.",
+    intro: "A ₹60 Lakh home loan is a major commitment. Discover how refinancing to a rate just 0.5% lower can save you a fortune over 20 years.",
+    amount: 6000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-09-01",
+    content: `
+      <h2>60 Lakh Loan Breakdown</h2>
+      <p>Use our tools to model a refinance scenario and visualize the long-term savings on a large principal amount.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 60 Lakh at 8.5% for 20 years?", answer: "The EMI is approximately ₹52,069." },
+      { question: "How much interest is saved by refinancing a 60 Lakh loan?", answer: "A rate reduction of just 0.5% over 20 years can save you nearly ₹5 Lakh in total interest payments." }
+    ]
+  },
+  {
+    slug: "refinance-5-years-vs-10-years",
+    type: "tenure-comparison",
+    title: "Loan Refinance: Impact After 5 vs 10 Years",
+    h1: "Refinance Timing: 5 Years vs 10 Years",
+    description: "Compare the mathematical impact of refinancing early (Year 5) versus later (Year 10) in your loan term.",
+    intro: "Timing is everything in debt management. See the mathematical proof of why early refinancing yields much higher savings.",
+    amount: 5000000,
+    interestRate: 9.0,
+    tenure: 240,
+    date: "2026-09-01",
+    content: `
+      <h2>The Compounding Effect of Early Refinancing</h2>
+      <p>Because interest is front-loaded on a long-term loan, refinancing to a lower rate in Year 5 prevents years of compounding interest, saving you significantly more than if you wait until Year 10.</p>
+    `,
+    faqs: [
+      { question: "Why does early refinancing save more money?", answer: "In the early years, the principal balance is highest, meaning you pay the most interest. Lowering the rate early on reduces the interest charged on that high balance." },
+      { question: "Is it ever too late to refinance?", answer: "While early is better, if the rate drop is significant enough, refinancing can still save money in the later years, provided the savings exceed the processing fees." }
+    ]
+  }
 ];
 
 

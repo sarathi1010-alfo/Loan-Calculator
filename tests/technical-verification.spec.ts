@@ -1125,4 +1125,58 @@ test.describe('Technical Verification', () => {
     expect(response?.status()).toBe(200);
     await expect(page.locator('h1')).toBeVisible();
   });
+
+  test('2026-09-01 Tier 1: how-to-refinance-a-loan-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/how-to-refinance-a-loan-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-01 Tier 2: home-loan-refinance-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/home-loan-refinance-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-01 Tier 2: personal-loan-refinance-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/personal-loan-refinance-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-01 Tier 2: auto-loan-refinance-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/auto-loan-refinance-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-01 Tier 2: education-loan-refinance-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/education-loan-refinance-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-01 Tier 2: emi-calculator-30-lakh-refinance', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-30-lakh-refinance`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-01 Tier 2: emi-calculator-40-lakh-refinance', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-40-lakh-refinance`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-01 Tier 2: emi-calculator-60-lakh-refinance', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-60-lakh-refinance`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-01 Tier 2: refinance-5-years-vs-10-years', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/refinance-5-years-vs-10-years`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
 });

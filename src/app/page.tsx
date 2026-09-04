@@ -233,7 +233,7 @@ export default function Home() {
                   auto loans, and student loans, the borrower makes fixed periodic
                   payments to the lender over several years to retire the loan,
                   which uses the standard reducing-balance formula. For a comprehensive walkthrough
-                  of the exact mathematical inputs and outputs, plus tips to save on interest,
+                  of the exact mathematical inputs and outputs, plus tips to save on interest by exploring a <Link href="/blog/how-to-refinance-a-loan-2026" className="text-primary hover:underline">loan refinance</Link>,
                   check out our dedicated <Link href="/blog/how-to-calculate-emi-loan" className="text-primary hover:underline">How to Calculate EMI for a Loan</Link> deep-dive guide.
                 </p>
                 <p>

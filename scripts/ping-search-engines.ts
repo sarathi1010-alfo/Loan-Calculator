@@ -283,6 +283,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-60-lakh-refinance`,
     `${SITE_URL}/tenure-comparison/refinance-5-years-vs-10-years`,
 
+    // New Tier 1 (2026-09-06)
+    `${SITE_URL}/blog/credit-card-emi-conversion-guide-2026`,
+
+    // New Tier 2 (2026-09-06)
+    `${SITE_URL}/loan-types/sbi-credit-card-emi-calculator`,
+    `${SITE_URL}/loan-types/hdfc-credit-card-emi-calculator`,
+    `${SITE_URL}/loan-types/axis-credit-card-emi-calculator`,
+    `${SITE_URL}/loan-types/icici-credit-card-emi-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-50-thousand-credit-card`,
+    `${SITE_URL}/scenarios/emi-calculator-1-lakh-credit-card`,
+    `${SITE_URL}/scenarios/emi-calculator-2-lakh-credit-card`,
+    `${SITE_URL}/tenure-comparison/credit-card-emi-3-months-vs-6-months`,
+
   ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

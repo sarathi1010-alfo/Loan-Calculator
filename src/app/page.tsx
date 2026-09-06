@@ -234,7 +234,7 @@ export default function Home() {
                   payments to the lender over several years to retire the loan,
                   which uses the standard reducing-balance formula. For a comprehensive walkthrough
                   of the exact mathematical inputs and outputs, plus tips to save on interest by exploring a <Link href="/blog/how-to-refinance-a-loan-2026" className="text-primary hover:underline">loan refinance</Link>,
-                  check out our dedicated <Link href="/blog/how-to-calculate-emi-loan" className="text-primary hover:underline">How to Calculate EMI for a Loan</Link> deep-dive guide.
+                  check out our dedicated <Link href="/blog/how-to-calculate-emi-loan" className="text-primary hover:underline">How to Calculate EMI for a Loan</Link> deep-dive guide, or explore our new <Link href="/blog/credit-card-emi-conversion-guide-2026" className="text-primary hover:underline">Credit Card EMI Conversion Guide</Link> for managing short-term debt.
                 </p>
                 <p>
                   The formula used by banks to calculate your EMI is: <br />
@@ -285,7 +285,7 @@ export default function Home() {
                 </ul>
 
                 <h3 className="text-xl font-bold text-foreground mt-8 mb-4">
-                  Common <Link href="/blog/how-to-calculate-emi-loan" className="hover:underline">EMI Mistakes</Link> to Avoid
+                  Common <Link href="/blog/how-to-calculate-emi-loan" className="hover:underline">EMI Mistakes</Link> (and <Link href="/blog/credit-card-emi-conversion-guide-2026" className="hover:underline">Credit Card pitfalls</Link>) to Avoid
                 </h3>
                 <ul className="list-disc pl-5 space-y-2">
                   <li>

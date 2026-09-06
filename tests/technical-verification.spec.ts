@@ -1179,4 +1179,58 @@ test.describe('Technical Verification', () => {
     expect(response?.status()).toBe(200);
     await expect(page.locator('h1')).toBeVisible();
   });
+  test('2026-09-06 Tier 1: credit-card-emi-conversion-guide-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/credit-card-emi-conversion-guide-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-06 Tier 2: sbi-credit-card-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-credit-card-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-06 Tier 2: hdfc-credit-card-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-credit-card-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-06 Tier 2: axis-credit-card-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/axis-credit-card-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-06 Tier 2: icici-credit-card-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-credit-card-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-06 Tier 2: emi-calculator-50-thousand-credit-card', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-thousand-credit-card`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-06 Tier 2: emi-calculator-1-lakh-credit-card', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-1-lakh-credit-card`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-06 Tier 2: emi-calculator-2-lakh-credit-card', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-2-lakh-credit-card`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-06 Tier 2: credit-card-emi-3-months-vs-6-months', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/credit-card-emi-3-months-vs-6-months`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
 });

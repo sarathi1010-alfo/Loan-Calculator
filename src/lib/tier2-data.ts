@@ -15,6 +15,166 @@ export interface Tier2Page {
 
 export const TIER2_PAGES: Tier2Page[] = [
   {
+    slug: "sbi-education-loan-repayment-calculator",
+    type: "loan-types",
+    title: "SBI Education Loan Repayment Calculator 2026",
+    h1: "SBI Education Loan Repayment Calculator",
+    description: "Calculate your SBI education loan repayment EMI. Model different tenures and interest rates for your student loan.",
+    intro: "SBI offers competitive education loans with favorable moratorium terms. Use this calculator to estimate your EMI once your repayment period begins.",
+    amount: 1500000,
+    interestRate: 8.5,
+    tenure: 120,
+    date: "2026-09-11",
+    content: `
+      <h2>SBI Student Loan Repayment Details</h2>
+      <p>State Bank of India is a preferred choice for many students due to its widespread network and transparent terms. Repayment usually begins a year after course completion or 6 months after securing a job, whichever is earlier.</p>
+    `,
+    faqs: [
+      { question: "What is the moratorium period for SBI education loans?", answer: "Typically, the moratorium period is the course duration plus 1 year, or 6 months after getting a job, whichever comes first." },
+      { question: "Does SBI offer interest concessions?", answer: "Yes, SBI often provides interest rate concessions for female students and those opting for term insurance." }
+    ]
+  },
+  {
+    slug: "hdfc-education-loan-repayment-calculator",
+    type: "loan-types",
+    title: "HDFC Education Loan Repayment Calculator 2026",
+    h1: "HDFC Education Loan Repayment Calculator",
+    description: "Plan your HDFC education loan repayment. Check your monthly EMIs and total interest payable.",
+    intro: "HDFC Bank provides tailored education loans for domestic and international studies. Calculate your EMI and explore repayment strategies.",
+    amount: 2500000,
+    interestRate: 9.5,
+    tenure: 144,
+    date: "2026-09-11",
+    content: `
+      <h2>Managing HDFC Education Loans</h2>
+      <p>HDFC offers flexible repayment options, including step-up EMIs, which start lower during the early years of your career and increase as your income grows.</p>
+    `,
+    faqs: [
+      { question: "Can I choose a step-up EMI with HDFC?", answer: "Yes, HDFC offers flexible repayment structures like step-up EMIs for select education loans to ease the initial financial burden." },
+      { question: "Is there a prepayment penalty on HDFC education loans?", answer: "Generally, HDFC does not charge prepayment penalties on floating-rate education loans." }
+    ]
+  },
+  {
+    slug: "abroad-study-loan-emi-calculator",
+    type: "loan-types",
+    title: "Abroad Study Loan EMI Calculator | International Education",
+    h1: "Abroad Study Loan EMI Calculator",
+    description: "Calculate EMIs for your international education loan. Plan for higher expenses and currency fluctuations.",
+    intro: "Studying abroad involves significant expenses beyond tuition, including living costs and travel. Use this calculator to model your overseas education loan.",
+    amount: 5000000,
+    interestRate: 10.0,
+    tenure: 180,
+    date: "2026-09-11",
+    content: `
+      <h2>Repaying International Education Loans</h2>
+      <p>Loans for studying abroad are usually larger and have longer tenures. It is crucial to factor in potential currency exchange rate changes when estimating your future repayment capacity.</p>
+    `,
+    faqs: [
+      { question: "Are living expenses covered in abroad study loans?", answer: "Yes, most comprehensive education loans cover tuition fees, accommodation, travel, and other related expenses." },
+      { question: "What is the maximum tenure for an abroad study loan?", answer: "Tenures for abroad study loans can often extend up to 15 years (180 months), depending on the loan amount and lender." }
+    ]
+  },
+  {
+    slug: "domestic-education-loan-emi-calculator",
+    type: "loan-types",
+    title: "Domestic Education Loan EMI Calculator",
+    h1: "Domestic Education Loan EMI Calculator",
+    description: "Calculate your EMI for higher education within India. Plan your repayment for engineering, medical, or management courses.",
+    intro: "Financing your higher education in India is easier with tailored domestic student loans. Calculate your monthly repayment schedule here.",
+    amount: 800000,
+    interestRate: 8.75,
+    tenure: 84,
+    date: "2026-09-11",
+    content: `
+      <h2>Domestic Student Loans in India</h2>
+      <p>Whether you're pursuing B.Tech, MBBS, or an MBA, domestic education loans cover a significant portion of your academic expenses. Repayment starts after your course is complete.</p>
+    `,
+    faqs: [
+      { question: "Is collateral required for domestic education loans?", answer: "Typically, loans up to ₹4 Lakhs do not require collateral. Larger amounts may require a co-applicant or tangible security." },
+      { question: "Can I get a loan for vocational courses?", answer: "Yes, many banks offer skill development and vocational course loans under specific government schemes." }
+    ]
+  },
+  {
+    slug: "emi-calculator-25-lakh-education-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹25 Lakh Education Loan",
+    h1: "EMI Calculator for ₹25 Lakh Education Loan",
+    description: "Check the exact monthly EMI and total interest for a 25 Lakh education loan over various tenures.",
+    intro: "A ₹25 Lakh education loan is common for master's programs. See the full breakdown of your repayment schedule.",
+    amount: 2500000,
+    interestRate: 9.25,
+    tenure: 120,
+    date: "2026-09-11",
+    content: `
+      <h2>₹25 Lakh Loan Amortization Breakdown</h2>
+      <p>Understanding the split between principal and interest is crucial. In the early years of a 10-year tenure, a larger portion of your EMI goes towards paying off the interest.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 25 Lakh education loan for 10 years?", answer: "Assuming an interest rate of 9.25%, the EMI for a ₹25 Lakh education loan over 10 years is approximately ₹31,988." },
+      { question: "How can I reduce the EMI on a 25 Lakh loan?", answer: "You can reduce the EMI by extending the tenure, negotiating a lower interest rate, or making part-payments whenever possible." }
+    ]
+  },
+  {
+    slug: "emi-calculator-40-lakh-education-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹40 Lakh Education Loan",
+    h1: "EMI Calculator for ₹40 Lakh Education Loan",
+    description: "Calculate your monthly obligations for a ₹40 Lakh education loan. Plan your long-term student debt repayment.",
+    intro: "Taking a ₹40 Lakh loan for premium domestic or international courses requires solid financial planning. Use this tool to visualize your EMIs.",
+    amount: 4000000,
+    interestRate: 9.75,
+    tenure: 144,
+    date: "2026-09-11",
+    content: `
+      <h2>Managing a ₹40 Lakh Student Debt</h2>
+      <p>With a larger loan amount, even a 0.5% difference in interest rates can significantly impact your total outflow. Always compare lenders before finalizing.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 40 Lakh education loan?", answer: "At a 9.75% interest rate for 12 years (144 months), the EMI for a ₹40 Lakh loan is roughly ₹47,208." },
+      { question: "Do I need collateral for a 40 Lakh education loan?", answer: "Yes, loans of this size typically require collateral such as residential property or fixed deposits." }
+    ]
+  },
+  {
+    slug: "emi-calculator-75-lakh-education-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹75 Lakh Education Loan",
+    h1: "EMI Calculator for ₹75 Lakh Education Loan",
+    description: "Model your repayment schedule for a ₹75 Lakh education loan, commonly used for top-tier MBA or medical programs abroad.",
+    intro: "A ₹75 Lakh education loan represents a major investment in your future. Carefully calculate your EMIs to ensure they align with your expected post-graduation salary.",
+    amount: 7500000,
+    interestRate: 10.5,
+    tenure: 180,
+    date: "2026-09-11",
+    content: `
+      <h2>High-Value Education Loan Planning</h2>
+      <p>For high-value loans like ₹75 Lakhs, it is critical to maximize the tax benefits under Section 80E during the first 8 years of repayment.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 75 Lakh education loan for 15 years?", answer: "With an interest rate of 10.5% over 15 years, the EMI for a ₹75 Lakh loan is approximately ₹82,830." },
+      { question: "Is a co-applicant mandatory for a 75 Lakh loan?", answer: "Yes, a financial co-applicant with a stable income and good credit score is usually mandatory for high-value education loans." }
+    ]
+  },
+  {
+    slug: "education-loan-7-years-vs-10-years",
+    type: "tenure-comparison",
+    title: "Education Loan: 7 Years vs 10 Years Repayment Tenure",
+    h1: "Education Loan: 7 Years vs 10 Years Tenure",
+    description: "Compare education loan EMIs for 7-year and 10-year tenures. Find out how tenure impacts your total interest paid.",
+    intro: "Choosing the right tenure for your education loan balances your monthly cash flow with the total cost of borrowing. See the difference between a 7-year and 10-year plan.",
+    amount: 2000000,
+    interestRate: 9.0,
+    tenure: 84, // Default to shorter for comparison
+    date: "2026-09-11",
+    content: `
+      <h2>Analyzing the Tenure Trade-off</h2>
+      <p>A 7-year tenure requires higher monthly EMIs but ensures you clear the debt quickly, saving significantly on interest. A 10-year tenure provides breathing room in your monthly budget but increases the total interest burden.</p>
+    `,
+    faqs: [
+      { question: "Should I choose a 7-year or 10-year tenure for my education loan?", answer: "If your starting salary can comfortably cover higher EMIs, choose 7 years to save on interest. If you need lower monthly payments initially, 10 years is safer." },
+      { question: "Can I change my education loan tenure later?", answer: "Most lenders allow you to modify your tenure, though it might involve processing fees or refinancing." }
+    ]
+  },
+  {
     slug: "msme-loan-emi-calculator",
     type: "loan-types",
     title: "MSME Loan EMI Calculator | Check Monthly EMIs",

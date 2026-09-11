@@ -1179,4 +1179,58 @@ test.describe('Technical Verification', () => {
     expect(response?.status()).toBe(200);
     await expect(page.locator('h1')).toBeVisible();
   });
+
+  test('2026-09-11 Tier 1: education-loan-repayment-strategies-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/education-loan-repayment-strategies-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-11 Tier 2: sbi-education-loan-repayment-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-education-loan-repayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-11 Tier 2: hdfc-education-loan-repayment-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-education-loan-repayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-11 Tier 2: abroad-study-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/abroad-study-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-11 Tier 2: domestic-education-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/domestic-education-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-11 Tier 2: emi-calculator-25-lakh-education-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-25-lakh-education-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-11 Tier 2: emi-calculator-40-lakh-education-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-40-lakh-education-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-11 Tier 2: emi-calculator-75-lakh-education-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-75-lakh-education-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-11 Tier 2: education-loan-7-years-vs-10-years', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/education-loan-7-years-vs-10-years`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
 });

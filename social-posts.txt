@@ -53,3 +53,31 @@ Carousel: Slide 1 (When to refinance checklist), Slide 2 (EMI breakdown before a
 Story: Poll: "Have you ever refinanced a loan?" + link to the refinance calculators.
 
 Reel: Screen recording showing how a 0.5% interest rate drop drastically shrinks the 'Total Interest' slice on our interactive pie chart.
+
+For LinkedIn (Financial Thought Leadership):
+
+Post: "Student debt shouldn't be a lifelong burden. Understanding the moratorium period and capitalizing interest can save you lakhs. Read our 2026 guide on Education Loan Repayment Strategies."
+
+Post: "Are you planning for a master's abroad? Factoring in currency exchange and loan tenure is critical. Use our new calculators to model a ₹50 Lakh+ education loan scenario."
+
+For Twitter/X (Punchy Data Tips):
+
+Tweet: "Don't let interest capitalize during your education loan moratorium period! Paying just the simple interest while studying can save you huge amounts later. 🎓💰"
+
+Tweet: "7 years vs 10 years for an education loan? 7 years = higher EMI but lower total interest. 10 years = lower EMI but higher total interest. Which one fits your post-grad salary? 📊"
+
+Tweet: "Did you know you can claim tax benefits under Section 80E for up to 8 years on your education loan interest? Plan your repayment to maximize this deduction."
+
+For Facebook (Community Engagement):
+
+Post: Carousel showing "During Moratorium (Interest Accumulating)" -> "After Moratorium (Higher Principal)" -> "Our Solution: Pay Simple Interest Early". "Learn how to manage your education loan smartly."
+
+Post: "Financing your child's education? See exactly how much your EMI will be for a ₹25 Lakh or ₹40 Lakh loan with our new specialized calculators."
+
+For Instagram (Visual Data):
+
+Carousel: Slide 1 (Education Loan EMI formula), Slide 2 (Moratorium Period explained), Slide 3 (Section 80E Tax Benefits). CTA: Link in bio to full guide.
+
+Story: Poll: "Do you know what your education loan EMI will be after graduation?" + link to the calculator.
+
+Reel: Screen recording of comparing a 7-year vs 10-year repayment tenure for a ₹20 Lakh loan, showing the interest savings.

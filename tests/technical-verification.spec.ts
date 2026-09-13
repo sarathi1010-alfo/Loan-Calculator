@@ -1233,4 +1233,58 @@ test.describe('Technical Verification', () => {
     expect(response?.status()).toBe(200);
     await expect(page.locator('h1')).toBeVisible();
   });
+
+  test('2026-09-12 Tier 1: gold-loan-emi-planning-guide-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/gold-loan-emi-planning-guide-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-12 Tier 2: muthoot-finance-gold-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/muthoot-finance-gold-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-12 Tier 2: manappuram-gold-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/manappuram-gold-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-12 Tier 2: sbi-gold-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-gold-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-12 Tier 2: hdfc-gold-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-gold-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-12 Tier 2: emi-calculator-3-lakh-gold-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-3-lakh-gold-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-12 Tier 2: emi-calculator-5-lakh-gold-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-5-lakh-gold-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-12 Tier 2: emi-calculator-10-lakh-gold-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-10-lakh-gold-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-12 Tier 2: gold-loan-6-months-vs-12-months', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/gold-loan-6-months-vs-12-months`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
 });

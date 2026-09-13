@@ -15,6 +15,167 @@ export interface Tier2Page {
 
 export const TIER2_PAGES: Tier2Page[] = [
   {
+    slug: "muthoot-finance-gold-loan-emi-calculator",
+    type: "loan-types",
+    title: "Muthoot Finance Gold Loan EMI Calculator 2026 | Check EMI",
+    h1: "Muthoot Finance Gold Loan EMI Calculator",
+    description: "Calculate your Muthoot Finance gold loan EMI in 2026. Understand the interest rate, loan-to-value ratio, and repayment options.",
+    intro: "Muthoot Finance is a leading gold loan provider in India. Use this calculator to estimate your EMI and plan your short-term financing.",
+    amount: 200000,
+    interestRate: 11.5,
+    tenure: 12,
+    date: "2026-09-12",
+    content: `
+      <h2>Why Choose Muthoot Finance Gold Loans?</h2>
+      <p>Muthoot Finance offers quick loan disbursements against gold with minimal documentation. Their schemes include various options like regular EMI, interest-only, or bullet repayment, giving you flexibility based on your cash flow.</p>
+    `,
+    faqs: [
+      { question: "What is the starting interest rate for Muthoot Gold Loans?", answer: "Interest rates generally start around 11%, depending on the specific scheme and LTV chosen." },
+      { question: "Can I pre-close my Muthoot Gold Loan?", answer: "Yes, you can pre-close, though it's important to check for any nominal pre-closure charges." }
+    ]
+  },
+  {
+    slug: "manappuram-gold-loan-emi-calculator",
+    type: "loan-types",
+    title: "Manappuram Gold Loan EMI Calculator 2026 | Instant Estimate",
+    h1: "Manappuram Gold Loan EMI Calculator",
+    description: "Estimate your Manappuram gold loan EMI quickly. Check interest rates, schemes, and find the most affordable repayment schedule.",
+    intro: "Get an instant estimate for your Manappuram gold loan. Adjust the principal and tenure to see how much interest you will pay.",
+    amount: 150000,
+    interestRate: 12.0,
+    tenure: 6,
+    date: "2026-09-12",
+    content: `
+      <h2>Manappuram Gold Loan Schemes</h2>
+      <p>Manappuram offers some of the quickest gold loan approvals. Using our calculator, you can determine if a short-term bullet repayment or a standard EMI scheme is better for you.</p>
+    `,
+    faqs: [
+      { question: "How is the Manappuram gold loan interest calculated?", answer: "Manappuram typically charges interest on the outstanding loan amount on a daily reducing balance basis for many of its schemes." },
+      { question: "What is the maximum tenure for Manappuram gold loans?", answer: "Tenures usually range from a few days up to 12 months, depending on the scheme." }
+    ]
+  },
+  {
+    slug: "sbi-gold-loan-emi-calculator",
+    type: "loan-types",
+    title: "SBI Gold Loan EMI Calculator 2026 | Plan Repayment",
+    h1: "SBI Gold Loan EMI Calculator",
+    description: "Calculate your SBI gold loan EMI for 2026. Explore SBI's low interest rates and agricultural gold loan options.",
+    intro: "SBI offers some of the most competitive interest rates for gold loans. Plan your repayment with our accurate EMI calculator.",
+    amount: 500000,
+    interestRate: 8.75,
+    tenure: 36,
+    date: "2026-09-12",
+    content: `
+      <h2>SBI Gold Loans: Low Rates, High Reliability</h2>
+      <p>State Bank of India provides highly reliable gold loans at very competitive rates, often much lower than NBFCs. They also have specialized schemes for agriculturists.</p>
+    `,
+    faqs: [
+      { question: "Does SBI offer agricultural gold loans?", answer: "Yes, SBI offers special gold loans for agricultural purposes, often at subsidized interest rates." },
+      { question: "What is the processing fee for SBI gold loans?", answer: "SBI charges a very nominal processing fee compared to many private lenders and NBFCs." }
+    ]
+  },
+  {
+    slug: "hdfc-gold-loan-emi-calculator",
+    type: "loan-types",
+    title: "HDFC Gold Loan EMI Calculator 2026 | Fast Processing",
+    h1: "HDFC Gold Loan EMI Calculator",
+    description: "Check your HDFC gold loan EMI and interest outgo. Get fast processing and attractive interest rates for emergency funds.",
+    intro: "Calculate your monthly obligations for an HDFC gold loan. Known for quick processing, HDFC is a great choice for fast liquidity.",
+    amount: 300000,
+    interestRate: 9.50,
+    tenure: 24,
+    date: "2026-09-12",
+    content: `
+      <h2>Quick Funds with HDFC Gold Loan</h2>
+      <p>HDFC Bank's 'Sampoorna Bharosa' gold loan offers transparent processing and competitive rates. Use our calculator to understand your EMI burden before you pledge your gold.</p>
+    `,
+    faqs: [
+      { question: "How long does it take for HDFC to disburse a gold loan?", answer: "HDFC is known for quick disbursement, often within 45 minutes of gold valuation and approval." },
+      { question: "Is there a foreclosure charge for HDFC gold loans?", answer: "Usually, HDFC does not charge foreclosure fees if the loan is closed out of your own funds, but terms may vary." }
+    ]
+  },
+  {
+    slug: "emi-calculator-3-lakh-gold-loan",
+    type: "scenarios",
+    title: "EMI Calculator for 3 Lakh Gold Loan | Repayment Schedule",
+    h1: "3 Lakh Gold Loan EMI Scenario",
+    description: "Calculate the exact EMI and interest for a ₹3 Lakh gold loan. Compare options to minimize your total borrowing cost.",
+    intro: "A ₹3 Lakh gold loan is a common requirement for medical emergencies or short-term business needs. See the repayment breakdown here.",
+    amount: 300000,
+    interestRate: 10.0,
+    tenure: 12,
+    date: "2026-09-12",
+    content: `
+      <h2>Planning a ₹3 Lakh Gold Loan</h2>
+      <p>When borrowing ₹3 Lakh against gold, ensuring you can meet the monthly EMI is crucial so you don't risk losing your asset. Check the full schedule to plan your cash flows.</p>
+    `,
+    faqs: [
+      { question: "How much gold do I need for a 3 Lakh loan?", answer: "Assuming a 75% LTV, you would need gold valued at approximately ₹4 Lakh to secure a ₹3 Lakh loan." },
+      { question: "Can I pay just the interest every month?", answer: "Yes, many lenders allow you to pay only the interest monthly and the principal amount at the end of the tenure." }
+    ]
+  },
+  {
+    slug: "emi-calculator-5-lakh-gold-loan",
+    type: "scenarios",
+    title: "EMI Calculator for 5 Lakh Gold Loan | Check Total Interest",
+    h1: "5 Lakh Gold Loan EMI Scenario",
+    description: "Check your EMI and total interest outgo for a ₹5 Lakh gold loan. Plan your short-term financing effectively.",
+    intro: "Securing ₹5 Lakh against your gold assets? Use our calculator to determine your monthly EMIs and the total interest payable.",
+    amount: 500000,
+    interestRate: 10.5,
+    tenure: 24,
+    date: "2026-09-12",
+    content: `
+      <h2>Managing a ₹5 Lakh Gold Loan</h2>
+      <p>A loan of this size requires careful planning. If you are taking this for a business purpose, ensure your expected returns outpace the interest cost of the loan.</p>
+    `,
+    faqs: [
+      { question: "Is a 5 Lakh gold loan considered high risk?", answer: "For the lender, it's low risk since it is fully backed by collateral. For the borrower, the risk is losing the gold if you default." },
+      { question: "Can I make part prepayments on a 5 Lakh gold loan?", answer: "Yes, most lenders allow part prepayments which reduce the outstanding principal and future interest burden." }
+    ]
+  },
+  {
+    slug: "emi-calculator-10-lakh-gold-loan",
+    type: "scenarios",
+    title: "EMI Calculator for 10 Lakh Gold Loan | Amortization",
+    h1: "10 Lakh Gold Loan EMI Scenario",
+    description: "Calculate the EMI and view the full amortization schedule for a ₹10 Lakh gold loan.",
+    intro: "Borrowing ₹10 Lakh against gold is significant. Use our detailed calculator to map out your entire repayment schedule.",
+    amount: 1000000,
+    interestRate: 9.0,
+    tenure: 36,
+    date: "2026-09-12",
+    content: `
+      <h2>Strategizing a ₹10 Lakh Gold Loan</h2>
+      <p>For large gold loans, securing the lowest possible interest rate is critical. Compare rates between top banks like SBI and HDFC to minimize your interest outgo on a ₹10 Lakh loan.</p>
+    `,
+    faqs: [
+      { question: "What is the best tenure for a 10 Lakh gold loan?", answer: "A tenure of 12 to 36 months is typical. Choose the shortest tenure you can comfortably afford to save on interest." },
+      { question: "Do banks offer 10 Lakh gold loans?", answer: "Yes, provided you have sufficient gold to pledge, banks and NBFCs regularly sanction gold loans of this amount or higher." }
+    ]
+  },
+  {
+    slug: "gold-loan-6-months-vs-12-months",
+    type: "tenure-comparison",
+    title: "Gold Loan Tenure Comparison: 6 Months vs 12 Months",
+    h1: "Gold Loan: 6 Months vs 12 Months",
+    description: "Compare gold loan tenures of 6 months and 12 months. See how much interest you save by paying off your loan faster.",
+    intro: "Gold loans are often short-term. Find out if it's better for you to clear the loan in 6 months or extend it to 12 months.",
+    amount: 200000,
+    interestRate: 11.0,
+    tenure: 6,
+    date: "2026-09-12",
+    content: `
+      <h2>Short-Term Gold Loan Strategy</h2>
+      <p>Choosing a 6-month tenure means higher monthly EMIs (or a larger bullet payment), but significantly less total interest paid. A 12-month tenure spreads the cost but increases the lender's profit. Compare both scenarios using our tool.</p>
+    `,
+    faqs: [
+      { question: "Is a 6-month gold loan better than 12 months?", answer: "If you have the cash flow to afford higher payments, 6 months is better as it saves you money on interest." },
+      { question: "Can I extend my 6-month gold loan to 12 months?", answer: "Yes, lenders usually allow you to renew or extend the loan tenure, provided you pay the interest accumulated so far." }
+    ]
+  },
+
+  {
     slug: "sbi-education-loan-repayment-calculator",
     type: "loan-types",
     title: "SBI Education Loan Repayment Calculator 2026",

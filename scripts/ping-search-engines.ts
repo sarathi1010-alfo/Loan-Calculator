@@ -295,6 +295,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-40-lakh-education-loan`,
     `${SITE_URL}/scenarios/emi-calculator-75-lakh-education-loan`,
     `${SITE_URL}/tenure-comparison/education-loan-7-years-vs-10-years`,
+
+    // New Tier 1 (2026-09-12)
+    `${SITE_URL}/blog/gold-loan-emi-planning-guide-2026`,
+
+    // New Tier 2 (2026-09-12)
+    `${SITE_URL}/loan-types/muthoot-finance-gold-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/manappuram-gold-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/sbi-gold-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/hdfc-gold-loan-emi-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-3-lakh-gold-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-5-lakh-gold-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-10-lakh-gold-loan`,
+    `${SITE_URL}/tenure-comparison/gold-loan-6-months-vs-12-months`,
   ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

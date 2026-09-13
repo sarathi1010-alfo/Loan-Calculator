@@ -81,3 +81,31 @@ Carousel: Slide 1 (Education Loan EMI formula), Slide 2 (Moratorium Period expla
 Story: Poll: "Do you know what your education loan EMI will be after graduation?" + link to the calculator.
 
 Reel: Screen recording of comparing a 7-year vs 10-year repayment tenure for a ₹20 Lakh loan, showing the interest savings.
+
+For LinkedIn (Financial Thought Leadership):
+
+Post: "Gold loans offer unparalleled speed in times of emergency, but do you know the difference between flat and reducing balance methods? Don't let your assets drain your cash flow unnecessarily. Check our 2026 Gold Loan EMI Planning Guide."
+
+Post: "A sudden drop in gold prices could force you into a margin call, where lenders demand extra cash or gold to maintain the LTV ratio. Learn how to protect your assets and plan your gold loan EMIs wisely with our new guide."
+
+For Twitter/X (Punchy Data Tips):
+
+Tweet: "Need cash fast? A Gold Loan might be your best bet, but beware the flat interest rate trap. Always calculate your EMI using a reducing balance formula! 💰📉"
+
+Tweet: "Gold loan LTV (Loan-to-Value) can dictate your borrowing limits. If gold prices drop, your lender might call. Plan ahead! Learn the mechanics of gold loans on our new calculators."
+
+Tweet: "6 Months vs 12 Months for a Gold Loan? The math is simple: short tenure = high EMI but much lower total interest. Use our comparison tool to find the perfect middle ground."
+
+For Facebook (Community Engagement):
+
+Post: Carousel showing "Gold Loan Schemes: Regular EMI, Interest-Only, Bullet Repayment" -> "Which scheme fits your financial situation?" -> "Read our guide to make an informed decision on leveraging your gold."
+
+Post: "Pledging your gold for an emergency loan? Make sure you know exactly how much interest you'll be paying. Compare top lenders like SBI, HDFC, Muthoot, and Manappuram on our new Gold Loan EMI Calculators."
+
+For Instagram (Visual Data):
+
+Carousel: Slide 1 (How Gold Loan LTV works), Slide 2 (EMI breakdown for a ₹5 Lakh gold loan), Slide 3 (Visual difference between flat and reducing interest rates). CTA: Link in bio.
+
+Story: Poll: "Do you prefer paying a gold loan in monthly EMIs or as a bullet payment?" + link to the calculator.
+
+Reel: Screen recording showing the quick EMI comparison between a 6-month and 12-month tenure for a ₹10 Lakh gold loan, highlighting the interest savings.

@@ -5265,9 +5265,168 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Why does early refinancing save more money?", answer: "In the early years, the principal balance is highest, meaning you pay the most interest. Lowering the rate early on reduces the interest charged on that high balance." },
       { question: "Is it ever too late to refinance?", answer: "While early is better, if the rate drop is significant enough, refinancing can still save money in the later years, provided the savings exceed the processing fees." }
     ]
+  },
+  {
+    slug: "sbi-ev-loan-emi-calculator",
+    type: "loan-types",
+    title: "SBI EV Loan EMI Calculator 2026 | Green Car Finance",
+    h1: "SBI EV Loan EMI Calculator",
+    description: "Calculate your EMI for SBI's Green Car Loan. Benefit from lower interest rates and longer repayment tenures for electric vehicles.",
+    intro: "State Bank of India offers a specialized 'Green Car Loan' for electric vehicles, featuring a concession on the interest rate compared to their regular auto loans.",
+    amount: 1500000,
+    interestRate: 8.75,
+    tenure: 96,
+    date: "2026-09-13",
+    content: `
+      <h2>SBI Green Car Loan Features</h2>
+      <p>SBI's EV loan is designed to encourage eco-friendly transport. It offers a repayment tenure of up to 8 years (96 months), which is longer than standard car loans, helping to keep your monthly EMI affordable.</p>
+    `,
+    faqs: [
+      { question: "Does SBI offer a discount on EV loan interest rates?", answer: "Yes, SBI typically offers a concession of 0.20% to 0.25% on the interest rate for Green Car Loans compared to regular auto loans." },
+      { question: "What is the maximum tenure for an SBI EV loan?", answer: "You can repay an SBI EV loan over a maximum tenure of 8 years (96 months)." }
+    ]
+  },
+  {
+    slug: "hdfc-ev-loan-emi-calculator",
+    type: "loan-types",
+    title: "HDFC EV Loan EMI Calculator | Electric Vehicle Financing",
+    h1: "HDFC EV Loan EMI Calculator",
+    description: "Plan your electric vehicle purchase with the HDFC EV Loan EMI calculator. See your monthly payments and interest breakdown.",
+    intro: "HDFC Bank provides customized financing solutions for electric cars. Use this calculator to estimate your EMI based on current EV loan rates.",
+    amount: 2000000,
+    interestRate: 8.85,
+    tenure: 84,
+    date: "2026-09-13",
+    content: `
+      <h2>Financing Your EV with HDFC</h2>
+      <p>HDFC offers competitive rates and fast processing for EV loans. Make sure to check if the specific electric car model you want is eligible for their special EV financing terms.</p>
+    `,
+    faqs: [
+      { question: "Can I get 100% financing for an EV from HDFC?", answer: "HDFC may offer up to 100% on-road funding for select customers and specific EV models, subject to eligibility." },
+      { question: "Are processing fees waived for EV loans?", answer: "Banks occasionally run promotional offers waiving processing fees for EV loans, so it's best to check with the bank directly." }
+    ]
+  },
+  {
+    slug: "tata-ev-loan-calculator",
+    type: "loan-types",
+    title: "Tata EV Loan EMI Calculator | Finance Your Nexon or Tiago EV",
+    h1: "Tata EV Loan Calculator",
+    description: "Calculate EMIs for Tata electric vehicles like the Nexon EV, Tiago EV, and Punch EV. Find the best financing options.",
+    intro: "Tata Motors is a leader in the Indian EV market. Calculate the EMI for your new Tata electric car using standard bank rates for EVs.",
+    amount: 1200000,
+    interestRate: 8.80,
+    tenure: 84,
+    date: "2026-09-13",
+    content: `
+      <h2>Financing a Tata Electric Car</h2>
+      <p>Many banks have tie-ups with Tata Motors to offer seamless financing for their EV lineup. Use this tool to plan your down payment and loan tenure.</p>
+    `,
+    faqs: [
+      { question: "What is the average interest rate for a Tata EV loan?", answer: "Interest rates generally range from 8.5% to 9.5%, depending on your credit profile and the lending institution." },
+      { question: "Is it better to take a loan from the dealer or a bank directly?", answer: "Always compare the dealer's subvention scheme with direct bank offers to see which yields the lowest total interest payout." }
+    ]
+  },
+  {
+    slug: "two-wheeler-ev-loan-emi-calculator",
+    type: "loan-types",
+    title: "Electric Two-Wheeler Loan EMI Calculator | E-Bike & E-Scooter",
+    h1: "Electric Two-Wheeler Loan Calculator",
+    description: "Plan the financing for your new electric scooter or bike. Calculate EMIs for Ola, Ather, TVS iQube, and more.",
+    intro: "Electric two-wheelers are rapidly gaining popularity. Calculate your monthly EMI for an e-scooter or e-bike using this specialized calculator.",
+    amount: 150000,
+    interestRate: 11.5,
+    tenure: 36,
+    date: "2026-09-13",
+    content: `
+      <h2>Financing Your E-Scooter</h2>
+      <p>Loans for electric two-wheelers typically have slightly higher interest rates than car loans but are still highly affordable due to the lower principal amount. The EMI is often offset by the massive savings on petrol.</p>
+    `,
+    faqs: [
+      { question: "Can I get a loan for an electric scooter?", answer: "Yes, most major banks and NBFCs offer dedicated loans for electric two-wheelers." },
+      { question: "What is a typical tenure for an e-bike loan?", answer: "Most lenders offer tenures ranging from 12 to 48 months for electric two-wheelers." }
+    ]
+  },
+  {
+    slug: "emi-calculator-10-lakh-ev-loan",
+    type: "scenarios",
+    title: "EMI Calculator for 10 Lakh EV Loan | Monthly Repayment",
+    h1: "10 Lakh EV Loan Scenario",
+    description: "Analyze the amortization schedule and monthly EMI for a ₹10 Lakh electric vehicle loan.",
+    intro: "Planning to finance ₹10 Lakh for an entry-level electric car? See how the interest rate discount for EVs affects your monthly budget.",
+    amount: 1000000,
+    interestRate: 8.75,
+    tenure: 84,
+    date: "2026-09-13",
+    content: `
+      <h2>10 Lakh EV Loan Breakdown</h2>
+      <p>Explore the full amortization schedule. Notice how a slightly lower interest rate for an EV loan reduces your total interest burden over a 7-year term.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 10 Lakh EV loan for 7 years?", answer: "At an 8.75% interest rate, the EMI would be approximately ₹15,966." },
+      { question: "How much interest do I pay on a 10 Lakh EV loan?", answer: "Over 7 years at 8.75%, the total interest payable is around ₹3.4 Lakh." }
+    ]
+  },
+  {
+    slug: "emi-calculator-15-lakh-ev-loan",
+    type: "scenarios",
+    title: "EMI Calculator for 15 Lakh EV Loan | Full Schedule",
+    h1: "15 Lakh EV Loan Scenario",
+    description: "Calculate the EMI and view the complete amortization table for a ₹15 Lakh electric vehicle loan.",
+    intro: "A ₹15 Lakh loan is common for mid-range electric SUVs. Use our calculator to break down the principal and interest components.",
+    amount: 1500000,
+    interestRate: 8.75,
+    tenure: 84,
+    date: "2026-09-13",
+    content: `
+      <h2>15 Lakh EV Loan Breakdown</h2>
+      <p>Use the visual pie chart to understand how much of your payment goes towards the principal versus the interest over the life of the loan.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 15 Lakh EV loan for 7 years?", answer: "The EMI is approximately ₹23,949 at an 8.75% interest rate." },
+      { question: "Should I opt for an 8-year tenure for a 15 Lakh loan?", answer: "An 8-year tenure will lower your monthly EMI but increase the total interest paid. Choose based on your monthly cash flow." }
+    ]
+  },
+  {
+    slug: "emi-calculator-20-lakh-ev-loan",
+    type: "scenarios",
+    title: "EMI Calculator for 20 Lakh EV Loan | Interest Savings",
+    h1: "20 Lakh EV Loan Scenario",
+    description: "Model a ₹20 Lakh EV loan. Calculate your EMI and see how green loan rates save you money over time.",
+    intro: "Financing a premium electric vehicle? See how a ₹20 Lakh loan structures out over different tenures and interest rates.",
+    amount: 2000000,
+    interestRate: 8.75,
+    tenure: 84,
+    date: "2026-09-13",
+    content: `
+      <h2>20 Lakh EV Loan Breakdown</h2>
+      <p>For higher loan amounts, even a 0.25% interest rate discount on an EV loan translates into significant absolute savings. Check the amortization table for details.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 20 Lakh EV loan for 7 years?", answer: "At 8.75%, the monthly EMI is approximately ₹31,932." },
+      { question: "Does a 20 Lakh EV loan require a large down payment?", answer: "Banks generally require a 10% to 20% margin, meaning you would need a down payment of ₹2 Lakh to ₹4 Lakh." }
+    ]
+  },
+  {
+    slug: "ev-loan-3-years-vs-5-years",
+    type: "tenure-comparison",
+    title: "EV Loan: 3 Years vs 5 Years Comparison",
+    h1: "EV Loan Tenure: 3 Years vs 5 Years",
+    description: "Compare the EMI and total interest for an EV loan over 3 years versus 5 years. Find the optimal repayment schedule.",
+    intro: "Choosing between a 3-year and a 5-year tenure for your EV loan? Compare the numbers side-by-side to see the trade-off between monthly cash flow and total interest.",
+    amount: 1500000,
+    interestRate: 8.75,
+    tenure: 60,
+    date: "2026-09-13",
+    content: `
+      <h2>Tenure Comparison: 36 Months vs 60 Months</h2>
+      <p>A 3-year loan will have a much higher monthly EMI, but you will pay off the car quickly and save significantly on interest. A 5-year loan lowers the monthly burden but costs more overall.</p>
+    `,
+    faqs: [
+      { question: "How much interest do I save with a 3-year EV loan instead of a 5-year loan?", answer: "On a ₹15 Lakh loan at 8.75%, you save approximately ₹1.5 Lakh in interest by choosing a 3-year tenure over a 5-year tenure." },
+      { question: "Is a 5-year EV loan a bad idea?", answer: "No, if the higher EMI of a 3-year loan strains your budget, a 5-year loan is a safer choice to ensure you don't default on payments." }
+    ]
   }
 ];
-
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {
   return TIER2_PAGES.find((page) => page.slug === slug && page.type === type);

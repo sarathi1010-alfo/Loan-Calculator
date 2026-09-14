@@ -308,6 +308,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-5-lakh-gold-loan`,
     `${SITE_URL}/scenarios/emi-calculator-10-lakh-gold-loan`,
     `${SITE_URL}/tenure-comparison/gold-loan-6-months-vs-12-months`,
+    // New Tier 1 (2026-09-13)
+    `${SITE_URL}/blog/ev-loan-emi-planning-guide-2026`,
+
+    // New Tier 2 (2026-09-13)
+    `${SITE_URL}/loan-types/sbi-ev-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/hdfc-ev-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/tata-ev-loan-calculator`,
+    `${SITE_URL}/loan-types/two-wheeler-ev-loan-emi-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-10-lakh-ev-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-15-lakh-ev-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-20-lakh-ev-loan`,
+    `${SITE_URL}/tenure-comparison/ev-loan-3-years-vs-5-years`,
+
   ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

@@ -1287,4 +1287,58 @@ test.describe('Technical Verification', () => {
     expect(response?.status()).toBe(200);
     await expect(page.locator('h1')).toBeVisible();
   });
+
+  test('2026-09-13 Tier 1: ev-loan-emi-planning-guide-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/ev-loan-emi-planning-guide-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-13 Tier 2: sbi-ev-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-ev-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-13 Tier 2: hdfc-ev-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-ev-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-13 Tier 2: tata-ev-loan-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/tata-ev-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-13 Tier 2: two-wheeler-ev-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/two-wheeler-ev-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-13 Tier 2: emi-calculator-10-lakh-ev-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-10-lakh-ev-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-13 Tier 2: emi-calculator-15-lakh-ev-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-15-lakh-ev-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-13 Tier 2: emi-calculator-20-lakh-ev-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-20-lakh-ev-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-13 Tier 2: ev-loan-3-years-vs-5-years', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/ev-loan-3-years-vs-5-years`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
 });

@@ -7,6 +7,19 @@ async function pingSearchEngines() {
   console.log("--- Search Engine Notification System ---");
 
   const newUrls = [
+
+    // New Tier 1 (2026-09-17)
+    `${SITE_URL}/blog/comprehensive-interest-rate-comparison-2026`,
+
+    // New Tier 2 (2026-09-17)
+    `${SITE_URL}/tenure-comparison/sbi-vs-hdfc-home-loan-interest-rate-2026`,
+    `${SITE_URL}/tenure-comparison/icici-vs-axis-personal-loan-interest-rate-2026`,
+    `${SITE_URL}/tenure-comparison/bajaj-vs-tata-capital-business-loan-rates`,
+    `${SITE_URL}/tenure-comparison/fixed-vs-floating-home-loan-rates-2026`,
+    `${SITE_URL}/loan-types/sbi-home-loan-interest-rate-calculator-2026`,
+    `${SITE_URL}/loan-types/hdfc-personal-loan-interest-rate-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-15-lakh-at-9-percent`,
+    `${SITE_URL}/scenarios/emi-calculator-30-lakh-at-8-5-percent`,
     // New Tier 1 (2026-08-30)
     `${SITE_URL}/blog/loan-prepayment-strategies-2026`,
 

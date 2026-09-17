@@ -16,6 +16,135 @@ export interface Tier2Page {
 export const TIER2_PAGES: Tier2Page[] = [
 
   {
+    slug: "sbi-vs-hdfc-home-loan-interest-rate-2026",
+    type: "tenure-comparison",
+    title: "SBI vs HDFC Home Loan Interest Rate Comparison 2026",
+    h1: "SBI vs HDFC Home Loan Interest Rates",
+    description: "Compare SBI and HDFC home loan interest rates for 2026. Calculate your EMI and find out which bank offers the best terms for your home purchase.",
+    intro: "SBI and HDFC are two of the largest home loan providers in India. Compare their interest rates and calculate your EMI to make an informed decision.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-09-17",
+    faqs: [
+      { question: "What is the current SBI home loan interest rate?", answer: "SBI home loan interest rates currently start around 8.50%, depending on your CIBIL score and loan amount." },
+      { question: "Is HDFC home loan better than SBI?", answer: "Both offer competitive rates. SBI often has lower processing fees and no prepayment penalties for floating rates, while HDFC might offer faster processing." }
+    ]
+  },
+  {
+    slug: "icici-vs-axis-personal-loan-interest-rate-2026",
+    type: "tenure-comparison",
+    title: "ICICI vs Axis Bank Personal Loan Interest Rate Comparison",
+    h1: "ICICI vs Axis Bank Personal Loan Rates",
+    description: "Compare ICICI and Axis Bank personal loan interest rates. Find the lowest EMI and best terms for your short-term financing needs in 2026.",
+    intro: "Need a personal loan? Compare the interest rates and EMI options from ICICI Bank and Axis Bank to get the best deal.",
+    amount: 500000,
+    interestRate: 10.5,
+    tenure: 60,
+    date: "2026-09-17",
+    faqs: [
+      { question: "What is the minimum interest rate for ICICI personal loan?", answer: "ICICI personal loan interest rates typically start around 10.50% for borrowers with excellent credit scores." },
+      { question: "How fast is Axis Bank personal loan disbursement?", answer: "Axis Bank offers quick disbursement, often within a few hours for pre-approved customers." }
+    ]
+  },
+  {
+    slug: "bajaj-vs-tata-capital-business-loan-rates",
+    type: "tenure-comparison",
+    title: "Bajaj Finserv vs Tata Capital Business Loan Rates 2026",
+    h1: "Bajaj Finserv vs Tata Capital Business Loans",
+    description: "Compare business loan interest rates from Bajaj Finserv and Tata Capital. Calculate your EMI and choose the best financing for your enterprise.",
+    intro: "Compare business loan offerings from top NBFCs like Bajaj Finserv and Tata Capital to fuel your business growth with the best EMI.",
+    amount: 2000000,
+    interestRate: 14.0,
+    tenure: 36,
+    date: "2026-09-17",
+    faqs: [
+      { question: "What is the maximum business loan amount from Bajaj Finserv?", answer: "Bajaj Finserv offers collateral-free business loans up to Rs. 80 Lakhs." },
+      { question: "Does Tata Capital require collateral for business loans?", answer: "Tata Capital offers both secured and unsecured business loans, depending on the loan amount and business profile." }
+    ]
+  },
+  {
+    slug: "fixed-vs-floating-home-loan-rates-2026",
+    type: "tenure-comparison",
+    title: "Fixed vs Floating Home Loan Interest Rates 2026 | Compare EMI",
+    h1: "Fixed vs Floating Home Loan Rates",
+    description: "Understand the difference between fixed and floating home loan interest rates in 2026. Compare EMIs and choose the best option for your mortgage.",
+    intro: "Choosing between a fixed and floating interest rate can significantly impact your total loan cost. Compare the scenarios below.",
+    amount: 3000000,
+    interestRate: 9.0,
+    tenure: 240,
+    date: "2026-09-17",
+    faqs: [
+      { question: "What is a floating interest rate?", answer: "A floating interest rate changes periodically based on market benchmarks like the RBI Repo Rate." },
+      { question: "Should I choose a fixed or floating rate in 2026?", answer: "In a falling interest rate environment, a floating rate is usually better. If you expect rates to rise significantly, locking in a fixed rate might make sense." }
+    ]
+  },
+  {
+    slug: "sbi-home-loan-interest-rate-calculator-2026",
+    type: "loan-types",
+    title: "SBI Home Loan Interest Rate & EMI Calculator 2026",
+    h1: "SBI Home Loan EMI Calculator",
+    description: "Calculate your SBI home loan EMI using the latest 2026 interest rates. Plan your housing finance with our accurate reducing-balance calculator.",
+    intro: "Use this calculator to estimate your monthly EMI for an SBI Home Loan based on current interest rates and your chosen tenure.",
+    amount: 4000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-09-17",
+    faqs: [
+      { question: "How is SBI home loan EMI calculated?", answer: "It is calculated using the standard formula: EMI = [P x R x (1+R)^N] / [(1+R)^N-1], based on the reducing balance method." },
+      { question: "Can I prepay my SBI home loan?", answer: "Yes, SBI generally does not charge prepayment penalties on floating-rate home loans." }
+    ]
+  },
+  {
+    slug: "hdfc-personal-loan-interest-rate-calculator",
+    type: "loan-types",
+    title: "HDFC Personal Loan Interest Rate & EMI Calculator",
+    h1: "HDFC Personal Loan EMI Calculator",
+    description: "Estimate your HDFC personal loan EMI instantly. Check the impact of interest rates and tenure on your monthly payments.",
+    intro: "Plan your personal expenses by calculating your expected EMI for an HDFC Personal Loan.",
+    amount: 300000,
+    interestRate: 11.0,
+    tenure: 48,
+    date: "2026-09-17",
+    faqs: [
+      { question: "What is the processing fee for HDFC personal loan?", answer: "HDFC typically charges a processing fee of up to 2.50% of the loan amount." },
+      { question: "What factors affect my personal loan interest rate?", answer: "Your credit score, income, employment type, and loan amount all play a role." }
+    ]
+  },
+  {
+    slug: "emi-calculator-15-lakh-at-9-percent",
+    type: "scenarios",
+    title: "EMI Calculator for 15 Lakh Loan at 9% Interest",
+    h1: "EMI for ₹15 Lakh Loan at 9%",
+    description: "Calculate the exact EMI for a 15 Lakh loan at a 9% interest rate. View the full amortization schedule and total interest payable.",
+    intro: "Check the monthly EMI and total interest outgo for a ₹15 Lakh loan at an interest rate of 9%.",
+    amount: 1500000,
+    interestRate: 9.0,
+    tenure: 120,
+    date: "2026-09-17",
+    faqs: [
+      { question: "What is the EMI for 15 Lakh at 9% for 10 years?", answer: "The EMI would be approximately ₹19,001." },
+      { question: "How much total interest will I pay?", answer: "Over 10 years, the total interest payable would be around ₹7,80,183." }
+    ]
+  },
+  {
+    slug: "emi-calculator-30-lakh-at-8-5-percent",
+    type: "scenarios",
+    title: "EMI Calculator for 30 Lakh Loan at 8.5% Interest",
+    h1: "EMI for ₹30 Lakh Loan at 8.5%",
+    description: "Calculate the exact EMI for a 30 Lakh loan at an 8.5% interest rate. Ideal for home loan planning.",
+    intro: "Check the monthly EMI and total interest outgo for a ₹30 Lakh loan at an interest rate of 8.5%, a common scenario for home loans.",
+    amount: 3000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-09-17",
+    faqs: [
+      { question: "What is the EMI for 30 Lakh at 8.5% for 20 years?", answer: "The EMI would be approximately ₹26,035." },
+      { question: "What is the total interest for this loan?", answer: "Over 20 years, the total interest payable would be around ₹32,48,328." }
+    ]
+  },
+
+  {
     slug: "muthoot-finance-gold-loan-emi-calculator",
     type: "loan-types",
     title: "Muthoot Finance Gold Loan EMI Calculator 2026 | Check EMI",

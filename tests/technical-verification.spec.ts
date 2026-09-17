@@ -1395,4 +1395,109 @@ test.describe('Technical Verification', () => {
     expect(response?.status()).toBe(200);
     await expect(page.locator('h1')).toBeVisible();
   });
+
+  test('New Tier 1 Article returns 200 OK and has valid Schema - Interest Rates', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/comprehensive-interest-rate-comparison-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toContainText('Comprehensive Interest Rate Comparison');
+
+    // Validate Article Schema
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+    expect(articleSchema['@type']).toBe('Article');
+  });
+
+  test('New Tier 2 Page 1 returns 200 OK and has valid Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/sbi-vs-hdfc-home-loan-interest-rate-2026`);
+    expect(response?.status()).toBe(200);
+    // Validate FAQ Schema
+    const schema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(schema).not.toBeNull();
+  });
+
+  test('New Tier 2 Page 2 returns 200 OK and has valid Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/icici-vs-axis-personal-loan-interest-rate-2026`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(schema).not.toBeNull();
+  });
+
+  test('New Tier 2 Page 3 returns 200 OK and has valid Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/bajaj-vs-tata-capital-business-loan-rates`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(schema).not.toBeNull();
+  });
+
+  test('New Tier 2 Page 4 returns 200 OK and has valid Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/fixed-vs-floating-home-loan-rates-2026`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(schema).not.toBeNull();
+  });
+
+  test('New Tier 2 Page 5 returns 200 OK and has valid Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-home-loan-interest-rate-calculator-2026`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(schema).not.toBeNull();
+  });
+
+  test('New Tier 2 Page 6 returns 200 OK and has valid Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-personal-loan-interest-rate-calculator`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(schema).not.toBeNull();
+  });
+
+  test('New Tier 2 Page 7 returns 200 OK and has valid Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-15-lakh-at-9-percent`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(schema).not.toBeNull();
+  });
+
+  test('New Tier 2 Page 8 returns 200 OK and has valid Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-30-lakh-at-8-5-percent`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(schema).not.toBeNull();
+  });
+
 });

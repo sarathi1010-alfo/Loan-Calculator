@@ -14,6 +14,7 @@ export interface Tier2Page {
 }
 
 export const TIER2_PAGES: Tier2Page[] = [
+
   {
     slug: "muthoot-finance-gold-loan-emi-calculator",
     type: "loan-types",
@@ -5425,9 +5426,144 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "How much interest do I save with a 3-year EV loan instead of a 5-year loan?", answer: "On a ₹15 Lakh loan at 8.75%, you save approximately ₹1.5 Lakh in interest by choosing a 3-year tenure over a 5-year tenure." },
       { question: "Is a 5-year EV loan a bad idea?", answer: "No, if the higher EMI of a 3-year loan strains your budget, a 5-year loan is a safer choice to ensure you don't default on payments." }
     ]
+  },
+  {
+    slug: "consumer-durable-loan-emi-calculator-2026",
+    type: "loan-types",
+    title: "Consumer Durable Loan EMI Calculator 2026 | Check Repayment",
+    h1: "Consumer Durable Loan EMI Calculator 2026",
+    description: "Calculate your monthly EMI for consumer durable loans. Check no-cost EMI options and total interest for appliances and electronics.",
+    intro: "Use our Consumer Durable Loan EMI Calculator to instantly check your monthly payments for electronics, home appliances, and furniture. Whether you are opting for a no-cost EMI or a standard interest-bearing loan, understanding your monthly outflow is critical for smart budgeting.",
+    amount: 50000,
+    interestRate: 0,
+    tenure: 12,
+    date: "2026-09-17",
+    content: "<h3>Why Use a Consumer Durable Loan Calculator?</h3><p>Consumer durable loans often come with hidden processing fees or use flat-rate interest which can be deceptive. A calculator breaks down the real cost, showing you exactly how much you'll pay each month and the total interest burden over the tenure.</p>",
+    faqs: [
+      { question: "What is a no-cost EMI?", answer: "A no-cost EMI is where the interest portion is offered as an upfront discount by the retailer or manufacturer, meaning you only pay the actual product price divided into installments." },
+      { question: "Are there processing fees on consumer durable loans?", answer: "Yes, many lenders charge a processing fee even on no-cost EMIs, which increases the effective cost of your purchase." }
+    ]
+  },
+  {
+    slug: "bajaj-finserv-consumer-durable-loan-calculator",
+    type: "loan-types",
+    title: "Bajaj Finserv Consumer Durable Loan EMI Calculator 2026",
+    h1: "Bajaj Finserv Consumer Durable Loan EMI Calculator",
+    description: "Calculate EMI for Bajaj Finserv consumer durable loans. Plan your electronics and appliance purchases with accurate monthly payment estimates.",
+    intro: "Bajaj Finserv is one of the leading providers of consumer durable loans in India, offering instant approvals and no-cost EMI options across thousands of partner stores. Use this calculator to estimate your Bajaj EMI card payments before making a purchase.",
+    amount: 40000,
+    interestRate: 0,
+    tenure: 6,
+    date: "2026-09-17",
+    content: "<h3>Bajaj EMI Network Card Benefits</h3><p>The Bajaj EMI card allows you to split your purchases into easy installments without a credit card. However, always check the exact tenure and processing fees applicable to the specific product you are buying.</p>",
+    faqs: [
+      { question: "What is the maximum tenure for Bajaj Finserv durable loans?", answer: "Tenures usually range from 3 to 24 months, depending on the product and the ongoing promotional offers." },
+      { question: "Do I need a credit card for a Bajaj Finserv loan?", answer: "No, Bajaj Finserv offers a dedicated EMI Network Card that functions independently of traditional credit cards." }
+    ]
+  },
+  {
+    slug: "tata-capital-consumer-durable-loan-calculator",
+    type: "loan-types",
+    title: "Tata Capital Consumer Durable Loan EMI Calculator 2026",
+    h1: "Tata Capital Consumer Durable Loan EMI Calculator",
+    description: "Plan your Tata Capital consumer durable loan EMIs. Calculate monthly installments for home appliances and gadgets easily.",
+    intro: "Tata Capital provides quick and flexible consumer durable loans to help you upgrade your lifestyle. Check your prospective monthly EMI using our Tata Capital Consumer Durable Loan calculator and find out exactly how much you will owe.",
+    amount: 60000,
+    interestRate: 12.5,
+    tenure: 18,
+    date: "2026-09-17",
+    content: "<h3>Planning with Tata Capital</h3><p>Tata Capital offers competitive interest rates on consumer durables when no-cost EMI isn't available. Ensure you check the terms for pre-closure if you plan to pay off the appliance early.</p>",
+    faqs: [
+      { question: "Does Tata Capital finance mobile phones?", answer: "Yes, Tata Capital finances a wide range of consumer durables including high-end smartphones, TVs, and refrigerators." },
+      { question: "Is a down payment required?", answer: "Depending on the scheme, you may need to pay a small down payment or a processing fee upfront." }
+    ]
+  },
+  {
+    slug: "idfc-first-consumer-durable-loan-calculator",
+    type: "loan-types",
+    title: "IDFC FIRST Consumer Durable Loan EMI Calculator 2026",
+    h1: "IDFC FIRST Consumer Durable Loan EMI Calculator",
+    description: "Check your IDFC FIRST Bank consumer durable loan EMI. Get accurate repayment schedules for electronics and furniture loans.",
+    intro: "IDFC FIRST Bank offers seamless financing for consumer durables directly at retail outlets. Use this tool to calculate your EMI, whether you're purchasing a new washing machine or upgrading your home entertainment system.",
+    amount: 75000,
+    interestRate: 14.5,
+    tenure: 12,
+    date: "2026-09-17",
+    content: "<h3>IDFC FIRST Financing Options</h3><p>With paperless approvals and quick disbursals, IDFC FIRST makes appliance buying easy. Our calculator helps you verify the numbers provided by the store representative.</p>",
+    faqs: [
+      { question: "What documents are needed for IDFC FIRST durable loans?", answer: "Typically, you need KYC documents (Aadhaar/PAN) and sometimes a cancelled cheque or bank mandate for EMI auto-debit." },
+      { question: "Can I prepay my IDFC FIRST consumer loan?", answer: "Yes, but check the loan agreement for any foreclosure charges that may apply before the completion of the tenure." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50-thousand-consumer-durable",
+    type: "scenarios",
+    title: "EMI Calculator for ₹50,000 Consumer Durable Loan",
+    h1: "EMI Calculator for ₹50,000 Consumer Durable Loan",
+    description: "Calculate the EMI for a ₹50,000 consumer durable loan. View complete repayment schedules and interest breakdowns.",
+    intro: "A ₹50,000 loan is typical for purchasing mid-range smartphones or essential home appliances like refrigerators. Use this calculator to see your monthly EMI breakdown.",
+    amount: 50000,
+    interestRate: 0,
+    tenure: 6,
+    date: "2026-09-17",
+    content: "<h3>Managing a ₹50K Loan</h3><p>With a short tenure like 6 months on a no-cost EMI, your monthly outflow is simply the principal divided by the tenure. However, keep an eye out for initial processing fees.</p>",
+    faqs: [
+      { question: "What is the EMI for a 50k loan at 0% for 6 months?", answer: "The EMI would be exactly ₹8,333 per month, assuming no other hidden charges are added to the loan principal." },
+      { question: "Can I get a 50k loan without income proof?", answer: "If you have a pre-approved EMI card or good credit history with lenders like Bajaj Finserv, income proof may not be required at the point of sale." }
+    ]
+  },
+  {
+    slug: "emi-calculator-1-lakh-consumer-durable",
+    type: "scenarios",
+    title: "EMI Calculator for ₹1 Lakh Consumer Durable Loan",
+    h1: "EMI Calculator for ₹1 Lakh Consumer Durable Loan",
+    description: "Check the EMI for a ₹1 Lakh consumer durable loan. Perfect for planning high-end electronics or multiple appliance purchases.",
+    intro: "Planning to buy a premium laptop or furnish your living room? A ₹1 Lakh consumer durable loan can help. Calculate your EMI and see the amortization schedule here.",
+    amount: 100000,
+    interestRate: 12,
+    tenure: 12,
+    date: "2026-09-17",
+    content: "<h3>Repaying ₹1 Lakh over 1 Year</h3><p>At standard interest rates, a ₹1 Lakh loan over 12 months requires careful budgeting. The calculator will show you exactly how much interest you'll pay over the year.</p>",
+    faqs: [
+      { question: "How much interest will I pay on a ₹1 Lakh loan at 12% for 1 year?", answer: "Using the reducing balance method, the total interest payable is approximately ₹6,619, making your EMI around ₹8,885." },
+      { question: "Do lenders finance 100% of the product value?", answer: "Rarely. Usually, there is a required down payment margin of 10% to 20% depending on the product category." }
+    ]
+  },
+  {
+    slug: "emi-calculator-2-lakh-consumer-durable",
+    type: "scenarios",
+    title: "EMI Calculator for ₹2 Lakh Consumer Durable Loan",
+    h1: "EMI Calculator for ₹2 Lakh Consumer Durable Loan",
+    description: "Calculate EMI for a ₹2 Lakh consumer durable loan. Estimate monthly payments for comprehensive home furnishing or premium electronics.",
+    intro: "A ₹2 Lakh loan is substantial in the consumer durable segment, often used for entire home furniture setups or ultra-premium electronics. Calculate your monthly commitment to ensure affordability.",
+    amount: 200000,
+    interestRate: 14,
+    tenure: 24,
+    date: "2026-09-17",
+    content: "<h3>Handling Larger Appliance Loans</h3><p>For amounts as large as ₹2 Lakhs, choosing a longer tenure like 24 months can keep the EMI manageable, but significantly increases the total interest paid. Compare different tenures using our tool.</p>",
+    faqs: [
+      { question: "What is the EMI for 2 Lakhs over 2 years at 14%?", answer: "The EMI would be approximately ₹9,603, with a total interest outgo of about ₹30,461 over the 24 months." },
+      { question: "Is it better to take a personal loan instead?", answer: "If the store doesn't offer a subsidized interest rate on a 2 Lakh purchase, a standard personal loan from your primary bank might offer better rates and more flexibility." }
+    ]
+  },
+  {
+    slug: "consumer-loan-6-months-vs-12-months",
+    type: "tenure-comparison",
+    title: "Consumer Durable Loan: 6 Months vs 12 Months Tenure Comparison",
+    h1: "Consumer Durable Loan: 6 Months vs 12 Months",
+    description: "Compare 6-month and 12-month tenures for consumer durable loans. See the impact on your monthly EMI and total interest paid.",
+    intro: "When buying an appliance on EMI, the store will often offer you 6-month or 12-month repayment options. Use this comparison to see how your choice affects your monthly cash flow and total cost.",
+    amount: 75000,
+    interestRate: 15,
+    tenure: 6,
+    date: "2026-09-17",
+    content: "<h3>Short vs Long Tenure for Appliances</h3><p>A 6-month tenure means higher EMIs but you get out of debt faster and pay less interest. A 12-month tenure halves your monthly burden but increases the total interest paid to the lender.</p>",
+    faqs: [
+      { question: "Why do stores push for longer tenures?", answer: "Longer tenures mean higher interest earnings for the financing company, and the lower EMI makes the product seem more affordable to the customer." },
+      { question: "Does the tenure affect the processing fee?", answer: "Usually not. Processing fees are often fixed or a percentage of the loan amount, regardless of the tenure chosen." }
+    ]
   }
 ];
-
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {
   return TIER2_PAGES.find((page) => page.slug === slug && page.type === type);
 }

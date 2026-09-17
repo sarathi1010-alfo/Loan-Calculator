@@ -321,6 +321,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-20-lakh-ev-loan`,
     `${SITE_URL}/tenure-comparison/ev-loan-3-years-vs-5-years`,
 
+      // New Tier 1 (2026-09-17)
+    `${SITE_URL}/blog/consumer-durable-loan-emi-guide-2026`,
+
+    // New Tier 2 (2026-09-17)
+    `${SITE_URL}/loan-types/consumer-durable-loan-emi-calculator-2026`,
+    `${SITE_URL}/loan-types/bajaj-finserv-consumer-durable-loan-calculator`,
+    `${SITE_URL}/loan-types/tata-capital-consumer-durable-loan-calculator`,
+    `${SITE_URL}/loan-types/idfc-first-consumer-durable-loan-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-50-thousand-consumer-durable`,
+    `${SITE_URL}/scenarios/emi-calculator-1-lakh-consumer-durable`,
+    `${SITE_URL}/scenarios/emi-calculator-2-lakh-consumer-durable`,
+    `${SITE_URL}/tenure-comparison/consumer-loan-6-months-vs-12-months`,
+
   ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

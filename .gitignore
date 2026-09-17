@@ -41,3 +41,5 @@ yarn-error.log*
 next-env.d.ts
 next_server.log
 next_server.log
+test-results/
+*.py

@@ -1341,4 +1341,58 @@ test.describe('Technical Verification', () => {
     expect(response?.status()).toBe(200);
     await expect(page.locator('h1')).toBeVisible();
   });
+
+  test('2026-09-17 Tier 1: consumer-durable-loan-emi-guide-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/consumer-durable-loan-emi-guide-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-17 Tier 2: consumer-durable-loan-emi-calculator-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/consumer-durable-loan-emi-calculator-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-17 Tier 2: bajaj-finserv-consumer-durable-loan-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/bajaj-finserv-consumer-durable-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-17 Tier 2: tata-capital-consumer-durable-loan-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/tata-capital-consumer-durable-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-17 Tier 2: idfc-first-consumer-durable-loan-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/idfc-first-consumer-durable-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-17 Tier 2: emi-calculator-50-thousand-consumer-durable', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-thousand-consumer-durable`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-17 Tier 2: emi-calculator-1-lakh-consumer-durable', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-1-lakh-consumer-durable`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-17 Tier 2: emi-calculator-2-lakh-consumer-durable', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-2-lakh-consumer-durable`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-17 Tier 2: consumer-loan-6-months-vs-12-months', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/consumer-loan-6-months-vs-12-months`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
 });

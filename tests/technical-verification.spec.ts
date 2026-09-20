@@ -1396,6 +1396,61 @@ test.describe('Technical Verification', () => {
     await expect(page.locator('h1')).toBeVisible();
   });
 
+
+  test('2026-09-20 Tier 1: wedding-loan-emi-planning-guide-2026', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/wedding-loan-emi-planning-guide-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-20 Tier 2: sbi-wedding-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-wedding-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-20 Tier 2: hdfc-wedding-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-wedding-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-20 Tier 2: axis-wedding-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/axis-wedding-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-20 Tier 2: icici-wedding-loan-emi-calculator', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-wedding-loan-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-20 Tier 2: emi-calculator-5-lakh-wedding-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-5-lakh-wedding-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-20 Tier 2: emi-calculator-10-lakh-wedding-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-10-lakh-wedding-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-20 Tier 2: emi-calculator-15-lakh-wedding-loan', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-15-lakh-wedding-loan`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
+  test('2026-09-20 Tier 2: wedding-loan-3-years-vs-5-years', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/wedding-loan-3-years-vs-5-years`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+  });
+
   test('New Tier 1 Article returns 200 OK and has valid Schema - Interest Rates', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/comprehensive-interest-rate-comparison-2026`);
     expect(response?.status()).toBe(200);

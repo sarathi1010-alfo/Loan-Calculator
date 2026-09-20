@@ -5691,7 +5691,139 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Why do stores push for longer tenures?", answer: "Longer tenures mean higher interest earnings for the financing company, and the lower EMI makes the product seem more affordable to the customer." },
       { question: "Does the tenure affect the processing fee?", answer: "Usually not. Processing fees are often fixed or a percentage of the loan amount, regardless of the tenure chosen." }
     ]
+  },
+  {
+    slug: "sbi-wedding-loan-emi-calculator",
+    type: "loan-types",
+    title: "SBI Wedding Loan EMI Calculator 2026 | Plan Your Big Day",
+    h1: "SBI Wedding Loan EMI Calculator",
+    description: "Calculate your SBI wedding loan EMI online. Plan your marriage expenses effectively with our accurate and transparent EMI calculator.",
+    intro: "State Bank of India (SBI) offers personal loans that can be seamlessly used for wedding expenses. Use this calculator to estimate your monthly EMI and plan your wedding budget without financial stress.",
+    amount: 500000,
+    interestRate: 11.5,
+    tenure: 3,
+    date: "2026-09-20",
+    content: "<h3>Why Choose SBI for Your Wedding Loan?</h3><p>SBI provides competitive interest rates and minimal processing fees. Because wedding expenses can escalate quickly, knowing your exact EMI helps you borrow only what you truly need.</p>",
+    faqs: [
+      { question: "Does SBI offer a specific 'wedding loan' product?", answer: "SBI typically funds wedding expenses through its regular personal loan offerings, such as Xpress Credit." },
+      { question: "What is the maximum tenure for an SBI personal loan for a wedding?", answer: "Usually, SBI offers tenures up to 5-6 years depending on your profile." }
+    ]
+  },
+  {
+    slug: "hdfc-wedding-loan-emi-calculator",
+    type: "loan-types",
+    title: "HDFC Wedding Loan EMI Calculator 2026",
+    h1: "HDFC Wedding Loan EMI Calculator",
+    description: "Calculate your HDFC Bank wedding loan EMI. Fast approval and competitive rates to finance your dream marriage.",
+    intro: "HDFC Bank offers quick, collateral-free personal loans perfect for weddings. Calculate your potential EMI to ensure the loan fits within your monthly budget comfortably.",
+    amount: 800000,
+    interestRate: 10.75,
+    tenure: 4,
+    date: "2026-09-20",
+    content: "<h3>Planning Your Marriage with HDFC Bank</h3><p>With HDFC's fast disbursal process, you can quickly secure funds for venue booking or jewelry. Always calculate your EMI beforehand to avoid starting married life burdened by unmanageable debt.</p>",
+    faqs: [
+      { question: "How fast is HDFC Bank's wedding loan approval?", answer: "For pre-approved customers, funds can be disbursed in as little as 10 seconds. For others, it typically takes 48 hours." },
+      { question: "Are there pre-payment penalties?", answer: "Yes, standard personal loan pre-payment charges apply as per HDFC Bank's terms." }
+    ]
+  },
+  {
+    slug: "axis-wedding-loan-emi-calculator",
+    type: "loan-types",
+    title: "Axis Bank Wedding Loan EMI Calculator",
+    h1: "Axis Bank Wedding Loan EMI Calculator",
+    description: "Plan your Axis Bank wedding loan EMI. Find the perfect balance between loan amount and monthly repayment.",
+    intro: "Axis Bank provides flexible personal loans to cover all your marriage expenses. Use our tool to find the perfect balance between a low EMI and low total interest.",
+    amount: 400000,
+    interestRate: 12.0,
+    tenure: 2,
+    date: "2026-09-20",
+    content: "<h3>Managing Cash Flow with Axis Bank</h3><p>Axis Bank loans offer flexibility in tenures. Opt for a shorter tenure if you want to be debt-free quickly after the wedding, even if it means a higher monthly EMI.</p>",
+    faqs: [
+      { question: "Can both partners co-apply for an Axis wedding loan?", answer: "Yes, adding a co-applicant can often increase your eligible loan amount." }
+    ]
+  },
+  {
+    slug: "icici-wedding-loan-emi-calculator",
+    type: "loan-types",
+    title: "ICICI Bank Wedding Loan EMI Calculator",
+    h1: "ICICI Wedding Loan EMI Calculator",
+    description: "Estimate your ICICI Bank wedding loan EMI online. Instant calculation for marriage-related expenses.",
+    intro: "ICICI Bank's personal loans are a popular choice for funding weddings. Calculate your EMI instantly to see how different tenures affect your monthly outgo.",
+    amount: 600000,
+    interestRate: 11.25,
+    tenure: 3,
+    date: "2026-09-20",
+    content: "<h3>Smart Borrowing with ICICI</h3><p>When borrowing from ICICI for a wedding, ensure you account for all hidden costs like processing fees when calculating your total loan requirement.</p>",
+    faqs: [
+      { question: "What expenses does the ICICI wedding loan cover?", answer: "The loan is disbursed directly to your account and can be used for any wedding-related expense, from catering to the honeymoon." }
+    ]
+  },
+  {
+    slug: "emi-calculator-5-lakh-wedding-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹5 Lakh Wedding Loan",
+    h1: "EMI Calculator for ₹5 Lakh Wedding Loan",
+    description: "Check the monthly EMI for a 5 Lakh wedding loan. View the complete amortization schedule and total interest outgo.",
+    intro: "A ₹5 Lakh loan is a common amount for a mid-sized wedding. Visualize your repayment journey and total interest outlay using our calculator.",
+    amount: 500000,
+    interestRate: 12.5,
+    tenure: 3,
+    date: "2026-09-20",
+    content: "<h3>Breaking Down a ₹5 Lakh Marriage Loan</h3><p>Borrowing ₹5 Lakh is a significant commitment. Over a 3-year tenure at 12.5%, you'll pay substantial interest. It's crucial to balance a comfortable EMI with the goal of paying off the debt quickly.</p>",
+    faqs: [
+      { question: "What is a good tenure for a ₹5 Lakh wedding loan?", answer: "A 2 to 3-year tenure is generally recommended to keep the interest burden manageable while maintaining an affordable EMI." }
+    ]
+  },
+  {
+    slug: "emi-calculator-10-lakh-wedding-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹10 Lakh Wedding Loan",
+    h1: "EMI Calculator for ₹10 Lakh Wedding Loan",
+    description: "Calculate your EMI for a 10 Lakh wedding loan. See how different tenures impact your monthly marriage loan repayment.",
+    intro: "Planning a grand wedding? A ₹10 Lakh loan requires careful financial planning. Calculate your exact monthly commitment to ensure you don't over-leverage.",
+    amount: 1000000,
+    interestRate: 11.5,
+    tenure: 4,
+    date: "2026-09-20",
+    content: "<h3>The Cost of a ₹10 Lakh Wedding Loan</h3><p>With a larger principal like ₹10 Lakh, the total interest paid over the life of the loan can be high. Consider stretching the tenure slightly if the EMI is too steep, but be aware of the increased interest cost.</p>",
+    faqs: [
+      { question: "How much income is required for a ₹10 Lakh wedding loan?", answer: "Generally, lenders look for a net monthly income of at least ₹40,000 to ₹50,000 for a ₹10 Lakh unsecured loan, depending on your other obligations." }
+    ]
+  },
+  {
+    slug: "emi-calculator-15-lakh-wedding-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹15 Lakh Wedding Loan",
+    h1: "EMI Calculator for ₹15 Lakh Wedding Loan",
+    description: "Calculate EMI for a 15 Lakh premium wedding loan. Check interest rates and repayment schedules.",
+    intro: "For premium or destination weddings, you might need a ₹15 Lakh loan. Use this calculator to rigorously assess if your post-wedding income can support the hefty EMI.",
+    amount: 1500000,
+    interestRate: 11.0,
+    tenure: 5,
+    date: "2026-09-20",
+    content: "<h3>Managing a Large Wedding Debt</h3><p>Taking a ₹15 Lakh personal loan for a wedding is a major financial decision. Ensure you have a solid repayment strategy, possibly including partial prepayments from wedding cash gifts, to reduce the debt burden early on.</p>",
+    faqs: [
+      { question: "Can I use wedding cash gifts to prepay this loan?", answer: "Yes, making partial prepayments with cash gifts can significantly reduce the principal and the total interest paid over time." }
+    ]
+  },
+  {
+    slug: "wedding-loan-3-years-vs-5-years",
+    type: "tenure-comparison",
+    title: "Wedding Loan: 3 Years vs 5 Years Tenure Comparison",
+    h1: "Wedding Loan: 3 Years vs 5 Years",
+    description: "Compare 3-year and 5-year tenures for a wedding loan. See the impact on your monthly EMI and total interest paid.",
+    intro: "Should you pay off your wedding loan quickly in 3 years, or spread it out over 5 years? Compare the two options to see how your choice affects your monthly cash flow versus total cost.",
+    amount: 800000,
+    interestRate: 12.0,
+    tenure: 3,
+    date: "2026-09-20",
+    content: "<h3>Short vs Long Tenure for Marriage Loans</h3><p>A 3-year tenure means higher EMIs but you get out of debt faster and pay significantly less interest. A 5-year tenure lowers your monthly burden but increases the total interest paid to the bank.</p>",
+    faqs: [
+      { question: "Which tenure is better for a wedding loan?", answer: "If your monthly cash flow allows, a shorter 3-year tenure is better as it saves you money on interest and clears the debt faster." },
+      { question: "Can I change the tenure later?", answer: "Generally, you cannot simply change the tenure, but you can effectively shorten it by making part-prepayments." }
+    ]
   }
+
 ];
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {
   return TIER2_PAGES.find((page) => page.slug === slug && page.type === type);

@@ -347,7 +347,20 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-2-lakh-consumer-durable`,
     `${SITE_URL}/tenure-comparison/consumer-loan-6-months-vs-12-months`,
 
-  ];
+
+    // New Tier 1 (2026-09-20)
+    `${SITE_URL}/blog/wedding-loan-emi-planning-guide-2026`,
+
+    // New Tier 2 (2026-09-20)
+    `${SITE_URL}/loan-types/sbi-wedding-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/hdfc-wedding-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/axis-wedding-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/icici-wedding-loan-emi-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-5-lakh-wedding-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-10-lakh-wedding-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-15-lakh-wedding-loan`,
+    `${SITE_URL}/tenure-comparison/wedding-loan-3-years-vs-5-years`,
+];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);
 

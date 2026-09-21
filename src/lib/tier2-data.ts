@@ -5822,8 +5822,127 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Which tenure is better for a wedding loan?", answer: "If your monthly cash flow allows, a shorter 3-year tenure is better as it saves you money on interest and clears the debt faster." },
       { question: "Can I change the tenure later?", answer: "Generally, you cannot simply change the tenure, but you can effectively shorten it by making part-prepayments." }
     ]
+  },
+  {
+    slug: "axis-personal-loan-prepayment-calculator",
+    type: "loan-types",
+    title: "Axis Bank Personal Loan Prepayment Calculator 2026",
+    h1: "Axis Bank Personal Loan Prepayment Calculator",
+    description: "Calculate your EMI savings after making a partial prepayment on your Axis Bank personal loan.",
+    intro: "Got a bonus? See how prepaying a portion of your Axis Bank personal loan reduces your tenure or monthly obligations.",
+    date: "2026-09-21",
+    amount: 500000,
+    interestRate: 11.5,
+    tenure: 3,
+    faqs: [
+      { question: "What is the best time to prepay?", answer: "Early in the loan tenure." }
+    ]
+  },
+  {
+    slug: "hdfc-home-loan-prepayment-calculator",
+    type: "loan-types",
+    title: "HDFC Home Loan Prepayment Calculator 2026",
+    h1: "HDFC Home Loan Prepayment Calculator",
+    description: "Find out exactly how much you save on interest and how many months you can shave off your tenure with HDFC home loan prepayments.",
+    intro: "Planning to prepay your HDFC home loan? Use our calculator to see the exact impact on your loan schedule.",
+    date: "2026-09-21",
+    amount: 3000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "Are there prepayment charges for HDFC home loans?", answer: "Floating rate loans usually have no prepayment penalty." }
+    ]
+  },
+  {
+    slug: "icici-car-loan-prepayment-calculator",
+    type: "loan-types",
+    title: "ICICI Car Loan Prepayment Calculator 2026",
+    h1: "ICICI Car Loan Prepayment Calculator",
+    description: "Calculate your interest savings by making prepayments on your ICICI Car Loan.",
+    intro: "See how prepaying your ICICI car loan can help you become debt-free faster.",
+    date: "2026-09-21",
+    amount: 800000,
+    interestRate: 9.0,
+    tenure: 5,
+    faqs: [
+      { question: "When should I prepay my car loan?", answer: "Prepay as early as possible to maximize interest savings." }
+    ]
+  },
+  {
+    slug: "emi-calculator-30-lakh-prepayment",
+    type: "scenarios",
+    title: "EMI Calculator for ₹30 Lakh Loan Prepayment",
+    h1: "EMI Calculator for ₹30 Lakh Loan Prepayment",
+    description: "See how extra payments can drastically reduce your tenure and save you lakhs in interest on a 30 Lakh loan.",
+    intro: "Explore how different prepayment amounts affect your 30 Lakh loan EMI and total interest paid.",
+    date: "2026-09-21",
+    amount: 3000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "How much interest will I save?", answer: "Use the calculator above to see your exact interest savings." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50-lakh-prepayment",
+    type: "scenarios",
+    title: "EMI Calculator for ₹50 Lakh Loan Prepayment",
+    h1: "EMI Calculator for ₹50 Lakh Loan Prepayment",
+    description: "Calculate your interest savings and tenure reduction by making prepayments on your 50 Lakh loan.",
+    intro: "Planning to prepay a portion of your 50 Lakh loan? Find out exactly how much you save on interest.",
+    date: "2026-09-21",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "How much does a 50 lakh loan EMI drop with prepayment?", answer: "If you choose to reduce EMI instead of tenure, the calculator will show the exact new EMI." }
+    ]
+  },
+  {
+    slug: "emi-calculator-60-lakh-prepayment",
+    type: "scenarios",
+    title: "EMI Calculator for ₹60 Lakh Loan Prepayment",
+    h1: "EMI Calculator for ₹60 Lakh Loan Prepayment",
+    description: "Find out exactly how much you save on interest with prepayments on a 60 Lakh loan.",
+    intro: "Use our calculator to evaluate your prepayment strategy for a 60 Lakh loan.",
+    date: "2026-09-21",
+    amount: 6000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "Should I reduce tenure or EMI?", answer: "Reducing tenure gives the highest interest savings." }
+    ]
+  },
+  {
+    slug: "prepayment-3-years-vs-5-years",
+    type: "tenure-comparison",
+    title: "Prepayment: 3 Years vs 5 Years Comparison",
+    h1: "Prepayment Impact: 3 Years vs 5 Years",
+    description: "Compare the long-term impact of making prepayments after 3 years vs 5 years into your loan.",
+    intro: "When is the best time to prepay? Compare the interest savings of prepaying at year 3 versus year 5.",
+    date: "2026-09-21",
+    amount: 3000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "Why is earlier prepayment better?", answer: "The principal is higher early on, so reducing it saves more interest." }
+    ]
+  },
+  {
+    slug: "prepayment-emi-vs-tenure-reduction",
+    type: "tenure-comparison",
+    title: "Prepayment: Reduce EMI vs Reduce Tenure",
+    h1: "Prepayment Options: Reduce EMI vs Reduce Tenure",
+    description: "Compare the interest savings when choosing between reducing your EMI or reducing your loan tenure after a prepayment.",
+    intro: "Deciding what to do after a prepayment? We break down the math between reducing your EMI and reducing your tenure.",
+    date: "2026-09-21",
+    amount: 3000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "Which option saves more money?", answer: "Reducing tenure always saves more total interest." }
+    ]
   }
-
 ];
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {
   return TIER2_PAGES.find((page) => page.slug === slug && page.type === type);

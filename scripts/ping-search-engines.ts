@@ -360,6 +360,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-10-lakh-wedding-loan`,
     `${SITE_URL}/scenarios/emi-calculator-15-lakh-wedding-loan`,
     `${SITE_URL}/tenure-comparison/wedding-loan-3-years-vs-5-years`,
+
+    // New Tier 1 (2026-09-21)
+    `${SITE_URL}/blog/smart-prepayment-strategies-2026`,
+
+    // New Tier 2 (2026-09-21)
+    `${SITE_URL}/loan-types/axis-personal-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/hdfc-home-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/icici-car-loan-prepayment-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-30-lakh-prepayment`,
+    `${SITE_URL}/scenarios/emi-calculator-50-lakh-prepayment`,
+    `${SITE_URL}/scenarios/emi-calculator-60-lakh-prepayment`,
+    `${SITE_URL}/tenure-comparison/prepayment-3-years-vs-5-years`,
+    `${SITE_URL}/tenure-comparison/prepayment-emi-vs-tenure-reduction`,
 ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

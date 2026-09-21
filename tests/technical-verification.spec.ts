@@ -1555,4 +1555,122 @@ test.describe('Technical Verification', () => {
     expect(schema).not.toBeNull();
   });
 
+
+  test('2026-09-21 Tier 1: smart-prepayment-strategies-2026 returns 200 OK and valid Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/smart-prepayment-strategies-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    // Validate Article Schema
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+  });
+
+  test('2026-09-21 Tier 2: axis-personal-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/axis-personal-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-21 Tier 2: hdfc-home-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-home-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-21 Tier 2: icici-car-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-car-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-21 Tier 2: emi-calculator-30-lakh-prepayment returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-30-lakh-prepayment`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-21 Tier 2: emi-calculator-50-lakh-prepayment returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-lakh-prepayment`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-21 Tier 2: emi-calculator-60-lakh-prepayment returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-60-lakh-prepayment`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-21 Tier 2: prepayment-3-years-vs-5-years returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/prepayment-3-years-vs-5-years`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-21 Tier 2: prepayment-emi-vs-tenure-reduction returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/prepayment-emi-vs-tenure-reduction`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
 });

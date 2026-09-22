@@ -373,6 +373,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-60-lakh-prepayment`,
     `${SITE_URL}/tenure-comparison/prepayment-3-years-vs-5-years`,
     `${SITE_URL}/tenure-comparison/prepayment-emi-vs-tenure-reduction`,
+
+    // New Tier 1 (2026-09-22)
+    `${SITE_URL}/blog/cibil-score-impact-on-loan-emi-2026`,
+
+    // New Tier 2 (2026-09-22)
+    `${SITE_URL}/loan-types/cibil-score-calculator-for-home-loan`,
+    `${SITE_URL}/loan-types/personal-loan-emi-with-low-cibil`,
+    `${SITE_URL}/loan-types/car-loan-interest-rates-by-cibil-score`,
+    `${SITE_URL}/scenarios/emi-calculator-10-lakh-low-cibil`,
+    `${SITE_URL}/scenarios/emi-calculator-20-lakh-good-cibil`,
+    `${SITE_URL}/scenarios/emi-calculator-50-lakh-excellent-cibil`,
+    `${SITE_URL}/tenure-comparison/cibil-score-impact-5-vs-10-years`,
+    `${SITE_URL}/tenure-comparison/home-loan-cibil-750-vs-650`,
 ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

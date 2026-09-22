@@ -5942,8 +5942,129 @@ export const TIER2_PAGES: Tier2Page[] = [
     faqs: [
       { question: "Which option saves more money?", answer: "Reducing tenure always saves more total interest." }
     ]
+  },
+  {
+    slug: "cibil-score-calculator-for-home-loan",
+    type: "loan-types",
+    title: "CIBIL Score EMI Calculator for Home Loan",
+    h1: "CIBIL Score EMI Calculator for Home Loans",
+    description: "Check how different CIBIL scores affect your home loan EMI and interest rates.",
+    intro: "Your CIBIL score plays a huge role in your home loan rate. Use this calculator to see your EMI with excellent vs average scores.",
+    date: "2026-09-22",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "What is a good CIBIL score for a home loan?", answer: "A score above 750 is considered excellent for getting the lowest home loan rates." }
+    ]
+  },
+  {
+    slug: "personal-loan-emi-with-low-cibil",
+    type: "loan-types",
+    title: "Personal Loan EMI Calculator for Low CIBIL Score",
+    h1: "Personal Loan EMI with Low CIBIL",
+    description: "Calculate your personal loan EMI if you have a low CIBIL score. See the impact of higher interest rates.",
+    intro: "A low CIBIL score usually means a higher interest rate for unsecured loans. See exactly how much more you'll pay.",
+    date: "2026-09-22",
+    amount: 500000,
+    interestRate: 14.5,
+    tenure: 3,
+    faqs: [
+      { question: "Can I get a personal loan with a 600 CIBIL score?", answer: "It is possible but you will likely face much higher interest rates or need a co-applicant." }
+    ]
+  },
+  {
+    slug: "car-loan-interest-rates-by-cibil-score",
+    type: "loan-types",
+    title: "Car Loan Interest Rates by CIBIL Score 2026",
+    h1: "Car Loan EMI Based on CIBIL Score",
+    description: "Compare car loan EMIs based on different CIBIL scores and interest rates.",
+    intro: "See how improving your CIBIL score before buying a car can save you money on your auto loan.",
+    date: "2026-09-22",
+    amount: 800000,
+    interestRate: 9.5,
+    tenure: 5,
+    faqs: [
+      { question: "Does a 750+ CIBIL help with car loans?", answer: "Yes, you can often negotiate the lowest possible rates with a 750+ score." }
+    ]
+  },
+  {
+    slug: "emi-calculator-10-lakh-low-cibil",
+    type: "scenarios",
+    title: "EMI Calculator for ₹10 Lakh Loan (Low CIBIL)",
+    h1: "EMI Calculator for ₹10 Lakh (Low CIBIL Score)",
+    description: "Calculate the EMI for a 10 Lakh loan when you have a low CIBIL score and higher interest rate.",
+    intro: "A 10 Lakh loan with a poor credit score can be expensive. Calculate your exact EMI here.",
+    date: "2026-09-22",
+    amount: 1000000,
+    interestRate: 15.0,
+    tenure: 5,
+    faqs: [
+      { question: "Why is the EMI so high for this 10 Lakh loan?", answer: "Because a low CIBIL score triggers a higher risk premium from lenders." }
+    ]
+  },
+  {
+    slug: "emi-calculator-20-lakh-good-cibil",
+    type: "scenarios",
+    title: "EMI Calculator for ₹20 Lakh Loan (Good CIBIL)",
+    h1: "EMI Calculator for ₹20 Lakh (Good CIBIL)",
+    description: "Calculate EMI for a 20 Lakh loan with a good CIBIL score (700-749).",
+    intro: "A good score (700-749) gets you decent rates, though not the absolute lowest. Check your 20 Lakh loan EMI.",
+    date: "2026-09-22",
+    amount: 2000000,
+    interestRate: 9.0,
+    tenure: 10,
+    faqs: [
+      { question: "Is a 720 score good enough for 20 Lakhs?", answer: "Yes, 720 is generally considered a good score and will easily get your loan approved." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50-lakh-excellent-cibil",
+    type: "scenarios",
+    title: "EMI Calculator for ₹50 Lakh Loan (Excellent CIBIL)",
+    h1: "EMI Calculator for ₹50 Lakh (Excellent CIBIL)",
+    description: "Calculate the lowest possible EMI for a 50 Lakh loan with an excellent CIBIL score.",
+    intro: "With an excellent score (750+), you command the best rates in the market. See your savings on a 50 Lakh loan.",
+    date: "2026-09-22",
+    amount: 5000000,
+    interestRate: 8.4,
+    tenure: 20,
+    faqs: [
+      { question: "How much interest do I save with a 800 CIBIL score?", answer: "You can save lakhs over a 20-year tenure compared to a borrower with a 650 score." }
+    ]
+  },
+  {
+    slug: "cibil-score-impact-5-vs-10-years",
+    type: "tenure-comparison",
+    title: "CIBIL Score Impact: 5 Years vs 10 Years Tenure",
+    h1: "CIBIL Impact: 5 Years vs 10 Years",
+    description: "Compare how a bad CIBIL score affects your interest outgo over a 5-year vs 10-year loan tenure.",
+    intro: "The longer your loan tenure, the more a bad CIBIL score will cost you. Compare a 5-year and 10-year tenure impact.",
+    date: "2026-09-22",
+    amount: 1500000,
+    interestRate: 11.5,
+    tenure: 5,
+    faqs: [
+      { question: "Does tenure amplify the cost of a bad score?", answer: "Yes, higher interest rates compound much more over a 10-year period than 5 years." }
+    ]
+  },
+  {
+    slug: "home-loan-cibil-750-vs-650",
+    type: "tenure-comparison",
+    title: "Home Loan CIBIL Score 750 vs 650 Comparison",
+    h1: "Home Loan: CIBIL 750 vs 650",
+    description: "Compare the long term interest paid on a home loan when you have a 750 CIBIL score vs a 650 score.",
+    intro: "See the drastic difference in total interest paid over 20 years between an excellent and average CIBIL score.",
+    date: "2026-09-22",
+    amount: 4000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "How big is the difference?", answer: "The difference in total interest paid can often be the price of a small car." }
+    ]
   }
 ];
+
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {
   return TIER2_PAGES.find((page) => page.slug === slug && page.type === type);
 }

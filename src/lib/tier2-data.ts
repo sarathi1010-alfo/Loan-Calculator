@@ -6062,6 +6062,126 @@ export const TIER2_PAGES: Tier2Page[] = [
     faqs: [
       { question: "How big is the difference?", answer: "The difference in total interest paid can often be the price of a small car." }
     ]
+  },
+  {
+    slug: "home-loan-emi-calculator",
+    type: "loan-types",
+    title: "Home Loan EMI Calculator – Estimate Your Monthly Housing Repayment",
+    h1: "Home Loan EMI Calculator – Estimate Your Monthly Housing Repayment",
+    description: "Calculate your home loan EMI instantly. Estimate your monthly housing repayment, total interest, and amortization schedule for 2026.",
+    intro: "Planning to buy a home? Use our home loan EMI calculator to estimate your monthly housing repayment and plan your long-term finances.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-09-23",
+    faqs: [
+      { question: "What is the interest rate for a home loan?", answer: "Home loan interest rates typically start around 8.50% in 2026, depending on your CIBIL score and lender." }
+    ]
+  },
+  {
+    slug: "personal-loan-emi-calculator",
+    type: "loan-types",
+    title: "Personal Loan EMI Calculator – Plan Your Short-Term Borrowing",
+    h1: "Personal Loan EMI Calculator – Plan Your Short-Term Borrowing",
+    description: "Calculate your personal loan EMI. Plan your short-term borrowing with our fast and accurate EMI calculator for 2026.",
+    intro: "Need a personal loan for an emergency or a big purchase? Use this calculator to plan your short-term borrowing and evaluate your EMI.",
+    amount: 500000,
+    interestRate: 11.5,
+    tenure: 60,
+    date: "2026-09-23",
+    faqs: [
+      { question: "What is the EMI for a 5 Lakh personal loan?", answer: "At an 11.5% interest rate for 5 years, the EMI for a ₹5 Lakh personal loan is approximately ₹10,996." }
+    ]
+  },
+  {
+    slug: "car-loan-emi-calculator",
+    type: "loan-types",
+    title: "Car Loan EMI Calculator – Budget for Your Dream Vehicle",
+    h1: "Car Loan EMI Calculator – Budget for Your Dream Vehicle",
+    description: "Use our car loan EMI calculator to budget for your dream vehicle in 2026. Get precise monthly repayment numbers instantly.",
+    intro: "Budget for your dream vehicle with our auto loan EMI calculator. Find out exactly how much your new car will cost you every month.",
+    amount: 800000,
+    interestRate: 9.0,
+    tenure: 60,
+    date: "2026-09-23",
+    faqs: [
+      { question: "How long should a car loan tenure be?", answer: "Car loans usually range from 3 to 7 years. A 5-year tenure is the most common choice to balance EMI and interest costs." }
+    ]
+  },
+  {
+    slug: "education-loan-emi-calculator",
+    type: "loan-types",
+    title: "Education Loan EMI Calculator – Plan Your Study Abroad Investment",
+    h1: "Education Loan EMI Calculator – Plan Your Study Abroad Investment",
+    description: "Plan your study abroad investment with our education loan EMI calculator. Compare rates and tenures for 2026.",
+    intro: "Investing in education? Use our education loan calculator to plan your study abroad investment and understand your future EMI obligations.",
+    amount: 2000000,
+    interestRate: 10.0,
+    tenure: 120,
+    date: "2026-09-23",
+    faqs: [
+      { question: "When does education loan EMI start?", answer: "Most education loans have a moratorium period (course duration + 6-12 months). EMI payments begin after this period ends." }
+    ]
+  },
+  {
+    slug: "emi-calculator-5-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹5 Lakh Loan – Monthly Payment Breakdown",
+    h1: "EMI Calculator for ₹5 Lakh Loan – Monthly Payment Breakdown",
+    description: "Get a complete monthly payment breakdown for a ₹5 Lakh loan. See how interest and principal are split over your tenure.",
+    intro: "Taking a ₹5 Lakh loan? This scenario breaks down your monthly payment so you can see exactly where your money goes.",
+    amount: 500000,
+    interestRate: 10.5,
+    tenure: 36,
+    date: "2026-09-23",
+    faqs: [
+      { question: "What is the EMI for a 5 Lakh loan for 3 years?", answer: "At 10.5% interest, the EMI for a ₹5 Lakh loan over 3 years is around ₹16,252." }
+    ]
+  },
+  {
+    slug: "emi-calculator-10-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹10 Lakh Loan – Full Amortization Schedule",
+    h1: "EMI Calculator for ₹10 Lakh Loan – Full Amortization Schedule",
+    description: "View the full amortization schedule for a ₹10 Lakh loan. Plan your prepayments and track your outstanding balance in 2026.",
+    intro: "Borrowing ₹10 Lakhs? Use this calculator to generate a full amortization schedule and track your loan repayment month by month.",
+    amount: 1000000,
+    interestRate: 9.5,
+    tenure: 60,
+    date: "2026-09-23",
+    faqs: [
+      { question: "Can I prepay my 10 Lakh loan?", answer: "Yes, you can usually prepay a loan. Check with your lender for any prepayment penalties before making a lump sum payment." }
+    ]
+  },
+  {
+    slug: "emi-calculator-20-lakh",
+    type: "scenarios",
+    title: "EMI Calculator for ₹20 Lakh Loan – Compare 5 vs 10 Year Tenures",
+    h1: "EMI Calculator for ₹20 Lakh Loan – Compare 5 vs 10 Year Tenures",
+    description: "Compare the EMI and total interest for a ₹20 Lakh loan over 5 vs 10 year tenures. Make the smartest borrowing choice in 2026.",
+    intro: "Need a ₹20 Lakh loan? Compare how choosing a 5-year versus a 10-year tenure impacts your EMI and total interest payable.",
+    amount: 2000000,
+    interestRate: 9.0,
+    tenure: 120,
+    date: "2026-09-23",
+    faqs: [
+      { question: "Is a 5-year or 10-year tenure better for a 20 Lakh loan?", answer: "A 5-year tenure has higher EMIs but saves you significant interest. A 10-year tenure lowers your EMI but increases the total cost of the loan." }
+    ]
+  },
+  {
+    slug: "emi-1-year-vs-5-years",
+    type: "tenure-comparison",
+    title: "1 Year vs 5 Year Loan EMI – Which Tenure Saves You More?",
+    h1: "1 Year vs 5 Year Loan EMI – Which Tenure Saves You More?",
+    description: "Compare 1 year vs 5 year loan tenures. Find out which option saves you more money and how it affects your monthly cash flow.",
+    intro: "Deciding between a short and medium tenure? Compare the 1-year and 5-year EMI options to see which one saves you more money.",
+    amount: 300000,
+    interestRate: 11.0,
+    tenure: 60,
+    date: "2026-09-23",
+    faqs: [
+      { question: "How much interest do I save with a 1-year loan instead of a 5-year loan?", answer: "A 1-year loan drastically reduces your total interest payable compared to a 5-year loan, but your monthly EMI will be significantly higher." }
+    ]
   }
 ];
 

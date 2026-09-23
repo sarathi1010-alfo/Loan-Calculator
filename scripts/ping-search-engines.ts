@@ -386,6 +386,18 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-50-lakh-excellent-cibil`,
     `${SITE_URL}/tenure-comparison/cibil-score-impact-5-vs-10-years`,
     `${SITE_URL}/tenure-comparison/home-loan-cibil-750-vs-650`,
+    // New Tier 1 (2026-09-23)
+    `${SITE_URL}/blog/how-to-calculate-emi-loan`,
+
+    // New Tier 2 (2026-09-23)
+    `${SITE_URL}/loan-types/home-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/personal-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/car-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/education-loan-emi-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-5-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-10-lakh`,
+    `${SITE_URL}/scenarios/emi-calculator-20-lakh`,
+    `${SITE_URL}/tenure-comparison/emi-1-year-vs-5-years`,
 ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

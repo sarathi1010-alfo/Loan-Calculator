@@ -6182,6 +6182,214 @@ export const TIER2_PAGES: Tier2Page[] = [
     faqs: [
       { question: "How much interest do I save with a 1-year loan instead of a 5-year loan?", answer: "A 1-year loan drastically reduces your total interest payable compared to a 5-year loan, but your monthly EMI will be significantly higher." }
     ]
+  },
+  {
+    slug: "sbi-personal-loan-balance-transfer-calculator",
+    type: "loan-types",
+    title: "SBI Personal Loan Balance Transfer Calculator 2026",
+    h1: "SBI Personal Loan Balance Transfer Calculator",
+    description: "Calculate your savings by transferring your personal loan to SBI. Estimate your new EMI and total interest savings instantly.",
+    intro: "Looking to reduce your personal loan EMI? Use our SBI personal loan balance transfer calculator to see how much you can save by switching to SBI's competitive interest rates.",
+    amount: 500000,
+    interestRate: 10.5,
+    tenure: 48,
+    date: "2026-09-24",
+    content: `
+      <h2>Why Transfer Your Personal Loan to SBI?</h2>
+      <p>State Bank of India (SBI) often offers highly competitive interest rates for personal loan balance transfers. By shifting your high-interest personal loan from another bank or NBFC to SBI, you can significantly reduce your monthly EMI and overall interest burden. Use this calculator to estimate your potential savings before initiating the transfer process.</p>
+
+      <h3>Key Benefits of an SBI Balance Transfer</h3>
+      <p>Beyond lower interest rates, SBI typically offers transparent processing fees, flexible repayment tenures, and the trust of India's largest public sector bank. This makes it an ideal choice for borrowers looking to consolidate debt or simply save money.</p>
+
+      <h3>How to Use This Calculator</h3>
+      <p>Enter your outstanding principal amount, the interest rate offered by SBI, and your preferred remaining tenure. The calculator will instantly display your new EMI and an amortization schedule to help you visualize your savings.</p>
+    `,
+    faqs: [
+      { question: "What is the processing fee for an SBI personal loan balance transfer?", answer: "SBI typically charges a processing fee ranging from 1% to 2% of the transferred amount, but this can vary based on ongoing promotional offers." },
+      { question: "Can I top-up my loan during a balance transfer to SBI?", answer: "Yes, SBI often provides a top-up loan facility along with the balance transfer, subject to your eligibility and credit profile." }
+    ]
+  },
+  {
+    slug: "hdfc-personal-loan-balance-transfer-calculator",
+    type: "loan-types",
+    title: "HDFC Personal Loan Balance Transfer Calculator 2026",
+    h1: "HDFC Personal Loan Balance Transfer Calculator",
+    description: "Calculate your HDFC personal loan balance transfer EMI. See your potential interest savings and new repayment schedule.",
+    intro: "Transfer your high-interest personal loan to HDFC Bank and save on interest. Use our calculator to estimate your new EMI and total savings.",
+    amount: 750000,
+    interestRate: 10.75,
+    tenure: 36,
+    date: "2026-09-24",
+    content: `
+      <h2>Maximize Savings with HDFC Balance Transfer</h2>
+      <p>HDFC Bank is known for its quick processing and attractive interest rates on personal loan balance transfers. If you are currently paying a high EMI on a personal loan with another institution, transferring your balance to HDFC can help you lower your monthly outgoing and save significantly over the loan's lifetime.</p>
+
+      <h3>Features of HDFC Personal Loan Balance Transfer</h3>
+      <p>HDFC offers competitive interest rates, minimal documentation, and often provides pre-approved top-up loan offers to existing customers or those with excellent credit scores. This makes it a popular choice for debt consolidation.</p>
+
+      <h3>Calculating Your Net Savings</h3>
+      <p>When calculating your savings, remember to account for any foreclosure charges levied by your existing lender and the processing fees charged by HDFC. Our calculator helps you estimate your new EMI, but you must factor in these one-time costs to determine your true net savings.</p>
+    `,
+    faqs: [
+      { question: "Does HDFC offer a top-up loan with a balance transfer?", answer: "Yes, HDFC Bank frequently offers top-up loans to eligible customers who transfer their personal loan balance to them." },
+      { question: "How long does the HDFC balance transfer process take?", answer: "The process is typically quick and can be completed within a few working days, especially if you have a good credit score and all required documentation." }
+    ]
+  },
+  {
+    slug: "icici-personal-loan-balance-transfer-calculator",
+    type: "loan-types",
+    title: "ICICI Personal Loan Balance Transfer Calculator 2026",
+    h1: "ICICI Personal Loan Balance Transfer Calculator",
+    description: "Estimate your ICICI personal loan balance transfer EMI. Calculate your potential interest savings and plan your debt consolidation.",
+    intro: "Looking for lower personal loan rates? Use our ICICI personal loan balance transfer calculator to estimate your new EMI and total savings.",
+    amount: 600000,
+    interestRate: 10.85,
+    tenure: 48,
+    date: "2026-09-24",
+    content: `
+      <h2>Consolidate Debt with ICICI Balance Transfer</h2>
+      <p>ICICI Bank provides a seamless personal loan balance transfer facility, allowing borrowers to move their high-cost debt and enjoy lower interest rates. This is an excellent strategy for reducing your EMI burden or consolidating multiple smaller loans into one manageable payment.</p>
+
+      <h3>Why Choose ICICI Bank?</h3>
+      <p>ICICI offers flexible repayment options, digital processing for faster approvals, and competitive rates tailored to your credit profile. They also frequently run promotional offers with reduced processing fees.</p>
+
+      <h3>Using the Calculator for Smart Planning</h3>
+      <p>Input your remaining loan amount, the ICICI interest rate, and your desired tenure to generate your new EMI schedule. By extending your tenure, you can further lower your EMI, though it's important to remember that this may increase your total interest payout.</p>
+    `,
+    faqs: [
+      { question: "What documents are needed for an ICICI personal loan balance transfer?", answer: "You typically need identity proof, address proof, income documents (salary slips/ITR), and loan statements from your current lender." },
+      { question: "Is a good CIBIL score required for a balance transfer to ICICI?", answer: "Yes, a strong CIBIL score (usually 750 or above) is essential to secure the best interest rates on a balance transfer." }
+    ]
+  },
+  {
+    slug: "emi-calculator-3-lakh-balance-transfer",
+    type: "scenarios",
+    title: "EMI Calculator for ₹3 Lakh Balance Transfer",
+    h1: "EMI Calculator for ₹3 Lakh Balance Transfer",
+    description: "Calculate the new EMI for transferring a ₹3 Lakh personal loan. See how a lower interest rate impacts your monthly payment.",
+    intro: "Planning to transfer a ₹3 Lakh personal loan balance? Use this calculator to determine your new EMI and potential interest savings with a lower rate.",
+    amount: 300000,
+    interestRate: 10.5,
+    tenure: 36,
+    date: "2026-09-24",
+    content: `
+      <h2>Evaluating a ₹3 Lakh Balance Transfer</h2>
+      <p>A ₹3 Lakh personal loan balance transfer can yield noticeable savings if you secure a significantly lower interest rate. This scenario calculator helps you visualize the impact of transferring your outstanding balance of ₹3 Lakhs to a new lender.</p>
+
+      <h3>The Impact of Interest Rate Reduction</h3>
+      <p>Even a 1% or 2% reduction in your interest rate can lower your monthly EMI and save you thousands of rupees over a 3-year tenure. Use the calculator to compare your current EMI with the projected EMI to assess the benefit.</p>
+
+      <h3>Factoring in Costs</h3>
+      <p>When transferring a relatively smaller amount like ₹3 Lakhs, it is crucial to ensure that the processing fees and any foreclosure charges do not consume your anticipated interest savings. Always calculate your net benefit before proceeding.</p>
+    `,
+    faqs: [
+      { question: "Is it worth transferring a 3 Lakh personal loan balance?", answer: "It is worth it if the interest savings significantly exceed the costs associated with the transfer, such as processing fees and prepayment penalties." },
+      { question: "Can I change my tenure when transferring a 3 Lakh loan?", answer: "Yes, when you transfer your balance, you can usually negotiate a new tenure with the new lender, allowing you to increase or decrease your EMI as needed." }
+    ]
+  },
+  {
+    slug: "emi-calculator-5-lakh-balance-transfer",
+    type: "scenarios",
+    title: "EMI Calculator for ₹5 Lakh Balance Transfer",
+    h1: "EMI Calculator for ₹5 Lakh Balance Transfer",
+    description: "Calculate the EMI and interest savings for transferring a ₹5 Lakh personal loan balance. Optimize your debt repayment strategy.",
+    intro: "Use our scenario calculator to estimate your new EMI when transferring a ₹5 Lakh personal loan balance to a lender with a lower interest rate.",
+    amount: 500000,
+    interestRate: 10.5,
+    tenure: 48,
+    date: "2026-09-24",
+    content: `
+      <h2>Optimizing a ₹5 Lakh Personal Loan Balance Transfer</h2>
+      <p>Transferring an outstanding balance of ₹5 Lakhs is a common scenario for borrowers looking to reduce their debt burden. At this loan amount, securing a lower interest rate can lead to substantial long-term savings.</p>
+
+      <h3>Visualizing Your Savings</h3>
+      <p>By entering a lower interest rate in the calculator, you can immediately see the reduction in your EMI. Over a 4-year tenure, these monthly savings can add up, providing you with more disposable income or the ability to prepay other debts.</p>
+
+      <h3>Debt Consolidation Strategy</h3>
+      <p>If your ₹5 Lakh outstanding balance is composed of multiple smaller loans or credit card debt, a balance transfer allows you to consolidate them into a single, lower-interest personal loan, simplifying your financial management.</p>
+    `,
+    faqs: [
+      { question: "How much can I save by transferring a 5 Lakh personal loan?", answer: "Your savings depend on the difference between your current and new interest rates, the remaining tenure, and the associated transfer fees." },
+      { question: "Will a balance transfer affect my credit score?", answer: "Initially, your score might drop slightly due to the hard inquiry by the new lender, but it should improve over time as you consistently make the new, lower EMI payments." }
+    ]
+  },
+  {
+    slug: "emi-calculator-10-lakh-balance-transfer",
+    type: "scenarios",
+    title: "EMI Calculator for ₹10 Lakh Balance Transfer",
+    h1: "EMI Calculator for ₹10 Lakh Balance Transfer",
+    description: "Calculate your EMI for transferring a ₹10 Lakh personal loan. Maximize your interest savings on large outstanding balances.",
+    intro: "Transferring a large loan? Calculate your new EMI and total interest savings for a ₹10 Lakh personal loan balance transfer.",
+    amount: 1000000,
+    interestRate: 10.25,
+    tenure: 60,
+    date: "2026-09-24",
+    content: `
+      <h2>Maximizing Savings on a ₹10 Lakh Balance Transfer</h2>
+      <p>When dealing with a larger outstanding principal like ₹10 Lakhs, a personal loan balance transfer can be incredibly lucrative. Even a marginal reduction in the interest rate can translate to tens of thousands of rupees saved over a 5-year tenure.</p>
+
+      <h3>Strategic Tenure Adjustments</h3>
+      <p>With a larger loan amount, you have the flexibility to either maintain your current tenure to maximize total interest savings or extend the tenure to significantly lower your monthly EMI and improve cash flow. This calculator allows you to model both scenarios.</p>
+
+      <h3>Negotiating Power</h3>
+      <p>Borrowers with a ₹10 Lakh outstanding balance and a strong credit history often have significant negotiating power. Before transferring, use the calculated savings to negotiate a better rate with your existing lender.</p>
+    `,
+    faqs: [
+      { question: "Is it difficult to get approval for a 10 Lakh balance transfer?", answer: "Approval depends on your credit score, income stability, and existing debt obligations. A strong financial profile makes approval highly likely." },
+      { question: "Can I get a top-up loan on a 10 Lakh balance transfer?", answer: "Yes, many banks offer top-up loans on large balance transfers, provided you meet their income and repayment capacity criteria." }
+    ]
+  },
+  {
+    slug: "balance-transfer-2-years-vs-4-years",
+    type: "tenure-comparison",
+    title: "Balance Transfer Tenure: 2 Years vs 4 Years Comparison",
+    h1: "Balance Transfer Tenure: 2 Years vs 4 Years",
+    description: "Compare the impact of choosing a 2-year versus a 4-year tenure for your personal loan balance transfer. Find the optimal repayment strategy.",
+    intro: "Deciding on a tenure for your balance transfer? Compare the EMI and total interest for a 2-year vs 4-year repayment period.",
+    amount: 500000,
+    interestRate: 10.5,
+    tenure: 48,
+    date: "2026-09-24",
+    content: `
+      <h2>Choosing the Right Tenure for Your Balance Transfer</h2>
+      <p>When you transfer your personal loan balance, you often have the opportunity to choose a new repayment tenure. Comparing a short tenure (like 2 years) against a longer tenure (like 4 years) is crucial for optimizing your financial strategy.</p>
+
+      <h3>The 2-Year Tenure Approach</h3>
+      <p>Opting for a 2-year tenure means your monthly EMI will be higher, requiring strong cash flow. However, this aggressive repayment strategy minimizes the total interest you pay over the life of the loan, maximizing the financial benefit of the lower interest rate you secured through the transfer.</p>
+
+      <h3>The 4-Year Tenure Approach</h3>
+      <p>Choosing a 4-year tenure significantly lowers your monthly EMI, which is ideal if your primary goal is to reduce your immediate financial burden and improve monthly liquidity. The trade-off is that you will pay more total interest over the 4 years compared to the 2-year option, though still likely less than your original high-interest loan.</p>
+    `,
+    faqs: [
+      { question: "Which tenure is better for a balance transfer: short or long?", answer: "A short tenure is better for minimizing total interest paid, while a long tenure is better for reducing your monthly EMI burden." },
+      { question: "Can I change the tenure later after the balance transfer?", answer: "Generally, the tenure is fixed once the new loan is disbursed, but you can effectively shorten it by making partial prepayments later." }
+    ]
+  },
+  {
+    slug: "balance-transfer-3-years-vs-5-years",
+    type: "tenure-comparison",
+    title: "Balance Transfer Tenure: 3 Years vs 5 Years Comparison",
+    h1: "Balance Transfer Tenure: 3 Years vs 5 Years",
+    description: "Compare 3-year and 5-year tenures for a personal loan balance transfer. Analyze the trade-off between EMI size and total interest paid.",
+    intro: "Analyze the difference between a 3-year and a 5-year tenure for your balance transfer to determine which option aligns with your financial goals.",
+    amount: 800000,
+    interestRate: 10.25,
+    tenure: 60,
+    date: "2026-09-24",
+    content: `
+      <h2>Balancing EMI and Interest: 3 Years vs 5 Years</h2>
+      <p>For larger balance transfers, choosing between a 3-year and a 5-year tenure involves balancing your monthly affordability against the total cost of borrowing. This comparison helps you visualize the impact of each choice.</p>
+
+      <h3>Advantages of a 3-Year Tenure</h3>
+      <p>A 3-year tenure accelerates your journey to becoming debt-free. While the EMIs are steeper, the total interest accrued is substantially lower. This is the optimal choice if your income can comfortably support the higher monthly payment.</p>
+
+      <h3>Advantages of a 5-Year Tenure</h3>
+      <p>A 5-year tenure stretches the repayment, resulting in a much more manageable monthly EMI. This is particularly useful if you are using the balance transfer to alleviate immediate financial pressure or consolidate debt. However, you must accept that the longer you hold the loan, the more interest you will ultimately pay.</p>
+    `,
+    faqs: [
+      { question: "Does a 5-year tenure negate the benefits of a balance transfer?", answer: "Not necessarily. If the new interest rate is significantly lower, you still save money compared to your original loan, even over 5 years. It just prioritizes lower EMIs over maximum interest savings." },
+      { question: "Should I choose a 3-year tenure if my income might fluctuate?", answer: "If income stability is a concern, a 5-year tenure offers a safer, lower EMI. You can always make prepayments when you have extra funds to mimic a 3-year payoff." }
+    ]
   }
 ];
 

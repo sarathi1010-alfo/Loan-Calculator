@@ -398,6 +398,18 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-10-lakh`,
     `${SITE_URL}/scenarios/emi-calculator-20-lakh`,
     `${SITE_URL}/tenure-comparison/emi-1-year-vs-5-years`,
+    // New Tier 1 (2026-09-24)
+    `${SITE_URL}/blog/personal-loan-balance-transfer-strategies`,
+
+    // New Tier 2 (2026-09-24)
+    `${SITE_URL}/loan-types/sbi-personal-loan-balance-transfer-calculator`,
+    `${SITE_URL}/loan-types/hdfc-personal-loan-balance-transfer-calculator`,
+    `${SITE_URL}/loan-types/icici-personal-loan-balance-transfer-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-3-lakh-balance-transfer`,
+    `${SITE_URL}/scenarios/emi-calculator-5-lakh-balance-transfer`,
+    `${SITE_URL}/scenarios/emi-calculator-10-lakh-balance-transfer`,
+    `${SITE_URL}/tenure-comparison/balance-transfer-2-years-vs-4-years`,
+    `${SITE_URL}/tenure-comparison/balance-transfer-3-years-vs-5-years`,
 ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

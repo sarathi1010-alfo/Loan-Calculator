@@ -1907,4 +1907,121 @@ test.describe('Technical Verification', () => {
     });
     expect(faqSchema).not.toBeNull();
   });
+  test('2026-09-24 Tier 1: personal-loan-balance-transfer-strategies returns 200 OK and Article Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/personal-loan-balance-transfer-strategies`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+  });
+
+  test('2026-09-24 Tier 2: sbi-personal-loan-balance-transfer-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-personal-loan-balance-transfer-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-24 Tier 2: hdfc-personal-loan-balance-transfer-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-personal-loan-balance-transfer-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-24 Tier 2: icici-personal-loan-balance-transfer-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-personal-loan-balance-transfer-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-24 Tier 2: emi-calculator-3-lakh-balance-transfer returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-3-lakh-balance-transfer`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-24 Tier 2: emi-calculator-5-lakh-balance-transfer returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-5-lakh-balance-transfer`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-24 Tier 2: emi-calculator-10-lakh-balance-transfer returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-10-lakh-balance-transfer`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-24 Tier 2: balance-transfer-2-years-vs-4-years returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/balance-transfer-2-years-vs-4-years`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-24 Tier 2: balance-transfer-3-years-vs-5-years returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/balance-transfer-3-years-vs-5-years`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
 });

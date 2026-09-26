@@ -16,6 +16,129 @@ export interface Tier2Page {
 export const TIER2_PAGES: Tier2Page[] = [
 
   {
+    slug: "5-lakh-loan-prepayment-calculator",
+    type: "scenarios",
+    title: "5 Lakh Loan Prepayment Calculator | EMICalculatorPro",
+    h1: "5 Lakh Loan Prepayment Calculator",
+    description: "Calculate how early prepayments can affect your ₹5 Lakh loan. See interest savings and tenure reduction easily.",
+    intro: "Use our ₹5 Lakh loan prepayment calculator to understand how making lump-sum or extra EMI payments can slash your total interest and shorten your loan tenure.",
+    date: "2026-09-26",
+    amount: 500000,
+    interestRate: 10,
+    tenure: 5,
+    faqs: [
+      { question: "How much interest can I save by prepaying my 5 Lakh loan?", answer: "Savings depend on the interest rate and when you prepay. Generally, early prepayments yield the highest savings." },
+      { question: "Is there a penalty for prepaying a 5 Lakh loan?", answer: "This depends on your lender and loan type. Floating rate home loans usually have no penalty, while personal loans might." }
+    ]
+  },
+  {
+    slug: "10-lakh-loan-prepayment-calculator",
+    type: "scenarios",
+    title: "10 Lakh Loan Prepayment Calculator | EMICalculatorPro",
+    h1: "10 Lakh Loan Prepayment Calculator",
+    description: "Analyze the impact of extra payments on a ₹10 Lakh loan. Find out how much you can save in interest.",
+    intro: "Planning to prepay your ₹10 Lakh loan? Our calculator helps you visualize how even small extra payments can lead to huge interest savings.",
+    date: "2026-09-26",
+    amount: 1000000,
+    interestRate: 9.5,
+    tenure: 10,
+    faqs: [
+      { question: "When is the best time to prepay a 10 Lakh loan?", answer: "The earlier in your loan tenure, the better. Interest makes up a larger portion of your EMI early on." }
+    ]
+  },
+  {
+    slug: "20-lakh-loan-prepayment-calculator",
+    type: "scenarios",
+    title: "20 Lakh Loan Prepayment Calculator | EMICalculatorPro",
+    h1: "20 Lakh Loan Prepayment Calculator",
+    description: "Discover interest savings and tenure reduction for a ₹20 Lakh loan with our interactive prepayment calculator.",
+    intro: "A ₹20 Lakh loan means a significant interest burden. See how strategic prepayments can help you become debt-free sooner.",
+    date: "2026-09-26",
+    amount: 2000000,
+    interestRate: 9,
+    tenure: 15,
+    faqs: [
+      { question: "Should I reduce tenure or EMI when prepaying?", answer: "Reducing tenure is mathematically better as it saves you more on total interest over the life of the loan." }
+    ]
+  },
+  {
+    slug: "home-loan-prepayment-calculator",
+    type: "scenarios",
+    title: "Home Loan Prepayment Calculator | Maximize Interest Savings",
+    h1: "Home Loan Prepayment Calculator",
+    description: "Calculate home loan prepayments accurately. See how extra EMIs or lump-sum payments reduce your mortgage tenure.",
+    intro: "Use our home loan prepayment calculator to model the 13th EMI strategy and see how much interest you can save.",
+    date: "2026-09-26",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "Do floating rate home loans have prepayment penalties?", answer: "In India, RBI guidelines mandate that floating rate home loans for individuals have zero prepayment penalties." }
+    ]
+  },
+  {
+    slug: "car-loan-prepayment-calculator",
+    type: "scenarios",
+    title: "Car Loan Prepayment Calculator | EMICalculatorPro",
+    h1: "Car Loan Prepayment Calculator",
+    description: "Calculate the savings from prepaying your car loan. Easily view reduced tenure and interest savings.",
+    intro: "Find out how much you can save on auto loan interest by making early or extra payments with our car loan prepayment calculator.",
+    date: "2026-09-26",
+    amount: 800000,
+    interestRate: 9,
+    tenure: 5,
+    faqs: [
+      { question: "Are there penalties for prepaying a car loan?", answer: "Many lenders charge a foreclosure or prepayment fee for car loans, often ranging from 1% to 5%." }
+    ]
+  },
+  {
+    slug: "prepay-50k-vs-1-lakh",
+    type: "tenure-comparison",
+    title: "Prepay 50k vs 1 Lakh | Tenure & Interest Comparison",
+    h1: "Prepay 50k vs 1 Lakh: Which Strategy Wins?",
+    description: "Compare the interest savings and tenure reduction between prepaying ₹50,000 versus ₹1,00,000 on your loan.",
+    intro: "If you have a lump sum, you might wonder if it's better to prepay a smaller or larger amount. This comparison reveals the compounding effect of larger prepayments.",
+    date: "2026-09-26",
+    amount: 3000000,
+    interestRate: 9,
+    tenure: 20,
+    faqs: [
+      { question: "Does a 1 Lakh prepayment save twice as much as 50k?", answer: "It actually often saves more than double due to the compounding nature of interest over a long tenure." }
+    ]
+  },
+  {
+    slug: "personal-loan-prepayment-calculator",
+    type: "loan-types",
+    title: "Personal Loan Prepayment Calculator | Check Your Savings",
+    h1: "Personal Loan Prepayment Calculator",
+    description: "Calculate how prepaying your personal loan early can save you thousands in interest despite potential penalties.",
+    intro: "Personal loans have high interest rates. Use this calculator to see if prepaying makes financial sense even if there's a penalty.",
+    date: "2026-09-26",
+    amount: 300000,
+    interestRate: 14,
+    tenure: 3,
+    faqs: [
+      { question: "Should I prepay a high-interest personal loan?", answer: "Yes, prioritize prepaying high-interest unsecured loans to save the most on total interest." }
+    ]
+  },
+  {
+    slug: "education-loan-prepayment-calculator",
+    type: "loan-types",
+    title: "Education Loan Prepayment Calculator | EMICalculatorPro",
+    h1: "Education Loan Prepayment Calculator",
+    description: "Model prepayments on your education loan to reduce debt faster and save on total interest payable.",
+    intro: "Graduated and have extra cash? Use our education loan prepayment calculator to see how fast you can become debt-free.",
+    date: "2026-09-26",
+    amount: 1500000,
+    interestRate: 10.5,
+    tenure: 7,
+    faqs: [
+      { question: "Can prepaying an education loan affect tax benefits?", answer: "Yes, prepaying means you'll pay less interest, which could reduce your Section 80E tax deduction benefits." }
+    ]
+  }
+,
+
+  {
     slug: "sbi-vs-hdfc-home-loan-interest-rate-2026",
     type: "tenure-comparison",
     title: "SBI vs HDFC Home Loan Interest Rate Comparison 2026",

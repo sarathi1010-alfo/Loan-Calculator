@@ -410,6 +410,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-10-lakh-balance-transfer`,
     `${SITE_URL}/tenure-comparison/balance-transfer-2-years-vs-4-years`,
     `${SITE_URL}/tenure-comparison/balance-transfer-3-years-vs-5-years`,
+
+    // New Tier 1 (2026-09-26)
+    `${SITE_URL}/blog/prepayment-strategies-2026-guide`,
+
+    // New Tier 2 (2026-09-26)
+    `${SITE_URL}/scenarios/5-lakh-loan-prepayment-calculator`,
+    `${SITE_URL}/scenarios/10-lakh-loan-prepayment-calculator`,
+    `${SITE_URL}/scenarios/20-lakh-loan-prepayment-calculator`,
+    `${SITE_URL}/scenarios/home-loan-prepayment-calculator`,
+    `${SITE_URL}/scenarios/car-loan-prepayment-calculator`,
+    `${SITE_URL}/tenure-comparison/prepay-50k-vs-1-lakh`,
+    `${SITE_URL}/loan-types/personal-loan-prepayment-calculator`,
+    `${SITE_URL}/loan-types/education-loan-prepayment-calculator`,
 ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

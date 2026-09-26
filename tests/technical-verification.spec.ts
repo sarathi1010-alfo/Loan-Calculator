@@ -2024,4 +2024,121 @@ test.describe('Technical Verification', () => {
     expect(faqSchema).not.toBeNull();
   });
 
+
+  test('2026-09-26 Tier 1: prepayment-strategies-2026-guide returns 200 OK and Article Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/prepayment-strategies-2026-guide`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const articleSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"Article"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(articleSchema).not.toBeNull();
+  });
+
+  test('2026-09-26 Tier 2: 5-lakh-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/5-lakh-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-26 Tier 2: 10-lakh-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/10-lakh-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-26 Tier 2: 20-lakh-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/20-lakh-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-26 Tier 2: home-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/home-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-26 Tier 2: car-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/car-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-26 Tier 2: prepay-50k-vs-1-lakh returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/prepay-50k-vs-1-lakh`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-26 Tier 2: personal-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/personal-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
+
+  test('2026-09-26 Tier 2: education-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/education-loan-prepayment-calculator`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toBeVisible();
+
+    const faqSchema = await page.evaluate(() => {
+      const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .find(s => s.textContent?.includes('"@type":"FAQPage"'));
+      return script ? JSON.parse(script.textContent || '{}') : null;
+    });
+    expect(faqSchema).not.toBeNull();
+  });
 });

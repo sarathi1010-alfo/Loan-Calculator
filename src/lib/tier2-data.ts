@@ -14,6 +14,135 @@ export interface Tier2Page {
 }
 
 export const TIER2_PAGES: Tier2Page[] = [
+  {
+    type: "loan-types",
+    slug: "sbi-top-up-loan-emi-calculator",
+    title: "SBI Top-Up Loan EMI Calculator 2026 | Calculate Your EMI",
+    h1: "SBI Top-Up Loan EMI Calculator",
+    description: "Calculate your SBI Top-Up Loan EMI instantly. Find out the monthly repayment for additional borrowing on your SBI home loan.",
+    intro: "Need extra funds over your SBI home loan? Use our SBI Top-Up Loan Calculator to estimate your exact monthly EMI and plan your additional borrowing effectively.",
+    date: "2026-09-27",
+    amount: 500000,
+    interestRate: 9.15,
+    tenure: 10,
+    faqs: [
+      { question: "What is the interest rate for an SBI top-up loan?", answer: "SBI top-up loan interest rates generally start around 9.15% to 9.55%, slightly higher than their standard home loan rates." },
+      { question: "Can I get an SBI top-up loan without an existing home loan?", answer: "No, a top-up loan is only available if you already have an existing, running home loan with SBI." }
+    ]
+  },
+  {
+    type: "loan-types",
+    slug: "hdfc-top-up-loan-emi-calculator",
+    title: "HDFC Top-Up Loan EMI Calculator 2026 | Check HDFC EMI",
+    h1: "HDFC Top-Up Loan EMI Calculator",
+    description: "Check your HDFC Top-Up Loan EMI. Calculate monthly installments and total interest for additional funds on your HDFC home loan.",
+    intro: "Planning a home renovation or need funds for personal use? Calculate your HDFC top-up loan EMI accurately with our tool before applying.",
+    date: "2026-09-27",
+    amount: 1000000,
+    interestRate: 9.25,
+    tenure: 15,
+    faqs: [
+      { question: "How much top-up loan can I get from HDFC?", answer: "HDFC usually offers top-up loans such that your total outstanding loan (home loan + top-up) does not exceed 75-80% of your property's market value." },
+      { question: "Are there processing fees for HDFC top-up loans?", answer: "Yes, HDFC generally charges a nominal processing fee for top-up loans, often around 0.5% of the loan amount." }
+    ]
+  },
+  {
+    type: "loan-types",
+    slug: "icici-top-up-loan-emi-calculator",
+    title: "ICICI Top-Up Loan EMI Calculator | Check Monthly EMI",
+    h1: "ICICI Top-Up Loan EMI Calculator",
+    description: "Calculate ICICI Top-Up Loan EMI instantly. View complete amortization schedule and interest breakdown for your extra borrowing.",
+    intro: "Estimate your monthly payments for an ICICI top-up loan with ease. See how additional borrowing affects your overall debt profile.",
+    date: "2026-09-27",
+    amount: 1500000,
+    interestRate: 9.30,
+    tenure: 12,
+    faqs: [
+      { question: "What is the maximum tenure for an ICICI top-up loan?", answer: "The maximum tenure is usually restricted to the remaining tenure of your existing ICICI home loan." },
+      { question: "Can I use an ICICI top-up loan for business purposes?", answer: "Yes, ICICI top-up loans can be used for personal or business needs, provided the purpose is declared and acceptable to the bank." }
+    ]
+  },
+  {
+    type: "loan-types",
+    slug: "axis-top-up-loan-emi-calculator",
+    title: "Axis Bank Top-Up Loan EMI Calculator 2026",
+    h1: "Axis Bank Top-Up Loan EMI Calculator",
+    description: "Find out your EMI for an Axis Bank top-up loan. Calculate the cost of extra borrowing on your existing Axis Bank mortgage.",
+    intro: "Calculate the EMI for your Axis Bank top-up loan quickly and accurately. Plan your extra financial requirements with confidence.",
+    date: "2026-09-27",
+    amount: 800000,
+    interestRate: 9.40,
+    tenure: 8,
+    faqs: [
+      { question: "How long does Axis Bank take to process a top-up loan?", answer: "Since your property documents are already with Axis Bank, top-up loans are usually processed much faster than a fresh loan application." },
+      { question: "Can I transfer my home loan to Axis Bank and get a top-up?", answer: "Yes, Axis Bank offers a balance transfer plus top-up facility, allowing you to move your loan and get additional funds simultaneously." }
+    ]
+  },
+  {
+    type: "scenarios",
+    slug: "emi-calculator-5-lakh-top-up",
+    title: "5 Lakh Top-Up Loan EMI Calculator | ₹5,00,000 Loan EMI",
+    h1: "EMI Calculator for ₹5 Lakh Top-Up Loan",
+    description: "Calculate the EMI for a ₹5 Lakh top-up loan. Explore different tenures and interest rates to find an affordable monthly payment.",
+    intro: "Need a quick ₹5 Lakhs for home repairs or emergencies? See how a ₹5 Lakh top-up loan impacts your monthly budget with this detailed calculator.",
+    date: "2026-09-27",
+    amount: 500000,
+    interestRate: 9.5,
+    tenure: 5,
+    faqs: [
+      { question: "What is the EMI for a 5 Lakh top-up loan for 5 years?", answer: "At a 9.5% interest rate, the EMI for a ₹5 Lakh top-up loan over 5 years is approximately ₹10,501." },
+      { question: "Is a 5 Lakh top-up loan better than a personal loan?", answer: "Yes, because top-up loans usually carry an interest rate of 9-10% compared to personal loans at 12-16%." }
+    ]
+  },
+  {
+    type: "scenarios",
+    slug: "emi-calculator-10-lakh-top-up",
+    title: "10 Lakh Top-Up Loan EMI Calculator | Check Your EMI",
+    h1: "EMI Calculator for ₹10 Lakh Top-Up Loan",
+    description: "Check the EMI for a ₹10 Lakh top-up loan. Instantly generate amortization schedules and visualize total interest payable.",
+    intro: "Planning a major expense? Calculate your monthly EMI and total interest for a ₹10 Lakh top-up loan on your existing mortgage.",
+    date: "2026-09-27",
+    amount: 1000000,
+    interestRate: 9.2,
+    tenure: 10,
+    faqs: [
+      { question: "What is the EMI for a 10 Lakh top-up loan for 10 years?", answer: "Assuming an interest rate of 9.2%, your EMI would be approximately ₹12,773." },
+      { question: "Do I need to submit fresh property papers for a 10 Lakh top-up?", answer: "No, since your lender already has your property papers for the base home loan, no fresh property documents are required." }
+    ]
+  },
+  {
+    type: "scenarios",
+    slug: "emi-calculator-15-lakh-top-up",
+    title: "15 Lakh Top-Up Loan EMI Calculator | Repayment Planning",
+    h1: "EMI Calculator for ₹15 Lakh Top-Up Loan",
+    description: "Plan your ₹15 Lakh top-up loan repayment. Calculate EMIs, adjust tenures, and analyze interest costs effectively.",
+    intro: "A ₹15 Lakh top-up loan can fund significant needs like a child's higher education. Calculate your EMI to ensure it fits your financial plan.",
+    date: "2026-09-27",
+    amount: 1500000,
+    interestRate: 9.0,
+    tenure: 15,
+    faqs: [
+      { question: "What is the EMI for a 15 Lakh top-up loan over 15 years?", answer: "At an interest rate of 9.0%, the EMI for a ₹15 Lakh top-up loan over 15 years is roughly ₹15,214." },
+      { question: "Are there tax benefits on a 15 Lakh top-up loan?", answer: "Tax benefits under Section 24(b) are only available if the ₹15 Lakh top-up is used for home construction, repair, or renovation." }
+    ]
+  },
+  {
+    type: "tenure-comparison",
+    slug: "top-up-loan-5-years-vs-10-years",
+    title: "Top-Up Loan EMI: 5 Years vs 10 Years Tenure Comparison",
+    h1: "Top-Up Loan Tenure: 5 Years vs 10 Years",
+    description: "Compare Top-Up Loan EMIs for 5-year and 10-year tenures. Understand the trade-off between higher monthly payments and total interest cost.",
+    intro: "Deciding on the tenure for your top-up loan? Compare a 5-year aggressive repayment plan against a 10-year relaxed plan to see what works best for you.",
+    date: "2026-09-27",
+    amount: 800000,
+    interestRate: 9.3,
+    tenure: 5,
+    faqs: [
+      { question: "Should I choose a 5-year or 10-year tenure for my top-up loan?", answer: "A 5-year tenure results in higher EMIs but significantly less total interest paid. Choose 10 years only if you need the monthly cash flow relief." },
+      { question: "Can I change my top-up loan tenure from 10 years to 5 years later?", answer: "Yes, you can achieve this by making aggressive prepayments to effectively reduce the remaining tenure to 5 years." }
+    ]
+  },
+
 
   {
     slug: "5-lakh-loan-prepayment-calculator",

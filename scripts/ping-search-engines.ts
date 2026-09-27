@@ -423,6 +423,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/tenure-comparison/prepay-50k-vs-1-lakh`,
     `${SITE_URL}/loan-types/personal-loan-prepayment-calculator`,
     `${SITE_URL}/loan-types/education-loan-prepayment-calculator`,
+
+    // New Tier 1 (2026-09-27)
+    `${SITE_URL}/blog/top-up-loan-emi-guide-2026`,
+
+    // New Tier 2 (2026-09-27)
+    `${SITE_URL}/loan-types/sbi-top-up-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/hdfc-top-up-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/icici-top-up-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/axis-top-up-loan-emi-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-5-lakh-top-up`,
+    `${SITE_URL}/scenarios/emi-calculator-10-lakh-top-up`,
+    `${SITE_URL}/scenarios/emi-calculator-15-lakh-top-up`,
+    `${SITE_URL}/tenure-comparison/top-up-loan-5-years-vs-10-years`,
 ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

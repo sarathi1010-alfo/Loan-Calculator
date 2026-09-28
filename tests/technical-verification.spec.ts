@@ -2257,5 +2257,96 @@ test.describe('Technical Verification', () => {
       return script ? JSON.parse(script.textContent || '{}') : null;
     });
     expect(faqSchema).not.toBeNull();
+
+  });
+
+  test('2026-09-28 Tier 1: zero-down-payment-car-loan-guide-2026 returns 200 OK and Article Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/zero-down-payment-car-loan-guide-2026`);
+    expect(response?.status()).toBe(200);
+    const hasArticleSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"Article"'));
+    });
+    expect(hasArticleSchema).toBeTruthy();
+  });
+
+  test('2026-09-28 Tier 2: sbi-zero-down-payment-car-loan-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-zero-down-payment-car-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-28 Tier 2: hdfc-zero-down-payment-car-loan-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-zero-down-payment-car-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-28 Tier 2: icici-zero-down-payment-car-loan-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-zero-down-payment-car-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-28 Tier 2: axis-zero-down-payment-car-loan-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/axis-zero-down-payment-car-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-28 Tier 2: emi-calculator-10-lakh-zero-down-payment returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-10-lakh-zero-down-payment`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-28 Tier 2: emi-calculator-15-lakh-zero-down-payment returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-15-lakh-zero-down-payment`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-28 Tier 2: emi-calculator-20-lakh-zero-down-payment returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-20-lakh-zero-down-payment`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-28 Tier 2: zero-down-payment-5-years-vs-7-years returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/zero-down-payment-5-years-vs-7-years`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
   });
 });

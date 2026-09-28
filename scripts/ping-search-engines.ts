@@ -436,6 +436,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-10-lakh-top-up`,
     `${SITE_URL}/scenarios/emi-calculator-15-lakh-top-up`,
     `${SITE_URL}/tenure-comparison/top-up-loan-5-years-vs-10-years`,
+
+    // New Tier 1 (2026-09-28)
+    `${SITE_URL}/blog/zero-down-payment-car-loan-guide-2026`,
+
+    // New Tier 2 (2026-09-28)
+    `${SITE_URL}/loan-types/sbi-zero-down-payment-car-loan-calculator`,
+    `${SITE_URL}/loan-types/hdfc-zero-down-payment-car-loan-calculator`,
+    `${SITE_URL}/loan-types/icici-zero-down-payment-car-loan-calculator`,
+    `${SITE_URL}/loan-types/axis-zero-down-payment-car-loan-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-10-lakh-zero-down-payment`,
+    `${SITE_URL}/scenarios/emi-calculator-15-lakh-zero-down-payment`,
+    `${SITE_URL}/scenarios/emi-calculator-20-lakh-zero-down-payment`,
+    `${SITE_URL}/tenure-comparison/zero-down-payment-5-years-vs-7-years`,
 ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

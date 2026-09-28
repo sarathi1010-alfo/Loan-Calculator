@@ -6643,6 +6643,135 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Should I choose a 3-year tenure if my income might fluctuate?", answer: "If income stability is a concern, a 5-year tenure offers a safer, lower EMI. You can always make prepayments when you have extra funds to mimic a 3-year payoff." }
     ]
   }
+,
+  {
+    type: "loan-types",
+    slug: "sbi-zero-down-payment-car-loan-calculator",
+    title: "SBI Zero Down Payment Car Loan Calculator | 100% Finance EMI",
+    h1: "SBI Zero Down Payment Car Loan Calculator",
+    description: "Calculate your EMI for an SBI zero down payment car loan. Find out the exact monthly repayment and total interest for 100% on-road financing.",
+    intro: "Considering a 100% financed car from SBI? Use our specialized zero down payment calculator to estimate your exact monthly EMI and total interest outgo before visiting the dealership.",
+    date: "2026-09-28",
+    amount: 1000000,
+    interestRate: 8.95,
+    tenure: 60,
+    faqs: [
+      { question: "Does SBI offer 100% on-road financing for cars?", answer: "Yes, subject to your CIBIL score and relationship with the bank, SBI offers up to 100% on-road funding for select car models." },
+      { question: "Is the interest rate higher for zero down payment loans?", answer: "Typically, 100% financing loans may carry a slight premium (0.25% - 0.50%) over standard 80% LTV car loans." }
+    ]
+  },
+  {
+    type: "loan-types",
+    slug: "hdfc-zero-down-payment-car-loan-calculator",
+    title: "HDFC Zero Down Payment Car Loan Calculator | 100% Funding",
+    h1: "HDFC Zero Down Payment Car Loan EMI Calculator",
+    description: "Check your HDFC Zero Down Payment Car Loan EMI. Calculate monthly installments and total interest for 100% on-road funding.",
+    intro: "Want to drive home a new car without paying upfront? Calculate your HDFC 100% financing car loan EMI accurately with our tool to ensure it fits your monthly budget.",
+    date: "2026-09-28",
+    amount: 1200000,
+    interestRate: 9.10,
+    tenure: 84,
+    faqs: [
+      { question: "Can I get a 7-year tenure on an HDFC zero down payment loan?", answer: "Yes, HDFC offers tenures up to 7 years (84 months) to help reduce the monthly EMI burden on fully financed cars." },
+      { question: "Are processing fees waived for 100% financing?", answer: "Usually, processing fees still apply. You can often negotiate these during festive seasons." }
+    ]
+  },
+  {
+    type: "loan-types",
+    slug: "icici-zero-down-payment-car-loan-calculator",
+    title: "ICICI Zero Down Payment Car Loan Calculator | Calculate 100% EMI",
+    h1: "ICICI Zero Down Payment Car Loan Calculator",
+    description: "Plan your ICICI zero down payment car loan. Calculate your EMI and visualize the amortization schedule for 100% financing.",
+    intro: "ICICI Bank's 100% on-road funding allows you to preserve your savings. Use our calculator to see exactly how much interest you'll pay over the tenure of a fully financed vehicle.",
+    date: "2026-09-28",
+    amount: 800000,
+    interestRate: 9.00,
+    tenure: 60,
+    faqs: [
+      { question: "How is the ICICI zero down payment EMI calculated?", answer: "It uses the standard reducing balance method, applying the interest rate to the full on-road price of the vehicle." },
+      { question: "What is the minimum CIBIL score required for ICICI 100% funding?", answer: "A score of 750 or above is generally required to secure 100% financing at the best interest rates." }
+    ]
+  },
+  {
+    type: "loan-types",
+    slug: "axis-zero-down-payment-car-loan-calculator",
+    title: "Axis Bank Zero Down Payment Car Loan EMI Calculator",
+    h1: "Axis Bank Zero Down Payment Car Loan Calculator",
+    description: "Estimate your Axis Bank zero down payment car loan EMI. Compare reducing balance rates and view your total interest outgo.",
+    intro: "Explore 100% financing options with Axis Bank. Our calculator breaks down your monthly EMI, showing you the exact split between principal and interest.",
+    date: "2026-09-28",
+    amount: 1500000,
+    interestRate: 9.15,
+    tenure: 60,
+    faqs: [
+      { question: "Does Axis Bank finance accessories in a zero down payment loan?", answer: "In many cases, standard factory-fitted accessories are included in the on-road price eligible for 100% financing." },
+      { question: "Can I prepay my Axis Bank zero down payment loan?", answer: "Yes, prepayment is allowed, but check your loan agreement for any applicable foreclosure charges." }
+    ]
+  },
+  {
+    type: "scenarios",
+    slug: "emi-calculator-10-lakh-zero-down-payment",
+    title: "EMI for ₹10 Lakh Zero Down Payment Car Loan",
+    h1: "₹10 Lakh Zero Down Payment Car Loan EMI Calculator",
+    description: "Calculate the exact EMI and interest for a ₹10 Lakh car loan with zero down payment. View the full 5-year amortization schedule.",
+    intro: "Buying a ₹10 Lakh car with 100% financing? Discover your exact monthly commitment and see how the interest accumulates over time using our reducing balance calculator.",
+    date: "2026-09-28",
+    amount: 1000000,
+    interestRate: 9.0,
+    tenure: 60,
+    faqs: [
+      { question: "What is the EMI for a 10 Lakh zero down payment car loan for 5 years?", answer: "Assuming a 9% interest rate, the EMI is approximately ₹20,758." },
+      { question: "Is it risky to take a 10 Lakh loan with no down payment?", answer: "The primary risk is negative equity, meaning you owe more than the car is worth as it depreciates. Ensure you have gap insurance (Return to Invoice)." }
+    ]
+  },
+  {
+    type: "scenarios",
+    slug: "emi-calculator-15-lakh-zero-down-payment",
+    title: "EMI for ₹15 Lakh Zero Down Payment Car Loan",
+    h1: "₹15 Lakh Zero Down Payment Car Loan EMI Calculator",
+    description: "Calculate the exact EMI and total interest for a ₹15 Lakh zero down payment car loan. Visualize your repayment plan instantly.",
+    intro: "Planning to fully finance a ₹15 Lakh vehicle? Use our calculator to understand the monthly EMI impact and view the complete amortization table.",
+    date: "2026-09-28",
+    amount: 1500000,
+    interestRate: 9.0,
+    tenure: 84,
+    faqs: [
+      { question: "What is the EMI for a 15 Lakh zero down payment loan for 7 years?", answer: "At a 9% interest rate over 7 years, the EMI is roughly ₹24,134." },
+      { question: "Does 100% financing on 15 Lakhs require a guarantor?", answer: "Not typically, provided you have a high CIBIL score and strong income, though a co-applicant can improve your chances." }
+    ]
+  },
+  {
+    type: "scenarios",
+    slug: "emi-calculator-20-lakh-zero-down-payment",
+    title: "EMI for ₹20 Lakh Zero Down Payment Car Loan",
+    h1: "₹20 Lakh Zero Down Payment Car Loan EMI Calculator",
+    description: "Calculate the exact EMI for a premium ₹20 Lakh zero down payment car loan. Compare interest outgo over 5 vs 7 years.",
+    intro: "Financing a premium car with zero down payment? Calculate your ₹20 Lakh loan EMI and see the detailed interest breakdown to ensure it fits your long-term budget.",
+    date: "2026-09-28",
+    amount: 2000000,
+    interestRate: 9.25,
+    tenure: 60,
+    faqs: [
+      { question: "How much interest will I pay on a 20 Lakh zero down payment loan?", answer: "For a 5-year tenure at 9.25%, the total interest payable is approximately ₹5,03,000." },
+      { question: "Are zero down payment loans available for luxury cars?", answer: "Yes, many banks offer 100% on-road funding for premium and luxury segments for eligible high-net-worth customers." }
+    ]
+  },
+  {
+    type: "tenure-comparison",
+    slug: "zero-down-payment-5-years-vs-7-years",
+    title: "Zero Down Payment Car Loan: 5 Years vs 7 Years Tenure",
+    h1: "Zero Down Payment Car Loan: 5 vs 7 Year Tenure Comparison",
+    description: "Compare a 5-year vs 7-year zero down payment car loan. See how extending the tenure affects your EMI and total interest paid.",
+    intro: "When opting for 100% financing, choosing the right tenure is critical. Compare the EMI and total interest differences between a 5-year and a 7-year loan to make an informed decision.",
+    date: "2026-09-28",
+    amount: 1000000,
+    interestRate: 9.0,
+    tenure: 84,
+    faqs: [
+      { question: "Which is better for a zero down payment loan: 5 years or 7 years?", answer: "A 5-year loan has a higher EMI but saves you significantly on total interest. A 7-year loan offers a lower EMI but costs much more over time." },
+      { question: "Does a 7-year tenure increase the risk of negative equity?", answer: "Yes, because the car depreciates faster than you pay off the principal during the early years of a 7-year loan." }
+    ]
+  }
 ];
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {

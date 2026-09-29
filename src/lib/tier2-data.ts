@@ -16,6 +16,134 @@ export interface Tier2Page {
 export const TIER2_PAGES: Tier2Page[] = [
   {
     type: "loan-types",
+    slug: "sbi-fixed-deposit-loan-calculator",
+    title: "SBI Loan Against Fixed Deposit EMI Calculator 2026",
+    h1: "SBI Loan Against Fixed Deposit EMI Calculator",
+    description: "Calculate your EMI for an SBI Loan against Fixed Deposit. Check the low interest rates for borrowing against your FD.",
+    intro: "Need funds without breaking your fixed deposit? Use our calculator to see the EMI and total interest for an SBI Loan against FD, typically offered at a minimal markup over your deposit rate.",
+    amount: 200000,
+    interestRate: 7.5,
+    tenure: 24,
+    date: "2026-09-29",
+    faqs: [
+      { question: "What is the interest rate for an SBI loan against FD?", answer: "The interest rate is usually 1% to 2% higher than the rate you are earning on your fixed deposit." },
+      { question: "How much loan can I get against my SBI FD?", answer: "SBI typically offers loans up to 90% of the value of your fixed deposit." }
+    ]
+  },
+  {
+    type: "loan-types",
+    slug: "hdfc-fixed-deposit-loan-calculator",
+    title: "HDFC Loan Against Fixed Deposit EMI Calculator 2026",
+    h1: "HDFC Loan Against Fixed Deposit EMI Calculator",
+    description: "Calculate your EMI for an HDFC Loan against Fixed Deposit. Ensure you maintain your savings while meeting immediate cash needs.",
+    intro: "Don't break your HDFC FD prematurely. Borrow against it instead. Calculate your EMI to see how cost-effective this short-term borrowing solution can be.",
+    amount: 500000,
+    interestRate: 7.75,
+    tenure: 36,
+    date: "2026-09-29",
+    faqs: [
+      { question: "Are there processing fees for an HDFC loan against FD?", answer: "No, generally banks do not charge processing fees or prepayment penalties for loans against fixed deposits." },
+      { question: "What is the maximum tenure for this loan?", answer: "The maximum tenure cannot exceed the remaining maturity period of your fixed deposit." }
+    ]
+  },
+  {
+    type: "loan-types",
+    slug: "icici-fixed-deposit-loan-calculator",
+    title: "ICICI Loan Against Fixed Deposit EMI Calculator 2026",
+    h1: "ICICI Loan Against Fixed Deposit EMI Calculator",
+    description: "Calculate your EMI for an ICICI Loan against Fixed Deposit. A smart way to manage liquidity without losing FD interest.",
+    intro: "Instantly calculate your ICICI Loan against FD EMI. See the exact interest you will pay compared to what your FD is earning.",
+    amount: 300000,
+    interestRate: 7.8,
+    tenure: 12,
+    date: "2026-09-29",
+    faqs: [
+      { question: "Can I prepay the ICICI loan against FD?", answer: "Yes, you can prepay it at any time without any foreclosure charges." },
+      { question: "Do I need to submit documents for an ICICI loan against FD?", answer: "If you have an existing FD with ICICI, the process is mostly instant and requires minimal or no extra documentation." }
+    ]
+  },
+  {
+    type: "loan-types",
+    slug: "axis-fixed-deposit-loan-calculator",
+    title: "Axis Bank Loan Against Fixed Deposit EMI Calculator",
+    h1: "Axis Bank Loan Against Fixed Deposit EMI Calculator",
+    description: "Calculate the EMI and interest for an Axis Bank Loan against Fixed Deposit.",
+    intro: "Maintain your FD's compounding power while meeting short-term liquidity needs. Calculate the EMI for your Axis Bank loan against FD here.",
+    amount: 150000,
+    interestRate: 7.6,
+    tenure: 18,
+    date: "2026-09-29",
+    faqs: [
+      { question: "Is the interest calculated daily or monthly?", answer: "Interest on a loan against FD is typically calculated on a daily reducing balance method, saving you more." },
+      { question: "Can I get an overdraft instead of a term loan?", answer: "Yes, many banks, including Axis, offer an overdraft facility against FDs where you only pay interest on the amount utilized." }
+    ]
+  },
+  {
+    type: "scenarios",
+    slug: "emi-calculator-2-lakh-fd-loan",
+    title: "EMI Calculator for ₹2 Lakh Loan Against FD | Low Interest",
+    h1: "EMI Calculator for ₹2 Lakh Loan Against FD",
+    description: "Calculate the EMI for a ₹2 Lakh loan taken against your fixed deposit. Check the low interest benefits.",
+    intro: "A ₹2 Lakh loan against an FD is one of the cheapest ways to borrow money. Calculate your EMI and see how little interest you actually pay compared to a personal loan.",
+    amount: 200000,
+    interestRate: 7.5,
+    tenure: 24,
+    date: "2026-09-29",
+    faqs: [
+      { question: "Why take a loan against FD instead of a personal loan?", answer: "Loans against FD have much lower interest rates (usually 1-2% above FD rates) and require no credit checks or processing fees." },
+      { question: "What happens if I default on an FD loan?", answer: "The bank will liquidate a portion of your fixed deposit to recover the outstanding loan amount and accrued interest." }
+    ]
+  },
+  {
+    type: "scenarios",
+    slug: "emi-calculator-5-lakh-fd-loan",
+    title: "EMI Calculator for ₹5 Lakh Loan Against FD",
+    h1: "EMI Calculator for ₹5 Lakh Loan Against FD",
+    description: "Calculate the EMI and total interest payout for a ₹5 Lakh loan secured against your fixed deposit.",
+    intro: "Need ₹5 Lakhs urgently? Before applying for a high-rate personal loan, calculate the EMI for borrowing against your existing fixed deposit to save thousands in interest.",
+    amount: 500000,
+    interestRate: 7.8,
+    tenure: 36,
+    date: "2026-09-29",
+    faqs: [
+      { question: "Will my FD continue to earn interest?", answer: "Yes, your fixed deposit continues to earn its regular interest even while you have an outstanding loan against it." },
+      { question: "Can I renew the FD if the loan is still active?", answer: "Usually, the FD is auto-renewed, and the lien for the loan amount continues until the loan is fully repaid." }
+    ]
+  },
+  {
+    type: "scenarios",
+    slug: "emi-calculator-10-lakh-fd-loan",
+    title: "EMI Calculator for ₹10 Lakh Loan Against FD | Maximum Savings",
+    h1: "EMI Calculator for ₹10 Lakh Loan Against FD",
+    description: "Estimate the EMI for a large ₹10 Lakh loan against a fixed deposit. See the amortization breakdown.",
+    intro: "Borrowing a large sum like ₹10 Lakhs against an FD is highly cost-effective. Use this calculator to see your monthly EMI and exactly how much you save compared to unsecured loans.",
+    amount: 1000000,
+    interestRate: 8.0,
+    tenure: 48,
+    date: "2026-09-29",
+    faqs: [
+      { question: "Is a ₹10 Lakh loan against FD better than a top-up loan?", answer: "It depends on the interest rates. A loan against FD is often cheaper and faster, but the tenure is limited by the FD maturity." },
+      { question: "Do I need a high CIBIL score for a loan against FD?", answer: "No, since the loan is fully secured by your cash deposit, CIBIL score checks are generally not required." }
+    ]
+  },
+  {
+    type: "tenure-comparison",
+    slug: "fd-loan-1-year-vs-2-years",
+    title: "FD Loan EMI: 1 Year vs 2 Years Comparison | Which is Better?",
+    h1: "FD Loan EMI: 1 Year vs 2 Years Comparison",
+    description: "Compare the EMIs and total interest for a loan against FD over 1-year and 2-year tenures.",
+    intro: "Should you repay your loan against FD in 1 year or 2 years? Since there are no prepayment penalties, the choice comes down to your cash flow comfort. Compare the two options side-by-side.",
+    amount: 300000,
+    interestRate: 7.6,
+    tenure: 12,
+    date: "2026-09-29",
+    faqs: [
+      { question: "Does tenure matter for an FD loan?", answer: "Since you can prepay at any time without fees, you can opt for a longer tenure to keep EMIs low, and prepay whenever you have surplus funds." },
+      { question: "Can I extend the tenure of an FD loan?", answer: "The tenure cannot exceed the maturity date of the underlying fixed deposit." }
+    ]
+  },
+  {
+    type: "loan-types",
     slug: "sbi-top-up-loan-emi-calculator",
     title: "SBI Top-Up Loan EMI Calculator 2026 | Calculate Your EMI",
     h1: "SBI Top-Up Loan EMI Calculator",

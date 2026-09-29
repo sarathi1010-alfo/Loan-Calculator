@@ -39,7 +39,7 @@ export default function LendersHubPage() {
 
       <div>
          <Link href="/blog" className="text-primary hover:underline font-medium">
-          &larr; Back to Main Blog
+          &#8592; Back to Main Blog
         </Link>
       </div>
     </div>

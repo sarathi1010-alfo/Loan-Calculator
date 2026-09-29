@@ -31,7 +31,7 @@ export default function AboutPage() {
       />
       <div className="container mx-auto px-4 py-12 md:px-8 max-w-4xl">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-8">
-          About EMICalculatorPro – Helping You Make Smarter Loan Decisions
+          About EMICalculatorPro &#8211; Helping You Make Smarter Loan Decisions
         </h1>
 
         <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">

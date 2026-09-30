@@ -1375,13 +1375,13 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Financial Planning for Major Loans: Home, Car, and Education",
     description:
       "A comprehensive guide on how to prepare your finances before taking on a major long-term loan.",
-    date: "2026-09-11",
+    date: "2026-09-30",
     category: "Financial Planning & Budgeting",
     answerBlock:
       "Before taking a major loan, ensure your total monthly EMI obligations (including the new loan) do not exceed 40-50% of your net monthly income. Also, build a 6-month emergency fund to cover your EMIs in case of job loss.",
     content: `
       <h2>Preparation is Key</h2>
-      <p>Taking on a major loan like a mortgage is a decades-long commitment. Proper planning ensures the debt remains a tool for building wealth, rather than a burden. For students and parents planning for academics, refer to our <a href="/blog/education-loan-repayment-strategies-2026">Education Loan Repayment Strategies 2026</a>.</p>
+      <p>Taking on a major loan like a mortgage is a decades-long commitment. Proper planning ensures the debt remains a tool for building wealth, rather than a burden. If you are building your own home, it is crucial to understand how staggered disbursements work by reading our <a href="/blog/home-construction-loan-emi-guide-2026">Home Construction Loan EMI Guide 2026</a>. For students and parents planning for academics, refer to our <a href="/blog/education-loan-repayment-strategies-2026">Education Loan Repayment Strategies 2026</a>.</p>
 
       <h2>The 50% Rule</h2>
       <p>If you're looking for an alternative to personal loans with higher limits to help manage this, consider exploring our <a href="/blog/loan-against-property-emi-guide">Loan Against Property EMI Guide 2026</a>.</p>
@@ -2292,7 +2292,37 @@ export const BLOG_POSTS: BlogPost[] = [
       <h2>Conclusion</h2>
       <p>Zero down payment car loans offer incredible convenience, allowing you to preserve your cash savings while acquiring a new vehicle. However, they come at the cost of higher overall interest and the risk of negative equity. Use tools like EMICalculatorPro to clearly map out your amortization schedule and ensure that the convenience of 100% financing aligns with your long-term financial health.</p>
     `
+  }  ,
+  {
+    slug: "home-construction-loan-emi-guide-2026",
+    title: "Home Construction Loan EMI Guide: Plan Your Dream Home in 2026",
+    description: "Learn how to estimate your home construction loan EMI, manage staggered disbursements, and understand interest during construction.",
+    date: "2026-09-30",
+    category: "Loan Guides",
+    answerBlock: "To calculate EMI for a home construction loan, you must consider that lenders disburse funds in tranches based on construction progress. Interest is typically charged only on the disbursed amount (pre-EMI) until the final disbursement, after which full EMI begins.",
+    content: `
+      <h2>How do you calculate EMI for a home construction loan?</h2>
+      <p>Building your own home is an exciting journey, but financing it requires a solid understanding of how home construction loans work. Unlike a standard home loan where the entire amount is disbursed at once to the seller, construction loans are disbursed in stages. This drastically changes how your EMI is calculated during the construction phase. To explore different financing options, check out our <a href="/">homepage</a> for our main calculator or visit the <a href="/#loan-types">Explore Specific Calculators</a> section.</p>
+
+      <h2>The Concept of Pre-EMI Interest</h2>
+      <p>During the construction phase, banks typically disburse funds based on the completion of construction stages (e.g., foundation, plinth, slab, finishing). During this period, you are only required to pay interest on the amount actually disbursed by the bank. This is known as <strong>Pre-EMI</strong>.</p>
+      <p>For example, if you are sanctioned a loan of ₹50 Lakh, but the bank has only disbursed ₹10 Lakh for the foundation, your Pre-EMI will be the interest calculated only on that ₹10 Lakh.</p>
+
+      <h2>Transitioning to Full EMI</h2>
+      <p>Once construction is fully complete and the final disbursement is made, your Pre-EMI phase ends. Your loan then converts into a regular home loan, and you begin paying the <strong>Full EMI</strong>, which consists of both principal and interest components.</p>
+
+      <h2>Factors Affecting Construction Loan EMIs</h2>
+      <ul>
+        <li><strong>Construction Timeline:</strong> Delays in construction extend your Pre-EMI phase, meaning you pay interest without reducing the principal.</li>
+        <li><strong>Tranche Schedule:</strong> The schedule of disbursements directly affects how quickly your interest burden grows.</li>
+        <li><strong>Interest Rates:</strong> Floating rates mean your Pre-EMI and final EMI could fluctuate during the construction period.</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>Planning for a home construction loan requires understanding the dual phases of Pre-EMI and Full EMI. By using EMICalculatorPro, you can model different disbursement scenarios and prepare your cash flow accordingly. Always ensure your builder sticks to the timeline to minimize unnecessary Pre-EMI interest payments.</p>
+    `
   }
+
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

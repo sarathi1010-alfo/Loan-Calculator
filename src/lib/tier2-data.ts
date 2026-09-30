@@ -6899,7 +6899,136 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Which is better for a zero down payment loan: 5 years or 7 years?", answer: "A 5-year loan has a higher EMI but saves you significantly on total interest. A 7-year loan offers a lower EMI but costs much more over time." },
       { question: "Does a 7-year tenure increase the risk of negative equity?", answer: "Yes, because the car depreciates faster than you pay off the principal during the early years of a 7-year loan." }
     ]
+  }  ,
+  {
+    type: "loan-types",
+    slug: "sbi-home-construction-loan-calculator",
+    title: "SBI Home Construction Loan EMI Calculator 2026",
+    h1: "SBI Home Construction Loan EMI Calculator",
+    description: "Calculate your EMI for an SBI Home Construction Loan. Understand Pre-EMI and full EMI phases during your build.",
+    intro: "SBI offers competitive rates for building your dream home. Use our calculator to understand how disbursements will affect your monthly payments during the construction phase.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-09-30",
+    faqs: [
+      { question: "What is Pre-EMI in an SBI construction loan?", answer: "Pre-EMI is the interest paid only on the loan amount disbursed by SBI based on the construction progress, before the full loan is released." },
+      { question: "Does SBI offer a moratorium on home construction loans?", answer: "SBI typically allows an 18-month moratorium or until construction is complete, during which you only pay Pre-EMI." }
+    ]
+  },
+  {
+    type: "loan-types",
+    slug: "hdfc-home-construction-loan-calculator",
+    title: "HDFC Home Construction Loan EMI Calculator 2026",
+    h1: "HDFC Home Construction Loan EMI Calculator",
+    description: "Calculate your HDFC Home Construction Loan EMI. Plan your staggered disbursements and Pre-EMI interest payments.",
+    intro: "HDFC provides customized loans for home construction. Estimate your Pre-EMI and final EMI using our interactive calculator.",
+    amount: 4000000,
+    interestRate: 8.6,
+    tenure: 240,
+    date: "2026-09-30",
+    faqs: [
+      { question: "How does HDFC disburse construction loans?", answer: "HDFC disburses the loan in stages based on an architect's certificate verifying the progress of the construction." },
+      { question: "Can I prepay an HDFC construction loan?", answer: "Yes, you can prepay your HDFC home construction loan. Since it's a floating rate loan for individuals, there are no prepayment penalties." }
+    ]
+  },
+  {
+    type: "loan-types",
+    slug: "icici-home-construction-loan-calculator",
+    title: "ICICI Home Construction Loan EMI Calculator 2026",
+    h1: "ICICI Home Construction Loan EMI Calculator",
+    description: "Calculate ICICI Home Construction Loan EMI. Check the latest interest rates and plan your home building budget.",
+    intro: "Use the ICICI Home Construction Loan EMI Calculator to estimate your monthly outflow, whether you are in the Pre-EMI phase or post-completion.",
+    amount: 6000000,
+    interestRate: 8.7,
+    tenure: 180,
+    date: "2026-09-30",
+    faqs: [
+      { question: "What is the maximum tenure for an ICICI construction loan?", answer: "ICICI offers construction loans with tenures up to 20 or 30 years depending on your profile." },
+      { question: "Do I need a plot to get a construction loan?", answer: "Yes, you must either own the plot or apply for a composite loan (plot purchase + construction)." }
+    ]
+  },
+  {
+    type: "loan-types",
+    slug: "axis-home-construction-loan-calculator",
+    title: "Axis Bank Home Construction Loan EMI Calculator 2026",
+    h1: "Axis Bank Home Construction Loan EMI Calculator",
+    description: "Check your EMI for an Axis Bank Home Construction Loan. Easily compare Pre-EMI and Full EMI costs.",
+    intro: "Axis Bank offers seamless construction loan disbursements. Calculate your EMI and plan your construction finances smoothly.",
+    amount: 3000000,
+    interestRate: 8.55,
+    tenure: 240,
+    date: "2026-09-30",
+    faqs: [
+      { question: "How is EMI calculated during construction by Axis Bank?", answer: "During construction, Axis Bank charges simple interest on the disbursed amount (Pre-EMI). Full EMI begins after the final disbursement." },
+      { question: "Is the interest rate for construction loans higher?", answer: "Generally, the interest rate for home construction loans is the same as regular home loans at Axis Bank." }
+    ]
+  },
+  {
+    type: "scenarios",
+    slug: "emi-calculator-30-lakh-home-construction",
+    title: "EMI Calculator for ₹30 Lakh Home Construction Loan",
+    h1: "EMI Calculator for ₹30 Lakh Home Construction Loan",
+    description: "Calculate the EMI and Pre-EMI for a ₹30 Lakh home construction loan. View the full amortization schedule.",
+    intro: "Planning a ₹30 Lakh home build? See exactly how your EMI is calculated, and what your interest burden will be during the construction phase.",
+    amount: 3000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-09-30",
+    faqs: [
+      { question: "What is the EMI for a 30 Lakh construction loan for 20 years?", answer: "Assuming an 8.5% interest rate, the full EMI is approximately ₹26,035 once fully disbursed." },
+      { question: "How much will the Pre-EMI be?", answer: "If ₹10 Lakh is disbursed initially, the monthly Pre-EMI (interest only) would be approximately ₹7,083." }
+    ]
+  },
+  {
+    type: "scenarios",
+    slug: "emi-calculator-50-lakh-home-construction",
+    title: "EMI Calculator for ₹50 Lakh Home Construction Loan",
+    h1: "EMI Calculator for ₹50 Lakh Home Construction Loan",
+    description: "Calculate the EMI and Pre-EMI for a ₹50 Lakh home construction loan. View the full amortization schedule.",
+    intro: "Use our calculator to map out the financial timeline for your ₹50 Lakh home construction loan, from the first disbursement to the final EMI.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-09-30",
+    faqs: [
+      { question: "What is the EMI for a 50 Lakh construction loan for 20 years?", answer: "At an 8.5% interest rate, the full EMI is approximately ₹43,391." },
+      { question: "Can I choose Full EMI during construction?", answer: "Some banks allow 'Tranche EMI' where you pay partial principal along with interest on the disbursed amount." }
+    ]
+  },
+  {
+    type: "scenarios",
+    slug: "emi-calculator-75-lakh-home-construction",
+    title: "EMI Calculator for ₹75 Lakh Home Construction Loan",
+    h1: "EMI Calculator for ₹75 Lakh Home Construction Loan",
+    description: "Calculate the EMI and Pre-EMI for a ₹75 Lakh home construction loan. View the full amortization schedule.",
+    intro: "Building a premium home? Calculate the EMI for a ₹75 Lakh construction loan and understand how staggered disbursements affect your cash flow.",
+    amount: 7500000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-09-30",
+    faqs: [
+      { question: "What is the EMI for a 75 Lakh construction loan for 20 years?", answer: "At an 8.5% interest rate, the full EMI is approximately ₹65,087." },
+      { question: "How do delays affect my loan?", answer: "Delays increase the duration of your Pre-EMI phase, meaning you pay more interest before reducing the principal." }
+    ]
+  },
+  {
+    type: "tenure-comparison",
+    slug: "home-construction-loan-pre-emi-vs-full-emi",
+    title: "Pre-EMI vs. Full EMI for Home Construction Loans",
+    h1: "Pre-EMI vs. Full EMI for Home Construction Loans",
+    description: "Compare Pre-EMI vs. Full EMI (Tranche EMI) options for home construction loans. See which option saves you more interest.",
+    intro: "Should you pay only interest during construction (Pre-EMI) or start paying principal as well (Tranche/Full EMI)? Compare the costs here.",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-09-30",
+    faqs: [
+      { question: "Which is better: Pre-EMI or Full EMI?", answer: "Pre-EMI is easier on your monthly budget during construction. Full EMI (or Tranche EMI) saves you interest in the long run because you start repaying the principal immediately." },
+      { question: "Can I switch from Pre-EMI to Full EMI?", answer: "Check with your specific lender, but many banks allow you to opt for Tranche EMI from the beginning." }
+    ]
   }
+
 ];
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {

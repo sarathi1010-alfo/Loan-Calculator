@@ -461,7 +461,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-5-lakh-fd-loan`,
     `${SITE_URL}/scenarios/emi-calculator-10-lakh-fd-loan`,
     `${SITE_URL}/tenure-comparison/fd-loan-1-year-vs-2-years`,
-];
+    // New Tier 1 (2026-09-30)
+    `${SITE_URL}/blog/home-construction-loan-emi-guide-2026`,
+
+    // New Tier 2 (2026-09-30)
+    `${SITE_URL}/loan-types/sbi-home-construction-loan-calculator`,
+    `${SITE_URL}/loan-types/hdfc-home-construction-loan-calculator`,
+    `${SITE_URL}/loan-types/icici-home-construction-loan-calculator`,
+    `${SITE_URL}/loan-types/axis-home-construction-loan-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-30-lakh-home-construction`,
+    `${SITE_URL}/scenarios/emi-calculator-50-lakh-home-construction`,
+    `${SITE_URL}/scenarios/emi-calculator-75-lakh-home-construction`,
+    `${SITE_URL}/tenure-comparison/home-construction-loan-pre-emi-vs-full-emi`,
+];;
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);
 

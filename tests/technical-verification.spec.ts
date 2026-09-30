@@ -2438,4 +2438,95 @@ test.describe('Technical Verification', () => {
     });
     expect(hasFaqSchema).toBeTruthy();
   });
+
+  test('2026-09-30 Tier 1: home-construction-loan-emi-guide-2026 returns 200 OK and Article Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/home-construction-loan-emi-guide-2026`);
+    expect(response?.status()).toBe(200);
+    const hasArticleSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"Article"'));
+    });
+    expect(hasArticleSchema).toBeTruthy();
+  });
+
+  test('2026-09-30 Tier 2: sbi-home-construction-loan-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-home-construction-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-30 Tier 2: hdfc-home-construction-loan-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-home-construction-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-30 Tier 2: icici-home-construction-loan-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-home-construction-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-30 Tier 2: axis-home-construction-loan-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/axis-home-construction-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-30 Tier 2: emi-calculator-30-lakh-home-construction returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-30-lakh-home-construction`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-30 Tier 2: emi-calculator-50-lakh-home-construction returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-lakh-home-construction`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-30 Tier 2: emi-calculator-75-lakh-home-construction returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-75-lakh-home-construction`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-09-30 Tier 2: home-construction-loan-pre-emi-vs-full-emi returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/home-construction-loan-pre-emi-vs-full-emi`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
 });

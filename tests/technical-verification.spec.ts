@@ -2529,4 +2529,95 @@ test.describe('Technical Verification', () => {
     expect(hasFaqSchema).toBeTruthy();
   });
 
+
+  test('2026-10-01 Tier 1: mortgage-refinancing-emi-guide-2026 returns 200 OK and Article Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/mortgage-refinancing-emi-guide-2026`);
+    expect(response?.status()).toBe(200);
+    const hasArticleSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"Article"'));
+    });
+    expect(hasArticleSchema).toBeTruthy();
+  });
+
+  test('2026-10-01 Tier 2: sbi-mortgage-refinance-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-mortgage-refinance-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-01 Tier 2: hdfc-mortgage-refinance-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-mortgage-refinance-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-01 Tier 2: icici-mortgage-refinance-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-mortgage-refinance-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-01 Tier 2: axis-mortgage-refinance-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/axis-mortgage-refinance-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-01 Tier 2: emi-calculator-30-lakh-refinance returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-30-lakh-refinance`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-01 Tier 2: emi-calculator-50-lakh-refinance returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-lakh-refinance`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-01 Tier 2: emi-calculator-75-lakh-refinance returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-75-lakh-refinance`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-01 Tier 2: refinance-10-years-vs-15-years returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/refinance-10-years-vs-15-years`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
 });

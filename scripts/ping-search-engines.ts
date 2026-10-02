@@ -473,7 +473,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-50-lakh-home-construction`,
     `${SITE_URL}/scenarios/emi-calculator-75-lakh-home-construction`,
     `${SITE_URL}/tenure-comparison/home-construction-loan-pre-emi-vs-full-emi`,
-];;
+    // New Tier 1 (2026-10-01)
+    `${SITE_URL}/blog/mortgage-refinancing-emi-guide-2026`,
+
+    // New Tier 2 (2026-10-01)
+    `${SITE_URL}/loan-types/sbi-mortgage-refinance-calculator`,
+    `${SITE_URL}/loan-types/hdfc-mortgage-refinance-calculator`,
+    `${SITE_URL}/loan-types/icici-mortgage-refinance-calculator`,
+    `${SITE_URL}/loan-types/axis-mortgage-refinance-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-30-lakh-refinance`,
+    `${SITE_URL}/scenarios/emi-calculator-50-lakh-refinance`,
+    `${SITE_URL}/scenarios/emi-calculator-75-lakh-refinance`,
+    `${SITE_URL}/tenure-comparison/refinance-10-years-vs-15-years`
+];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);
 

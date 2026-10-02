@@ -15,6 +15,135 @@ export interface Tier2Page {
 
 export const TIER2_PAGES: Tier2Page[] = [
   {
+    slug: "sbi-mortgage-refinance-calculator",
+    type: "loan-types",
+    title: "SBI Mortgage Refinance Calculator 2026",
+    h1: "SBI Mortgage Refinance Calculator 2026",
+    description: "Calculate your new EMI when refinancing your home loan with SBI. Find out your interest savings.",
+    intro: "Refinancing your home loan with SBI can lead to significant interest savings. Use this calculator to estimate your new EMI.",
+    amount: 4000000,
+    interestRate: 8.4,
+    tenure: 180,
+    date: "2026-10-01",
+    faqs: [
+      { question: "What is the SBI mortgage refinance interest rate?", answer: "SBI offers competitive rates for refinancing, starting around 8.4% depending on your CIBIL score." },
+      { question: "Are there processing fees for balance transfers to SBI?", answer: "Yes, SBI charges a nominal processing fee for balance transfers, but it is often waived during festive offers." }
+    ]
+  },
+  {
+    slug: "hdfc-mortgage-refinance-calculator",
+    type: "loan-types",
+    title: "HDFC Mortgage Refinance Calculator 2026",
+    h1: "HDFC Mortgage Refinance Calculator 2026",
+    description: "Calculate your new EMI when refinancing your home loan with HDFC. View your amortization schedule.",
+    intro: "Transfer your existing home loan to HDFC and enjoy lower interest rates. Calculate your potential savings now.",
+    amount: 5000000,
+    interestRate: 8.45,
+    tenure: 240,
+    date: "2026-10-01",
+    faqs: [
+      { question: "Can I top-up my loan when refinancing with HDFC?", answer: "Yes, HDFC offers top-up loans along with balance transfers at attractive interest rates." },
+      { question: "How long does the HDFC balance transfer process take?", answer: "It typically takes 7-10 working days after the submission of all required documents." }
+    ]
+  },
+  {
+    slug: "icici-mortgage-refinance-calculator",
+    type: "loan-types",
+    title: "ICICI Mortgage Refinance Calculator 2026",
+    h1: "ICICI Mortgage Refinance Calculator 2026",
+    description: "Calculate your new EMI when refinancing your home loan with ICICI Bank.",
+    intro: "Calculate the EMI on your ICICI Bank home loan balance transfer and discover how much you can save on interest.",
+    amount: 6000000,
+    interestRate: 8.5,
+    tenure: 240,
+    date: "2026-10-01",
+    faqs: [
+      { question: "Does ICICI Bank offer overdraft facilities on refinanced loans?", answer: "Yes, ICICI provides an overdraft facility against your home loan for flexible repayment." },
+      { question: "What documents are required for an ICICI balance transfer?", answer: "You will need your KYC documents, income proof, and existing loan statement." }
+    ]
+  },
+  {
+    slug: "axis-mortgage-refinance-calculator",
+    type: "loan-types",
+    title: "Axis Bank Mortgage Refinance Calculator 2026",
+    h1: "Axis Bank Mortgage Refinance Calculator 2026",
+    description: "Estimate your new EMI and interest savings when refinancing with Axis Bank.",
+    intro: "See how an Axis Bank home loan balance transfer can lower your monthly installments.",
+    amount: 4500000,
+    interestRate: 8.55,
+    tenure: 180,
+    date: "2026-10-01",
+    faqs: [
+      { question: "Are there prepayment charges on Axis Bank floating rate loans?", answer: "No, Axis Bank does not charge prepayment penalties on floating rate home loans." },
+      { question: "Can NRIs refinance their mortgages with Axis Bank?", answer: "Yes, Axis Bank offers balance transfer facilities to Non-Resident Indians." }
+    ]
+  },
+  {
+    slug: "emi-calculator-30-lakh-refinance",
+    type: "scenarios",
+    title: "EMI Calculator for ₹30 Lakh Refinance",
+    h1: "EMI Calculator for ₹30 Lakh Refinance",
+    description: "Calculate the EMI and interest savings on a ₹30 Lakh mortgage refinance.",
+    intro: "Refinancing a ₹30 Lakh mortgage can reduce your monthly burden. Calculate your new EMI here.",
+    amount: 3000000,
+    interestRate: 8.4,
+    tenure: 180,
+    date: "2026-10-01",
+    faqs: [
+      { question: "How much can I save by refinancing a ₹30 Lakh loan?", answer: "A 0.5% rate reduction on a ₹30 Lakh loan for 15 years can save you over ₹1.5 Lakhs in total interest." },
+      { question: "Is a ₹30 Lakh refinance considered a high-value loan?", answer: "No, ₹30 Lakhs is a standard mortgage amount and easily qualifies for competitive rates." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50-lakh-refinance",
+    type: "scenarios",
+    title: "EMI Calculator for ₹50 Lakh Refinance",
+    h1: "EMI Calculator for ₹50 Lakh Refinance",
+    description: "Calculate the EMI and interest savings on a ₹50 Lakh mortgage refinance.",
+    intro: "See exactly how much you save on a ₹50 Lakh balance transfer with our detailed calculator.",
+    amount: 5000000,
+    interestRate: 8.4,
+    tenure: 240,
+    date: "2026-10-01",
+    faqs: [
+      { question: "Should I reduce my tenure when refinancing ₹50 Lakhs?", answer: "If you can afford the higher EMI, reducing your tenure is the best way to maximize interest savings." },
+      { question: "What is the typical EMI for a ₹50 Lakh refinance at 8.4%?", answer: "For a 20-year term, the EMI is approximately ₹43,075." }
+    ]
+  },
+  {
+    slug: "emi-calculator-75-lakh-refinance",
+    type: "scenarios",
+    title: "EMI Calculator for ₹75 Lakh Refinance",
+    h1: "EMI Calculator for ₹75 Lakh Refinance",
+    description: "Calculate the EMI and interest savings on a ₹75 Lakh mortgage refinance.",
+    intro: "Calculate the EMI on a large ₹75 Lakh home loan balance transfer and plan your long-term finances.",
+    amount: 7500000,
+    interestRate: 8.4,
+    tenure: 240,
+    date: "2026-10-01",
+    faqs: [
+      { question: "Do larger loan amounts like ₹75 Lakhs get better rates?", answer: "Yes, many banks offer slightly lower interest rates for high-value loans above ₹75 Lakhs." },
+      { question: "What are the processing fees for a ₹75 Lakh refinance?", answer: "Fees are typically capped at a maximum amount, regardless of the loan size, making refinancing cost-effective." }
+    ]
+  },
+  {
+    slug: "refinance-10-years-vs-15-years",
+    type: "tenure-comparison",
+    title: "Refinancing: 10 Years vs 15 Years Comparison",
+    h1: "Refinancing: 10 Years vs 15 Years Comparison",
+    description: "Compare the EMIs and total interest of a 10-year vs 15-year mortgage refinance term.",
+    intro: "When refinancing, choosing the right tenure is critical. Compare the costs of a 10-year and 15-year term to find what fits your budget.",
+    amount: 4000000,
+    interestRate: 8.4,
+    tenure: 120,
+    date: "2026-10-01",
+    faqs: [
+      { question: "Why choose a 10-year refinance term?", answer: "A 10-year term means higher EMIs but significantly less total interest paid over the life of the loan." },
+      { question: "Is a 15-year term better for cash flow?", answer: "Yes, the 15-year term lowers your monthly EMI, freeing up cash for other investments or expenses." }
+    ]
+  }
+,
+  {
     type: "loan-types",
     slug: "sbi-fixed-deposit-loan-calculator",
     title: "SBI Loan Against Fixed Deposit EMI Calculator 2026",

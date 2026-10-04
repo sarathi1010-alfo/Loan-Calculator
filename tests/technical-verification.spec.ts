@@ -2620,4 +2620,95 @@ test.describe('Technical Verification', () => {
     expect(hasFaqSchema).toBeTruthy();
   });
 
+
+  test('2026-10-02 Tier 1: used-car-loan-emi-guide-2026 returns 200 OK and Article Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/used-car-loan-emi-guide-2026`);
+    expect(response?.status()).toBe(200);
+    const hasArticleSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"Article"'));
+    });
+    expect(hasArticleSchema).toBeTruthy();
+  });
+
+  test('2026-10-02 Tier 2: sbi-used-car-loan-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-used-car-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-02 Tier 2: hdfc-used-car-loan-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-used-car-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-02 Tier 2: icici-used-car-loan-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-used-car-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-02 Tier 2: axis-used-car-loan-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/axis-used-car-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-02 Tier 2: emi-calculator-3-lakh-used-car returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-3-lakh-used-car`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-02 Tier 2: emi-calculator-5-lakh-used-car returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-5-lakh-used-car`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-02 Tier 2: emi-calculator-8-lakh-used-car returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-8-lakh-used-car`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('2026-10-02 Tier 2: used-car-loan-3-years-vs-5-years returns 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/used-car-loan-3-years-vs-5-years`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
 });

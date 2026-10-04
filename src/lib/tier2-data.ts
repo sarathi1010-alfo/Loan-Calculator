@@ -7158,6 +7158,138 @@ export const TIER2_PAGES: Tier2Page[] = [
     ]
   }
 
+,
+
+  // New Tier 2 (2026-10-02)
+  {
+    slug: "sbi-used-car-loan-calculator",
+    type: "loan-types",
+    title: "SBI Used Car Loan EMI Calculator 2026",
+    h1: "SBI Used Car Loan EMI Calculator",
+    description: "Calculate your EMI for an SBI used car loan. Plan your pre-owned vehicle purchase with accurate monthly repayment schedules.",
+    intro: "SBI offers competitive interest rates for used car loans. Use this calculator to check your EMI and total interest outgo based on current SBI rates for pre-owned cars.",
+    date: "2026-10-02",
+    amount: 500000,
+    interestRate: 11.25,
+    tenure: 36,
+    faqs: [
+      { question: "What is the interest rate for an SBI used car loan?", answer: "SBI used car loan interest rates typically start around 11.25%, depending on the age of the vehicle and your credit profile." },
+      { question: "What is the maximum tenure for an SBI used car loan?", answer: "SBI usually offers a maximum tenure of 5 years (60 months) for used car loans." }
+    ]
+  },
+  {
+    slug: "hdfc-used-car-loan-calculator",
+    type: "loan-types",
+    title: "HDFC Used Car Loan EMI Calculator 2026",
+    h1: "HDFC Used Car Loan EMI Calculator",
+    description: "Calculate your HDFC used car loan EMI. See the full amortization schedule for buying a pre-owned vehicle with HDFC Bank.",
+    intro: "HDFC Bank provides used car loans with quick processing. Estimate your monthly EMI to ensure the loan fits your budget.",
+    date: "2026-10-02",
+    amount: 600000,
+    interestRate: 12.0,
+    tenure: 48,
+    faqs: [
+      { question: "Does HDFC finance 100% of a used car?", answer: "HDFC generally finances up to 80-85% of the valuation amount of the used car." },
+      { question: "How long does it take for HDFC used car loan approval?", answer: "Approval can be very quick, often within 48 hours if all documents are in order." }
+    ]
+  },
+  {
+    slug: "icici-used-car-loan-calculator",
+    type: "loan-types",
+    title: "ICICI Bank Used Car Loan EMI Calculator",
+    h1: "ICICI Bank Used Car Loan EMI Calculator",
+    description: "Calculate your ICICI Bank used car loan EMI. Find the perfect balance between tenure and monthly payments for your pre-owned car.",
+    intro: "ICICI Bank offers flexible repayment options for used car loans. Use our tool to calculate your EMI based on current interest rates.",
+    date: "2026-10-02",
+    amount: 400000,
+    interestRate: 12.5,
+    tenure: 36,
+    faqs: [
+      { question: "What is the maximum age of the car ICICI will finance?", answer: "ICICI typically finances used cars that are up to 10 years old at the time of loan maturity." },
+      { question: "Are there prepayment charges for ICICI used car loans?", answer: "Yes, ICICI Bank may charge a prepayment penalty, usually around 5% of the outstanding principal." }
+    ]
+  },
+  {
+    slug: "axis-used-car-loan-calculator",
+    type: "loan-types",
+    title: "Axis Bank Used Car Loan EMI Calculator",
+    h1: "Axis Bank Used Car Loan EMI Calculator",
+    description: "Estimate your Axis Bank used car loan EMI. Plan your pre-owned vehicle purchase with detailed amortization charts.",
+    intro: "Axis Bank provides attractive used car loan schemes. Check your exact monthly EMI and total interest outgo using our calculator.",
+    date: "2026-10-02",
+    amount: 500000,
+    interestRate: 11.5,
+    tenure: 60,
+    faqs: [
+      { question: "What interest rate does Axis Bank charge for used cars?", answer: "Axis Bank's used car loan interest rates generally range between 11.5% and 14% based on credit score and vehicle valuation." },
+      { question: "Does Axis Bank require collateral for a used car loan?", answer: "The used car itself serves as the collateral for the loan." }
+    ]
+  },
+  {
+    slug: "emi-calculator-3-lakh-used-car",
+    type: "scenarios",
+    title: "EMI Calculator for ₹3 Lakh Used Car Loan",
+    h1: "EMI Calculator for ₹3 Lakh Used Car Loan",
+    description: "Calculate the EMI for a ₹3 Lakh used car loan. See the detailed breakdown of principal and interest.",
+    intro: "A ₹3 Lakh loan is ideal for purchasing a budget-friendly used car. Use this calculator to see your monthly commitments.",
+    date: "2026-10-02",
+    amount: 300000,
+    interestRate: 12.0,
+    tenure: 36,
+    faqs: [
+      { question: "What is the EMI for a 3 Lakh used car loan for 3 years?", answer: "At 12% interest, the EMI for a ₹3 Lakh loan over 3 years is approximately ₹9,964." },
+      { question: "Is ₹3 Lakhs enough for a used car?", answer: "Yes, you can find many good quality compact hatchbacks in the pre-owned market for around ₹3 to ₹4 Lakhs." }
+    ]
+  },
+  {
+    slug: "emi-calculator-5-lakh-used-car",
+    type: "scenarios",
+    title: "EMI Calculator for ₹5 Lakh Used Car Loan",
+    h1: "EMI Calculator for ₹5 Lakh Used Car Loan",
+    description: "Calculate the EMI for a ₹5 Lakh used car loan. Plan your pre-owned sedan or premium hatchback purchase.",
+    intro: "Borrowing ₹5 Lakhs for a used car? Calculate your monthly EMI and total interest payable with this tool.",
+    date: "2026-10-02",
+    amount: 500000,
+    interestRate: 11.5,
+    tenure: 48,
+    faqs: [
+      { question: "What is the EMI for a 5 Lakh used car loan for 4 years?", answer: "At 11.5% interest, the EMI for a ₹5 Lakh loan over 4 years is approximately ₹13,052." },
+      { question: "Can I get a 5-year tenure for a ₹5 Lakh used car loan?", answer: "Yes, many banks offer up to a 5-year tenure for a ₹5 Lakh used car loan, subject to the age of the vehicle." }
+    ]
+  },
+  {
+    slug: "emi-calculator-8-lakh-used-car",
+    type: "scenarios",
+    title: "EMI Calculator for ₹8 Lakh Used Car Loan",
+    h1: "EMI Calculator for ₹8 Lakh Used Car Loan",
+    description: "Calculate the EMI for an ₹8 Lakh used car loan. Plan for buying a premium pre-owned SUV or sedan.",
+    intro: "An ₹8 Lakh used car loan can help you buy a premium pre-owned vehicle. Estimate your EMI and plan your finances accordingly.",
+    date: "2026-10-02",
+    amount: 800000,
+    interestRate: 11.0,
+    tenure: 60,
+    faqs: [
+      { question: "What is the EMI for an 8 Lakh used car loan for 5 years?", answer: "At 11% interest, the EMI for an ₹8 Lakh loan over 5 years is approximately ₹17,394." },
+      { question: "Are interest rates lower for higher loan amounts?", answer: "Sometimes lenders offer a marginally lower interest rate if the loan amount is higher and your credit score is excellent." }
+    ]
+  },
+  {
+    slug: "used-car-loan-3-years-vs-5-years",
+    type: "tenure-comparison",
+    title: "Used Car Loan: 3 Years vs 5 Years Comparison",
+    h1: "Used Car Loan: 3 Years vs 5 Years Comparison",
+    description: "Compare the EMI and total interest of a used car loan for 3 years versus 5 years. Find out which tenure is better for your budget.",
+    intro: "Deciding between a 3-year and a 5-year tenure for your used car loan? Our comparison tool shows you the trade-off between higher monthly EMIs and total interest savings.",
+    date: "2026-10-02",
+    amount: 400000,
+    interestRate: 12.0,
+    tenure: 60,
+    faqs: [
+      { question: "Is a 3-year tenure better than a 5-year tenure for a used car?", answer: "A 3-year tenure means higher EMIs but significantly less total interest paid. A 5-year tenure reduces your monthly burden but increases the overall cost of the loan." },
+      { question: "Do lenders prefer 3-year or 5-year loans for used cars?", answer: "Lenders often prefer shorter tenures like 3 years for used cars because older vehicles depreciate faster." }
+    ]
+  }
+
 ];
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {

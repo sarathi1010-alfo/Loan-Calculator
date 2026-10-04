@@ -484,8 +484,23 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-30-lakh-refinance`,
     `${SITE_URL}/scenarios/emi-calculator-50-lakh-refinance`,
     `${SITE_URL}/scenarios/emi-calculator-75-lakh-refinance`,
-    `${SITE_URL}/tenure-comparison/refinance-10-years-vs-15-years`
+    `${SITE_URL}/tenure-comparison/refinance-10-years-vs-15-years`,
+
+    // New Tier 1 (2026-10-02)
+    `${SITE_URL}/blog/used-car-loan-emi-guide-2026`,
+
+    // New Tier 2 (2026-10-02)
+    `${SITE_URL}/loan-types/sbi-used-car-loan-calculator`,
+    `${SITE_URL}/loan-types/hdfc-used-car-loan-calculator`,
+    `${SITE_URL}/loan-types/icici-used-car-loan-calculator`,
+    `${SITE_URL}/loan-types/axis-used-car-loan-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-3-lakh-used-car`,
+    `${SITE_URL}/scenarios/emi-calculator-5-lakh-used-car`,
+    `${SITE_URL}/scenarios/emi-calculator-8-lakh-used-car`,
+    `${SITE_URL}/tenure-comparison/used-car-loan-3-years-vs-5-years`
+
 ];
+
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);
 

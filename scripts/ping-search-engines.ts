@@ -497,7 +497,20 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-3-lakh-used-car`,
     `${SITE_URL}/scenarios/emi-calculator-5-lakh-used-car`,
     `${SITE_URL}/scenarios/emi-calculator-8-lakh-used-car`,
-    `${SITE_URL}/tenure-comparison/used-car-loan-3-years-vs-5-years`
+    `${SITE_URL}/tenure-comparison/used-car-loan-3-years-vs-5-years`,
+
+  // New Tier 1 (2026-10-05)
+    `${SITE_URL}/blog/joint-home-loan-emi-guide-2026`,
+
+    // New Tier 2 (2026-10-05)
+    `${SITE_URL}/loan-types/joint-home-loan-calculator`,
+    `${SITE_URL}/loan-types/spouse-co-applicant-loan-calculator`,
+    `${SITE_URL}/scenarios/joint-loan-emi-calculator-50-lakh`,
+    `${SITE_URL}/scenarios/joint-loan-emi-calculator-75-lakh`,
+    `${SITE_URL}/scenarios/joint-loan-emi-calculator-1-crore`,
+    `${SITE_URL}/tenure-comparison/joint-loan-15-vs-20-years`,
+    `${SITE_URL}/tenure-comparison/joint-loan-20-vs-25-years`,
+    `${SITE_URL}/tenure-comparison/joint-loan-10-vs-15-years`
 
 ];
 

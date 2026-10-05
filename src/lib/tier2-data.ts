@@ -7288,8 +7288,135 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Is a 3-year tenure better than a 5-year tenure for a used car?", answer: "A 3-year tenure means higher EMIs but significantly less total interest paid. A 5-year tenure reduces your monthly burden but increases the overall cost of the loan." },
       { question: "Do lenders prefer 3-year or 5-year loans for used cars?", answer: "Lenders often prefer shorter tenures like 3 years for used cars because older vehicles depreciate faster." }
     ]
+  },
+  {
+    slug: "joint-home-loan-calculator",
+    type: "loan-types",
+    title: "Joint Home Loan EMI Calculator - Plan with Your Co-Applicant",
+    h1: "Joint Home Loan EMI Calculator",
+    description: "Calculate your joint home loan EMI. Combine incomes with your co-applicant to see your higher eligibility and estimated monthly payments.",
+    intro: "A joint home loan allows you to combine your income with a spouse or family member, increasing your borrowing power and often securing lower interest rates.",
+    date: "2026-10-05",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    faqs: [
+      { question: "Who can be a co-applicant for a joint home loan?", answer: "Typically, immediate family members such as a spouse, parents, or siblings can be co-applicants. Combining incomes helps improve loan eligibility." },
+      { question: "Are there tax benefits to a joint home loan?", answer: "Yes, both co-borrowers can claim tax deductions under Section 80C and Section 24(b) independently, effectively doubling the tax benefits." }
+    ]
+  },
+  {
+    slug: "spouse-co-applicant-loan-calculator",
+    type: "loan-types",
+    title: "Spouse Co-Applicant Loan Calculator",
+    h1: "Spouse Co-Applicant EMI Calculator",
+    description: "Calculate the EMI for a home loan when applying jointly with your spouse. See how combined incomes affect your eligibility and monthly repayment.",
+    intro: "Applying for a home loan with your spouse not only increases your loan eligibility but can also fetch lower interest rates if the wife is the primary applicant.",
+    date: "2026-10-05",
+    amount: 7500000,
+    interestRate: 8.4,
+    tenure: 240,
+    faqs: [
+      { question: "Does my spouse need to be a co-owner to claim tax benefits?", answer: "Yes, to claim tax deductions on a joint home loan, your spouse must be both a co-borrower of the loan and a co-owner of the property." },
+      { question: "How does adding my spouse affect the interest rate?", answer: "Many lenders offer a concession (usually 0.05% to 0.10%) on the interest rate if a woman is the primary applicant or co-applicant." }
+    ]
+  },
+  {
+    slug: "joint-loan-emi-calculator-50-lakh",
+    type: "scenarios",
+    title: "Joint Home Loan EMI Calculator for 50 Lakh",
+    h1: "50 Lakh Joint Home Loan EMI Breakdown",
+    description: "Calculate the EMI for a 50 Lakh joint home loan. View the exact monthly repayment and amortization schedule for you and your co-applicant.",
+    intro: "A 50 Lakh joint home loan is a common requirement for mid-segment housing. Use this calculator to see how sharing the EMI burden affects your monthly budget.",
+    date: "2026-10-05",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    faqs: [
+      { question: "What is the EMI for a 50 Lakh joint home loan at 8.5% for 20 years?", answer: "The EMI would be approximately ₹43,391. Both applicants can share this monthly burden." },
+      { question: "How much income is required for a 50 Lakh joint home loan?", answer: "The combined net monthly income should typically be above ₹80,000 to ₹1,00,000, depending on the lender's DTI requirements." }
+    ]
+  },
+  {
+    slug: "joint-loan-emi-calculator-75-lakh",
+    type: "scenarios",
+    title: "Joint Home Loan EMI Calculator for 75 Lakh",
+    h1: "75 Lakh Joint Home Loan EMI Breakdown",
+    description: "Calculate the EMI and interest breakdown for a 75 Lakh joint home loan. Plan your combined finances accurately.",
+    intro: "Securing a 75 Lakh loan is easier when combining incomes. Discover your combined EMI obligation and plan your long-term finances.",
+    date: "2026-10-05",
+    amount: 7500000,
+    interestRate: 8.5,
+    tenure: 240,
+    faqs: [
+      { question: "What is the EMI for a 75 Lakh joint home loan at 8.5% for 20 years?", answer: "The EMI would be approximately ₹65,087. Sharing this with a co-applicant makes it much more manageable." },
+      { question: "Can we prepay a 75 Lakh joint home loan?", answer: "Yes, both applicants can contribute towards prepayments, reducing the principal and saving significantly on total interest." }
+    ]
+  },
+  {
+    slug: "joint-loan-emi-calculator-1-crore",
+    type: "scenarios",
+    title: "Joint Home Loan EMI Calculator for 1 Crore",
+    h1: "1 Crore Joint Home Loan EMI Breakdown",
+    description: "Calculate the EMI for a 1 Crore joint home loan. See how combining incomes helps manage the large monthly repayment for premium properties.",
+    intro: "For premium properties, a 1 Crore loan is often necessary. A joint loan distributes the heavy EMI burden, making luxury homes affordable.",
+    date: "2026-10-05",
+    amount: 10000000,
+    interestRate: 8.5,
+    tenure: 240,
+    faqs: [
+      { question: "What is the EMI for a 1 Crore joint home loan at 8.5% for 20 years?", answer: "The EMI is approximately ₹86,782. A high combined income is required to manage this payment comfortably." },
+      { question: "Does a 1 Crore joint loan offer better tax benefits?", answer: "While the deductions are capped (e.g., ₹2 Lakhs for interest per person), having two applicants means you can claim a total of ₹4 Lakhs on interest annually." }
+    ]
+  },
+  {
+    slug: "joint-loan-15-vs-20-years",
+    type: "tenure-comparison",
+    title: "Joint Home Loan: 15 vs 20 Years Tenure Comparison",
+    h1: "15 vs 20 Years Joint Home Loan Comparison",
+    description: "Compare the EMI and total interest for a joint home loan over 15 years versus 20 years. Find the optimal tenure for you and your co-applicant.",
+    intro: "When two incomes are combined, you might afford a higher EMI. Compare a 15-year and 20-year tenure to see how much interest you can save by paying it off faster.",
+    date: "2026-10-05",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 180,
+    faqs: [
+      { question: "Should we choose a 15-year or 20-year joint home loan?", answer: "If your combined income can easily handle the higher EMI of a 15-year loan, it is better as you will save a substantial amount on total interest." },
+      { question: "Can we start with 20 years and prepay?", answer: "Yes, taking a 20-year loan for lower mandatory EMIs and making voluntary prepayments is a very safe and popular strategy." }
+    ]
+  },
+  {
+    slug: "joint-loan-20-vs-25-years",
+    type: "tenure-comparison",
+    title: "Joint Home Loan: 20 vs 25 Years Tenure Comparison",
+    h1: "20 vs 25 Years Joint Home Loan Comparison",
+    description: "Compare the EMI and total interest for a joint home loan over 20 years versus 25 years. Maximize your eligibility while managing cash flow.",
+    intro: "Extending the loan to 25 years lowers the EMI but increases the interest. See how this trade-off works for a joint home loan.",
+    date: "2026-10-05",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 240,
+    faqs: [
+      { question: "Why choose a 25-year joint loan?", answer: "A 25-year tenure minimizes the monthly EMI, which can be helpful if both applicants have other financial obligations, though it increases total interest." },
+      { question: "How much more interest do we pay on a 25-year loan vs a 20-year loan?", answer: "For a 50 Lakh loan at 8.5%, extending the tenure from 20 to 25 years can add over ₹15-20 Lakhs in total interest." }
+    ]
+  },
+  {
+    slug: "joint-loan-10-vs-15-years",
+    type: "tenure-comparison",
+    title: "Joint Home Loan: 10 vs 15 Years Tenure Comparison",
+    h1: "10 vs 15 Years Joint Home Loan Comparison",
+    description: "Compare the EMI and total interest for a joint home loan over 10 years versus 15 years. See the benefits of an aggressive combined repayment plan.",
+    intro: "With two strong incomes, an aggressive 10-year repayment plan can save you millions in interest. Compare it against a standard 15-year term.",
+    date: "2026-10-05",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 120,
+    faqs: [
+      { question: "Is a 10-year joint home loan realistic?", answer: "Yes, if both co-applicants have high, stable incomes, a 10-year tenure is highly recommended to become debt-free quickly." },
+      { question: "What is the EMI difference between 10 and 15 years?", answer: "For a 50 Lakh loan, a 10-year EMI is significantly higher than a 15-year EMI, but the total interest paid is almost halved." }
+    ]
   }
-
 ];
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {

@@ -2711,4 +2711,50 @@ test.describe('Technical Verification', () => {
     expect(hasFaqSchema).toBeTruthy();
   });
 
+  // Joint Home Loan Tests (2026-10-05)
+  test('Joint Home Loan Guide (Tier 1) loads with 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/joint-home-loan-emi-guide-2026`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Joint Home Loan Calculator (Tier 2) loads with 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/joint-home-loan-calculator`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Spouse Co-Applicant Loan Calculator (Tier 2) loads with 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/spouse-co-applicant-loan-calculator`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Joint Loan EMI Calculator 50 Lakh (Tier 2) loads with 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/joint-loan-emi-calculator-50-lakh`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Joint Loan EMI Calculator 75 Lakh (Tier 2) loads with 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/joint-loan-emi-calculator-75-lakh`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Joint Loan EMI Calculator 1 Crore (Tier 2) loads with 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/joint-loan-emi-calculator-1-crore`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Joint Loan 15 vs 20 Years (Tier 2) loads with 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/joint-loan-15-vs-20-years`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Joint Loan 20 vs 25 Years (Tier 2) loads with 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/joint-loan-20-vs-25-years`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Joint Loan 10 vs 15 Years (Tier 2) loads with 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/joint-loan-10-vs-15-years`);
+    expect(response?.status()).toBe(200);
+  });
+
 });

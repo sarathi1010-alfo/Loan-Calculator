@@ -2757,4 +2757,95 @@ test.describe('Technical Verification', () => {
     expect(response?.status()).toBe(200);
   });
 
+  // Credit Card EMI Tests (2026-10-06)
+  test('Credit Card EMI Guide (Tier 1) loads with 200 OK and Article Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/credit-card-emi-calculator-guide-2026`);
+    expect(response?.status()).toBe(200);
+    const hasArticleSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"Article"'));
+    });
+    expect(hasArticleSchema).toBeTruthy();
+  });
+
+  test('Credit Card EMI Calculator (Tier 2) loads with 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/credit-card-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('SBI Credit Card EMI Calculator (Tier 2) loads with 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-credit-card-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('HDFC Credit Card EMI Calculator (Tier 2) loads with 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-credit-card-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('ICICI Credit Card EMI Calculator (Tier 2) loads with 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-credit-card-emi-calculator`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('EMI Calculator 50000 Credit Card (Tier 2) loads with 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50000-credit-card`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('EMI Calculator 1 Lakh Credit Card (Tier 2) loads with 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-1-lakh-credit-card`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('EMI Calculator 2 Lakh Credit Card (Tier 2) loads with 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-2-lakh-credit-card`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
+  test('Credit Card EMI 6 vs 12 Months (Tier 2) loads with 200 OK and FAQ Schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/credit-card-emi-6-vs-12-months`);
+    expect(response?.status()).toBe(200);
+    const hasFaqSchema = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.some(s => s.textContent?.includes('"@type":"FAQPage"'));
+    });
+    expect(hasFaqSchema).toBeTruthy();
+  });
+
 });

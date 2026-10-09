@@ -7416,6 +7416,131 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Is a 10-year joint home loan realistic?", answer: "Yes, if both co-applicants have high, stable incomes, a 10-year tenure is highly recommended to become debt-free quickly." },
       { question: "What is the EMI difference between 10 and 15 years?", answer: "For a 50 Lakh loan, a 10-year EMI is significantly higher than a 15-year EMI, but the total interest paid is almost halved." }
     ]
+  },
+  {
+    slug: "credit-card-emi-calculator",
+    type: "loan-types",
+    title: "Credit Card EMI Calculator | Convert Purchases to EMI",
+    h1: "Credit Card EMI Calculator",
+    description: "Calculate your credit card EMI based on purchase amount, interest rate, and tenure. Compare it against paying your statement in full.",
+    intro: "Converting large purchases to EMI can ease your cash flow. Use our calculator to see the exact monthly payment and total interest cost before you convert.",
+    date: "2026-10-06",
+    amount: 50000,
+    interestRate: 15,
+    tenure: 6,
+    faqs: [
+      { question: "How does a credit card EMI affect my limit?", answer: "When you convert a purchase, the entire amount is blocked from your credit limit. It is freed up progressively as you pay each monthly EMI." },
+      { question: "Are there processing fees for credit card EMIs?", answer: "Yes, most banks charge a one-time processing fee ranging from 1% to 2% of the transaction amount." }
+    ]
+  },
+  {
+    slug: "sbi-credit-card-emi-calculator",
+    type: "loan-types",
+    title: "SBI Credit Card EMI Calculator | Flexipay & Merchant EMI",
+    h1: "SBI Credit Card EMI Calculator",
+    description: "Calculate your EMI for SBI Credit Card Flexipay or merchant purchases. See the exact interest and principal breakdown.",
+    intro: "Whether using Flexipay after a purchase or selecting EMI at checkout, calculate your SBI credit card EMI and plan your monthly payments efficiently.",
+    date: "2026-10-06",
+    amount: 100000,
+    interestRate: 14.5,
+    tenure: 12,
+    faqs: [
+      { question: "What is SBI Flexipay?", answer: "SBI Flexipay is a facility that allows existing credit cardholders to convert their big-ticket purchases into easy EMIs post-transaction." },
+      { question: "Does SBI charge GST on the EMI interest?", answer: "Yes, like all banks, SBI charges 18% GST on the interest component of your credit card EMI." }
+    ]
+  },
+  {
+    slug: "hdfc-credit-card-emi-calculator",
+    type: "loan-types",
+    title: "HDFC Credit Card EMI Calculator | SmartEMI",
+    h1: "HDFC Credit Card EMI Calculator",
+    description: "Use the HDFC Credit Card EMI Calculator to determine your monthly payments for SmartEMI conversions and large online purchases.",
+    intro: "HDFC SmartEMI offers a convenient way to pay off large balances. Calculate your exact EMI, total interest, and effective cost with our tool.",
+    date: "2026-10-06",
+    amount: 75000,
+    interestRate: 15,
+    tenure: 9,
+    faqs: [
+      { question: "Can I convert any purchase into HDFC SmartEMI?", answer: "Not all purchases are eligible; it depends on your card profile and the transaction type (e.g., gold purchases are often excluded)." },
+      { question: "Can I pre-close my HDFC credit card EMI?", answer: "Yes, but HDFC may charge a pre-closure fee on the outstanding principal balance." }
+    ]
+  },
+  {
+    slug: "icici-credit-card-emi-calculator",
+    type: "loan-types",
+    title: "ICICI Credit Card EMI Calculator | EMI on Call",
+    h1: "ICICI Credit Card EMI Calculator",
+    description: "Calculate your monthly EMI on ICICI credit card purchases. Plan your repayment for EMI on Call and merchant transactions.",
+    intro: "Manage your ICICI credit card dues effectively. Whether it's an online purchase or an EMI on Call, find out exactly how much you will pay each month.",
+    date: "2026-10-06",
+    amount: 60000,
+    interestRate: 14.99,
+    tenure: 6,
+    faqs: [
+      { question: "What is ICICI EMI on Call?", answer: "It is a facility that lets you convert your past credit card purchases into EMIs over a phone call or through internet banking." },
+      { question: "Is the interest calculated on a flat or reducing balance?", answer: "ICICI EMI on Call generally uses the reducing balance method, but always confirm the effective rate before converting." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50000-credit-card",
+    type: "scenarios",
+    title: "EMI Calculator for ₹50,000 Credit Card Purchase",
+    h1: "EMI Calculator for ₹50,000 Credit Card Purchase",
+    description: "Determine the monthly EMI and total interest for converting a ₹50,000 credit card transaction into installments.",
+    intro: "A ₹50,000 purchase, like a new smartphone or a vacation booking, can be split into smaller EMIs. See how different tenures affect your monthly cost.",
+    date: "2026-10-06",
+    amount: 50000,
+    interestRate: 15,
+    tenure: 6,
+    faqs: [
+      { question: "Is 6 months a good tenure for a 50k EMI?", answer: "Yes, 6 months keeps the interest cost relatively low while making the monthly payment manageable." }
+    ]
+  },
+  {
+    slug: "emi-calculator-1-lakh-credit-card",
+    type: "scenarios",
+    title: "EMI Calculator for ₹1 Lakh Credit Card Purchase",
+    h1: "EMI Calculator for ₹1 Lakh Credit Card Purchase",
+    description: "Calculate the exact EMI and view the amortization schedule for a ₹1 Lakh credit card purchase converted to installments.",
+    intro: "Converting a ₹1 Lakh purchase to EMI helps avoid exorbitant revolving credit interest. Calculate the cost to see if it's the right choice for you.",
+    date: "2026-10-06",
+    amount: 100000,
+    interestRate: 16,
+    tenure: 12,
+    faqs: [
+      { question: "Should I take a personal loan instead of a 1 Lakh credit card EMI?", answer: "If you have a good credit score, a personal loan might offer a lower interest rate compared to a credit card EMI, so it's worth comparing both." }
+    ]
+  },
+  {
+    slug: "emi-calculator-2-lakh-credit-card",
+    type: "scenarios",
+    title: "EMI Calculator for ₹2 Lakh Credit Card Purchase",
+    h1: "EMI Calculator for ₹2 Lakh Credit Card Purchase",
+    description: "Analyze the total interest and monthly EMI for a large ₹2 Lakh credit card conversion.",
+    intro: "A ₹2 Lakh credit card debt is substantial. Carefully calculate your EMI options over 12 or 24 months to ensure you can comfortably meet the payments.",
+    date: "2026-10-06",
+    amount: 200000,
+    interestRate: 15,
+    tenure: 24,
+    faqs: [
+      { question: "How much total interest will I pay on a 2 Lakh EMI over 2 years?", answer: "Depending on your specific rate, you could pay over ₹30,000 in interest. Use the calculator to see the exact figure for your rate." }
+    ]
+  },
+  {
+    slug: "credit-card-emi-6-vs-12-months",
+    type: "tenure-comparison",
+    title: "Credit Card EMI: 6 Months vs 12 Months Comparison",
+    h1: "Credit Card EMI Comparison: 6 Months vs 12 Months",
+    description: "Compare the monthly payment and total interest cost of converting a credit card purchase into a 6-month versus a 12-month EMI.",
+    intro: "Deciding between a 6-month and a 12-month EMI on your credit card? We compare the math so you can choose the optimal balance between cash flow and interest savings.",
+    date: "2026-10-06",
+    amount: 80000,
+    interestRate: 16,
+    tenure: 12,
+    faqs: [
+      { question: "Which option saves more money?", answer: "The 6-month tenure will always result in less total interest paid, assuming the interest rate is the same." },
+      { question: "Why choose 12 months?", answer: "If the 6-month EMI puts too much strain on your monthly budget, spreading it over 12 months makes the payment more affordable, despite the higher total cost." }
+    ]
   }
 ];
 

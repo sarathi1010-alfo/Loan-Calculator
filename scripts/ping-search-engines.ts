@@ -512,6 +512,20 @@ async function pingSearchEngines() {
     `${SITE_URL}/tenure-comparison/joint-loan-20-vs-25-years`,
     `${SITE_URL}/tenure-comparison/joint-loan-10-vs-15-years`
 
+,
+    // New Tier 1 (2026-10-06)
+    `${SITE_URL}/blog/credit-card-emi-calculator-guide-2026`,
+
+    // New Tier 2 (2026-10-06)
+    `${SITE_URL}/loan-types/credit-card-emi-calculator`,
+    `${SITE_URL}/loan-types/sbi-credit-card-emi-calculator`,
+    `${SITE_URL}/loan-types/hdfc-credit-card-emi-calculator`,
+    `${SITE_URL}/loan-types/icici-credit-card-emi-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-50000-credit-card`,
+    `${SITE_URL}/scenarios/emi-calculator-1-lakh-credit-card`,
+    `${SITE_URL}/scenarios/emi-calculator-2-lakh-credit-card`,
+    `${SITE_URL}/tenure-comparison/credit-card-emi-6-vs-12-months`
+
 ];
 
 

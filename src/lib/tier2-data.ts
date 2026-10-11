@@ -7541,6 +7541,182 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Which option saves more money?", answer: "The 6-month tenure will always result in less total interest paid, assuming the interest rate is the same." },
       { question: "Why choose 12 months?", answer: "If the 6-month EMI puts too much strain on your monthly budget, spreading it over 12 months makes the payment more affordable, despite the higher total cost." }
     ]
+  },
+  {
+    slug: "sbi-nri-home-loan-calculator",
+    type: "loan-types",
+    title: "SBI NRI Home Loan EMI Calculator 2026",
+    h1: "SBI NRI Home Loan EMI Calculator",
+    description: "Calculate your monthly EMI for an SBI NRI Home Loan. Check interest rates, processing fees, and plan your Indian property investment from abroad.",
+    intro: "State Bank of India offers specialized home loan products for NRIs. Use this calculator to estimate your EMI and plan your foreign currency remittances.",
+    date: "2026-10-07",
+    amount: 5000000,
+    interestRate: 8.75,
+    tenure: 15,
+    faqs: [
+      { question: "What is the interest rate for SBI NRI Home Loans?", answer: "Interest rates are linked to the repo rate and typically range between 8.70% and 9.50% depending on your credit profile." },
+      { question: "Does SBI charge processing fees for NRI loans?", answer: "Yes, SBI charges a nominal processing fee, but they frequently run promotional campaigns waiving these fees." }
+    ],
+    content: `
+      <h2>Why Choose SBI for Your NRI Home Loan?</h2>
+      <p>SBI provides a transparent floating interest rate structure linked to the RLLR, ensuring you get the benefit when market rates drop.</p>
+      <h2>Managing Exchange Rates</h2>
+      <p>Since your EMI must be paid in INR from an NRE or NRO account, monitor exchange rates to optimize your monthly remittances.</p>
+    `
+  },
+  {
+    slug: "hdfc-nri-home-loan-calculator",
+    type: "loan-types",
+    title: "HDFC NRI Home Loan EMI Calculator 2026",
+    h1: "HDFC NRI Home Loan EMI Calculator",
+    description: "Estimate your HDFC NRI Home Loan EMI instantly. Discover competitive interest rates and seamless digital processing for non-residents.",
+    intro: "HDFC is a preferred choice for many NRIs due to its excellent customer service and fully digital application process. Calculate your EMI here.",
+    date: "2026-10-07",
+    amount: 6000000,
+    interestRate: 8.80,
+    tenure: 20,
+    faqs: [
+      { question: "Can I apply for an HDFC NRI home loan online?", answer: "Yes, HDFC offers a fully digital end-to-end home loan application process for NRIs." },
+      { question: "What is the maximum tenure for an HDFC NRI loan?", answer: "The maximum tenure is typically 20 years, subject to your retirement age." }
+    ],
+    content: `
+      <h2>Seamless Digital Processing with HDFC</h2>
+      <p>HDFC has streamlined the document collection and verification process, making it easier for NRIs to secure funding without visiting India.</p>
+      <h2>Prepayment and Foreclosure</h2>
+      <p>HDFC NRI home loans with floating rates come with zero prepayment penalties, allowing you to pay off the loan faster when exchange rates are favorable.</p>
+    `
+  },
+  {
+    slug: "icici-nri-home-loan-calculator",
+    type: "loan-types",
+    title: "ICICI NRI Home Loan EMI Calculator 2026",
+    h1: "ICICI NRI Home Loan EMI Calculator",
+    description: "Calculate your ICICI Bank NRI Home Loan EMI. Plan your budget accurately and secure your dream home in India.",
+    intro: "ICICI Bank offers attractive interest rates and flexible repayment options for NRIs. Find out your monthly obligation using our calculator.",
+    date: "2026-10-07",
+    amount: 7500000,
+    interestRate: 8.90,
+    tenure: 15,
+    faqs: [
+      { question: "Does ICICI offer advisory services for property search?", answer: "Yes, ICICI Bank provides property search advisory services specifically tailored for NRIs." },
+      { question: "Can a resident Indian be a co-applicant for an NRI loan?", answer: "Yes, a close relative who is a resident Indian can usually be a co-applicant." }
+    ],
+    content: `
+      <h2>Flexible Repayment Options</h2>
+      <p>ICICI Bank offers various repayment models, including step-up EMIs, which are useful if you expect your foreign income to increase over time.</p>
+      <h2>Understanding the Documentation</h2>
+      <p>Ensure your overseas employment contract and salary slips are properly attested to avoid delays in loan processing.</p>
+    `
+  },
+  {
+    slug: "axis-nri-home-loan-calculator",
+    type: "loan-types",
+    title: "Axis Bank NRI Home Loan EMI Calculator 2026",
+    h1: "Axis Bank NRI Home Loan EMI Calculator",
+    description: "Use the Axis Bank NRI Home Loan EMI Calculator to plan your Indian real estate investment. Get clear insights into your monthly payments.",
+    intro: "Axis Bank provides competitive financing solutions for NRIs looking to buy property in India. Calculate your EMI and explore the benefits.",
+    date: "2026-10-07",
+    amount: 4000000,
+    interestRate: 8.85,
+    tenure: 15,
+    faqs: [
+      { question: "What currencies does Axis Bank accept for repayment?", answer: "Repayment is made in INR through NRE or NRO accounts, funded by your foreign currency income." },
+      { question: "Is a Power of Attorney (PoA) mandatory?", answer: "Yes, a PoA is usually mandatory to authorize someone in India to execute the loan documents on your behalf." }
+    ],
+    content: `
+      <h2>Navigating Axis Bank NRI Loans</h2>
+      <p>Axis Bank offers competitive margins and swift processing for NRIs who have their documentation ready.</p>
+      <h2>The Importance of the NRE Account</h2>
+      <p>Routing your loan EMI through an NRE account ensures seamless conversion of your foreign earnings into Indian Rupees.</p>
+    `
+  },
+  {
+    slug: "emi-calculator-50-lakh-nri-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹50 Lakh NRI Home Loan",
+    h1: "₹50 Lakh NRI Home Loan Scenario",
+    description: "Calculate the exact EMI and view the amortization schedule for a ₹50 Lakh NRI home loan. Plan your foreign remittances effectively.",
+    intro: "A ₹50 Lakh loan is common for purchasing mid-segment properties in Indian metros. See the detailed breakdown of principal and interest.",
+    date: "2026-10-07",
+    amount: 5000000,
+    interestRate: 8.80,
+    tenure: 15,
+    faqs: [
+      { question: "What is the EMI for a 50 Lakh NRI loan over 15 years?", answer: "At 8.8% interest, the monthly EMI would be approximately ₹49,944." },
+      { question: "How much total interest will I pay?", answer: "Over 15 years, the total interest paid would be nearly ₹39.9 Lakhs." }
+    ],
+    content: `
+      <h2>Budgeting for a ₹50 Lakh Loan</h2>
+      <p>When planning for this EMI, remember to factor in potential currency fluctuations. A 5% change in the exchange rate can significantly affect your home currency budget.</p>
+      <h2>Using Prepayments to Your Advantage</h2>
+      <p>If you receive an annual bonus in your foreign currency, converting it to INR for a lump sum prepayment can save you lakhs in interest.</p>
+    `
+  },
+  {
+    slug: "emi-calculator-75-lakh-nri-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹75 Lakh NRI Home Loan",
+    h1: "₹75 Lakh NRI Home Loan Scenario",
+    description: "View the full repayment schedule for a ₹75 Lakh NRI home loan. Compare tenures and calculate your total interest outgo.",
+    intro: "Planning to buy a premium property in India? Use this calculator to understand the EMI commitments for a ₹75 Lakh NRI home loan.",
+    date: "2026-10-07",
+    amount: 7500000,
+    interestRate: 8.75,
+    tenure: 20,
+    faqs: [
+      { question: "What is the EMI for a 75 Lakh NRI loan for 20 years?", answer: "At 8.75% interest, the monthly EMI is approximately ₹66,278." },
+      { question: "Can I get a 75 Lakh loan approved?", answer: "Yes, provided your foreign income is sufficient and you meet the bank's Loan-to-Value (LTV) and Fixed Obligation to Income Ratio (FOIR) criteria." }
+    ],
+    content: `
+      <h2>Managing Large Debt Across Borders</h2>
+      <p>For a loan of this size, securing the best possible interest rate is crucial. A difference of just 0.25% can translate to huge savings over 20 years.</p>
+      <h2>The Role of Co-applicants</h2>
+      <p>Adding an earning resident Indian or another NRI as a co-applicant can increase your loan eligibility for higher amounts like ₹75 Lakhs.</p>
+    `
+  },
+  {
+    slug: "emi-calculator-1-crore-nri-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹1 Crore NRI Home Loan",
+    h1: "₹1 Crore NRI Home Loan Scenario",
+    description: "Analyze the amortization schedule and EMI for a ₹1 Crore NRI home loan. Plan your luxury real estate investment in India.",
+    intro: "A ₹1 Crore loan is typical for luxury apartments and villas in major Indian cities. Calculate your substantial monthly EMI commitments.",
+    date: "2026-10-07",
+    amount: 10000000,
+    interestRate: 8.85,
+    tenure: 20,
+    faqs: [
+      { question: "What is the monthly EMI for a 1 Crore NRI loan?", answer: "At an 8.85% interest rate over 20 years, the EMI is roughly ₹88,944." },
+      { question: "Is property insurance mandatory for such large loans?", answer: "Yes, lenders mandate comprehensive property insurance to secure the asset." }
+    ],
+    content: `
+      <h2>Strategies for High-Value NRI Loans</h2>
+      <p>With an EMI approaching ₹90,000, consistent remittance planning is vital. Consider setting up automated transfers when exchange rates are favorable to build an EMI buffer.</p>
+      <h2>Tax Implications</h2>
+      <p>While investing, consult with a tax advisor regarding the tax deductibility of home loan interest against any rental income generated by the property in India.</p>
+    `
+  },
+  {
+    slug: "nri-home-loan-10-vs-15-years",
+    type: "tenure-comparison",
+    title: "NRI Home Loan Tenure: 10 Years vs 15 Years",
+    h1: "NRI Home Loan: 10 Years vs 15 Years",
+    description: "Compare the mathematical impact of choosing a 10-year versus a 15-year tenure for your NRI home loan. Find the right balance for your budget.",
+    intro: "Should you aggressively pay off your NRI loan in 10 years or spread it over 15 years? Compare the EMI burden and total interest savings.",
+    date: "2026-10-07",
+    amount: 6000000,
+    interestRate: 8.80,
+    tenure: 10,
+    faqs: [
+      { question: "How much interest do I save with a 10-year tenure?", answer: "A 10-year tenure significantly reduces total interest paid, often saving lakhs compared to a 15-year term." },
+      { question: "Which tenure is safer against currency fluctuations?", answer: "A 15-year tenure offers a lower mandatory EMI, giving you a wider buffer if your home currency weakens against the INR." }
+    ],
+    content: `
+      <h2>The Trade-Off: Cash Flow vs. Interest Cost</h2>
+      <p>Choosing a 10-year tenure means higher monthly remittances but massive interest savings. A 15-year tenure offers lower EMIs but higher long-term costs.</p>
+      <h2>The Best of Both Worlds</h2>
+      <p>Many NRIs choose a 15-year tenure for safety but make aggressive prepayments when the exchange rate is favorable, effectively closing the loan in 10 years or less.</p>
+    `
   }
 ];
 

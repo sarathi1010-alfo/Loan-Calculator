@@ -524,7 +524,20 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-50000-credit-card`,
     `${SITE_URL}/scenarios/emi-calculator-1-lakh-credit-card`,
     `${SITE_URL}/scenarios/emi-calculator-2-lakh-credit-card`,
-    `${SITE_URL}/tenure-comparison/credit-card-emi-6-vs-12-months`
+    `${SITE_URL}/tenure-comparison/credit-card-emi-6-vs-12-months`,
+
+    // New Tier 1 (2026-10-07)
+    `${SITE_URL}/blog/nri-home-loan-emi-guide-2026`,
+
+    // New Tier 2 (2026-10-07)
+    `${SITE_URL}/loan-types/sbi-nri-home-loan-calculator`,
+    `${SITE_URL}/loan-types/hdfc-nri-home-loan-calculator`,
+    `${SITE_URL}/loan-types/icici-nri-home-loan-calculator`,
+    `${SITE_URL}/loan-types/axis-nri-home-loan-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-50-lakh-nri-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-75-lakh-nri-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-1-crore-nri-loan`,
+    `${SITE_URL}/tenure-comparison/nri-home-loan-10-vs-15-years`
 
 ];
 

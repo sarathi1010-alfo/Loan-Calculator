@@ -2848,4 +2848,53 @@ test.describe('Technical Verification', () => {
     expect(hasFaqSchema).toBeTruthy();
   });
 
+  test('NRI Home Loan Tier 1 URL should return 200 OK and have schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/nri-home-loan-emi-guide-2026`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.locator('script[type="application/ld+json"]').nth(1).textContent();
+    expect(schema).toContain('Article');
+  });
+
+  test('SBI NRI Home Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-nri-home-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.locator('script[type="application/ld+json"]').nth(1).textContent();
+    expect(schema).toContain('FAQPage');
+  });
+
+  test('HDFC NRI Home Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-nri-home-loan-calculator`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('ICICI NRI Home Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-nri-home-loan-calculator`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Axis NRI Home Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/axis-nri-home-loan-calculator`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('50 Lakh NRI Home Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-lakh-nri-loan`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('75 Lakh NRI Home Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-75-lakh-nri-loan`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('1 Crore NRI Home Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-1-crore-nri-loan`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('NRI Home Loan 10 vs 15 Years Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/nri-home-loan-10-vs-15-years`);
+    expect(response?.status()).toBe(200);
+  });
+
 });

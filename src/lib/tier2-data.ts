@@ -7718,7 +7718,137 @@ export const TIER2_PAGES: Tier2Page[] = [
       <p>Many NRIs choose a 15-year tenure for safety but make aggressive prepayments when the exchange rate is favorable, effectively closing the loan in 10 years or less.</p>
     `
   }
+,
+  {
+    slug: "sbi-two-wheeler-loan-calculator",
+    type: "loan-types",
+    title: "SBI Two Wheeler Loan EMI Calculator 2026",
+    h1: "SBI Two Wheeler Loan EMI Calculator",
+    description: "Calculate your SBI two wheeler loan EMI. Explore affordable interest rates and flexible tenures for your next bike or scooter.",
+    intro: "Planning to buy a two-wheeler? SBI offers some of the most competitive interest rates. Use this calculator to plan your monthly EMI.",
+    date: "2026-10-13",
+    amount: 150000,
+    interestRate: 11.25,
+    tenure: 3,
+    faqs: [
+      { question: "What is the interest rate for SBI two wheeler loans?", answer: "SBI typically offers two-wheeler loan interest rates starting from around 11.25% to 13%, depending on your credit profile." },
+      { question: "Can I get a zero down payment loan from SBI?", answer: "Generally, SBI requires a margin of 10% to 15%, so zero down payment loans are rare, though special festive offers may apply." }
+    ]
+  },
+  {
+    slug: "hdfc-two-wheeler-loan-calculator",
+    type: "loan-types",
+    title: "HDFC Two Wheeler Loan EMI Calculator 2026",
+    h1: "HDFC Two Wheeler Loan EMI Calculator",
+    description: "Plan your two-wheeler purchase with the HDFC Two Wheeler Loan EMI calculator. See your monthly payments and interest breakdown.",
+    intro: "HDFC Bank provides quick financing for bikes and scooters. Use this calculator to estimate your EMI based on current two-wheeler loan rates.",
+    date: "2026-10-13",
+    amount: 100000,
+    interestRate: 12.5,
+    tenure: 2,
+    faqs: [
+      { question: "How long does it take for HDFC to approve a two-wheeler loan?", answer: "HDFC is known for quick processing, often providing approvals within hours for pre-approved customers." },
+      { question: "Are processing fees waived for HDFC two-wheeler loans?", answer: "HDFC occasionally runs promotional offers waiving processing fees, so it's best to check with the bank directly." }
+    ]
+  },
+  {
+    slug: "bajaj-auto-finance-calculator",
+    type: "loan-types",
+    title: "Bajaj Auto Finance Two Wheeler Loan EMI Calculator",
+    h1: "Bajaj Auto Finance Two Wheeler EMI Calculator",
+    description: "Calculate your two wheeler loan EMI from Bajaj Auto Finance. Find out the monthly cost for your new bike.",
+    intro: "Bajaj Auto Finance is a leading financier for two-wheelers in India. Calculate your EMI to see how their financing options fit your budget.",
+    date: "2026-10-13",
+    amount: 80000,
+    interestRate: 14.5,
+    tenure: 1,
+    faqs: [
+      { question: "Does Bajaj Auto Finance provide loans for all bike brands?", answer: "Yes, while they are known for financing Bajaj bikes, they also finance other major brands." },
+      { question: "Is the interest rate flat or reducing?", answer: "Always verify the terms, but the most accurate way to calculate the true cost is to ask for the reducing balance rate (APR)." }
+    ]
+  },
+  {
+    slug: "hero-fincorp-bike-loan-calculator",
+    type: "loan-types",
+    title: "Hero FinCorp Bike Loan EMI Calculator 2026",
+    h1: "Hero FinCorp Bike Loan EMI Calculator",
+    description: "Check your Hero FinCorp bike loan EMI instantly. Get fast processing and attractive interest rates for your Hero motorcycle.",
+    intro: "Calculate your monthly obligations for a Hero FinCorp bike loan. Known for quick processing and competitive rates on Hero bikes.",
+    date: "2026-10-13",
+    amount: 75000,
+    interestRate: 13.5,
+    tenure: 2,
+    faqs: [
+      { question: "What is the maximum loan amount from Hero FinCorp?", answer: "They often provide up to 95% of the on-road price for select Hero two-wheelers." },
+      { question: "Do I need a guarantor for a Hero FinCorp bike loan?", answer: "Usually, a guarantor is not required if you meet their standard credit and income criteria." }
+    ]
+  },
+  {
+    slug: "emi-calculator-1-lakh-bike-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹1 Lakh Bike Loan | Monthly Repayment",
+    h1: "1 Lakh Bike Loan Scenario",
+    description: "Calculate the exact EMI and view the month-by-month breakdown for a ₹1 Lakh bike loan. Perfect for planning a premium commuter or small sports bike purchase.",
+    intro: "A ₹1 Lakh loan is a common amount for many 150cc-200cc motorcycles. See the repayment breakdown here.",
+    date: "2026-10-13",
+    amount: 100000,
+    interestRate: 12.0,
+    tenure: 3,
+    faqs: [
+      { question: "What is the EMI for a 1 Lakh bike loan for 3 years?", answer: "Assuming an interest rate of 12%, the monthly EMI is approximately ₹3,321." },
+      { question: "How much interest do I pay on a 1 Lakh bike loan?", answer: "Over 3 years at 12%, the total interest payable is around ₹19,572." }
+    ]
+  },
+  {
+    slug: "emi-calculator-2-lakh-superbike-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹2 Lakh Superbike Loan | Full Schedule",
+    h1: "2 Lakh Superbike Loan Scenario",
+    description: "Check your EMI and total interest outgo for a ₹2 Lakh superbike loan. Plan your high-performance motorcycle financing effectively.",
+    intro: "Looking to buy a higher capacity motorcycle? Borrowing ₹2 Lakhs requires careful planning. Calculate your precise monthly EMI.",
+    date: "2026-10-13",
+    amount: 200000,
+    interestRate: 11.5,
+    tenure: 4,
+    faqs: [
+      { question: "What is the EMI for a 2 Lakh superbike loan for 4 years?", answer: "At an 11.5% interest rate, the EMI is approximately ₹5,217." },
+      { question: "Can I get a 4-year tenure for a bike loan?", answer: "Yes, many banks offer up to 4 or 5 years for higher loan amounts, though it increases the total interest paid." }
+    ]
+  },
+  {
+    slug: "bike-loan-1-year-vs-2-years",
+    type: "tenure-comparison",
+    title: "Bike Loan Tenure: 1 Year vs 2 Years Comparison",
+    h1: "Bike Loan: 1 Year vs 2 Years",
+    description: "Compare bike loan tenures of 1 year and 2 years. See how much interest you save by paying off your loan faster.",
+    intro: "Should you pay off your bike loan in 1 year or stretch it to 2? Compare the numbers side-by-side to see the trade-off.",
+    date: "2026-10-13",
+    amount: 80000,
+    interestRate: 13.0,
+    tenure: 1,
+    faqs: [
+      { question: "Is a 1-year bike loan better than 2 years?", answer: "If you can afford the higher monthly payments, a 1-year loan saves you significantly on interest." },
+      { question: "How much more EMI is a 1-year loan compared to 2 years?", answer: "For an 80k loan, a 1-year EMI is roughly double the 2-year EMI, but the total interest is halved." }
+    ]
+  },
+  {
+    slug: "two-wheeler-loan-2-years-vs-3-years",
+    type: "tenure-comparison",
+    title: "Two-Wheeler Loan: 2 Years vs 3 Years Comparison",
+    h1: "Two-Wheeler Loan Tenure: 2 Years vs 3 Years",
+    description: "Compare the long-term impact of choosing a 2-year versus a 3-year tenure for your two-wheeler loan.",
+    intro: "Most two-wheeler loans fall into the 2 to 3 year range. Use our comparison to find the optimal repayment schedule for your budget.",
+    date: "2026-10-13",
+    amount: 150000,
+    interestRate: 12.0,
+    tenure: 2,
+    faqs: [
+      { question: "Why choose a 2-year tenure for a bike loan?", answer: "It hits a sweet spot between manageable EMIs and keeping the total interest cost reasonably low." },
+      { question: "Does a 3-year loan affect the resale value calculation?", answer: "By the end of 3 years, the bike has depreciated significantly. Paying it off faster ensures you aren't 'underwater' if you want to sell." }
+    ]
+  }
 ];
+
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {
   return TIER2_PAGES.find((page) => page.slug === slug && page.type === type);

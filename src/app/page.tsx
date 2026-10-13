@@ -226,7 +226,7 @@ export default function Home() {
                   payment amount made by a borrower to a lender at a specified
                   date each calendar month. EMIs are used to pay off both
                   interest and principal each month so that over a specified
-                  number of years, the loan is paid off in full.
+                  number of years, the loan is paid off in full. If you are financing a vehicle, you can see how this applies specifically in our <Link href="/blog/two-wheeler-loan-emi-guide-2026" className="text-primary hover:underline">Two-Wheeler Loan EMI Planning Guide 2026</Link>.
                 </p>
                 <p>
                   In the most common types of loans, such as real estate mortgages,
@@ -295,7 +295,7 @@ export default function Home() {
                   </li>
                   <li>
                     <strong>Ignoring the processing fees:</strong> Banks often
-                    charge processing fees that add to the cost of borrowing.
+                    charge processing fees that add to the cost of borrowing. Also, beware of "flat rate" traps, as highlighted in our <Link href="/blog/two-wheeler-loan-emi-guide-2026" className="text-primary hover:underline">Two-Wheeler Loan Guide</Link>.
                   </li>
                   <li>
                     <strong>Not considering prepayments:</strong> Failing to

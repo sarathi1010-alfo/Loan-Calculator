@@ -537,9 +537,23 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-50-lakh-nri-loan`,
     `${SITE_URL}/scenarios/emi-calculator-75-lakh-nri-loan`,
     `${SITE_URL}/scenarios/emi-calculator-1-crore-nri-loan`,
-    `${SITE_URL}/tenure-comparison/nri-home-loan-10-vs-15-years`
+    `${SITE_URL}/tenure-comparison/nri-home-loan-10-vs-15-years`,
 
+
+    // New Tier 1 (2026-10-13)
+    `${SITE_URL}/blog/two-wheeler-loan-emi-guide-2026`,
+
+    // New Tier 2 (2026-10-13)
+    `${SITE_URL}/loan-types/sbi-two-wheeler-loan-calculator`,
+    `${SITE_URL}/loan-types/hdfc-two-wheeler-loan-calculator`,
+    `${SITE_URL}/loan-types/bajaj-auto-finance-calculator`,
+    `${SITE_URL}/loan-types/hero-fincorp-bike-loan-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-1-lakh-bike-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-2-lakh-superbike-loan`,
+    `${SITE_URL}/tenure-comparison/bike-loan-1-year-vs-2-years`,
+    `${SITE_URL}/tenure-comparison/two-wheeler-loan-2-years-vs-3-years`
 ];
+
 
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

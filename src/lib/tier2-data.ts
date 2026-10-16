@@ -7846,6 +7846,168 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Why choose a 2-year tenure for a bike loan?", answer: "It hits a sweet spot between manageable EMIs and keeping the total interest cost reasonably low." },
       { question: "Does a 3-year loan affect the resale value calculation?", answer: "By the end of 3 years, the bike has depreciated significantly. Paying it off faster ensures you aren't 'underwater' if you want to sell." }
     ]
+  },
+  {
+    slug: "sbi-machinery-loan-calculator-2026",
+    type: "loan-types",
+    title: "SBI Machinery Loan EMI Calculator 2026 | Calculate Business Equipment EMI",
+    h1: "SBI Machinery Loan EMI Calculator",
+    description: "Calculate your EMI for an SBI Machinery Loan. Accurately plan your business equipment financing and view detailed amortization schedules.",
+    intro: "State Bank of India offers specialized equipment financing for businesses. Use our calculator to accurately estimate your monthly EMIs for an SBI machinery loan.",
+    date: "2026-10-16",
+    amount: 2500000,
+    interestRate: 10.5,
+    tenure: 5,
+    content: `
+      <h2>Planning Your SBI Equipment Finance</h2>
+      <p>State Bank of India provides robust financing options for SMEs and large enterprises looking to upgrade their machinery. Calculating your EMI in advance ensures that the new equipment's monthly cost aligns with your projected revenue growth.</p>
+      <h2>Key Factors in SBI Machinery Loans</h2>
+      <p>Interest rates are typically linked to the MCLR or EBLR, and depend heavily on your business's credit rating and vintage. A higher margin money contribution can help negotiate better rates.</p>
+    `,
+    faqs: [
+      { question: "What is the typical tenure for an SBI machinery loan?", answer: "Tenures usually range from 3 to 7 years, depending on the expected useful life of the machinery." },
+      { question: "Does SBI require additional collateral for machinery loans?", answer: "The machinery itself often serves as the primary collateral, though additional security may be required based on the loan amount and business profile." }
+    ]
+  },
+  {
+    slug: "hdfc-machinery-loan-calculator-2026",
+    type: "loan-types",
+    title: "HDFC Bank Machinery Loan EMI Calculator 2026",
+    h1: "HDFC Machinery Loan EMI Calculator",
+    description: "Estimate your monthly EMI for an HDFC Bank Machinery Loan. Plan your business capital expenditure efficiently.",
+    intro: "HDFC Bank offers quick and flexible machinery loans. Use our calculator to determine your monthly financial commitment and plan your cash flow.",
+    date: "2026-10-16",
+    amount: 3500000,
+    interestRate: 11.2,
+    tenure: 4,
+    content: `
+      <h2>Financing with HDFC Bank</h2>
+      <p>HDFC Bank is known for fast processing and competitive rates for business equipment financing. Accurately modeling your EMI is critical to ensure that debt servicing does not hinder operational liquidity.</p>
+    `,
+    faqs: [
+      { question: "How quickly does HDFC process machinery loans?", answer: "With proper documentation, HDFC can process and disburse machinery loans very quickly, often within a few working days." },
+      { question: "Can I prepay my HDFC machinery loan?", answer: "Yes, prepayment is usually allowed, though standard foreclosure charges may apply. Check your specific loan agreement." }
+    ]
+  },
+  {
+    slug: "icici-machinery-loan-calculator-2026",
+    type: "loan-types",
+    title: "ICICI Bank Machinery Loan EMI Calculator 2026",
+    h1: "ICICI Machinery Loan EMI Calculator",
+    description: "Calculate your EMI for an ICICI Machinery Loan. Manage your business finances and optimize your equipment purchasing strategy.",
+    intro: "Plan your equipment acquisition with ICICI Bank's machinery loans. Calculate your exact EMI to ensure sustainable business growth.",
+    date: "2026-10-16",
+    amount: 4500000,
+    interestRate: 11.5,
+    tenure: 5,
+    content: `
+      <h2>Managing Business Debt with ICICI</h2>
+      <p>ICICI Bank offers customized solutions for machinery financing across various industries. Use our tool to compare how different tenures affect your monthly EMI and total interest outflow.</p>
+    `,
+    faqs: [
+      { question: "Does ICICI finance imported machinery?", answer: "Yes, ICICI Bank provides financing options for both indigenous and imported machinery, subject to specific guidelines." },
+      { question: "Is margin money required for ICICI machinery loans?", answer: "Yes, borrowers typically need to contribute 15% to 25% of the machinery cost as margin money." }
+    ]
+  },
+  {
+    slug: "axis-machinery-loan-calculator-2026",
+    type: "loan-types",
+    title: "Axis Bank Machinery Loan EMI Calculator 2026",
+    h1: "Axis Machinery Loan EMI Calculator",
+    description: "Use the Axis Bank Machinery Loan EMI calculator to plan your equipment financing and review detailed repayment schedules.",
+    intro: "Axis Bank provides competitive financing for business equipment. Calculate your EMI to align your loan repayments with your operational cash flow.",
+    date: "2026-10-16",
+    amount: 3000000,
+    interestRate: 10.8,
+    tenure: 4,
+    content: `
+      <h2>Strategic Equipment Financing</h2>
+      <p>Axis Bank machinery loans help businesses scale up production without severe upfront capital depletion. Accurate EMI calculation helps in setting pricing strategies and forecasting profitability.</p>
+    `,
+    faqs: [
+      { question: "What businesses are eligible for Axis machinery loans?", answer: "Most SMEs, manufacturers, and service providers with a stable financial history are eligible." },
+      { question: "Are the interest rates fixed or floating?", answer: "Axis Bank offers both fixed and floating interest rate options for machinery loans." }
+    ]
+  },
+  {
+    slug: "emi-calculator-20-lakh-machinery-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹20 Lakh Machinery Loan | Business Finance",
+    h1: "₹20 Lakh Machinery Loan EMI Calculator",
+    description: "Calculate the EMI for a ₹20 Lakh machinery loan. View a complete amortization schedule for your business equipment finance.",
+    intro: "A ₹20 Lakh loan is standard for upgrading essential business machinery. Calculate your monthly EMI to ensure it fits comfortably within your operating budget.",
+    date: "2026-10-16",
+    amount: 2000000,
+    interestRate: 11.0,
+    tenure: 5,
+    content: `
+      <h2>Planning a ₹20 Lakh Equipment Investment</h2>
+      <p>Borrowing ₹20 Lakhs for machinery is a significant commitment. Over a 5-year tenure, the interest component can be substantial. Use our amortization schedule to track your principal reduction month by month.</p>
+    `,
+    faqs: [
+      { question: "Is a 5-year tenure ideal for a ₹20 Lakh machinery loan?", answer: "Yes, 5 years balances the monthly cash outflow with a reasonable total interest cost, provided the machinery's lifespan exceeds 5 years." },
+      { question: "How does the interest rate affect the EMI on ₹20 Lakhs?", answer: "Even a 0.5% change in the interest rate can alter your total interest payable by tens of thousands of rupees over 5 years." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50-lakh-machinery-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹50 Lakh Machinery Loan",
+    h1: "₹50 Lakh Machinery Loan EMI Calculator",
+    description: "Accurately calculate the EMI and interest for a ₹50 Lakh machinery loan. Essential planning for large-scale business expansion.",
+    intro: "Need ₹50 Lakhs for heavy machinery or a production line upgrade? Calculate your precise monthly EMI and total interest burden to make informed financing decisions.",
+    date: "2026-10-16",
+    amount: 5000000,
+    interestRate: 10.5,
+    tenure: 6,
+    content: `
+      <h2>Financing Heavy Machinery</h2>
+      <p>A ₹50 Lakh loan indicates major operational expansion. Given the large principal, securing a competitive interest rate is vital. Our pie chart helps visualize the ratio of total interest to the principal amount over your chosen tenure.</p>
+    `,
+    faqs: [
+      { question: "What is the monthly EMI for a ₹50 Lakh machinery loan at 10.5% for 6 years?", answer: "The EMI would be approximately ₹94,156." },
+      { question: "Can I claim depreciation benefits on financed machinery?", answer: "Yes, businesses can claim depreciation on the machinery, which provides a tax shield, even if it is financed through a loan." }
+    ]
+  },
+  {
+    slug: "emi-calculator-1-crore-machinery-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹1 Crore Machinery Loan",
+    h1: "₹1 Crore Machinery Loan EMI Calculator",
+    description: "Calculate your EMI for a ₹1 Crore machinery loan. Detailed amortization for large industrial and manufacturing equipment financing.",
+    intro: "Financing a ₹1 Crore industrial machine requires strict financial planning. Use our calculator to model your monthly EMIs and negotiate better terms with lenders.",
+    date: "2026-10-16",
+    amount: 10000000,
+    interestRate: 10.0,
+    tenure: 7,
+    content: `
+      <h2>Managing High-Value Equipment Loans</h2>
+      <p>When borrowing ₹1 Crore, long tenures (e.g., 7 years) are common to keep EMIs manageable. However, this dramatically increases total interest. Use our tool to find the optimal balance for your cash flow.</p>
+    `,
+    faqs: [
+      { question: "Is a ₹1 Crore machinery loan secured?", answer: "Yes, loans of this magnitude are heavily secured, primarily by the machinery itself, and often require corporate guarantees." },
+      { question: "How crucial is the interest rate for a ₹1 Crore loan?", answer: "Extremely crucial. A difference of just 0.25% can save or cost you lakhs of rupees over a 7-year term." }
+    ]
+  },
+  {
+    slug: "machinery-loan-3-years-vs-5-years",
+    type: "tenure-comparison",
+    title: "Machinery Loan: 3 Years vs 5 Years Tenure Comparison",
+    h1: "Machinery Loan Tenure: 3 Years vs 5 Years",
+    description: "Compare machinery loan EMIs for 3-year and 5-year tenures. See how tenure affects your monthly cash flow and total interest paid.",
+    intro: "Choosing the right tenure for your machinery loan is critical. Compare the high-EMI/low-interest 3-year plan against the lower-EMI/high-interest 5-year plan.",
+    date: "2026-10-16",
+    amount: 3000000,
+    interestRate: 11.0,
+    tenure: 3,
+    content: `
+      <h2>Comparing Tenures for Equipment Finance</h2>
+      <p>A 3-year tenure aggressively pays down the debt, saving significant interest but demanding high monthly cash outflows. A 5-year tenure eases the monthly burden, freeing up working capital, but increases the overall cost of the machinery.</p>
+    `,
+    faqs: [
+      { question: "Which tenure is better for a startup?", answer: "Startups often prefer longer tenures (like 5 years) to preserve essential working capital, despite the higher total interest cost." },
+      { question: "How does the machinery's lifespan affect tenure choice?", answer: "Your loan tenure should never exceed the useful, productive lifespan of the machinery." }
+    ]
   }
 ];
 

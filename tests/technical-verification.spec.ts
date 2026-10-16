@@ -2937,4 +2937,53 @@ test.describe('Technical Verification', () => {
       expect(faqSchema['@type']).toBe('FAQPage');
     }
   });
+  test('Machinery Loan EMI Planning Guide 2026 Tier 1 URL should return 200 OK and have Article schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/machinery-loan-emi-planning-guide-2026`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.locator('script[type="application/ld+json"]').nth(1).textContent();
+    expect(schema).toContain('Article');
+  });
+
+  test('SBI Machinery Loan Calculator 2026 Tier 2 URL should return 200 OK and have FAQ schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-machinery-loan-calculator-2026`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.locator('script[type="application/ld+json"]').nth(1).textContent();
+    expect(schema).toContain('FAQPage');
+  });
+
+  test('HDFC Machinery Loan Calculator 2026 Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-machinery-loan-calculator-2026`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('ICICI Machinery Loan Calculator 2026 Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-machinery-loan-calculator-2026`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Axis Machinery Loan Calculator 2026 Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/axis-machinery-loan-calculator-2026`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('20 Lakh Machinery Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-20-lakh-machinery-loan`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('50 Lakh Machinery Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-lakh-machinery-loan`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('1 Crore Machinery Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-1-crore-machinery-loan`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Machinery Loan 3 Years vs 5 Years Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/machinery-loan-3-years-vs-5-years`);
+    expect(response?.status()).toBe(200);
+  });
+
 });

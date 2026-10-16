@@ -6,9 +6,7 @@ const SITE_URL = "https://emicalculatorpro.alfo.online";
 async function pingSearchEngines() {
   console.log("--- Search Engine Notification System ---");
 
-  const newUrls = [
-
-    // New Tier 1 (2026-09-17)
+  const newUrls = [// New Tier 1 (2026-09-17)
     `${SITE_URL}/blog/comprehensive-interest-rate-comparison-2026`,
 
     // New Tier 2 (2026-09-17)
@@ -551,8 +549,16 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-1-lakh-bike-loan`,
     `${SITE_URL}/scenarios/emi-calculator-2-lakh-superbike-loan`,
     `${SITE_URL}/tenure-comparison/bike-loan-1-year-vs-2-years`,
-    `${SITE_URL}/tenure-comparison/two-wheeler-loan-2-years-vs-3-years`
-];
+    `${SITE_URL}/tenure-comparison/two-wheeler-loan-2-years-vs-3-years`,
+  'https://emicalculatorpro.alfo.online/blog/machinery-loan-emi-planning-guide-2026',
+  'https://emicalculatorpro.alfo.online/loan-types/sbi-machinery-loan-calculator-2026',
+  'https://emicalculatorpro.alfo.online/loan-types/hdfc-machinery-loan-calculator-2026',
+  'https://emicalculatorpro.alfo.online/loan-types/icici-machinery-loan-calculator-2026',
+  'https://emicalculatorpro.alfo.online/loan-types/axis-machinery-loan-calculator-2026',
+  'https://emicalculatorpro.alfo.online/scenarios/emi-calculator-20-lakh-machinery-loan',
+  'https://emicalculatorpro.alfo.online/scenarios/emi-calculator-50-lakh-machinery-loan',
+  'https://emicalculatorpro.alfo.online/scenarios/emi-calculator-1-crore-machinery-loan',
+  'https://emicalculatorpro.alfo.online/tenure-comparison/machinery-loan-3-years-vs-5-years'];
 
 
 

@@ -558,9 +558,20 @@ async function pingSearchEngines() {
   'https://emicalculatorpro.alfo.online/scenarios/emi-calculator-20-lakh-machinery-loan',
   'https://emicalculatorpro.alfo.online/scenarios/emi-calculator-50-lakh-machinery-loan',
   'https://emicalculatorpro.alfo.online/scenarios/emi-calculator-1-crore-machinery-loan',
-  'https://emicalculatorpro.alfo.online/tenure-comparison/machinery-loan-3-years-vs-5-years'];
+  'https://emicalculatorpro.alfo.online/tenure-comparison/machinery-loan-3-years-vs-5-years',
+  // New Tier 1 (2026-10-18)
+  `${SITE_URL}/blog/medical-loan-emi-guide-2026`,
 
-
+  // New Tier 2 (2026-10-18)
+  `${SITE_URL}/loan-types/sbi-medical-loan-calculator`,
+  `${SITE_URL}/loan-types/hdfc-medical-loan-calculator`,
+  `${SITE_URL}/loan-types/icici-medical-loan-calculator`,
+  `${SITE_URL}/loan-types/axis-medical-loan-calculator`,
+  `${SITE_URL}/scenarios/emi-calculator-2-lakh-medical-loan`,
+  `${SITE_URL}/scenarios/emi-calculator-5-lakh-medical-loan`,
+  `${SITE_URL}/scenarios/emi-calculator-10-lakh-medical-loan`,
+  `${SITE_URL}/tenure-comparison/medical-loan-2-years-vs-4-years`
+];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);
 

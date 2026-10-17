@@ -2986,4 +2986,54 @@ test.describe('Technical Verification', () => {
     expect(response?.status()).toBe(200);
   });
 
+
+  test('Medical Loan EMI Guide 2026 Tier 1 URL should return 200 OK and have Article schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/medical-loan-emi-guide-2026`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.locator('script[type="application/ld+json"]').nth(1).textContent();
+    expect(schema).toContain('Article');
+  });
+
+  test('SBI Medical Loan Calculator 2026 Tier 2 URL should return 200 OK and have FAQ schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-medical-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.locator('script[type="application/ld+json"]').nth(1).textContent();
+    expect(schema).toContain('FAQPage');
+  });
+
+  test('HDFC Medical Loan Calculator 2026 Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-medical-loan-calculator`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('ICICI Medical Loan Calculator 2026 Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-medical-loan-calculator`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Axis Medical Loan Calculator 2026 Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/axis-medical-loan-calculator`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('2 Lakh Medical Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-2-lakh-medical-loan`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('5 Lakh Medical Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-5-lakh-medical-loan`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('10 Lakh Medical Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-10-lakh-medical-loan`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Medical Loan 2 Years vs 4 Years Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/medical-loan-2-years-vs-4-years`);
+    expect(response?.status()).toBe(200);
+  });
+
 });

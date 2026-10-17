@@ -815,12 +815,12 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "loan-against-property-emi-guide",
     title: "Loan Against Property EMI Guide 2026: Unlock Your Property's Value",
     description: "Learn how to calculate EMI for a Loan Against Property (LAP). Discover the benefits, interest rates, and how to use EMICalculatorPro to plan your repayment strategy.",
-    date: "2026-08-21",
+    date: "2026-10-18",
     category: "Loan Guides",
     answerBlock: "To calculate your Loan Against Property (LAP) EMI, input the loan amount, interest rate (typically 8.5% to 15%), and tenure into EMICalculatorPro. The tool uses the standard reducing-balance formula to provide your monthly payment and total interest cost.",
     content: `
       <h2>How Does a Loan Against Property (LAP) Work in 2026?</h2>
-      <p>A Loan Against Property (LAP) is a secured loan where you pledge your commercial or residential property as collateral. It's one of the most effective ways to raise large amounts of capital at relatively lower interest rates compared to unsecured personal loans or business loans. Whether you need funds for business expansion, medical emergencies, or higher education, a LAP offers a flexible financial solution. Since you are dealing with large amounts, learn <a href="/blog/how-to-plan-prepayments-2026">how to plan prepayments</a> efficiently to minimize your total interest burden.</p>
+      <p>A Loan Against Property (LAP) is a secured loan where you pledge your commercial or residential property as collateral. It's one of the most effective ways to raise large amounts of capital at relatively lower interest rates compared to unsecured personal loans or business loans. Whether you need funds for business expansion, medical emergencies (learn more in our <a href="/blog/medical-loan-emi-guide-2026">Medical Loan Guide</a>), or higher education, a LAP offers a flexible financial solution. Since you are dealing with large amounts, learn <a href="/blog/how-to-plan-prepayments-2026">how to plan prepayments</a> efficiently to minimize your total interest burden.</p>
 
       <h2>The Benefits of Choosing a Loan Against Property</h2>
       <p>Why should you opt for a LAP over other types of credit? Here are the primary advantages:</p>
@@ -977,7 +977,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "loan-affordability-planning-guide",
     title: "The Ultimate Guide to Loan Affordability Planning in 2026",
     description: "Learn how to assess your loan affordability, manage your Debt-to-Income (DTI) ratio, and build a stress-free financial plan before borrowing.",
-    date: "2026-08-18",
+    date: "2026-10-18",
     category: "Financial Planning & Budgeting",
     answerBlock: "Loan affordability is determined by calculating your Debt-to-Income (DTI) ratio. Financial experts recommend keeping your total monthly debt payments (including any new EMIs) below 40-50% of your net monthly income to ensure long-term financial stability.",
     content: `
@@ -988,7 +988,7 @@ export const BLOG_POSTS: BlogPost[] = [
       <p>The foundation of affordability planning is the Debt-to-Income (DTI) ratio. This metric compares your total monthly debt obligations to your net (take-home) monthly income.</p>
 
       <h3>The 40-50% Rule</h3>
-      <p>As a general financial guideline, your total EMI obligations—including your current credit card payments, personal loans, and the projected EMI of the new loan—should not exceed 40% to 50% of your net monthly income. If your DTI crosses this threshold, you are at a high risk of defaulting if you encounter any unexpected financial emergencies, such as a medical issue or job loss.</p>
+      <p>As a general financial guideline, your total EMI obligations—including your current credit card payments, personal loans, and the projected EMI of the new loan—should not exceed 40% to 50% of your net monthly income. If your DTI crosses this threshold, you are at a high risk of defaulting if you encounter any unexpected financial emergencies, such as a medical issue (see our <a href="/blog/medical-loan-emi-guide-2026">Medical Loan EMI Guide 2026</a>) or job loss.</p>
 
       <h2>Stress Testing Your Budget</h2>
       <p>Before you sign a loan agreement, conduct a 'stress test' on your budget. Live for three months as if you are already paying the new EMI. Take the projected EMI amount and transfer it into a dedicated savings account at the start of each month. If you find yourself struggling to cover your daily expenses, the loan amount is too high, and you need to reassess your borrowing strategy.</p>
@@ -2593,6 +2593,30 @@ export const BLOG_POSTS: BlogPost[] = [
 
       <h2>Conclusion</h2>
       <p>A machinery loan is a powerful tool to accelerate business growth without compromising liquidity. By carefully calculating your EMI, understanding the interest structure, and choosing the optimal tenure, you can ensure that your new equipment generates returns that far exceed the cost of financing. Return to the <a href="/">EMICalculatorPro Homepage</a> to explore more specialized calculators and take control of your business's financial future.</p>
+    `,
+  },
+  {
+    slug: "medical-loan-emi-guide-2026",
+    title: "Medical Loan EMI Guide 2026: Financing Healthcare Costs",
+    description: "Learn how to manage medical emergency costs with our complete guide to medical loan EMIs. Calculate payments, compare rates, and choose the right tenure.",
+    date: "2026-10-18",
+    category: "Personal Loans",
+    answerBlock: "To calculate a medical loan EMI, determine the total treatment cost minus your health insurance coverage, and input the remaining amount as the principal. Medical loans are specialized personal loans with quick disbursement, but they often carry higher interest rates (11% to 15%). Aim for a shorter tenure to minimize total interest paid.",
+    content: `
+      <h2>How Medical Loan EMIs Work</h2>
+      <p>A medical loan is essentially an unsecured personal loan tailored for healthcare emergencies. When insurance falls short or treatment is required immediately, these loans offer quick liquidity. You can use our <a href="/">homepage calculator</a> to plan your repayment structure.</p>
+
+      <h2>Comparing Medical Loans vs Regular Personal Loans</h2>
+      <p>While fundamentally similar, medical loans are often prioritized by banks for faster approval and disbursement (sometimes within hours). However, the interest rates can be slightly higher due to the urgency and lack of collateral.</p>
+
+      <h2>Factoring in Health Insurance</h2>
+      <p>Never take a medical loan for the full hospital bill if you have insurance. Always calculate the gap between your total bill and your approved insurance claim, and only borrow that exact amount to keep your EMI manageable.</p>
+
+      <h2>Calculating Your Repayment</h2>
+      <p>Use the reducing-balance formula to understand your outgoings. A ₹5 Lakh medical loan at 12% for 3 years results in an EMI of approximately ₹16,607. Test different scenarios in our <a href="/#loan-types">Explore Specific Calculators</a> section.</p>
+
+      <h2>Top Mistakes in Healthcare Financing</h2>
+      <p>Avoid taking the maximum approved loan amount if you don't need it. Additionally, always check for foreclosure charges; you want the flexibility to prepay the loan quickly once your financial situation stabilizes.</p>
     `,
   }
 ];

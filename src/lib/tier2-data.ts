@@ -8009,6 +8009,169 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "How does the machinery's lifespan affect tenure choice?", answer: "Your loan tenure should never exceed the useful, productive lifespan of the machinery." }
     ]
   }
+,
+
+  {
+    slug: "sbi-medical-loan-calculator",
+    type: "loan-types",
+    title: "SBI Medical Loan EMI Calculator 2026",
+    h1: "SBI Medical Loan EMI Calculator",
+    description: "Calculate your monthly EMI for an SBI medical loan. Plan your healthcare financing with accurate estimates.",
+    intro: "SBI offers specific personal loans that can be utilized for medical emergencies. Use this calculator to estimate your EMI and interest.",
+    date: "2026-10-18",
+    amount: 500000,
+    interestRate: 11.5,
+    tenure: 36,
+    content: `
+      <h2>Understanding SBI Medical Loans</h2>
+      <p>SBI provides fast-tracked personal loans for medical needs. While unsecured, SBI generally offers competitive interest rates for existing account holders.</p>
+    `,
+    faqs: [
+      { question: "What is the interest rate for SBI medical loans?", answer: "Rates typically start around 11% to 12%, depending on your credit profile and relationship with the bank." },
+      { question: "How fast is an SBI medical loan disbursed?", answer: "For pre-approved customers, disbursement can happen within a few hours." }
+    ]
+  },
+  {
+    slug: "hdfc-medical-loan-calculator",
+    type: "loan-types",
+    title: "HDFC Medical Loan EMI Calculator 2026",
+    h1: "HDFC Medical Loan EMI Calculator",
+    description: "Plan your healthcare costs with the HDFC medical loan calculator. Check your monthly repayment schedule.",
+    intro: "HDFC Bank offers quick disbursal medical loans to handle emergencies. Calculate your exact EMI here.",
+    date: "2026-10-18",
+    amount: 500000,
+    interestRate: 10.75,
+    tenure: 36,
+    content: `
+      <h2>HDFC Apollo Medical Loan</h2>
+      <p>HDFC often partners with healthcare providers to offer specialized loans with potentially lower rates or waived processing fees.</p>
+    `,
+    faqs: [
+      { question: "Does HDFC require collateral for medical loans?", answer: "No, these are typically unsecured personal loans requiring no collateral." },
+      { question: "Can I get an HDFC medical loan for cosmetic surgery?", answer: "Yes, medical loans can generally be used for any surgical or dental procedures, including cosmetic ones." }
+    ]
+  },
+  {
+    slug: "icici-medical-loan-calculator",
+    type: "loan-types",
+    title: "ICICI Medical Loan EMI Calculator 2026",
+    h1: "ICICI Medical Loan EMI Calculator",
+    description: "Calculate your ICICI medical loan EMI. Get instant repayment schedules for healthcare financing.",
+    intro: "Need funds for a medical emergency? Calculate your EMI for an ICICI personal loan used for healthcare.",
+    date: "2026-10-18",
+    amount: 300000,
+    interestRate: 11.0,
+    tenure: 24,
+    content: `
+      <h2>ICICI Fast Track Healthcare Loans</h2>
+      <p>ICICI offers digital personal loans that can be instantly credited to your account, crucial during medical emergencies.</p>
+    `,
+    faqs: [
+      { question: "What is the maximum amount for an ICICI medical loan?", answer: "ICICI can offer up to ₹50 Lakhs depending on your income and credit score." },
+      { question: "Can NRIs apply for an ICICI medical loan?", answer: "NRIs may need to apply for specific NRI personal loans rather than standard domestic medical loans." }
+    ]
+  },
+  {
+    slug: "axis-medical-loan-calculator",
+    type: "loan-types",
+    title: "Axis Bank Medical Loan EMI Calculator 2026",
+    h1: "Axis Bank Medical Loan EMI Calculator",
+    description: "Estimate your monthly payments for an Axis Bank medical loan. View the full amortization schedule.",
+    intro: "Axis Bank provides personal loans for medical emergencies with minimal documentation. Calculate your EMI to plan better.",
+    date: "2026-10-18",
+    amount: 400000,
+    interestRate: 11.25,
+    tenure: 48,
+    content: `
+      <h2>Axis Bank Healthcare Financing</h2>
+      <p>Axis Bank allows flexible tenures for medical loans, helping you keep your EMI manageable while you recover.</p>
+    `,
+    faqs: [
+      { question: "Are there prepayment charges on Axis medical loans?", answer: "Yes, standard personal loan foreclosure charges usually apply. Check your loan agreement." },
+      { question: "What documents are required?", answer: "Standard KYC, income proof, and sometimes the estimated hospital bill." }
+    ]
+  },
+  {
+    slug: "emi-calculator-2-lakh-medical-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹2 Lakh Medical Loan",
+    h1: "₹2 Lakh Medical Loan Scenario",
+    description: "Calculate the EMI and view the amortization schedule for a ₹2 Lakh medical loan.",
+    intro: "A ₹2 Lakh loan is common for minor surgeries or dental procedures. Calculate your monthly repayment.",
+    date: "2026-10-18",
+    amount: 200000,
+    interestRate: 12.0,
+    tenure: 24,
+    content: `
+      <h2>Managing a ₹2 Lakh Medical Debt</h2>
+      <p>For a loan of this size, try to keep the tenure short (1 to 2 years) to minimize the interest paid while keeping the EMI affordable.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 2 Lakh medical loan over 2 years?", answer: "At 12% interest, the EMI is approximately ₹9,415." },
+      { question: "Should I use a credit card instead?", answer: "Medical loans usually have much lower interest rates (11-15%) compared to credit cards (36-42%)." }
+    ]
+  },
+  {
+    slug: "emi-calculator-5-lakh-medical-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹5 Lakh Medical Loan",
+    h1: "₹5 Lakh Medical Loan Scenario",
+    description: "Model the repayment schedule for a ₹5 Lakh medical loan. See your EMI and total interest breakdown.",
+    intro: "Facing a major medical expense? Calculate the EMI for a ₹5 Lakh loan to plan your finances during recovery.",
+    date: "2026-10-18",
+    amount: 500000,
+    interestRate: 11.5,
+    tenure: 36,
+    content: `
+      <h2>₹5 Lakh Healthcare Financing Breakdown</h2>
+      <p>A ₹5 Lakh loan represents a significant commitment. Ensure the EMI fits comfortably within your monthly budget to avoid post-recovery financial stress.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 5 Lakh medical loan over 3 years?", answer: "At 11.5%, the EMI is roughly ₹16,486." },
+      { question: "Can I claim tax benefits on a medical loan?", answer: "Generally, there are no specific tax deductions for the interest paid on a medical loan, unlike education or home loans." }
+    ]
+  },
+  {
+    slug: "emi-calculator-10-lakh-medical-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹10 Lakh Medical Loan",
+    h1: "₹10 Lakh Medical Loan Scenario",
+    description: "Calculate your EMI for a large ₹10 Lakh medical loan. View the full amortization and interest charts.",
+    intro: "For major surgeries or prolonged treatments, a ₹10 Lakh loan might be necessary. Calculate your long-term repayment schedule.",
+    date: "2026-10-18",
+    amount: 1000000,
+    interestRate: 11.0,
+    tenure: 60,
+    content: `
+      <h2>Managing Significant Medical Debt</h2>
+      <p>Taking a ₹10 Lakh unsecured loan will result in a substantial EMI. Consider a longer tenure (e.g., 5 years) to ensure the payments are manageable, and plan to prepay once you recover financially.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 10 Lakh medical loan over 5 years?", answer: "Assuming an 11% interest rate, the monthly EMI is approximately ₹21,742." },
+      { question: "Is it better to take a Loan Against Property for 10 Lakhs?", answer: "Yes, if you have property, a Loan Against Property will offer a much lower interest rate than an unsecured medical loan." }
+    ]
+  },
+  {
+    slug: "medical-loan-2-years-vs-4-years",
+    type: "tenure-comparison",
+    title: "Medical Loan Tenure: 2 Years vs 4 Years Comparison",
+    h1: "Medical Loan Comparison: 2 Years vs 4 Years",
+    description: "Compare the monthly EMI and total interest paid on a medical loan over a 2-year versus a 4-year tenure.",
+    intro: "Should you pay off your medical debt quickly or spread it out? Compare a 2-year and 4-year tenure to find the right balance.",
+    date: "2026-10-18",
+    amount: 400000,
+    interestRate: 12.0,
+    tenure: 24,
+    content: `
+      <h2>Comparing Healthcare Loan Tenures</h2>
+      <p>A 2-year tenure means higher monthly payments but saves you a lot of money in interest. A 4-year tenure lowers your immediate monthly burden, which might be crucial while recovering from an illness, but increases the total cost of the loan.</p>
+    `,
+    faqs: [
+      { question: "Why choose a 4-year tenure for a medical loan?", answer: "To keep the EMI low and manageable during a period where your income might be impacted by health issues." },
+      { question: "How much more interest do you pay on a 4-year loan?", answer: "On a ₹4 Lakh loan at 12%, a 4-year tenure costs about ₹52,000 more in interest compared to a 2-year tenure." }
+    ]
+  }
+
 ];
 
 

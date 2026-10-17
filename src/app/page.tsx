@@ -276,7 +276,7 @@ export default function Home() {
                   </li>
                   <li>
                     <strong>Personal Loan EMIs:</strong> Unsecured loans with
-                    shorter tenures (1-5 years) and higher interest rates.
+                    shorter tenures (1-5 years) and higher interest rates. See our <Link href="/blog/medical-loan-emi-guide-2026" className="text-primary hover:underline">Medical Loan EMI Guide</Link> for an example.
                   </li>
                   <li>
                     <strong>Car Loan EMIs:</strong> Secured against the vehicle,

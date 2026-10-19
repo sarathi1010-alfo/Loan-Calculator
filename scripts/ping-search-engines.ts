@@ -571,6 +571,19 @@ async function pingSearchEngines() {
   `${SITE_URL}/scenarios/emi-calculator-5-lakh-medical-loan`,
   `${SITE_URL}/scenarios/emi-calculator-10-lakh-medical-loan`,
   `${SITE_URL}/tenure-comparison/medical-loan-2-years-vs-4-years`
+,
+  // New Tier 1 (2026-10-19)
+  `${SITE_URL}/blog/doctor-loan-emi-guide-2026`,
+
+  // New Tier 2 (2026-10-19)
+  `${SITE_URL}/loan-types/sbi-doctor-loan-calculator`,
+  `${SITE_URL}/loan-types/hdfc-doctor-loan-calculator`,
+  `${SITE_URL}/loan-types/icici-doctor-loan-calculator`,
+  `${SITE_URL}/loan-types/axis-doctor-loan-calculator`,
+  `${SITE_URL}/scenarios/emi-calculator-20-lakh-doctor-loan`,
+  `${SITE_URL}/scenarios/emi-calculator-50-lakh-doctor-loan`,
+  `${SITE_URL}/scenarios/emi-calculator-1-crore-doctor-loan`,
+  `${SITE_URL}/tenure-comparison/doctor-loan-5-years-vs-10-years`
 ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

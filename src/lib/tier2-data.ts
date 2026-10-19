@@ -8172,6 +8172,167 @@ export const TIER2_PAGES: Tier2Page[] = [
     ]
   }
 
+
+  ,{
+    slug: "sbi-doctor-loan-calculator",
+    type: "loan-types",
+    title: "SBI Doctor Loan EMI Calculator | Finance Your Medical Practice",
+    h1: "SBI Doctor Loan EMI Calculator",
+    description: "Calculate your EMI for an SBI Doctor Loan. Plan your clinic setup or medical equipment purchase with accurate amortization schedules.",
+    intro: "Setting up a clinic or buying advanced medical equipment requires significant capital. Calculate your SBI Doctor Loan EMI to seamlessly plan your practice's financial growth.",
+    date: "2026-10-19",
+    amount: 2500000,
+    interestRate: 10.5,
+    tenure: 5,
+    content: `
+      <h2>Financing Your Practice with SBI</h2>
+      <p>SBI offers specialized loans for medical professionals, featuring competitive interest rates, flexible repayment options, and minimal processing fees. These loans cater to doctors looking to expand their practices or upgrade technology without straining their operational cash flow.</p>
+
+      <h2>How to Use the Calculator</h2>
+      <p>Simply enter the loan amount required for your clinic or equipment, the prevailing SBI doctor loan interest rate, and your preferred tenure. The calculator will provide your exact monthly payment, empowering you to budget efficiently.</p>
+    `,
+    faqs: [
+      { question: "What is the typical tenure for a doctor loan?", answer: "Doctor loans usually have tenures ranging from 1 to 7 years, depending on the loan type and amount." },
+      { question: "Are doctor loans unsecured?", answer: "Many banks offer both secured and unsecured options. Unsecured loans are great for quick working capital, while secured loans (against property or equipment) offer larger amounts and lower rates." },
+      { question: "Do doctor loans require a guarantor?", answer: "Typically, for smaller loan amounts or those with strong financial profiles, banks do not require a guarantor, making the process smoother for established professionals." }
+    ]
+  },
+  {
+    slug: "hdfc-doctor-loan-calculator",
+    type: "loan-types",
+    title: "HDFC Doctor Loan EMI Calculator",
+    h1: "HDFC Doctor Loan EMI Calculator",
+    description: "Calculate HDFC Doctor Loan EMIs instantly. Find out your monthly commitment for upgrading your medical practice.",
+    intro: "HDFC Bank offers customized doctor loans. Use our calculator to understand your EMI and total interest outflow before committing to a loan.",
+    date: "2026-10-19",
+    amount: 3000000,
+    interestRate: 10.75,
+    tenure: 5,
+    content: `
+      <h2>HDFC Loans for Healthcare Professionals</h2>
+      <p>HDFC recognizes the unique needs of healthcare professionals by providing loans with fast processing times and attractive interest rates. Accurate EMI planning ensures that your new investments translate to profitability without cash flow crunches.</p>
+    `,
+    faqs: [
+      { question: "How fast are HDFC doctor loans processed?", answer: "Because of the low-risk profile of doctors, banks like HDFC often provide express loan processing, sometimes within 48 to 72 hours." }
+    ]
+  },
+  {
+    slug: "icici-doctor-loan-calculator",
+    type: "loan-types",
+    title: "ICICI Doctor Loan EMI Calculator",
+    h1: "ICICI Doctor Loan EMI Calculator",
+    description: "Plan your ICICI Doctor Loan EMI. Evaluate your monthly payments and interest costs accurately.",
+    intro: "ICICI Bank's doctor loans are designed to fuel the growth of medical practices. Check your EMI to ensure the loan aligns with your clinic's revenue.",
+    date: "2026-10-19",
+    amount: 2000000,
+    interestRate: 10.65,
+    tenure: 4,
+    content: `
+      <h2>Why Calculate Your ICICI Doctor Loan EMI?</h2>
+      <p>Whether it is for a new diagnostic machine or expanding your waiting area, knowing your exact EMI helps you maintain healthy cash reserves. Compare different tenures to see what fits best.</p>
+    `,
+    faqs: [
+      { question: "Can I prepay my ICICI doctor loan?", answer: "Yes, ICICI and most other banks allow partial and full prepayment, though certain conditions or minimal charges may apply depending on the loan type." }
+    ]
+  },
+  {
+    slug: "axis-doctor-loan-calculator",
+    type: "loan-types",
+    title: "Axis Bank Doctor Loan EMI Calculator",
+    h1: "Axis Bank Doctor Loan EMI Calculator",
+    description: "Use the Axis Bank Doctor Loan EMI calculator to plan your medical practice expansion.",
+    intro: "Expand your practice with an Axis Bank Doctor Loan. Calculate your Equated Monthly Installment to budget for the future effectively.",
+    date: "2026-10-19",
+    amount: 5000000,
+    interestRate: 10.5,
+    tenure: 7,
+    content: `
+      <h2>Optimizing Your Axis Bank Loan</h2>
+      <p>A larger loan means a larger monthly commitment. Use the amortization schedule to see exactly how your payments reduce your principal balance over time.</p>
+    `,
+    faqs: [
+      { question: "Is the interest rate fixed or floating?", answer: "Doctor loans can be offered at both fixed and floating rates. Fixed rates provide certainty, while floating rates may drop in a favorable economic environment." }
+    ]
+  },
+  {
+    slug: "emi-calculator-20-lakh-doctor-loan",
+    type: "scenarios",
+    title: "₹20 Lakh Doctor Loan EMI Calculator",
+    h1: "EMI Calculator for ₹20 Lakh Doctor Loan",
+    description: "Calculate the EMI for a ₹20 Lakh doctor loan. See the full amortization schedule and total interest breakdown.",
+    intro: "Need ₹20 Lakhs for specialized medical equipment? Calculate your monthly payment and total interest cost over various tenures.",
+    date: "2026-10-19",
+    amount: 2000000,
+    interestRate: 10.5,
+    tenure: 5,
+    content: `
+      <h2>Planning a ₹20 Lakh Investment</h2>
+      <p>₹20 Lakhs is a common loan size for purchasing mid-range clinical equipment. By choosing a 5-year tenure, you balance manageable monthly EMIs with reasonable total interest expenses.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for 20 Lakhs at 10.5% for 5 years?", answer: "The EMI will be approximately ₹42,987 per month." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50-lakh-doctor-loan",
+    type: "scenarios",
+    title: "₹50 Lakh Doctor Loan EMI Calculator",
+    h1: "EMI Calculator for ₹50 Lakh Doctor Loan",
+    description: "Calculate the EMI for a ₹50 Lakh doctor loan. Perfect for major clinic expansions or premium equipment purchases.",
+    intro: "Planning a major clinic expansion? A ₹50 Lakh loan requires careful financial planning. Calculate your exact EMI here.",
+    date: "2026-10-19",
+    amount: 5000000,
+    interestRate: 10.25,
+    tenure: 7,
+    content: `
+      <h2>Managing a ₹50 Lakh Debt</h2>
+      <p>With larger amounts like ₹50 Lakhs, even a small difference in the interest rate can significantly impact your total cost. Use our calculator to explore how early prepayments can save you lakhs of rupees in interest.</p>
+    `,
+    faqs: [
+      { question: "Should I choose a 5-year or 7-year tenure for 50 Lakhs?", answer: "A 7-year tenure lowers the monthly EMI, aiding cash flow, but increases the total interest paid. Choose based on your expected monthly clinic revenue." }
+    ]
+  },
+  {
+    slug: "emi-calculator-1-crore-doctor-loan",
+    type: "scenarios",
+    title: "₹1 Crore Doctor Loan EMI Calculator",
+    h1: "EMI Calculator for ₹1 Crore Doctor Loan",
+    description: "Plan your hospital setup with our ₹1 Crore Doctor Loan EMI Calculator. View comprehensive repayment schedules.",
+    intro: "Setting up a nursing home or purchasing heavy medical machinery? A ₹1 Crore loan is a massive commitment. Calculate your exact monthly outgoings.",
+    date: "2026-10-19",
+    amount: 10000000,
+    interestRate: 9.8,
+    tenure: 10,
+    content: `
+      <h2>Strategies for High-Value Doctor Loans</h2>
+      <p>Loans of ₹1 Crore or more are often secured against commercial property or the equipment itself. They come with longer tenures (up to 10-15 years) and highly competitive rates. Strict EMI planning ensures the debt remains a tool for growth, rather than a burden.</p>
+    `,
+    faqs: [
+      { question: "What is the EMI for a 1 Crore doctor loan for 10 years at 9.8%?", answer: "The monthly EMI would be approximately ₹1,30,819." }
+    ]
+  },
+  {
+    slug: "doctor-loan-5-years-vs-10-years",
+    type: "tenure-comparison",
+    title: "Doctor Loan: 5 Years vs 10 Years Tenure Comparison",
+    h1: "Doctor Loan Tenure: 5 Years vs 10 Years",
+    description: "Compare a 5-year vs 10-year doctor loan tenure. See how tenure affects your monthly EMI and total interest cost.",
+    intro: "Choosing the right tenure for your doctor loan is critical. Compare the EMI and total interest for 5-year and 10-year loans to make an informed decision.",
+    date: "2026-10-19",
+    amount: 4000000,
+    interestRate: 10.5,
+    tenure: 5,
+    content: `
+      <h2>Balancing Cash Flow and Interest Costs</h2>
+      <p>A 5-year tenure requires higher monthly payments but minimizes your total interest outflow, meaning you own your equipment free and clear much sooner. A 10-year tenure, often used for larger setup loans, significantly lowers the monthly EMI, providing breathing room for your practice's cash flow in the early years.</p>
+
+      <h2>Which One Should You Choose?</h2>
+      <p>If you are purchasing equipment that generates immediate revenue, a shorter tenure is advisable. If you are funding a new practice where revenue will take time to stabilize, a longer tenure provides safety.</p>
+    `,
+    faqs: [
+      { question: "Can I change my loan tenure later?", answer: "Yes, many banks allow you to restructure your loan or make significant partial prepayments that effectively reduce your remaining tenure." }
+    ]
+  }
 ];
 
 

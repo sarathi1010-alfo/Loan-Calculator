@@ -3036,4 +3036,55 @@ test.describe('Technical Verification', () => {
     expect(response?.status()).toBe(200);
   });
 
+
+
+  test('Doctor Loan EMI Guide 2026 Tier 1 URL should return 200 OK and have Article schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/doctor-loan-emi-guide-2026`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.locator('script[type="application/ld+json"]').nth(1).textContent();
+    expect(schema).toContain('Article');
+  });
+
+  test('SBI Doctor Loan Calculator Tier 2 URL should return 200 OK and have FAQ schema', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/sbi-doctor-loan-calculator`);
+    expect(response?.status()).toBe(200);
+    const schema = await page.locator('script[type="application/ld+json"]').nth(1).textContent();
+    expect(schema).toContain('FAQPage');
+  });
+
+  test('HDFC Doctor Loan Calculator Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/hdfc-doctor-loan-calculator`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('ICICI Doctor Loan Calculator Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/icici-doctor-loan-calculator`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Axis Doctor Loan Calculator Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/loan-types/axis-doctor-loan-calculator`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('20 Lakh Doctor Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-20-lakh-doctor-loan`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('50 Lakh Doctor Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-lakh-doctor-loan`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('1 Crore Doctor Loan Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-1-crore-doctor-loan`);
+    expect(response?.status()).toBe(200);
+  });
+
+  test('Doctor Loan 5 Years vs 10 Years Tier 2 URL should return 200 OK', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/tenure-comparison/doctor-loan-5-years-vs-10-years`);
+    expect(response?.status()).toBe(200);
+  });
+
 });

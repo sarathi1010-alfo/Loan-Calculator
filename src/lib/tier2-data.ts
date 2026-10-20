@@ -8332,6 +8332,134 @@ export const TIER2_PAGES: Tier2Page[] = [
     faqs: [
       { question: "Can I change my loan tenure later?", answer: "Yes, many banks allow you to restructure your loan or make significant partial prepayments that effectively reduce your remaining tenure." }
     ]
+  },
+{
+    slug: "sbi-tractor-loan-calculator",
+    type: "loan-types",
+    title: "SBI Tractor Loan EMI Calculator 2026",
+    h1: "SBI Tractor Loan EMI Calculator 2026",
+    description: "Calculate your SBI tractor loan EMI. Use our 2026 calculator to plan your farm equipment financing.",
+    intro: "Use our EMI calculator to precisely plan your SBI tractor loan repayment.",
+    amount: 500000,
+    interestRate: 10.5,
+    tenure: 60,
+    date: "2026-10-20",
+    faqs: [
+      { question: "What is the SBI tractor loan interest rate?", answer: "Rates typically start around 10.5% p.a., subject to credit profile." },
+      { question: "Can I prepay my SBI tractor loan?", answer: "Yes, prepayment is usually allowed, though charges may apply." }
+    ]
+  },
+  {
+    slug: "mahindra-finance-tractor-loan-calculator",
+    type: "loan-types",
+    title: "Mahindra Finance Tractor Loan EMI Calculator",
+    h1: "Mahindra Finance Tractor Loan EMI Calculator",
+    description: "Calculate your Mahindra Finance tractor loan EMI. Plan your agricultural investments.",
+    intro: "Determine your monthly obligations for a Mahindra Finance tractor loan.",
+    amount: 600000,
+    interestRate: 11.0,
+    tenure: 60,
+    date: "2026-10-20",
+    faqs: [
+      { question: "What is the Mahindra Finance tractor loan interest rate?", answer: "Interest rates generally begin around 11.0% p.a." },
+      { question: "Are there processing fees?", answer: "Yes, processing fees typically apply as per lender terms." }
+    ]
+  },
+  {
+    slug: "hdfc-tractor-loan-calculator",
+    type: "loan-types",
+    title: "HDFC Tractor Loan EMI Calculator 2026",
+    h1: "HDFC Tractor Loan EMI Calculator 2026",
+    description: "Calculate your HDFC tractor loan EMI. Flexible repayment options for farmers.",
+    intro: "Plan your HDFC tractor loan EMI with our calculator.",
+    amount: 700000,
+    interestRate: 10.75,
+    tenure: 48,
+    date: "2026-10-20",
+    faqs: [
+      { question: "What is the HDFC tractor loan interest rate?", answer: "Rates start at approximately 10.75% p.a." },
+      { question: "What is the maximum loan tenure?", answer: "Tenures typically go up to 5-7 years." }
+    ]
+  },
+  {
+    slug: "axis-tractor-loan-calculator",
+    type: "loan-types",
+    title: "Axis Bank Tractor Loan EMI Calculator",
+    h1: "Axis Bank Tractor Loan EMI Calculator",
+    description: "Calculate your Axis Bank tractor loan EMI. Easy farm equipment financing.",
+    intro: "Estimate your Axis Bank tractor loan repayment schedules.",
+    amount: 550000,
+    interestRate: 11.25,
+    tenure: 60,
+    date: "2026-10-20",
+    faqs: [
+      { question: "What is the Axis Bank tractor loan interest rate?", answer: "Rates usually start around 11.25% p.a." },
+      { question: "Do I need collateral?", answer: "The tractor is typically hypothecated as collateral." }
+    ]
+  },
+  {
+    slug: "emi-calculator-5-lakh-tractor-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹5 Lakh Tractor Loan",
+    h1: "₹5 Lakh Tractor Loan EMI Calculator",
+    description: "Calculate the EMI for a ₹5 Lakh tractor loan. View amortization schedules and interest breakdown.",
+    intro: "Planning a ₹5 Lakh tractor loan? Use our calculator to understand your monthly payments.",
+    amount: 500000,
+    interestRate: 11.0,
+    tenure: 60,
+    date: "2026-10-20",
+    faqs: [
+      { question: "What is the EMI for a 5 Lakh tractor loan?", answer: "At 11% for 5 years, the EMI is approximately ₹10,871." },
+      { question: "How much total interest will I pay?", answer: "Total interest is around ₹1,52,273 over 5 years." }
+    ]
+  },
+  {
+    slug: "emi-calculator-8-lakh-tractor-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹8 Lakh Tractor Loan",
+    h1: "₹8 Lakh Tractor Loan EMI Calculator",
+    description: "Calculate the EMI for an ₹8 Lakh tractor loan. Get detailed repayment schedules.",
+    intro: "Evaluate your ₹8 Lakh tractor loan options with our precise EMI calculator.",
+    amount: 800000,
+    interestRate: 11.0,
+    tenure: 60,
+    date: "2026-10-20",
+    faqs: [
+      { question: "What is the EMI for an 8 Lakh tractor loan?", answer: "At 11% for 5 years, the EMI is roughly ₹17,394." },
+      { question: "Is an 8 Lakh tractor loan easy to get?", answer: "Yes, with good credit and adequate landholding/income proof." }
+    ]
+  },
+  {
+    slug: "emi-calculator-10-lakh-tractor-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹10 Lakh Tractor Loan",
+    h1: "₹10 Lakh Tractor Loan EMI Calculator",
+    description: "Calculate the EMI for a ₹10 Lakh tractor loan. Compare rates and tenures.",
+    intro: "Use our calculator to plan your ₹10 Lakh tractor loan repayments.",
+    amount: 1000000,
+    interestRate: 11.0,
+    tenure: 60,
+    date: "2026-10-20",
+    faqs: [
+      { question: "What is the EMI for a 10 Lakh tractor loan?", answer: "At 11% for 5 years, the EMI is approximately ₹21,742." },
+      { question: "Can I prepay a 10 Lakh tractor loan?", answer: "Most lenders allow prepayment, often with a nominal fee." }
+    ]
+  },
+  {
+    slug: "tractor-loan-3-years-vs-5-years",
+    type: "tenure-comparison",
+    title: "Tractor Loan: 3 Years vs 5 Years Comparison",
+    h1: "Tractor Loan Tenure: 3 Years vs 5 Years",
+    description: "Compare EMIs and total interest for a tractor loan over 3 years vs 5 years.",
+    intro: "Deciding between a 3-year and a 5-year tractor loan? Compare the numbers here.",
+    amount: 600000,
+    interestRate: 11.0,
+    tenure: 36,
+    date: "2026-10-20",
+    faqs: [
+      { question: "Is a 3-year or 5-year tenure better for a tractor loan?", answer: "A 3-year loan saves interest, but a 5-year loan has lower monthly EMIs." },
+      { question: "How much more interest do I pay for a 5-year loan?", answer: "Use our calculator to see the exact difference based on your loan amount." }
+    ]
   }
 ];
 

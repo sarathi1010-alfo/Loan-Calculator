@@ -583,7 +583,21 @@ async function pingSearchEngines() {
   `${SITE_URL}/scenarios/emi-calculator-20-lakh-doctor-loan`,
   `${SITE_URL}/scenarios/emi-calculator-50-lakh-doctor-loan`,
   `${SITE_URL}/scenarios/emi-calculator-1-crore-doctor-loan`,
-  `${SITE_URL}/tenure-comparison/doctor-loan-5-years-vs-10-years`
+  `${SITE_URL}/tenure-comparison/doctor-loan-5-years-vs-10-years`,
+
+  // New Tier 1 Tractor
+  `${SITE_URL}/blog/tractor-loan-emi-guide-2026`,
+
+  // New Tier 2 Tractor
+  `${SITE_URL}/loan-types/sbi-tractor-loan-calculator`,
+  `${SITE_URL}/loan-types/mahindra-finance-tractor-loan-calculator`,
+  `${SITE_URL}/loan-types/hdfc-tractor-loan-calculator`,
+  `${SITE_URL}/loan-types/axis-tractor-loan-calculator`,
+  `${SITE_URL}/scenarios/emi-calculator-5-lakh-tractor-loan`,
+  `${SITE_URL}/scenarios/emi-calculator-8-lakh-tractor-loan`,
+  `${SITE_URL}/scenarios/emi-calculator-10-lakh-tractor-loan`,
+  `${SITE_URL}/tenure-comparison/tractor-loan-3-years-vs-5-years`
+
 ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

@@ -3127,5 +3127,45 @@ test.describe('Technical Verification', () => {
     }
   });
 
+  test('New Tier 1 Article returns 200 OK and has valid Schema for Solar Panel Loans', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/solar-panel-loan-emi-guide-2026`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toContainText('Solar Panel Loan EMI Planning Guide 2026');
+
+    const articleSchema = await page.evaluate(() => {
+      const scripts = document.querySelectorAll('script[type="application/ld+json"]');
+      return scripts.length > 1 ? JSON.parse(scripts[1].textContent!) : null;
+    });
+    expect(articleSchema).not.toBeNull();
+    expect(articleSchema['@type']).toBe('Article');
+  });
+
+  test('New Tier 2 Programmatic URLs return 200 OK and have FAQ Schema for Solar Panel Loans', async ({ page }) => {
+    const newSlugs = [
+      '/loan-types/sbi-solar-panel-loan-calculator',
+      '/loan-types/hdfc-solar-panel-loan-calculator',
+      '/loan-types/icici-solar-panel-loan-calculator',
+      '/loan-types/axis-solar-panel-loan-calculator',
+      '/scenarios/emi-calculator-2-lakh-solar-loan',
+      '/scenarios/emi-calculator-5-lakh-solar-loan',
+      '/scenarios/emi-calculator-10-lakh-solar-loan',
+      '/tenure-comparison/solar-loan-3-years-vs-5-years'
+    ];
+
+    for (const slug of newSlugs) {
+      const response = await page.goto(`${baseUrl}${slug}`);
+      expect(response?.status()).toBe(200);
+      await expect(page.locator('h1')).toBeVisible();
+
+      const faqSchema = await page.evaluate(() => {
+        const scripts = document.querySelectorAll('script[type="application/ld+json"]');
+        return scripts.length > 1 ? JSON.parse(scripts[1].textContent!) : null;
+      });
+      expect(faqSchema).not.toBeNull();
+      expect(faqSchema['@type']).toBe('FAQPage');
+    }
+  });
+
+
 
 });

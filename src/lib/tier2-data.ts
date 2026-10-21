@@ -8460,8 +8460,139 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Is a 3-year or 5-year tenure better for a tractor loan?", answer: "A 3-year loan saves interest, but a 5-year loan has lower monthly EMIs." },
       { question: "How much more interest do I pay for a 5-year loan?", answer: "Use our calculator to see the exact difference based on your loan amount." }
     ]
+  },
+  {
+    slug: "sbi-solar-panel-loan-calculator",
+    type: "loan-types",
+    title: "SBI Solar Panel Loan EMI Calculator 2026",
+    h1: "SBI Solar Panel Loan EMI Calculator",
+    description: "Calculate your EMI for an SBI rooftop solar loan. Check the latest interest rates and plan your green energy transition.",
+    intro: "State Bank of India offers specialized 'Surya Shakti' loans for residential solar installations. Use our calculator to determine your monthly EMIs based on SBI's competitive green energy rates.",
+    amount: 300000,
+    interestRate: 8.5,
+    tenure: 60,
+    date: "2026-10-21",
+    faqs: [
+      { question: "What is the interest rate for SBI solar panel loans?", answer: "SBI offers competitive rates for solar loans, often starting around 8.5%, though this can vary based on your profile." },
+      { question: "Does SBI finance the full cost of the solar installation?", answer: "SBI typically finances up to 80-90% of the project cost, meaning you will need to provide a 10-20% margin money or down payment." },
+      { question: "Can I get the PM Surya Ghar subsidy with an SBI loan?", answer: "Yes, you can apply for the government subsidy and still finance the remaining amount through an SBI solar loan." }
+    ]
+  },
+  {
+    slug: "hdfc-solar-panel-loan-calculator",
+    type: "loan-types",
+    title: "HDFC Solar Panel Loan EMI Calculator 2026",
+    h1: "HDFC Solar Panel Loan EMI Calculator",
+    description: "Estimate your monthly EMI for an HDFC solar panel loan. Compare tenure options and calculate total interest.",
+    intro: "HDFC Bank provides tailored financing solutions for residential solar rooftops. Calculate your EMI to see how quickly your electricity savings will offset your loan payments.",
+    amount: 500000,
+    interestRate: 9.0,
+    tenure: 60,
+    date: "2026-10-21",
+    faqs: [
+      { question: "What is the maximum loan amount for HDFC solar loans?", answer: "HDFC can provide loans covering the majority of residential solar installations, often up to ₹10 Lakhs or more depending on eligibility." },
+      { question: "Are there prepayment charges on HDFC solar loans?", answer: "Prepayment charges depend on the specific loan terms. Unsecured loans may have penalties, while loans tied to home equity might not." },
+      { question: "How fast is the HDFC solar loan disbursement?", answer: "HDFC is known for quick processing, often disbursing funds directly to the empanelled vendor within a few days of approval." }
+    ]
+  },
+  {
+    slug: "icici-solar-panel-loan-calculator",
+    type: "loan-types",
+    title: "ICICI Solar Panel Loan EMI Calculator 2026",
+    h1: "ICICI Solar Panel Loan EMI Calculator",
+    description: "Calculate your EMI and total interest for an ICICI Bank solar panel loan. Plan your green energy investment.",
+    intro: "Going green with ICICI Bank? Use this calculator to estimate your EMI for rooftop solar installations and plan your monthly budget.",
+    amount: 400000,
+    interestRate: 8.75,
+    tenure: 60,
+    date: "2026-10-21",
+    faqs: [
+      { question: "Does ICICI offer loans for commercial solar panels?", answer: "Yes, ICICI provides specialized financing for both residential rooftop and commercial solar installations." },
+      { question: "What tenure is best for an ICICI solar loan?", answer: "A 5-year tenure is common, balancing manageable monthly EMIs with a reasonable total interest payout." }
+    ]
+  },
+  {
+    slug: "axis-solar-panel-loan-calculator",
+    type: "loan-types",
+    title: "Axis Bank Solar Panel Loan EMI Calculator 2026",
+    h1: "Axis Bank Solar Panel Loan EMI Calculator",
+    description: "Estimate your EMI for an Axis Bank solar loan. Determine your break-even point against electricity savings.",
+    intro: "Calculate your monthly EMI for financing a solar power system through Axis Bank. Ensure your loan payments align with your expected power bill savings.",
+    amount: 250000,
+    interestRate: 9.25,
+    tenure: 60,
+    date: "2026-10-21",
+    faqs: [
+      { question: "Can existing Axis Bank customers get better rates on solar loans?", answer: "Yes, existing customers with a good relationship or a salary account may receive preferential interest rates." },
+      { question: "Is collateral required for an Axis Bank solar loan?", answer: "For smaller residential systems, loans are often unsecured or secured only by the solar equipment itself." }
+    ]
+  },
+  {
+    slug: "emi-calculator-2-lakh-solar-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹2 Lakh Solar Loan",
+    h1: "₹2 Lakh Solar Loan EMI Calculator",
+    description: "Calculate your EMI for a ₹2 Lakh solar panel loan. View the full amortization schedule and plan your energy savings.",
+    intro: "A ₹2 Lakh loan is typical for smaller 2kW to 3kW residential solar setups after subsidies. Calculate your EMI and see how fast you'll reach your break-even point.",
+    amount: 200000,
+    interestRate: 9.0,
+    tenure: 60,
+    date: "2026-10-21",
+    faqs: [
+      { question: "What is the EMI for a 2 Lakh solar loan over 5 years?", answer: "At a 9% interest rate, the monthly EMI would be approximately ₹4,152." },
+      { question: "Will a 2 Lakh solar setup eliminate my electricity bill?", answer: "It depends on your consumption, but a 2-3kW system can significantly offset the electricity usage of an average household." }
+    ]
+  },
+  {
+    slug: "emi-calculator-5-lakh-solar-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹5 Lakh Solar Loan",
+    h1: "₹5 Lakh Solar Loan EMI Calculator",
+    description: "Find out the EMI and total interest on a ₹5 Lakh solar panel loan. Ideal for larger homes and premium installations.",
+    intro: "Financing a premium or high-capacity residential solar setup? Calculate your monthly EMI and total interest outgo for a ₹5 Lakh loan.",
+    amount: 500000,
+    interestRate: 8.5,
+    tenure: 60,
+    date: "2026-10-21",
+    faqs: [
+      { question: "What is the EMI for a 5 Lakh solar loan for 5 years?", answer: "Assuming an 8.5% interest rate, the EMI is roughly ₹10,258 per month." },
+      { question: "Is a 5 Lakh solar loan eligible for government subsidies?", answer: "Yes, but subsidies are usually capped based on system capacity, so you may only receive a subsidy on a portion of the total cost." }
+    ]
+  },
+  {
+    slug: "emi-calculator-10-lakh-solar-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹10 Lakh Solar Loan",
+    h1: "₹10 Lakh Solar Loan EMI Calculator",
+    description: "Calculate the EMI for a ₹10 Lakh solar loan. Perfect for commercial setups or large residential estates with battery backups.",
+    intro: "For major solar installations, including hybrid systems with significant battery storage, a ₹10 Lakh loan might be necessary. Calculate your EMI here.",
+    amount: 1000000,
+    interestRate: 9.5,
+    tenure: 84,
+    date: "2026-10-21",
+    faqs: [
+      { question: "What is the EMI for a 10 Lakh solar loan over 7 years?", answer: "At a 9.5% interest rate, the EMI would be approximately ₹16,339." },
+      { question: "Can I get a 7-year tenure for a 10 Lakh solar loan?", answer: "Yes, larger loan amounts often qualify for longer tenures up to 7 or even 10 years." }
+    ]
+  },
+  {
+    slug: "solar-loan-3-years-vs-5-years",
+    type: "tenure-comparison",
+    title: "Solar Loan Tenure: 3 Years vs 5 Years Comparison",
+    h1: "Solar Loan Tenure: 3 Years vs 5 Years",
+    description: "Compare the monthly EMI and total interest paid on a solar loan over a 3-year versus a 5-year tenure.",
+    intro: "Should you pay off your solar panels quickly in 3 years, or spread the cost over 5 years to keep the EMI below your electricity savings? Compare the scenarios here.",
+    amount: 300000,
+    interestRate: 8.5,
+    tenure: 36,
+    date: "2026-10-21",
+    faqs: [
+      { question: "Why choose a 5-year tenure for a solar loan?", answer: "A 5-year tenure lowers the monthly EMI, often making it equal to or less than your monthly electricity bill savings, creating an immediate positive cash flow." },
+      { question: "How much interest do I save with a 3-year solar loan?", answer: "While the EMI is higher, you pay significantly less total interest. Use our calculator to see the exact numerical difference for your loan amount." }
+    ]
   }
 ];
+
 
 
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {

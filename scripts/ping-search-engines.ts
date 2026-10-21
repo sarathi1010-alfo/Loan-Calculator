@@ -596,7 +596,21 @@ async function pingSearchEngines() {
   `${SITE_URL}/scenarios/emi-calculator-5-lakh-tractor-loan`,
   `${SITE_URL}/scenarios/emi-calculator-8-lakh-tractor-loan`,
   `${SITE_URL}/scenarios/emi-calculator-10-lakh-tractor-loan`,
-  `${SITE_URL}/tenure-comparison/tractor-loan-3-years-vs-5-years`
+  `${SITE_URL}/tenure-comparison/tractor-loan-3-years-vs-5-years`,
+
+  // New Tier 1 Solar Panel
+  `${SITE_URL}/blog/solar-panel-loan-emi-guide-2026`,
+
+  // New Tier 2 Solar Panel
+  `${SITE_URL}/loan-types/sbi-solar-panel-loan-calculator`,
+  `${SITE_URL}/loan-types/hdfc-solar-panel-loan-calculator`,
+  `${SITE_URL}/loan-types/icici-solar-panel-loan-calculator`,
+  `${SITE_URL}/loan-types/axis-solar-panel-loan-calculator`,
+  `${SITE_URL}/scenarios/emi-calculator-2-lakh-solar-loan`,
+  `${SITE_URL}/scenarios/emi-calculator-5-lakh-solar-loan`,
+  `${SITE_URL}/scenarios/emi-calculator-10-lakh-solar-loan`,
+  `${SITE_URL}/tenure-comparison/solar-loan-3-years-vs-5-years`
+
 
 ];
 

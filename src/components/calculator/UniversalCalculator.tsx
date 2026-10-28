@@ -9,11 +9,15 @@ import { SummaryCard } from "@/components/calculator/SummaryCard";
 import { formatCurrency, formatTenure } from "@/lib/formatters";
 import { ComparisonScenario } from "@/types";
 import dynamic from "next/dynamic";
-import html2canvas from "html2canvas";
 
 const BreakdownPieChart = dynamic(
   () => import("@/components/calculator/BreakdownPieChart"),
-  { ssr: false },
+  {
+    ssr: false,
+    loading: () => (
+      <div className="h-64 w-full bg-muted/10 animate-pulse rounded-lg" />
+    ),
+  },
 );
 import {
   Card,
@@ -25,7 +29,6 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
-import { exportToPDF, exportToCSV } from "@/lib/export";
 
 export default function UniversalCalculator() {
   const [principal, setPrincipal] = useState(500000);
@@ -91,6 +94,7 @@ export default function UniversalCalculator() {
     const element = document.getElementById("summary-card");
     if (!element) return;
     try {
+      const html2canvas = (await import("html2canvas")).default;
       const canvas = await html2canvas(element, {
         scale: 2,
         backgroundColor: "#ffffff",
@@ -102,6 +106,24 @@ export default function UniversalCalculator() {
       link.click();
     } catch (e) {
       console.error("Failed to export PNG", e);
+    }
+  };
+
+  const handleExportCSV = async () => {
+    try {
+      const { exportToCSV } = await import("@/lib/export");
+      exportToCSV(result);
+    } catch (e) {
+      console.error("Failed to export CSV", e);
+    }
+  };
+
+  const handleExportPDF = async () => {
+    try {
+      const { exportToPDF } = await import("@/lib/export");
+      exportToPDF(result);
+    } catch (e) {
+      console.error("Failed to export PDF", e);
     }
   };
 
@@ -258,14 +280,14 @@ Calculated via emicalculatorpro.alfo.online`;
               <Button
                 variant="outline"
                 size="sm"
-                onClick={() => exportToCSV(result)}
+                onClick={handleExportCSV}
               >
                 <Download className="mr-2 h-4 w-4" /> CSV
               </Button>
               <Button
                 variant="outline"
                 size="sm"
-                onClick={() => exportToPDF(result)}
+                onClick={handleExportPDF}
               >
                 <Download className="mr-2 h-4 w-4" /> PDF
               </Button>

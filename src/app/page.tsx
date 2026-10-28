@@ -3,87 +3,230 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Free EMI Calculator Pro - Personal, Home & Car Loan EMI Calculator",
+  title: "EMI Calculator Pro - Free Loan EMI Calculator",
   description:
-    "Free EMI calculator for personal, home, and car loans. Calculate your monthly payments instantly and compare different loan options. 100% free, no registration required.",
+    "Calculate monthly loan EMIs instantly for home, car, and personal loans. Free EMI calculator with interest breakdowns and repayment schedules.",
   alternates: {
     canonical: "https://emicalculatorpro.alfo.online/",
+  },
+  openGraph: {
+    title: "EMI Calculator Pro - Free Loan EMI Calculator",
+    description:
+      "Calculate monthly loan EMIs instantly for home, car, and personal loans. Free EMI calculator with interest breakdowns and repayment schedules.",
+    url: "https://emicalculatorpro.alfo.online/",
+    siteName: "EMI Calculator Pro",
+    type: "website",
+    images: [
+      {
+        url: "https://emicalculatorpro.alfo.online/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Free EMI Calculator Pro Preview",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "EMI Calculator Pro - Free Loan EMI Calculator",
+    description:
+      "Calculate monthly loan EMIs instantly for home, car, and personal loans. Free EMI calculator with interest breakdowns and repayment schedules.",
+    images: ["https://emicalculatorpro.alfo.online/og-image.png"],
   },
 };
 
 export default function Home() {
-  const webAppSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    name: "EMI Calculator Pro",
-    url: "https://emicalculatorpro.alfo.online/",
-    description:
-      "Free online EMI calculator for personal, home, and car loans.",
-    applicationCategory: "FinancialApplication",
-    operatingSystem: "All",
-    browserRequirements: "Requires JavaScript",
-  };
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is an EMI?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "EMI (Equated Monthly Installment) is the fixed amount you pay to a lender each month to repay your loan, including both principal and interest.",
-        },
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      name: "EMI Calculator Pro",
+      url: "https://emicalculatorpro.alfo.online/",
+      description:
+        "Free online loan EMI calculator with instant amortization schedules and interest breakdown charts.",
+      applicationCategory: "FinancialApplication",
+      operatingSystem: "All",
+      browserRequirements: "Requires JavaScript",
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "USD",
       },
-      {
-        "@type": "Question",
-        name: "How is EMI calculated?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "EMI is calculated using the formula: P × r × (1+r)^n / ((1+r)^n - 1), where P is the principal, r is the monthly interest rate, and n is the number of monthly installments.",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is an Equated Monthly Installment (EMI)?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "An Equated Monthly Installment (EMI) is a fixed monthly payment made by a borrower to a lender, combining principal repayment and accrued interest to clear the debt over a specified tenure.",
+          },
         },
-      },
-      {
-        "@type": "Question",
-        name: "What factors affect my EMI?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Your EMI is affected by three main factors: loan amount, interest rate, and loan tenure. Higher loan amounts or interest rates increase EMI, while longer tenure reduces it.",
+        {
+          "@type": "Question",
+          name: "How is EMI calculated using the reducing balance method?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "EMI is calculated using the standard formula EMI = [P x R x (1+R)^N] / [(1+R)^N - 1], where P is principal, R is the monthly interest rate, and N is the total number of monthly installments.",
+          },
         },
-      },
-    ],
-  };
+        {
+          "@type": "Question",
+          name: "How does loan tenure affect total interest paid?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Longer loan tenures reduce your individual monthly EMI payment but substantially increase the cumulative interest paid over the life of the loan. Shorter tenures minimize total interest expense.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can I save interest by making extra loan prepayments?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, making lump-sum or recurring prepayments directly reduces the outstanding principal balance, thereby shortening the effective loan tenure and drastically cutting total interest payable.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What factors should I consider before applying for a loan?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Evaluate your monthly repayment capacity (keeping debt-to-income below 40-50%), loan processing fees, prepayment penalties, fixed versus floating interest rates, and loan tenure.",
+          },
+        },
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      name: "How to Calculate Loan EMI and Amortization Schedule",
+      description:
+        "Step-by-step guide to calculating loan EMIs, interest breakdowns, and amortization schedules online.",
+      step: [
+        {
+          "@type": "HowToStep",
+          name: "Enter Loan Principal",
+          text: "Specify the total financing amount needed for your personal, home, or car loan.",
+          position: 1,
+        },
+        {
+          "@type": "HowToStep",
+          name: "Set Annual Interest Rate",
+          text: "Enter your lender's annual percentage interest rate to compute monthly interest charges.",
+          position: 2,
+        },
+        {
+          "@type": "HowToStep",
+          name: "Choose Repayment Tenure",
+          text: "Select the loan duration in months or years to evaluate cash flow impacts.",
+          position: 3,
+        },
+        {
+          "@type": "HowToStep",
+          name: "Analyze Amortization & Export",
+          text: "Review monthly installments, interest versus principal breakdown charts, and download PDF reports.",
+          position: 4,
+        },
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://emicalculatorpro.alfo.online/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "EMI Calculator Pro",
+          item: "https://emicalculatorpro.alfo.online/#calculator",
+        },
+      ],
+    },
+  ];
 
   return (
     <div className="container mx-auto px-4 py-8 md:px-8 lg:py-12">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
 
       <div className="max-w-3xl mb-8">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
-          Free EMI Calculator - Compare Personal, Home & Car Loans
+          EMI Calculator Pro - Free Loan EMI Calculator
         </h1>
         <p className="text-xl text-muted-foreground">
-          Use our lightning-fast, highly accurate tools to visualize your
-          repayment strategies and make confident financial decisions.
+          Plan your borrowing with confidence. EMI Calculator Pro provides instantaneous, mathematically exact equated monthly installment calculations for home, car, and personal loans with full amortization schedules and interest breakdown charts.
         </p>
       </div>
 
-      <UniversalCalculator />
+      <div id="calculator">
+        <UniversalCalculator />
+      </div>
 
       <div className="mt-16 space-y-16">
         <section className="bg-primary/5 p-8 rounded-xl border border-primary/20">
-          <h2 className="text-2xl font-bold tracking-tight mb-4">Fast & Accurate EMI Calculations</h2>
+          <h2 className="text-2xl font-bold tracking-tight mb-4">
+            Fast &amp; Accurate EMI Calculations
+          </h2>
           <p className="text-lg text-foreground/80 font-medium">
             Our free EMI Calculator Pro is the best way to calculate your monthly loan installments. By inputting your principal, interest rate, and tenure, you receive a precise, reducing-balance amortized schedule showing exactly how much of your payment goes to interest versus principal, helping you make smarter borrowing decisions.
           </p>
+        </section>
+
+        {/* 4-Step How It Works Guide */}
+        <section className="p-8 rounded-xl border bg-card">
+          <h2 className="text-3xl font-bold tracking-tight mb-4">
+            How It Works: 4 Steps to Calculate Your Loan EMI
+          </h2>
+          <p className="text-muted-foreground mb-8 max-w-2xl">
+            Follow this clear 4-step process to estimate monthly installments and plan debt repayments efficiently.
+          </p>
+          <div className="grid gap-6 md:grid-cols-4">
+            <div className="p-5 rounded-lg border bg-muted/20">
+              <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground font-bold flex items-center justify-center mb-3">
+                1
+              </div>
+              <h3 className="font-semibold text-lg mb-2">Enter Principal</h3>
+              <p className="text-sm text-muted-foreground">
+                Specify the exact loan amount required for your purchase or refinancing.
+              </p>
+            </div>
+            <div className="p-5 rounded-lg border bg-muted/20">
+              <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground font-bold flex items-center justify-center mb-3">
+                2
+              </div>
+              <h3 className="font-semibold text-lg mb-2">Set Interest Rate</h3>
+              <p className="text-sm text-muted-foreground">
+                Input the lender's annual percentage rate (APR) to compute monthly interest.
+              </p>
+            </div>
+            <div className="p-5 rounded-lg border bg-muted/20">
+              <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground font-bold flex items-center justify-center mb-3">
+                3
+              </div>
+              <h3 className="font-semibold text-lg mb-2">Choose Tenure</h3>
+              <p className="text-sm text-muted-foreground">
+                Select your repayment duration in months or years to balance payment size and interest.
+              </p>
+            </div>
+            <div className="p-5 rounded-lg border bg-muted/20">
+              <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground font-bold flex items-center justify-center mb-3">
+                4
+              </div>
+              <h3 className="font-semibold text-lg mb-2">Analyze &amp; Export</h3>
+              <p className="text-sm text-muted-foreground">
+                Review payment curves, amortization schedules, and export PDF reports instantly.
+              </p>
+            </div>
+          </div>
         </section>
 
         {/* Quick Links Section */}
@@ -145,6 +288,7 @@ export default function Home() {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
+                  aria-hidden="true"
                 >
                   <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
                   <polyline points="22 4 12 14.01 9 11.01" />
@@ -171,6 +315,7 @@ export default function Home() {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
+                  aria-hidden="true"
                 >
                   <path d="M3 3v18h18" />
                   <path d="m19 9-5 5-4-4-3 3" />
@@ -197,6 +342,7 @@ export default function Home() {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
+                  aria-hidden="true"
                 >
                   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
                   <polyline points="7 10 12 15 17 10" />
@@ -214,11 +360,60 @@ export default function Home() {
           </div>
         </section>
 
+        {/* 5 Machine-Parseable FAQs with Schema Parity */}
+        <section className="border-t pt-16">
+          <h2 className="text-3xl font-bold tracking-tight mb-8">
+            Frequently Asked Questions (FAQ)
+          </h2>
+          <div className="space-y-6 max-w-4xl">
+            <div className="p-6 border rounded-xl bg-card">
+              <h3 className="text-xl font-semibold mb-2">
+                What is an Equated Monthly Installment (EMI)?
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                An Equated Monthly Installment (EMI) is a fixed monthly payment made by a borrower to a lender, combining principal repayment and accrued interest to clear the debt over a specified tenure.
+              </p>
+            </div>
+            <div className="p-6 border rounded-xl bg-card">
+              <h3 className="text-xl font-semibold mb-2">
+                How is EMI calculated using the reducing balance method?
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                EMI is calculated using the standard formula EMI = [P x R x (1+R)^N] / [(1+R)^N - 1], where P is principal, R is the monthly interest rate, and N is the total number of monthly installments.
+              </p>
+            </div>
+            <div className="p-6 border rounded-xl bg-card">
+              <h3 className="text-xl font-semibold mb-2">
+                How does loan tenure affect total interest paid?
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Longer loan tenures reduce your individual monthly EMI payment but substantially increase the cumulative interest paid over the life of the loan. Shorter tenures minimize total interest expense.
+              </p>
+            </div>
+            <div className="p-6 border rounded-xl bg-card">
+              <h3 className="text-xl font-semibold mb-2">
+                Can I save interest by making extra loan prepayments?
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Yes, making lump-sum or recurring prepayments directly reduces the outstanding principal balance, thereby shortening the effective loan tenure and drastically cutting total interest payable.
+              </p>
+            </div>
+            <div className="p-6 border rounded-xl bg-card">
+              <h3 className="text-xl font-semibold mb-2">
+                What factors should I consider before applying for a loan?
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Evaluate your monthly repayment capacity (keeping debt-to-income below 40-50%), loan processing fees, prepayment penalties, fixed versus floating interest rates, and loan tenure.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <section className="border-t pt-16">
           <div className="flex flex-col md:flex-row gap-12">
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold tracking-tight mb-6">
-                What is an EMI?
+                Understanding Loan Mathematics
               </h2>
               <div className="prose prose-slate dark:prose-invert text-muted-foreground">
                 <p>
@@ -229,84 +424,11 @@ export default function Home() {
                   number of years, the loan is paid off in full. If you are financing a vehicle, you can see how this applies specifically in our <Link href="/blog/two-wheeler-loan-emi-guide-2026" className="text-primary hover:underline">Two-Wheeler Loan EMI Planning Guide 2026</Link>.
                 </p>
                 <p>
-                  In the most common types of loans, such as real estate mortgages,
-                  auto loans, and student loans, the borrower makes fixed periodic
-                  payments to the lender over several years to retire the loan,
-                  which uses the standard reducing-balance formula. For a comprehensive walkthrough
-                  of the exact mathematical inputs and outputs, plus tips to save on interest,
-                  check out our dedicated <span><Link href="/blog/how-to-calculate-emi-loan" className="text-primary hover:underline">How to Calculate EMI for a Loan</Link></span> deep-dive guide.
-                </p>
-                <p>
                   The formula used by banks to calculate your EMI is: <br />
                   <code className="bg-muted p-2 rounded font-mono text-sm mt-2 block text-foreground">
                     EMI = [P x R x (1+R)^N] / [(1+R)^N-1]
                   </code>
                 </p>
-
-                <h3 className="text-xl font-bold text-foreground mt-8 mb-4">
-                  How to Use the EMI Calculator
-                </h3>
-                <ol className="list-decimal pl-5 space-y-2">
-                  <li>
-                    <strong>Enter Principal:</strong> Input the total amount you
-                    wish to borrow.
-                  </li>
-                  <li>
-                    <strong>Set Interest Rate:</strong> Enter the annual
-                    interest rate offered by the bank.
-                  </li>
-                  <li>
-                    <strong>Choose Tenure:</strong> Select the loan duration in
-                    months or years.
-                  </li>
-                  <li>
-                    <strong>Analyze:</strong> Review the monthly EMI, total
-                    interest payable, and the amortization schedule generated
-                    instantly.
-                  </li>
-                </ol>
-
-                <h3 className="text-xl font-bold text-foreground mt-8 mb-4">
-                  Different Types of EMIs Explained
-                </h3>
-                <ul className="list-disc pl-5 space-y-2">
-                  <li>
-                    <strong>Home Loan EMIs:</strong> Typically the longest
-                    tenure (up to 30 years) with the lowest interest rates.
-                  </li>
-                  <li>
-                    <strong>Personal Loan EMIs:</strong> Unsecured loans with
-                    shorter tenures (1-5 years) and higher interest rates. See our <Link href="/blog/medical-loan-emi-guide-2026" className="text-primary hover:underline">Medical Loan EMI Guide</Link> for an example.
-                  </li>
-                  <li>
-                    <strong>Car Loan EMIs:</strong> Secured against the vehicle,
-                    usually spanning 3-7 years.
-                  </li>
-                </ul>
-
-                <h3 className="text-xl font-bold text-foreground mt-8 mb-4">
-                  Common <span><Link href="/blog/how-to-calculate-emi-loan" className="hover:underline">EMI Mistakes</Link></span> to Avoid
-                </h3>
-                <ul className="list-disc pl-5 space-y-2">
-                  <li>
-                    <strong>Choosing the longest tenure:</strong> While it
-                    lowers the monthly EMI, you end up paying significantly more
-                    total interest.
-                  </li>
-                  <li>
-                    <strong>Ignoring the processing fees:</strong> Banks often
-                    charge processing fees that add to the cost of borrowing. Also, beware of "flat rate" traps, as highlighted in our <Link href="/blog/two-wheeler-loan-emi-guide-2026" className="text-primary hover:underline">Two-Wheeler Loan Guide</Link>.
-                  </li>
-                  <li>
-                    <strong>Not considering prepayments:</strong> Failing to
-                    plan for prepayments can cost you thousands in potential
-                    interest savings.
-                  </li>
-                  <li>
-                    <strong>Over-borrowing:</strong> Your total EMI commitments
-                    should ideally not exceed 40-50% of your net monthly income.
-                  </li>
-                </ul>
               </div>
             </div>
 

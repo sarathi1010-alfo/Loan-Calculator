@@ -24,7 +24,7 @@ export default function LendersHubPage() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <Link href="#" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors opacity-70">
             <h3 className="font-bold text-lg mb-2">SBI Home Loan EMI Guide</h3>
-            <p className="text-sm text-muted-foreground">Detailed overview of State Bank of India's home loan offerings.</p>
+            <p className="text-sm text-muted-foreground">Detailed overview of State Bank of India&#39;s home loan offerings.</p>
           </Link>
           <Link href="#" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors opacity-70">
             <h3 className="font-bold text-lg mb-2">HDFC Home Loan EMI Guide</h3>

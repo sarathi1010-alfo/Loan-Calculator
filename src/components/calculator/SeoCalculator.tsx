@@ -22,6 +22,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 import { exportToPDF, exportToCSV } from "@/lib/export";
+import { trackEvent } from "@/lib/gtag";
 
 interface SeoCalculatorProps {
   initialPrincipal: number;
@@ -49,6 +50,7 @@ export function SeoCalculator({
     setPrincipal(p);
     setInterest(i);
     setTenure(t);
+    trackEvent('calculate_emi', { principal: p, interest: i, tenure: t });
   };
 
   return (
@@ -110,14 +112,20 @@ export function SeoCalculator({
               <Button
                 variant="outline"
                 size="sm"
-                onClick={() => exportToCSV(result)}
+                onClick={() => {
+                  trackEvent('export_amortization', { format: 'csv' });
+                  exportToCSV(result);
+                }}
               >
                 <Download className="mr-2 h-4 w-4" /> CSV
               </Button>
               <Button
                 variant="outline"
                 size="sm"
-                onClick={() => exportToPDF(result)}
+                onClick={() => {
+                  trackEvent('export_amortization', { format: 'pdf' });
+                  exportToPDF(result);
+                }}
               >
                 <Download className="mr-2 h-4 w-4" /> PDF
               </Button>

@@ -29,6 +29,7 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
+import { trackEvent } from "@/lib/gtag";
 
 export default function UniversalCalculator() {
   const [principal, setPrincipal] = useState(500000);
@@ -91,6 +92,7 @@ export default function UniversalCalculator() {
   };
 
   const handleExportPNG = async () => {
+    trackEvent('export_amortization', { format: 'png' });
     const element = document.getElementById("summary-card");
     if (!element) return;
     try {
@@ -110,6 +112,7 @@ export default function UniversalCalculator() {
   };
 
   const handleExportCSV = async () => {
+    trackEvent('export_amortization', { format: 'csv' });
     try {
       const { exportToCSV } = await import("@/lib/export");
       exportToCSV(result);
@@ -119,6 +122,7 @@ export default function UniversalCalculator() {
   };
 
   const handleExportPDF = async () => {
+    trackEvent('export_amortization', { format: 'pdf' });
     try {
       const { exportToPDF } = await import("@/lib/export");
       exportToPDF(result);
@@ -184,6 +188,7 @@ Calculated via emicalculatorpro.alfo.online`;
     setPrepaymentAmount(pAmt);
     setPrepaymentType(pType);
     setPrepaymentMonth(pMonth);
+    trackEvent('calculate_emi', { principal: p, interest: i, tenure: t });
   };
 
   return (

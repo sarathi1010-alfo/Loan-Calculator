@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { Navbar } from "@/components/Navbar";
@@ -69,6 +70,20 @@ export default function RootLayout({
             __html: JSON.stringify(organizationSchema),
           }}
         />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-HZQ3QT11QC"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HZQ3QT11QC', {
+              cookie_domain: 'auto'
+            });
+          `}
+        </Script>
       </head>
       <body
         className={`${inter.className} min-h-screen flex flex-col bg-background antialiased`}

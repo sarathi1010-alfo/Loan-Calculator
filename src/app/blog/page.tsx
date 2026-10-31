@@ -12,43 +12,43 @@ export default function BlogHubPage() {
   return (
     <main className="container mx-auto px-4 py-8 md:px-8 lg:py-12">
       <header className="max-w-4xl mb-12 blog-intro-section" data-test="blog-header">
-        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-6 text-primary">
+        <h1 className="font-bold text-4xl tracking-tight sm:text-5xl mb-6 text-primary">
           EMI Calculator Pro Blog &#8211; Expert Guides on Loans &#38; Financial Planning
         </h1>
         <section className="prose-lg text-muted-foreground">
-          <p className="leading-relaxed mb-4">
+          <p className="mb-4 leading-relaxed">
             Welcome to the EMI Calculator Pro Blog, your ultimate destination for mastering loans &#38; personal finance. Whether you&#39;re planning to buy a new home, finance a car, or looking to restructure your existing debts, navigating the complex world of interest rates and tenures can be daunting. Our mission is to demystify financial jargon and equip you with actionable, expert-backed strategies that you can apply immediately to your financial life. We believe that an informed borrower is an empowered borrower, capable of saving thousands over the lifetime of a loan!
           </p>
           <p className="leading-relaxed">
-            Here, you&#39;ll find comprehensive guides that break down how Equated Monthly Installments (EMIs) work, deep dives into smart borrowing, and objective comparisons of top lenders. By understanding the mathematics of your loans and utilizing our <Link href="/" className="text-primary hover:underline font-medium"><strong><em>cutting-edge calculation tools</em></strong></Link>, you can avoid common pitfalls, save thousands in interest, and take full control of your financial future. Explore our expertly curated categories below to start making smarter, more informed borrowing decisions today and build a secure foundation for your financial goals.
+            Here, you&#39;ll find comprehensive guides that break down how Equated Monthly Installments (EMIs) work, deep dives into smart borrowing, and objective comparisons of top lenders. By understanding the mathematics of your loans and utilizing our <Link href="/" className="text-primary hover:underline font-medium font-bold italic">cutting-edge calculation tools</Link>, you can avoid common pitfalls, save thousands in interest, and take full control of your financial future. Explore our expertly curated categories below to start making smarter, more informed borrowing decisions today and build a secure foundation for your financial goals.
           </p>
         </section>
       </header>
 
       <section className="mb-16 week-1-guides" data-test="week-1-guides">
-        <h2 className="text-2xl font-bold mb-6 border-b pb-2">Featured Week 1 Guides</h2>
+        <h2 className="font-bold text-2xl mb-6 border-b pb-2">Featured Week 1 Guides</h2>
         <nav className="grid gap-4 md:grid-cols-3 mb-8">
-          <Link href="/blog/the-ultimate-guide-to-emi-calculations-in-2026" className="block p-6 bg-primary/5 rounded-lg border border-primary/20 hover:border-primary/50 transition-colors">
-            <h3 className="font-bold text-lg mb-2 text-primary">The Ultimate Guide to EMI Calculations in 2026</h3>
+          <Link href="/blog/the-ultimate-guide-to-emi-calculations-in-2026" className="block p-6 bg-primary/5 border rounded-lg border-primary/20 hover:border-primary/50 transition-colors">
+            <h3 className="text-lg font-bold mb-2 text-primary">The Ultimate Guide to EMI Calculations in 2026</h3>
             <p className="text-sm text-muted-foreground">Master the math behind your loans and optimize your borrowing strategy.</p>
           </Link>
-          <Link href="/loan-types/home-loan-emi-guide" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors">
-            <h3 className="font-bold text-lg mb-2">Home Loan EMI Guide</h3>
+          <Link href="/loan-types/home-loan-emi-guide" className="block p-6 bg-card border rounded-lg hover:border-primary/50 transition-colors">
+            <h3 className="text-lg font-bold mb-2">Home Loan EMI Guide</h3>
             <p className="text-sm text-muted-foreground">Everything you need to know about planning and paying off your mortgage.</p>
           </Link>
-          <Link href="/loan-types/personal-loan-emi-guide" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors">
-            <h3 className="font-bold text-lg mb-2">Personal Loan EMI Guide</h3>
+          <Link href="/loan-types/personal-loan-emi-guide" className="block p-6 bg-card border rounded-lg hover:border-primary/50 transition-colors">
+            <h3 className="text-lg font-bold mb-2">Personal Loan EMI Guide</h3>
             <p className="text-sm text-muted-foreground">Navigate unsecured loans effectively and minimize interest burdens.</p>
           </Link>
         </nav>
       </section>
 
       <section className="mb-16 category-sections" data-test="categories">
-        <h2 className="text-2xl font-bold mb-6 border-b pb-2">Explore by Category</h2>
+        <h2 className="font-bold text-2xl mb-6 border-b pb-2">Explore by Category</h2>
         <nav className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           <article className="bg-card rounded-lg border p-6">
             <Link href="/blog/loan-types" className="group block mb-3">
-              <h3 className="font-bold text-lg group-hover:text-primary transition-colors">Loan Guides</h3>
+              <h3 className="text-lg font-bold group-hover:text-primary transition-colors">Loan Guides</h3>
             </Link>
             <ul className="space-y-2 text-sm">
               <li><Link href="/home-loan-calculator" className="text-muted-foreground hover:text-primary">Home Loan Calculator</Link></li>
@@ -58,7 +58,7 @@ export default function BlogHubPage() {
           </article>
           <article className="bg-card rounded-lg border p-6">
             <Link href="/blog/financial-planning" className="group block mb-3">
-              <h3 className="font-bold text-lg group-hover:text-primary transition-colors">Financial Planning</h3>
+              <h3 className="text-lg font-bold group-hover:text-primary transition-colors">Financial Planning</h3>
             </Link>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Budgeting around EMIs</li>
@@ -68,7 +68,7 @@ export default function BlogHubPage() {
           </article>
           <article className="bg-card rounded-lg border p-6">
             <Link href="/blog/lenders" className="group block mb-3">
-              <h3 className="font-bold text-lg group-hover:text-primary transition-colors">Lender Comparisons</h3>
+              <h3 className="text-lg font-bold group-hover:text-primary transition-colors">Lender Comparisons</h3>
             </Link>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Top Bank Rates</li>
@@ -78,7 +78,7 @@ export default function BlogHubPage() {
           </article>
           <article className="bg-card rounded-lg border p-6">
             <Link href="/blog/loan-interest-rates-2026-guide" className="group block mb-3">
-              <h3 className="font-bold text-lg group-hover:text-primary transition-colors">Interest Rate Updates</h3>
+              <h3 className="text-lg font-bold group-hover:text-primary transition-colors">Interest Rate Updates</h3>
             </Link>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Repo Rate Impacts</li>

@@ -919,536 +919,536 @@ test.describe('Technical Verification', () => {
   test('2026-08-28 Tier 2: sbi-personal-loan-prepayment-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/sbi-personal-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-28 Tier 2: hdfc-car-loan-prepayment-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/hdfc-car-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-28 Tier 2: axis-home-loan-prepayment-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/axis-home-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-28 Tier 2: icici-education-loan-prepayment', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/icici-education-loan-prepayment`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-28 Tier 2: emi-calculator-20-lakh-prepayment', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-20-lakh-prepayment`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-28 Tier 2: emi-calculator-40-lakh-prepayment', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-40-lakh-prepayment`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-28 Tier 2: emi-calculator-80-lakh-prepayment', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-80-lakh-prepayment`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-28 Tier 2: prepayment-emi-vs-tenure-reduction', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/prepayment-emi-vs-tenure-reduction`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-29 Tier 1: interest-rate-negotiation-strategies-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/interest-rate-negotiation-strategies-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-29 Tier 2: hdfc-personal-loan-interest-rates-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/hdfc-personal-loan-interest-rates-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-29 Tier 2: sbi-car-loan-interest-rates-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/sbi-car-loan-interest-rates-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-29 Tier 2: icici-home-loan-interest-rates-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/icici-home-loan-interest-rates-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-29 Tier 2: axis-education-loan-interest-rates-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/axis-education-loan-interest-rates-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-29 Tier 2: emi-calculator-3-lakh-interest-negotiation', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-3-lakh-interest-negotiation`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-29 Tier 2: emi-calculator-15-lakh-interest-negotiation', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-15-lakh-interest-negotiation`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-29 Tier 2: emi-calculator-35-lakh-interest-negotiation', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-35-lakh-interest-negotiation`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-29 Tier 2: interest-rate-negotiation-5-vs-10-years', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/interest-rate-negotiation-5-vs-10-years`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-30 Tier 1: loan-prepayment-strategies-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/loan-prepayment-strategies-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-30 Tier 2: home-loan-prepayment-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/home-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-30 Tier 2: personal-loan-prepayment-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/personal-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-30 Tier 2: car-loan-prepayment-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/car-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-30 Tier 2: education-loan-prepayment-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/education-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-30 Tier 2: emi-calculator-12-lakh-prepayment', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-12-lakh-prepayment`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-30 Tier 2: emi-calculator-25-lakh-prepayment', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-25-lakh-prepayment`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-30 Tier 2: emi-calculator-50-lakh-prepayment', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-lakh-prepayment`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-30 Tier 2: home-loan-prepayment-5-vs-10-years', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/home-loan-prepayment-5-vs-10-years`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-31 Tier 1: business-loan-emi-planning-guide-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/business-loan-emi-planning-guide-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-31 Tier 2: msme-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/msme-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-31 Tier 2: working-capital-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/working-capital-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-31 Tier 2: equipment-finance-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/equipment-finance-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-31 Tier 2: startup-business-loan-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/startup-business-loan-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-31 Tier 2: emi-calculator-50-lakh-business-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-lakh-business-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-31 Tier 2: emi-calculator-1-crore-business-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-1-crore-business-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-31 Tier 2: emi-calculator-5-crore-business-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-5-crore-business-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-08-31 Tier 2: business-loan-3-years-vs-5-years', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/business-loan-3-years-vs-5-years`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-01 Tier 1: how-to-refinance-a-loan-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/how-to-refinance-a-loan-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-01 Tier 2: home-loan-refinance-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/home-loan-refinance-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-01 Tier 2: personal-loan-refinance-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/personal-loan-refinance-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-01 Tier 2: auto-loan-refinance-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/auto-loan-refinance-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-01 Tier 2: education-loan-refinance-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/education-loan-refinance-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-01 Tier 2: emi-calculator-30-lakh-refinance', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-30-lakh-refinance`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-01 Tier 2: emi-calculator-40-lakh-refinance', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-40-lakh-refinance`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-01 Tier 2: emi-calculator-60-lakh-refinance', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-60-lakh-refinance`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-01 Tier 2: refinance-5-years-vs-10-years', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/refinance-5-years-vs-10-years`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-11 Tier 1: education-loan-repayment-strategies-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/education-loan-repayment-strategies-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-11 Tier 2: sbi-education-loan-repayment-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/sbi-education-loan-repayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-11 Tier 2: hdfc-education-loan-repayment-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/hdfc-education-loan-repayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-11 Tier 2: abroad-study-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/abroad-study-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-11 Tier 2: domestic-education-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/domestic-education-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-11 Tier 2: emi-calculator-25-lakh-education-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-25-lakh-education-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-11 Tier 2: emi-calculator-40-lakh-education-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-40-lakh-education-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-11 Tier 2: emi-calculator-75-lakh-education-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-75-lakh-education-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-11 Tier 2: education-loan-7-years-vs-10-years', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/education-loan-7-years-vs-10-years`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-12 Tier 1: gold-loan-emi-planning-guide-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/gold-loan-emi-planning-guide-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-12 Tier 2: muthoot-finance-gold-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/muthoot-finance-gold-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-12 Tier 2: manappuram-gold-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/manappuram-gold-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-12 Tier 2: sbi-gold-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/sbi-gold-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-12 Tier 2: hdfc-gold-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/hdfc-gold-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-12 Tier 2: emi-calculator-3-lakh-gold-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-3-lakh-gold-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-12 Tier 2: emi-calculator-5-lakh-gold-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-5-lakh-gold-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-12 Tier 2: emi-calculator-10-lakh-gold-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-10-lakh-gold-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-12 Tier 2: gold-loan-6-months-vs-12-months', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/gold-loan-6-months-vs-12-months`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-13 Tier 1: ev-loan-emi-planning-guide-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/ev-loan-emi-planning-guide-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-13 Tier 2: sbi-ev-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/sbi-ev-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-13 Tier 2: hdfc-ev-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/hdfc-ev-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-13 Tier 2: tata-ev-loan-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/tata-ev-loan-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-13 Tier 2: two-wheeler-ev-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/two-wheeler-ev-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-13 Tier 2: emi-calculator-10-lakh-ev-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-10-lakh-ev-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-13 Tier 2: emi-calculator-15-lakh-ev-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-15-lakh-ev-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-13 Tier 2: emi-calculator-20-lakh-ev-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-20-lakh-ev-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-13 Tier 2: ev-loan-3-years-vs-5-years', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/ev-loan-3-years-vs-5-years`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-17 Tier 1: consumer-durable-loan-emi-guide-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/consumer-durable-loan-emi-guide-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-17 Tier 2: consumer-durable-loan-emi-calculator-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/consumer-durable-loan-emi-calculator-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-17 Tier 2: bajaj-finserv-consumer-durable-loan-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/bajaj-finserv-consumer-durable-loan-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-17 Tier 2: tata-capital-consumer-durable-loan-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/tata-capital-consumer-durable-loan-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-17 Tier 2: idfc-first-consumer-durable-loan-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/idfc-first-consumer-durable-loan-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-17 Tier 2: emi-calculator-50-thousand-consumer-durable', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-thousand-consumer-durable`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-17 Tier 2: emi-calculator-1-lakh-consumer-durable', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-1-lakh-consumer-durable`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-17 Tier 2: emi-calculator-2-lakh-consumer-durable', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-2-lakh-consumer-durable`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-17 Tier 2: consumer-loan-6-months-vs-12-months', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/consumer-loan-6-months-vs-12-months`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
 
   test('2026-09-20 Tier 1: wedding-loan-emi-planning-guide-2026', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/wedding-loan-emi-planning-guide-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-20 Tier 2: sbi-wedding-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/sbi-wedding-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-20 Tier 2: hdfc-wedding-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/hdfc-wedding-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-20 Tier 2: axis-wedding-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/axis-wedding-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-20 Tier 2: icici-wedding-loan-emi-calculator', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/icici-wedding-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-20 Tier 2: emi-calculator-5-lakh-wedding-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-5-lakh-wedding-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-20 Tier 2: emi-calculator-10-lakh-wedding-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-10-lakh-wedding-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-20 Tier 2: emi-calculator-15-lakh-wedding-loan', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-15-lakh-wedding-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('2026-09-20 Tier 2: wedding-loan-3-years-vs-5-years', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/wedding-loan-3-years-vs-5-years`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
   });
 
   test('New Tier 1 Article returns 200 OK and has valid Schema - Interest Rates', async ({ page }) => {
@@ -1559,7 +1559,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-21 Tier 1: smart-prepayment-strategies-2026 returns 200 OK and valid Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/smart-prepayment-strategies-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     // Validate Article Schema
     const articleSchema = await page.evaluate(() => {
@@ -1573,7 +1573,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-21 Tier 2: axis-personal-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/axis-personal-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1586,7 +1586,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-21 Tier 2: hdfc-home-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/hdfc-home-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1599,7 +1599,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-21 Tier 2: icici-car-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/icici-car-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1612,7 +1612,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-21 Tier 2: emi-calculator-30-lakh-prepayment returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-30-lakh-prepayment`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1625,7 +1625,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-21 Tier 2: emi-calculator-50-lakh-prepayment returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-lakh-prepayment`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1638,7 +1638,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-21 Tier 2: emi-calculator-60-lakh-prepayment returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-60-lakh-prepayment`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1651,7 +1651,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-21 Tier 2: prepayment-3-years-vs-5-years returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/prepayment-3-years-vs-5-years`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1664,7 +1664,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-21 Tier 2: prepayment-emi-vs-tenure-reduction returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/prepayment-emi-vs-tenure-reduction`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1677,7 +1677,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-22 Tier 1: cibil-score-impact-on-loan-emi-2026 returns 200 OK and valid Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/cibil-score-impact-on-loan-emi-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const articleSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1690,7 +1690,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-22 Tier 2: cibil-score-calculator-for-home-loan returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/cibil-score-calculator-for-home-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1703,7 +1703,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-22 Tier 2: personal-loan-emi-with-low-cibil returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/personal-loan-emi-with-low-cibil`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1716,7 +1716,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-22 Tier 2: car-loan-interest-rates-by-cibil-score returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/car-loan-interest-rates-by-cibil-score`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1729,7 +1729,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-22 Tier 2: emi-calculator-10-lakh-low-cibil returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-10-lakh-low-cibil`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1742,7 +1742,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-22 Tier 2: emi-calculator-20-lakh-good-cibil returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-20-lakh-good-cibil`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1755,7 +1755,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-22 Tier 2: emi-calculator-50-lakh-excellent-cibil returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-50-lakh-excellent-cibil`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1768,7 +1768,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-22 Tier 2: cibil-score-impact-5-vs-10-years returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/cibil-score-impact-5-vs-10-years`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1781,7 +1781,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-22 Tier 2: home-loan-cibil-750-vs-650 returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/home-loan-cibil-750-vs-650`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1794,7 +1794,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-23 Tier 1: how-to-calculate-emi-loan returns 200 OK and valid Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/how-to-calculate-emi-loan`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const articleSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1807,7 +1807,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-23 Tier 2: home-loan-emi-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/home-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1820,7 +1820,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-23 Tier 2: personal-loan-emi-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/personal-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1833,7 +1833,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-23 Tier 2: car-loan-emi-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/car-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1846,7 +1846,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-23 Tier 2: education-loan-emi-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/education-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1859,7 +1859,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-23 Tier 2: emi-calculator-5-lakh returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-5-lakh`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1872,7 +1872,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-23 Tier 2: emi-calculator-10-lakh returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-10-lakh`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1885,7 +1885,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-23 Tier 2: emi-calculator-20-lakh returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-20-lakh`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1898,7 +1898,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-23 Tier 2: emi-1-year-vs-5-years returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/emi-1-year-vs-5-years`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1910,7 +1910,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-24 Tier 1: personal-loan-balance-transfer-strategies returns 200 OK and Article Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/personal-loan-balance-transfer-strategies`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const articleSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1923,7 +1923,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-24 Tier 2: sbi-personal-loan-balance-transfer-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/sbi-personal-loan-balance-transfer-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1936,7 +1936,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-24 Tier 2: hdfc-personal-loan-balance-transfer-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/hdfc-personal-loan-balance-transfer-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1949,7 +1949,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-24 Tier 2: icici-personal-loan-balance-transfer-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/icici-personal-loan-balance-transfer-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1962,7 +1962,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-24 Tier 2: emi-calculator-3-lakh-balance-transfer returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-3-lakh-balance-transfer`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1975,7 +1975,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-24 Tier 2: emi-calculator-5-lakh-balance-transfer returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-5-lakh-balance-transfer`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -1988,7 +1988,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-24 Tier 2: emi-calculator-10-lakh-balance-transfer returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-10-lakh-balance-transfer`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2001,7 +2001,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-24 Tier 2: balance-transfer-2-years-vs-4-years returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/balance-transfer-2-years-vs-4-years`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2014,7 +2014,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-24 Tier 2: balance-transfer-3-years-vs-5-years returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/balance-transfer-3-years-vs-5-years`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2028,7 +2028,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-26 Tier 1: prepayment-strategies-2026-guide returns 200 OK and Article Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/prepayment-strategies-2026-guide`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const articleSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2041,7 +2041,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-26 Tier 2: 5-lakh-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/5-lakh-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2054,7 +2054,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-26 Tier 2: 10-lakh-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/10-lakh-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2067,7 +2067,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-26 Tier 2: 20-lakh-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/20-lakh-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2080,7 +2080,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-26 Tier 2: home-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/home-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2093,7 +2093,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-26 Tier 2: car-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/car-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2106,7 +2106,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-26 Tier 2: prepay-50k-vs-1-lakh returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/prepay-50k-vs-1-lakh`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2119,7 +2119,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-26 Tier 2: personal-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/personal-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2132,7 +2132,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-26 Tier 2: education-loan-prepayment-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/education-loan-prepayment-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2145,7 +2145,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-27 Tier 1: top-up-loan-emi-guide-2026 returns 200 OK and Article Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/top-up-loan-emi-guide-2026`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const articleSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2158,7 +2158,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-27 Tier 2: sbi-top-up-loan-emi-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/sbi-top-up-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2171,7 +2171,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-27 Tier 2: hdfc-top-up-loan-emi-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/hdfc-top-up-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2184,7 +2184,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-27 Tier 2: icici-top-up-loan-emi-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/icici-top-up-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2197,7 +2197,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-27 Tier 2: axis-top-up-loan-emi-calculator returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/loan-types/axis-top-up-loan-emi-calculator`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2210,7 +2210,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-27 Tier 2: emi-calculator-5-lakh-top-up returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-5-lakh-top-up`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2223,7 +2223,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-27 Tier 2: emi-calculator-10-lakh-top-up returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-10-lakh-top-up`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2236,7 +2236,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-27 Tier 2: emi-calculator-15-lakh-top-up returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/scenarios/emi-calculator-15-lakh-top-up`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2249,7 +2249,7 @@ test.describe('Technical Verification', () => {
   test('2026-09-27 Tier 2: top-up-loan-5-years-vs-10-years returns 200 OK and FAQ Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/tenure-comparison/top-up-loan-5-years-vs-10-years`);
     expect(response?.status()).toBe(200);
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     const faqSchema = await page.evaluate(() => {
       const script = Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
@@ -2927,7 +2927,7 @@ test.describe('Technical Verification', () => {
     for (const slug of newSlugs) {
       const response = await page.goto(`${baseUrl}${slug}`);
       expect(response?.status()).toBe(200);
-      await expect(page.locator('h1')).toBeVisible();
+      await expect(page.locator('h1').first()).toBeVisible();
 
       const faqSchema = await page.evaluate(() => {
         const scripts = document.querySelectorAll('script[type="application/ld+json"]');
@@ -3116,7 +3116,7 @@ test.describe('Technical Verification', () => {
     for (const slug of newSlugs) {
       const response = await page.goto(`${baseUrl}${slug}`);
       expect(response?.status()).toBe(200);
-      await expect(page.locator('h1')).toBeVisible();
+      await expect(page.locator('h1').first()).toBeVisible();
 
       const faqSchema = await page.evaluate(() => {
         const scripts = document.querySelectorAll('script[type="application/ld+json"]');
@@ -3155,7 +3155,7 @@ test.describe('Technical Verification', () => {
     for (const slug of newSlugs) {
       const response = await page.goto(`${baseUrl}${slug}`);
       expect(response?.status()).toBe(200);
-      await expect(page.locator('h1')).toBeVisible();
+      await expect(page.locator('h1').first()).toBeVisible();
 
       const faqSchema = await page.evaluate(() => {
         const scripts = document.querySelectorAll('script[type="application/ld+json"]');
@@ -3167,5 +3167,35 @@ test.describe('Technical Verification', () => {
   });
 
 
+
+  test('Mudra URLs return 200 OK and valid schema', async ({ page }) => {
+    const newSlugs = [
+      '/blog/mudra-loan-emi-guide-2026',
+      '/loan-types/mudra-shishu-loan-emi-calculator',
+      '/loan-types/mudra-kishore-loan-emi-calculator',
+      '/loan-types/mudra-tarun-loan-emi-calculator',
+      '/loan-types/sbi-mudra-loan-emi-calculator',
+      '/loan-types/pnb-mudra-loan-emi-calculator',
+      '/scenarios/emi-calculator-50000-mudra-loan',
+      '/scenarios/emi-calculator-5-lakh-mudra-loan',
+      '/scenarios/emi-calculator-10-lakh-mudra-loan'
+    ];
+
+    for (const slug of newSlugs) {
+      const response = await page.goto(`${baseUrl}${slug}`);
+      expect(response?.status()).toBe(200);
+      await expect(page.locator('h1').first()).toBeVisible();
+
+      // Skip FAQ schema check for the blog post
+      if (!slug.startsWith('/blog/')) {
+        const faqSchema = await page.evaluate(() => {
+          const scripts = document.querySelectorAll('script[type="application/ld+json"]');
+          return scripts.length > 1 ? JSON.parse(scripts[1].textContent!) : null;
+        });
+        expect(faqSchema).not.toBeNull();
+        expect(faqSchema['@type']).toBe('FAQPage');
+      }
+    }
+  });
 
 });

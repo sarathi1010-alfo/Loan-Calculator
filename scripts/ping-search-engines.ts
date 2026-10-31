@@ -609,9 +609,22 @@ async function pingSearchEngines() {
   `${SITE_URL}/scenarios/emi-calculator-2-lakh-solar-loan`,
   `${SITE_URL}/scenarios/emi-calculator-5-lakh-solar-loan`,
   `${SITE_URL}/scenarios/emi-calculator-10-lakh-solar-loan`,
-  `${SITE_URL}/tenure-comparison/solar-loan-3-years-vs-5-years`
+  `${SITE_URL}/tenure-comparison/solar-loan-3-years-vs-5-years`,
 
 
+
+  // New Tier 1 (Mudra)
+  `${SITE_URL}/blog/mudra-loan-emi-guide-2026`,
+
+  // New Tier 2 (Mudra)
+  `${SITE_URL}/loan-types/mudra-shishu-loan-emi-calculator`,
+  `${SITE_URL}/loan-types/mudra-kishore-loan-emi-calculator`,
+  `${SITE_URL}/loan-types/mudra-tarun-loan-emi-calculator`,
+  `${SITE_URL}/loan-types/sbi-mudra-loan-emi-calculator`,
+  `${SITE_URL}/loan-types/pnb-mudra-loan-emi-calculator`,
+  `${SITE_URL}/scenarios/emi-calculator-50000-mudra-loan`,
+  `${SITE_URL}/scenarios/emi-calculator-5-lakh-mudra-loan`,
+  `${SITE_URL}/scenarios/emi-calculator-10-lakh-mudra-loan`
 ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

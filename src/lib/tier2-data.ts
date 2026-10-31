@@ -8591,6 +8591,135 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "How much interest do I save with a 3-year solar loan?", answer: "While the EMI is higher, you pay significantly less total interest. Use our calculator to see the exact numerical difference for your loan amount." }
     ]
   }
+,
+  {
+    slug: "mudra-shishu-loan-emi-calculator",
+    type: "loan-types",
+    title: "Mudra Shishu Loan EMI Calculator 2026",
+    h1: "Mudra Shishu Loan EMI Calculator",
+    description: "Calculate your EMI for a Mudra Shishu loan up to ₹50,000. Plan your startup or micro-enterprise finances effectively.",
+    intro: "The Shishu category under the Mudra scheme provides loans up to ₹50,000 for startups and micro-enterprises. Use our tool to estimate your monthly EMI and plan your business growth.",
+    amount: 50000,
+    interestRate: 10.5,
+    tenure: 60,
+    date: "2026-10-31",
+    faqs: [
+      { question: "What is the maximum amount for a Mudra Shishu loan?", answer: "The maximum amount you can borrow under the Shishu category is ₹50,000." },
+      { question: "Are there processing fees for Shishu loans?", answer: "Generally, banks do not charge processing fees for Mudra Shishu loans." }
+    ]
+  },
+  {
+    slug: "mudra-kishore-loan-emi-calculator",
+    type: "loan-types",
+    title: "Mudra Kishore Loan EMI Calculator 2026",
+    h1: "Mudra Kishore Loan EMI Calculator",
+    description: "Estimate your monthly EMI for a Mudra Kishore loan. Perfect for businesses looking to expand with loans up to ₹5 Lakhs.",
+    intro: "Mudra Kishore loans range from ₹50,001 to ₹5,00,000, catering to businesses that have started and need capital to expand. Calculate your exact EMI here.",
+    amount: 500000,
+    interestRate: 11.0,
+    tenure: 60,
+    date: "2026-10-31",
+    faqs: [
+      { question: "Who is eligible for a Kishore loan?", answer: "Micro and small enterprises needing capital between ₹50,001 and ₹5 Lakhs for expansion or working capital." },
+      { question: "Do I need collateral for a Kishore loan?", answer: "No, Mudra loans are generally collateral-free." }
+    ]
+  },
+  {
+    slug: "mudra-tarun-loan-emi-calculator",
+    type: "loan-types",
+    title: "Mudra Tarun Loan EMI Calculator 2026",
+    h1: "Mudra Tarun Loan EMI Calculator",
+    description: "Plan your major business expansion with our Mudra Tarun loan EMI calculator. Calculate repayments for loans up to ₹10 Lakhs.",
+    intro: "The Tarun category provides up to ₹10 Lakhs for established businesses requiring significant funds. Use our calculator to forecast your monthly commitments.",
+    amount: 1000000,
+    interestRate: 11.5,
+    tenure: 60,
+    date: "2026-10-31",
+    faqs: [
+      { question: "What is the Tarun loan limit?", answer: "The Tarun category allows loans from ₹5,00,001 up to ₹10,00,000." },
+      { question: "Can I use Tarun loan for buying machinery?", answer: "Yes, funds can be used for purchasing machinery, working capital, or business expansion." }
+    ]
+  },
+  {
+    slug: "sbi-mudra-loan-emi-calculator",
+    type: "loan-types",
+    title: "SBI Mudra Loan EMI Calculator 2026",
+    h1: "SBI Mudra Loan EMI Calculator",
+    description: "Calculate your EMI for SBI Mudra loans (Shishu, Kishore, Tarun) using current interest rates and flexible tenures.",
+    intro: "State Bank of India (SBI) is a major provider of Mudra loans under all three categories. Calculate your expected EMI to prepare your application.",
+    amount: 500000,
+    interestRate: 10.75,
+    tenure: 60,
+    date: "2026-10-31",
+    faqs: [
+      { question: "How to apply for an SBI Mudra Loan?", answer: "You can apply online via the SBI portal or by visiting a branch with your business plan." },
+      { question: "What is the typical interest rate at SBI?", answer: "Interest rates are linked to the MCLR or EBLR and typically range between 9% and 12%, depending on the category and your profile." }
+    ]
+  },
+  {
+    slug: "pnb-mudra-loan-emi-calculator",
+    type: "loan-types",
+    title: "PNB Mudra Loan EMI Calculator 2026",
+    h1: "PNB Mudra Loan EMI Calculator",
+    description: "Estimate your monthly repayment for a Punjab National Bank (PNB) Mudra loan. Plan your small business finances efficiently.",
+    intro: "Punjab National Bank offers competitive rates for Mudra loans to boost MSMEs. Use this tool to visualize your amortization schedule.",
+    amount: 200000,
+    interestRate: 11.25,
+    tenure: 60,
+    date: "2026-10-31",
+    faqs: [
+      { question: "Does PNB offer Kishore loans?", answer: "Yes, PNB offers loans under all three Mudra categories: Shishu, Kishore, and Tarun." },
+      { question: "Is a margin money required for PNB Mudra loans?", answer: "Typically, margin money is not required for Shishu loans, but 10-25% may be required for Kishore and Tarun loans." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50000-mudra-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹50,000 Mudra Shishu Loan",
+    h1: "EMI Calculator for ₹50,000 Mudra Loan",
+    description: "Calculate the exact EMI and view the month-by-month breakdown for a maximum ₹50,000 Mudra Shishu loan.",
+    intro: "Planning to start a small enterprise with a ₹50,000 Shishu loan? Understand your monthly obligations with our detailed calculator.",
+    amount: 50000,
+    interestRate: 10.5,
+    tenure: 60,
+    date: "2026-10-31",
+    faqs: [
+      { question: "What is the EMI for a 50k Mudra loan for 5 years?", answer: "Assuming an interest rate of 10.5%, the EMI is approximately ₹1,075." },
+      { question: "Can I repay a Shishu loan early?", answer: "Yes, you can prepay the loan, often without penalty, to save on interest." }
+    ]
+  },
+  {
+    slug: "emi-calculator-5-lakh-mudra-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹5 Lakh Mudra Kishore Loan",
+    h1: "EMI Calculator for ₹5 Lakh Mudra Loan",
+    description: "Find out your monthly EMI for a maximum ₹5 Lakh Kishore category Mudra loan. Plan your business expansion.",
+    intro: "Expanding your business requires solid financial planning. Calculate the EMI for a ₹5 Lakh Mudra Kishore loan to ensure it fits your cash flow.",
+    amount: 500000,
+    interestRate: 11.0,
+    tenure: 60,
+    date: "2026-10-31",
+    faqs: [
+      { question: "What is the EMI for a 5 Lakh Mudra loan for 5 years?", answer: "At an 11% interest rate, the monthly EMI would be approximately ₹10,871." },
+      { question: "Is GST applicable on Mudra EMI?", answer: "No, GST is not applicable on the EMI or the interest, but it may apply to processing fees if any." }
+    ]
+  },
+  {
+    slug: "emi-calculator-10-lakh-mudra-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹10 Lakh Mudra Tarun Loan",
+    h1: "EMI Calculator for ₹10 Lakh Mudra Loan",
+    description: "Calculate the precise EMI and view the amortization schedule for a ₹10 Lakh Mudra Tarun loan.",
+    intro: "Borrowing the maximum ₹10 Lakhs under the Tarun category is a big step. Use our calculator to visualize your long-term repayment plan.",
+    amount: 1000000,
+    interestRate: 11.5,
+    tenure: 60,
+    date: "2026-10-31",
+    faqs: [
+      { question: "What is the EMI for a 10 Lakh Mudra loan for 5 years?", answer: "Assuming an 11.5% interest rate, the EMI is roughly ₹21,993 per month." },
+      { question: "Can the tenure for Tarun loans exceed 5 years?", answer: "Most lenders fix the maximum tenure at 5 years, though exceptions can sometimes be made based on cash flow projections." }
+    ]
+  }
 ];
 
 

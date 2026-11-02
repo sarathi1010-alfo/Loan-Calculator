@@ -5822,8 +5822,136 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "Which tenure is better for a wedding loan?", answer: "If your monthly cash flow allows, a shorter 3-year tenure is better as it saves you money on interest and clears the debt faster." },
       { question: "Can I change the tenure later?", answer: "Generally, you cannot simply change the tenure, but you can effectively shorten it by making part-prepayments." }
     ]
+  },
+  {
+    slug: "joint-home-loan-emi-calculator",
+    type: "loan-types",
+    title: "Joint Home Loan EMI Calculator 2026 | Share Your Burden",
+    h1: "Joint Home Loan EMI Calculator",
+    description: "Calculate your joint home loan EMI. See how combining incomes can lower your monthly burden and increase your loan eligibility.",
+    intro: "Applying for a home loan with a co-applicant can significantly boost your borrowing power. Use our joint EMI calculator to see exactly how much you can afford together.",
+    date: "2026-09-21",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "Can anyone be a co-applicant?", answer: "Typically, only close relatives like spouses, parents, or siblings can be co-applicants for a joint home loan." },
+      { question: "How does a joint loan affect CIBIL score?", answer: "Both applicants' CIBIL scores are considered during approval, and any default will negatively impact both scores equally." },
+      { question: "Who pays the EMI in a joint loan?", answer: "The EMI can be paid entirely by one applicant or shared from a joint account, depending on your mutual agreement." }
+    ]
+  },
+  {
+    slug: "co-applicant-personal-loan-emi-calculator",
+    type: "loan-types",
+    title: "Co-Applicant Personal Loan EMI Calculator | EMICalculatorPro",
+    h1: "Co-Applicant Personal Loan EMI Calculator",
+    description: "Use our calculator to estimate your personal loan EMI when applying with a co-applicant. Get higher amounts approved faster.",
+    intro: "Personal loans usually depend on a single income, but some lenders allow co-applicants. See how a joint application changes your EMI and eligibility.",
+    date: "2026-09-21",
+    amount: 1500000,
+    interestRate: 11.5,
+    tenure: 5,
+    faqs: [
+      { question: "Is a co-applicant mandatory for a personal loan?", answer: "No, personal loans are generally unsecured and based on individual income, but adding a co-applicant can help if your income is insufficient for the desired amount." },
+      { question: "Can a friend be a co-applicant?", answer: "Most banks do not allow friends to be co-applicants; it usually must be an immediate family member." }
+    ]
+  },
+  {
+    slug: "husband-wife-joint-home-loan-calculator",
+    type: "loan-types",
+    title: "Husband and Wife Joint Home Loan Calculator 2026",
+    h1: "Husband and Wife Joint Home Loan Calculator",
+    description: "Plan your dream home with your spouse. Calculate your joint home loan EMI and see the impact of lower interest rates for women.",
+    intro: "When spouses apply together, they unlock higher loan amounts and often lower interest rates. Calculate your combined EMI today.",
+    date: "2026-09-21",
+    amount: 7500000,
+    interestRate: 8.4,
+    tenure: 20,
+    faqs: [
+      { question: "Do women get lower interest rates on home loans?", answer: "Yes, many banks offer a concession of 0.05% to 0.10% if a woman is the primary or co-applicant." },
+      { question: "Can both claim tax benefits?", answer: "Yes, both husband and wife can claim tax deductions under Section 80C and 24b, provided both are co-owners of the property." }
+    ]
+  },
+  {
+    slug: "father-son-joint-loan-calculator",
+    type: "loan-types",
+    title: "Father & Son Joint Loan Calculator | Plan Your Investment",
+    h1: "Father & Son Joint Loan Calculator",
+    description: "Calculate EMI for a father-son joint loan. Share the financial responsibility and secure larger funding for your property.",
+    intro: "A father and son can team up to secure a substantial home loan. Use this calculator to see how the EMI divides over the tenure.",
+    date: "2026-09-21",
+    amount: 6000000,
+    interestRate: 8.5,
+    tenure: 15,
+    faqs: [
+      { question: "How is the loan tenure decided for a father-son loan?", answer: "The maximum tenure is usually restricted by the retirement age of the older applicant, often capping at 60 or 65 years of age." },
+      { question: "Can a pension be used as income proof?", answer: "Yes, regular pension income can be considered to boost the total eligible loan amount." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50-lakh-joint-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹50 Lakh Joint Loan",
+    h1: "₹50 Lakh Joint Loan Scenario",
+    description: "Break down the EMI and total interest for a ₹50 Lakh joint loan. View the full amortization schedule.",
+    intro: "A ₹50 Lakh loan is much more manageable when split between two incomes. Analyze the amortization schedule to plan your repayments.",
+    date: "2026-09-21",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "What is the EMI for 50 Lakhs for 20 years?", answer: "At an 8.5% interest rate, the combined monthly EMI is approximately ₹43,391." },
+      { question: "How should we split the EMI?", answer: "You can split it 50-50 or in proportion to your respective incomes, depending on what is comfortable for your household budget." }
+    ]
+  },
+  {
+    slug: "emi-calculator-75-lakh-joint-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹75 Lakh Joint Loan",
+    h1: "₹75 Lakh Joint Loan Scenario",
+    description: "See the monthly financial commitment for a massive ₹75 Lakh joint loan. Perfect for premium real estate investments.",
+    intro: "Planning to buy premium real estate? A ₹75 Lakh loan usually requires a joint application to meet income criteria. See your EMI here.",
+    date: "2026-09-21",
+    amount: 7500000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "What is the combined EMI for a 75 Lakh joint loan?", answer: "At 8.5% over 20 years, the EMI is roughly ₹65,087." },
+      { question: "Can three people apply for a joint loan?", answer: "Yes, some banks allow up to 3 or even 4 co-applicants, provided they meet the relationship criteria (e.g., parents and children)." }
+    ]
+  },
+  {
+    slug: "emi-calculator-1-crore-joint-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹1 Crore Joint Loan",
+    h1: "₹1 Crore Joint Loan Scenario",
+    description: "Calculate the exact EMI and interest payout for a ₹1 Crore joint loan. Plan your luxury home purchase with confidence.",
+    intro: "A ₹1 Crore loan is a massive commitment that almost always requires dual incomes. Visualize the entire 20-year repayment schedule.",
+    date: "2026-09-21",
+    amount: 10000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "What is the EMI for a 1 Crore home loan?", answer: "At an 8.5% interest rate over 20 years, the combined EMI is approximately ₹86,782." },
+      { question: "How much total interest will we pay on 1 Crore?", answer: "Over 20 years, the total interest paid will be around ₹1.08 Crores, highlighting the need for aggressive prepayment strategies." }
+    ]
+  },
+  {
+    slug: "joint-loan-tax-benefits-calculator",
+    type: "loan-types",
+    title: "Joint Loan Tax Benefits Calculator | Double Your Savings",
+    h1: "Joint Loan Tax Benefits & EMI Calculator",
+    description: "Calculate your joint EMI and understand how co-applicants can claim double tax deductions under Section 80C and 24b.",
+    intro: "The biggest advantage of a joint home loan is the tax savings. Calculate your EMI and plan how both applicants will claim their deductions.",
+    date: "2026-09-21",
+    amount: 6000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "Can both applicants claim 2 Lakhs on interest?", answer: "Yes, under Section 24(b), each co-owner can claim up to ₹2 Lakhs (totaling ₹4 Lakhs) if the interest paid exceeds that amount." },
+      { question: "Do we have to be co-owners to claim tax benefits?", answer: "Yes, simply being a co-borrower is not enough; you must also be a registered co-owner of the property to claim tax deductions." }
+    ]
   }
-
 ];
 export function getTier2PageBySlug(slug: string, type: string): Tier2Page | undefined {
   return TIER2_PAGES.find((page) => page.slug === slug && page.type === type);

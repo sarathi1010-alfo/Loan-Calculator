@@ -360,6 +360,19 @@ async function pingSearchEngines() {
     `${SITE_URL}/scenarios/emi-calculator-10-lakh-wedding-loan`,
     `${SITE_URL}/scenarios/emi-calculator-15-lakh-wedding-loan`,
     `${SITE_URL}/tenure-comparison/wedding-loan-3-years-vs-5-years`,
+
+    // New Tier 1 (2026-09-21)
+    `${SITE_URL}/blog/joint-loan-strategies-2026`,
+
+    // New Tier 2 (2026-09-21)
+    `${SITE_URL}/loan-types/joint-home-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/co-applicant-personal-loan-emi-calculator`,
+    `${SITE_URL}/loan-types/husband-wife-joint-home-loan-calculator`,
+    `${SITE_URL}/loan-types/father-son-joint-loan-calculator`,
+    `${SITE_URL}/scenarios/emi-calculator-50-lakh-joint-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-75-lakh-joint-loan`,
+    `${SITE_URL}/scenarios/emi-calculator-1-crore-joint-loan`,
+    `${SITE_URL}/loan-types/joint-loan-tax-benefits-calculator`,
 ];
 
   console.log(`Notifying search engines about ${newUrls.length} new/updated URLs...`);

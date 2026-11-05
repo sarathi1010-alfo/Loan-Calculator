@@ -14,6 +14,143 @@ export interface Tier2Page {
 }
 
 export const TIER2_PAGES: Tier2Page[] = [
+  {
+    slug: "refinancing-calculator-50-lakh",
+    type: "scenarios",
+    title: "₹50 Lakh Loan Refinancing Calculator | Calculate Net Savings",
+    h1: "₹50 Lakh Loan Refinancing Calculator",
+    description: "Calculate the net savings of refinancing a ₹50 Lakh loan. Compare your old EMI and total interest with new lender offers.",
+    intro: "Refinancing a large loan like ₹50 Lakhs can yield significant interest savings. Use this calculator to see your exact new EMI and total interest payable.",
+    content: `<h2>How to Analyze ₹50 Lakh Refinancing Offers</h2><p>When you have a ₹50 Lakh loan, even a 0.5% interest rate drop can save you lakhs. However, you must deduct the processing fees and any foreclosure charges from your gross interest savings to find your true benefit.</p>`,
+    date: "2026-11-05",
+    amount: 5000000,
+    interestRate: 8.5,
+    tenure: 20,
+    faqs: [
+      { question: "What are the common charges for refinancing?", answer: "Common charges include processing fees, legal and technical valuation fees, and potentially foreclosure charges from your previous lender." },
+      { question: "Should I change my tenure when refinancing?", answer: "Keeping your EMI the same but reducing the tenure is the best way to maximize interest savings." }
+    ]
+  },
+  {
+    slug: "balance-transfer-calculator-20-lakh",
+    type: "scenarios",
+    title: "₹20 Lakh Balance Transfer Calculator | See Your EMI Drop",
+    h1: "₹20 Lakh Balance Transfer Calculator",
+    description: "Calculate your new EMI after transferring a ₹20 Lakh loan balance to a lender with a lower interest rate.",
+    intro: "Transferring a ₹20 Lakh balance can instantly lower your monthly payment. Model different interest rates to find your ideal new EMI.",
+    content: `<h2>Is a ₹20 Lakh Balance Transfer Worth It?</h2><p>Check the amortization schedule below to see how much of your new EMI goes towards the principal versus interest in the crucial first few years.</p>`,
+    date: "2026-11-05",
+    amount: 2000000,
+    interestRate: 10.5,
+    tenure: 5,
+    faqs: [
+      { question: "Does a balance transfer affect my credit score?", answer: "Initially, your score might dip slightly due to the hard inquiry, but regular payments on the new loan will rebuild it quickly." },
+      { question: "Can I transfer a personal loan balance?", answer: "Yes, many banks offer personal loan balance transfer facilities, often at competitive rates." }
+    ]
+  },
+  {
+    slug: "refinancing-home-loan-vs-personal-loan",
+    type: "loan-types",
+    title: "Refinancing: Home Loan vs Personal Loan Considerations",
+    h1: "Refinancing Home Loans vs Personal Loans",
+    description: "Understand the different strategies, costs, and benefits when refinancing a home loan compared to refinancing a personal loan.",
+    intro: "Refinancing works differently depending on the asset type. Learn the nuances of refinancing secured (home) versus unsecured (personal) loans.",
+    content: `<h2>Key Differences in Refinancing</h2><p>Home loans usually have no foreclosure penalties (for floating rates) and lower interest rates, making refinancing easier. Personal loans often carry hefty foreclosure charges that eat into your savings.</p>`,
+    date: "2026-11-05",
+    amount: 3000000,
+    interestRate: 9.5,
+    tenure: 10,
+    faqs: [
+      { question: "Why are personal loan refinancing rates higher?", answer: "Personal loans are unsecured, making them riskier for the lender, which translates to higher interest rates." },
+      { question: "Can I consolidate personal loans into a home loan?", answer: "Yes, this is often done via a top-up home loan, which can consolidate expensive personal debts at a lower mortgage rate." }
+    ]
+  },
+  {
+    slug: "balance-transfer-fixed-vs-floating",
+    type: "tenure-comparison",
+    title: "Balance Transfer: Moving from Fixed to Floating Rates",
+    h1: "Balance Transfer: Fixed to Floating Rate Strategy",
+    description: "Calculate the impact of transferring a fixed-rate loan balance to a new floating-rate loan to capture falling interest rates.",
+    intro: "Stuck with a high fixed rate? See how much you can save by transferring your balance to a lower floating-rate loan.",
+    content: `<h2>Capitalizing on Falling Rates</h2><p>If overall interest rates in the economy are dropping, moving from a fixed rate to a floating rate via a balance transfer can result in immediate EMI relief.</p>`,
+    date: "2026-11-05",
+    amount: 4000000,
+    interestRate: 8.75,
+    tenure: 15,
+    faqs: [
+      { question: "What is the risk of a floating rate loan?", answer: "The primary risk is that if benchmark rates rise, your interest rate and EMI (or tenure) will also increase." },
+      { question: "Will I pay a penalty for exiting a fixed-rate loan?", answer: "Yes, unlike floating-rate home loans, banks generally charge a foreclosure penalty on fixed-rate loans." }
+    ]
+  },
+  {
+    slug: "refinancing-to-reduce-tenure",
+    type: "tenure-comparison",
+    title: "Refinancing Strategy: Maintain EMI, Reduce Tenure",
+    h1: "Refinancing to Reduce Loan Tenure",
+    description: "Calculate how much faster you can become debt-free by refinancing to a lower rate but keeping your EMI payment the same.",
+    intro: "The smartest way to refinance is to secure a lower interest rate but continue paying your old, higher EMI amount to slash years off your loan.",
+    content: `<h2>The Tenure Reduction Strategy</h2><p>By keeping your EMI constant after securing a lower rate, the extra amount goes directly towards reducing your principal balance, resulting in massive total interest savings.</p>`,
+    date: "2026-11-05",
+    amount: 2500000,
+    interestRate: 8.2,
+    tenure: 12,
+    faqs: [
+      { question: "How does maintaining the EMI reduce tenure?", answer: "The portion of your payment that used to go towards the higher interest rate now pays down the principal faster." },
+      { question: "Can I increase my EMI further after refinancing?", answer: "Yes, you can usually make additional partial prepayments to reduce the tenure even further." }
+    ]
+  },
+  {
+    slug: "auto-loan-refinancing-calculator",
+    type: "loan-types",
+    title: "Auto Loan Refinancing Calculator | Lower Your Car Payment",
+    h1: "Auto Loan Refinancing Calculator",
+    description: "See how much you can save on your monthly car payments by refinancing your auto loan to a lower interest rate.",
+    intro: "Did your credit score improve since you bought your car? You might qualify for a lower rate. Use our calculator to check your savings.",
+    content: `<h2>When to Refinance a Car Loan</h2><p>Auto loan refinancing is ideal if your credit score has jumped significantly or if prevailing interest rates have dropped since you signed the original contract.</p>`,
+    date: "2026-11-05",
+    amount: 800000,
+    interestRate: 9.0,
+    tenure: 4,
+    faqs: [
+      { question: "Does refinancing a car loan extend the term?", answer: "You can choose to extend the term to lower the EMI further, but this usually results in paying more total interest." },
+      { question: "Are there fees for refinancing an auto loan?", answer: "Yes, there may be title transfer fees and a small processing fee from the new lender." }
+    ]
+  },
+  {
+    slug: "top-up-loan-vs-personal-loan-calculator",
+    type: "tenure-comparison",
+    title: "Top-Up Loan vs Personal Loan Comparison Calculator",
+    h1: "Top-Up Loan vs Personal Loan Comparison",
+    description: "Compare the EMI and total interest cost of taking a top-up on your home loan versus taking a separate personal loan.",
+    intro: "Need extra funds? Compare the numbers to see why a top-up loan is often cheaper than a standard personal loan.",
+    content: `<h2>Cost Comparison: Top-Up vs Personal Loan</h2><p>Top-up loans generally offer much lower interest rates than personal loans because they are backed by the security of your property.</p>`,
+    date: "2026-11-05",
+    amount: 1000000,
+    interestRate: 9.2,
+    tenure: 5,
+    faqs: [
+      { question: "Why is a top-up loan cheaper?", answer: "Because it is a secured loan (tied to your mortgage), which represents lower risk to the bank." },
+      { question: "Is the processing faster for a top-up loan?", answer: "Usually, yes, if you get it from your existing home loan provider since they already have your details." }
+    ]
+  },
+  {
+    slug: "business-loan-balance-transfer",
+    type: "loan-types",
+    title: "Business Loan Balance Transfer Calculator | Save on Commercial Debt",
+    h1: "Business Loan Balance Transfer Calculator",
+    description: "Calculate EMI savings for your business by transferring commercial debt to a lender with more favorable interest rates.",
+    intro: "Lowering interest expenses directly improves your bottom line. Calculate the savings from a business loan balance transfer.",
+    content: `<h2>Optimizing Commercial Debt</h2><p>For large business loans, even minor interest rate reductions can free up significant working capital. Ensure you factor in the new lender's processing fees.</p>`,
+    date: "2026-11-05",
+    amount: 7500000,
+    interestRate: 11.5,
+    tenure: 7,
+    faqs: [
+      { question: "Can I transfer an unsecured business loan?", answer: "Yes, many NBFCs and banks offer balance transfers for unsecured business loans." },
+      { question: "What documents are required for a commercial transfer?", answer: "You typically need your KYC, latest GST returns, financial statements, and the repayment track record of the existing loan." }
+    ]
+  },
+
 
   {
     slug: "sbi-vs-hdfc-home-loan-interest-rate-2026",

@@ -1555,4 +1555,32 @@ test.describe('Technical Verification', () => {
     expect(schema).not.toBeNull();
   });
 
+
+  test('Verify Loan Refinancing vs Balance Transfer Tier 1 post', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog/loan-refinancing-vs-balance-transfer`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toContainText('Loan Refinancing vs Balance Transfer');
+    const jsonLd = await page.locator('script[type="application/ld+json"]').nth(1).textContent();
+    expect(jsonLd).toContain('Article');
+  });
+
+  const refinancingUrls = [
+    '/scenarios/refinancing-calculator-50-lakh',
+    '/scenarios/balance-transfer-calculator-20-lakh',
+    '/loan-types/refinancing-home-loan-vs-personal-loan',
+    '/tenure-comparison/balance-transfer-fixed-vs-floating',
+    '/tenure-comparison/refinancing-to-reduce-tenure',
+    '/loan-types/auto-loan-refinancing-calculator',
+    '/tenure-comparison/top-up-loan-vs-personal-loan-calculator',
+    '/loan-types/business-loan-balance-transfer'
+  ];
+
+  for (const url of refinancingUrls) {
+    test(`Verify Refinancing programmatic page: ${url}`, async ({ page }) => {
+      const response = await page.goto(`${baseUrl}${url}`);
+      expect(response?.status()).toBe(200);
+      const jsonLd = await page.locator('script[type="application/ld+json"]').nth(1).textContent();
+      expect(jsonLd).toContain('FAQPage');
+    });
+  }
 });

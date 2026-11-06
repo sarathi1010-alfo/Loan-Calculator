@@ -22,17 +22,17 @@ export default function LendersHubPage() {
       <div className="mb-12">
         <h2 className="text-2xl font-bold mb-6 border-b pb-2">Top Lender Guides</h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          <Link href="#" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors opacity-70">
-            <h3 className="font-bold text-lg mb-2">SBI Home Loan EMI Guide</h3>
-            <p className="text-sm text-muted-foreground">Detailed overview of State Bank of India's home loan offerings.</p>
+          <Link href="/home-loan-calculator" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors">
+            <h3 className="font-bold text-lg mb-2">Home Loan EMI Guide & Calculator</h3>
+            <p className="text-sm text-muted-foreground">Detailed overview of top bank home loan offerings and monthly payment calculation.</p>
           </Link>
-          <Link href="#" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors opacity-70">
-            <h3 className="font-bold text-lg mb-2">HDFC Home Loan EMI Guide</h3>
-            <p className="text-sm text-muted-foreground">Comprehensive guide to HDFC housing finance options.</p>
+          <Link href="/personal-loan-calculator" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors">
+            <h3 className="font-bold text-lg mb-2">Personal Loan EMI Guide & Calculator</h3>
+            <p className="text-sm text-muted-foreground">Comprehensive guide to personal loan borrowing options and rate comparisons.</p>
           </Link>
-          <Link href="#" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors opacity-70">
-            <h3 className="font-bold text-lg mb-2">ICICI Car Loan EMI Guide</h3>
-            <p className="text-sm text-muted-foreground">Everything you need to know about ICICI bank auto loans.</p>
+          <Link href="/car-loan-calculator" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors">
+            <h3 className="font-bold text-lg mb-2">Car Loan EMI Guide & Calculator</h3>
+            <p className="text-sm text-muted-foreground">Everything you need to know about top auto loans and amortization schedules.</p>
           </Link>
         </div>
       </div>

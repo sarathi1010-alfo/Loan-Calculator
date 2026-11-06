@@ -26,12 +26,12 @@ export default function FinancialPlanningHubPage() {
             <h3 className="font-bold text-lg mb-2">The Ultimate Guide to EMI Calculations</h3>
             <p className="text-sm text-muted-foreground">Master the math behind your loans and optimize your borrowing strategy.</p>
           </Link>
-          <Link href="#" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors opacity-70">
-            <h3 className="font-bold text-lg mb-2">Budgeting Around EMIs</h3>
-            <p className="text-sm text-muted-foreground">Learn how to effectively balance your monthly loan payments with everyday expenses.</p>
+          <Link href="/blog/mortgage-refinancing-emi-guide-2026" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors">
+            <h3 className="font-bold text-lg mb-2">Mortgage Refinancing & Budgeting</h3>
+            <p className="text-sm text-muted-foreground">Learn how to effectively balance your monthly loan payments and refinance wisely.</p>
           </Link>
-          <Link href="#" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors opacity-70">
-            <h3 className="font-bold text-lg mb-2">Prepayment Strategies</h3>
+          <Link href="/blog/prepayment-strategies-2026-guide" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors">
+            <h3 className="font-bold text-lg mb-2">Prepayment Strategies Guide</h3>
             <p className="text-sm text-muted-foreground">Discover when and how to prepay your loans to save on interest.</p>
           </Link>
         </div>

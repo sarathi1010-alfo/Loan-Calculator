@@ -555,7 +555,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "home-loan-balance-transfer-guide-2026",
     title: "Home Loan Balance Transfer Guide 2026: Calculate Your Savings",
     description: "Learn how to calculate if a home loan balance transfer is worth it, compare interest rates, and see exact steps to switch your lender.",
-    date: "2026-08-23",
+    date: "2026-11-05",
     category: "Loan Guides",
     answerBlock: "A home loan balance transfer involves moving your existing home loan to a new lender offering a lower interest rate. To decide if it's worth it, compare the total interest saved over the remaining tenure against the new lender's processing fees and charges.",
     content: `
@@ -1242,13 +1242,13 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "How to Calculate EMI: Formula, Examples & Step-by-Step Guide",
     description:
       "Learn the exact mathematical formula used by banks to calculate your EMI and how to compute it yourself.",
-    date: "2026-09-12",
+    date: "2026-09-21",
     category: "EMI Fundamentals",
     answerBlock:
       "To calculate EMI for a loan, enter your principal, interest rate, and tenure into a calculator. It applies the reducing-balance formula to instantly show your monthly EMI, total interest, and full amortization schedule.",
     content: `
       <h2>How to calculate EMI for a loan?</h2>
-      <p>Calculating the Equated Monthly Installment (EMI) for your loan is one of the most fundamental steps in responsible financial planning. Whether you are taking out a mortgage for your dream home, financing a new car, or securing a personal loan, understanding exactly how your monthly payment is calculated empowers you to make informed decisions. It transforms you from a passive borrower into an active manager of your financial future.</p>
+      <p>Calculating the Equated Monthly Installment (EMI) for your loan is one of the most fundamental steps in responsible financial planning. Whether you are taking out a mortgage for your dream home, financing a new car, or securing a personal loan, understanding exactly how your monthly payment is calculated empowers you to make informed decisions. It transforms you from a passive borrower into an active manager of your financial future. If you are struggling with a single income, consider learning about <a href="/blog/joint-loan-strategies-2026">Joint Loan Strategies</a> to share the burden.</p>
 
       <p>When you borrow money from a bank or NBFC, you are essentially renting their money. The "rent" you pay is the interest. However, unlike renting a house where you only pay for usage, a loan requires you to pay back the interest alongside a portion of the actual principal every single month. This combined monthly payment is your EMI.</p>
 

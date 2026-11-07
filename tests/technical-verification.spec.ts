@@ -8,6 +8,13 @@ test.describe('Technical Verification', () => {
     await page.goto(baseUrl);
   });
 
+
+  test('/blog page returns 200 OK and has necessary content', async ({ page }) => {
+    const response = await page.goto(`${baseUrl}/blog`);
+    expect(response?.status()).toBe(200);
+    await expect(page.locator('h1')).toContainText('EMI Calculator Pro Blog – Expert Guides on Loans & Financial Planning');
+  });
+
   test('Tier 1 Article returns 200 OK and has valid Schema', async ({ page }) => {
     const response = await page.goto(`${baseUrl}/blog/how-to-calculate-emi`);
     expect(response?.status()).toBe(200);

@@ -27,7 +27,7 @@ export default function BlogHubPage() {
 
       <section className="mb-16 week-1-guides" data-test="week-1-guides">
         <h2 className="text-2xl font-bold mb-6 border-b pb-2">Featured Week 1 Guides</h2>
-        <nav className="grid gap-4 md:grid-cols-3 mb-8">
+        <nav className="grid gap-4 md:grid-cols-2 lg:grid-cols-4 mb-8">
           <Link href="/blog/the-ultimate-guide-to-emi-calculations-in-2026" className="block p-6 bg-primary/5 rounded-lg border border-primary/20 hover:border-primary/50 transition-colors">
             <h3 className="font-bold text-lg mb-2 text-primary">The Ultimate Guide to EMI Calculations in 2026</h3>
             <p className="text-sm text-muted-foreground">Master the math behind your loans and optimize your borrowing strategy.</p>
@@ -39,6 +39,14 @@ export default function BlogHubPage() {
           <Link href="/loan-types/personal-loan-emi-guide" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors">
             <h3 className="font-bold text-lg mb-2">Personal Loan EMI Guide</h3>
             <p className="text-sm text-muted-foreground">Navigate unsecured loans effectively and minimize interest burdens.</p>
+          </Link>
+          <Link href="/loan-types/sbi-home-loan-emi-guide" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors">
+            <h3 className="font-bold text-lg mb-2">SBI Home Loan EMI Guide</h3>
+            <p className="text-sm text-muted-foreground">Explore SBI's home loan rates, eligibility, and calculate your EMIs.</p>
+          </Link>
+          <Link href="/loan-types/hdfc-home-loan-emi-guide" className="block p-6 bg-card rounded-lg border hover:border-primary/50 transition-colors">
+            <h3 className="font-bold text-lg mb-2">HDFC Home Loan EMI Guide</h3>
+            <p className="text-sm text-muted-foreground">Check HDFC housing loan terms, processing fees, and smart repayment strategies.</p>
           </Link>
         </nav>
       </section>
@@ -88,6 +96,18 @@ export default function BlogHubPage() {
           </article>
         </nav>
       </section>
+
+      <section className="mb-16 calculator-links" data-test="calculator-links">
+        <h2 className="text-2xl font-bold mb-6 border-b pb-2">Quick Access Tools</h2>
+        <nav className="flex flex-wrap gap-4 mb-8">
+            <Link href="/" className="text-primary hover:underline font-medium">EMI Calculator Pro Home</Link>
+            <Link href="/home-loan-calculator" className="text-primary hover:underline font-medium">Home Loan Calculator</Link>
+            <Link href="/personal-loan-calculator" className="text-primary hover:underline font-medium">Personal Loan Calculator</Link>
+            <Link href="/car-loan-calculator" className="text-primary hover:underline font-medium">Car Loan Calculator</Link>
+        </nav>
+      </section>
+
+
 
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-6 border-b pb-2">All Articles</h2>

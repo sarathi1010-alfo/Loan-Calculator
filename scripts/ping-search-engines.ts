@@ -611,6 +611,19 @@ async function pingSearchEngines() {
   `${SITE_URL}/scenarios/emi-calculator-10-lakh-solar-loan`,
   `${SITE_URL}/tenure-comparison/solar-loan-3-years-vs-5-years`
 
+,
+  // New Tier 1 Mudra
+  `${SITE_URL}/blog/mudra-loan-emi-guide-2026`,
+
+  // New Tier 2 Mudra
+  `${SITE_URL}/loan-types/sbi-mudra-loan-calculator`,
+  `${SITE_URL}/loan-types/hdfc-mudra-loan-calculator`,
+  `${SITE_URL}/loan-types/icici-mudra-loan-calculator`,
+  `${SITE_URL}/loan-types/axis-mudra-loan-calculator`,
+  `${SITE_URL}/scenarios/emi-calculator-50000-mudra-loan`,
+  `${SITE_URL}/scenarios/emi-calculator-5-lakh-mudra-loan`,
+  `${SITE_URL}/scenarios/emi-calculator-10-lakh-mudra-loan`,
+  `${SITE_URL}/tenure-comparison/mudra-loan-3-years-vs-5-years`
 
 ];
 

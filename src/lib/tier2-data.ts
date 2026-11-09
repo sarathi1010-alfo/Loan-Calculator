@@ -8591,6 +8591,136 @@ export const TIER2_PAGES: Tier2Page[] = [
       { question: "How much interest do I save with a 3-year solar loan?", answer: "While the EMI is higher, you pay significantly less total interest. Use our calculator to see the exact numerical difference for your loan amount." }
     ]
   }
+,
+  {
+    slug: "sbi-mudra-loan-calculator",
+    type: "loan-types",
+    title: "SBI Mudra Loan EMI Calculator 2026",
+    h1: "SBI Mudra Loan EMI Calculator",
+    description: "Calculate your EMI for an SBI Mudra Loan. Get accurate monthly repayment estimates for Shishu, Kishore, and Tarun schemes.",
+    intro: "Planning to apply for a Mudra loan from SBI? Use our calculator to understand your EMI commitments across different loan categories.",
+    amount: 500000,
+    interestRate: 9.5,
+    tenure: 36,
+    date: "2026-11-09",
+    faqs: [
+      { question: "What is the interest rate for SBI Mudra loans?", answer: "Interest rates typically start from 8.5% depending on the loan category and borrower profile." },
+      { question: "Can I get a Mudra loan without collateral from SBI?", answer: "Yes, Mudra loans up to ₹10 Lakhs are generally collateral-free." }
+    ]
+  },
+  {
+    slug: "hdfc-mudra-loan-calculator",
+    type: "loan-types",
+    title: "HDFC Bank Mudra Loan EMI Calculator",
+    h1: "HDFC Mudra Loan EMI Calculator",
+    description: "Calculate the EMI for an HDFC Mudra Loan. Understand your repayment schedule for micro-enterprise funding.",
+    intro: "Determine your monthly EMI for an HDFC Bank Mudra loan and plan your business cash flow efficiently.",
+    amount: 1000000,
+    interestRate: 10.0,
+    tenure: 60,
+    date: "2026-11-09",
+    faqs: [
+      { question: "Does HDFC offer Tarun category Mudra loans?", answer: "Yes, HDFC offers Mudra loans up to ₹10 Lakhs under the Tarun scheme for eligible businesses." },
+      { question: "Is there a processing fee for HDFC Mudra loans?", answer: "Processing fees are usually waived for Shishu loans, but nominal fees may apply for Kishore and Tarun categories." }
+    ]
+  },
+  {
+    slug: "icici-mudra-loan-calculator",
+    type: "loan-types",
+    title: "ICICI Bank Mudra Loan EMI Calculator",
+    h1: "ICICI Mudra Loan EMI Calculator",
+    description: "Find out your EMI for an ICICI Mudra Loan. Estimate monthly payments to grow your small business.",
+    intro: "Use this calculator to find the monthly EMI and total interest payable on your ICICI Bank Mudra Loan.",
+    amount: 200000,
+    interestRate: 10.5,
+    tenure: 48,
+    date: "2026-11-09",
+    faqs: [
+      { question: "What is the maximum tenure for an ICICI Mudra loan?", answer: "The maximum tenure is generally up to 5 years (60 months), though it can vary based on business needs." },
+      { question: "Can I prepay my ICICI Mudra loan?", answer: "Yes, prepayment is generally allowed, but check with ICICI Bank regarding any applicable prepayment charges." }
+    ]
+  },
+  {
+    slug: "axis-mudra-loan-calculator",
+    type: "loan-types",
+    title: "Axis Bank Mudra Loan EMI Calculator",
+    h1: "Axis Bank Mudra Loan EMI Calculator",
+    description: "Calculate your Axis Bank Mudra loan EMI instantly. Plan your small business finances with accurate repayment details.",
+    intro: "Ensure your small business is financially prepared by calculating the EMI for an Axis Bank Mudra loan before you apply.",
+    amount: 50000,
+    interestRate: 9.0,
+    tenure: 24,
+    date: "2026-11-09",
+    faqs: [
+      { question: "Can startups apply for Axis Bank Mudra loans?", answer: "Yes, startups can apply, especially under the Shishu category which is designed for new micro-enterprises." },
+      { question: "Is the interest rate fixed or floating for Axis Mudra loans?", answer: "Mudra loan interest rates can be linked to the bank's MCLR or Repo Rate, typically making them floating." }
+    ]
+  },
+  {
+    slug: "emi-calculator-50000-mudra-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹50,000 Mudra Loan (Shishu)",
+    h1: "EMI Calculator for ₹50,000 Mudra Loan",
+    description: "Calculate the EMI for a ₹50,000 Mudra loan (Shishu scheme). Perfect for new startups and micro-enterprises.",
+    intro: "Need a small initial boost for your business? Calculate your EMI for a ₹50,000 Shishu Mudra loan here.",
+    amount: 50000,
+    interestRate: 8.5,
+    tenure: 36,
+    date: "2026-11-09",
+    faqs: [
+      { question: "What is the EMI for a ₹50,000 Mudra loan for 3 years?", answer: "At an 8.5% interest rate, the monthly EMI is approximately ₹1,578." },
+      { question: "Who is eligible for a ₹50,000 Shishu Mudra loan?", answer: "Any individual running a non-farm micro-enterprise, such as a small shop or tailoring unit, is eligible." }
+    ]
+  },
+  {
+    slug: "emi-calculator-5-lakh-mudra-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹5 Lakh Mudra Loan (Kishore)",
+    h1: "EMI Calculator for ₹5 Lakh Mudra Loan",
+    description: "Calculate the EMI for a ₹5 Lakh Mudra loan (Kishore scheme). View the full amortization schedule.",
+    intro: "Looking to expand your operations? Calculate your monthly repayment for a ₹5 Lakh Kishore Mudra loan.",
+    amount: 500000,
+    interestRate: 9.5,
+    tenure: 60,
+    date: "2026-11-09",
+    faqs: [
+      { question: "What is the EMI for a ₹5 Lakh Mudra loan for 5 years?", answer: "At a 9.5% interest rate, the EMI is approximately ₹10,501." },
+      { question: "Do I need to submit a business plan for a 5 Lakh Mudra loan?", answer: "Yes, lenders typically require a basic business plan showing projected revenues to approve a Kishore loan." }
+    ]
+  },
+  {
+    slug: "emi-calculator-10-lakh-mudra-loan",
+    type: "scenarios",
+    title: "EMI Calculator for ₹10 Lakh Mudra Loan (Tarun)",
+    h1: "EMI Calculator for ₹10 Lakh Mudra Loan",
+    description: "Calculate the EMI and total interest for a maximum ₹10 Lakh Mudra loan (Tarun scheme).",
+    intro: "For established businesses looking to scale, a ₹10 Lakh Tarun Mudra loan provides significant capital. Calculate your EMI now.",
+    amount: 1000000,
+    interestRate: 10.0,
+    tenure: 60,
+    date: "2026-11-09",
+    faqs: [
+      { question: "What is the EMI for a ₹10 Lakh Mudra loan for 5 years?", answer: "Assuming an interest rate of 10%, the monthly EMI is approximately ₹21,247." },
+      { question: "Is a ₹10 Lakh Mudra loan collateral-free?", answer: "Yes, loans under the Mudra scheme up to ₹10 Lakhs are provided without requiring collateral or third-party guarantees." }
+    ]
+  },
+  {
+    slug: "mudra-loan-3-years-vs-5-years",
+    type: "tenure-comparison",
+    title: "Mudra Loan Tenure: 3 Years vs 5 Years",
+    h1: "Mudra Loan Comparison: 3 Years vs 5 Years",
+    description: "Compare Mudra loan EMIs over a 3-year versus a 5-year tenure. Find the optimal balance for your business cash flow.",
+    intro: "Choosing the right tenure for your Mudra loan is critical for maintaining healthy business cash flow. Compare the differences here.",
+    amount: 500000,
+    interestRate: 9.5,
+    tenure: 36,
+    date: "2026-11-09",
+    faqs: [
+      { question: "Should I choose 3 years or 5 years for my Mudra loan?", answer: "A 3-year tenure saves you more in interest but requires a higher EMI. Choose 5 years if you need a lower EMI to manage operational cash flow." },
+      { question: "Can I increase my Mudra loan tenure later?", answer: "No, you generally cannot increase the tenure once the loan is disbursed. It's safer to choose a longer tenure and prepay if you have surplus funds." }
+    ]
+  }
+
 ];
 
 
